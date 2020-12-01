@@ -1,5 +1,36 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'edu.ucr.cs.riple:NullAwayAutoFixer:1.0-SNAPSHOT'
+    }
+}
+
+plugins {
+    id("net.ltgt.errorprone") version "0.6"
+}
+
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
+apply plugin: 'edu.ucr.cs.riple.plugin'
+
+
+autoFixMode {
+    fixPath = "/tmp/NullAwayFix"
+    maximumRound = 20
+}
+
+annotationEditor {
+    remove = ["org.checkerframework.checker.nullness.qual.Nullable", "org.checkerframework.checker.nullness.qual.NonNull"]
+    subProjects = ["caffeine"]
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
 
 android {
     compileSdkVersion rootProject.ext.sdkVersion
@@ -14,6 +45,12 @@ android {
 
 dependencies {
     implementation "androidx.appcompat:appcompat:1.1.0"
+
+    annotationProcessor "edu.ucr.cs.riple:nullaway:0.7.12-SNAPSHOT"
+
+    compileOnly "com.google.code.findbugs:jsr305:3.0.2"
+    errorprone "com.google.errorprone:error_prone_core:2.3.2"
+    errorproneJavac "com.google.errorprone:javac:9+181-r4173-1"
 }
 
 afterEvaluate {
@@ -77,3 +114,19 @@ task sourceJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
     classifier "sources"
 }
+
+
+tasks.withType(JavaCompile) {
+    // remove the if condition if you want to run NullAway on test code
+    if (!name.toLowerCase().contains("test")) {
+        //options.errorprone.disableWarningsInGeneratedCode = true
+        options.errorprone.errorproneArgs += ["-XepDisableAllChecks",
+                                              "-Xep:NullAway:ERROR",
+                                              "-XepOpt:NullAway:AnnotatedPackages=com.github.chrisbanes",
+                                              "-XepOpt:NullAway:AutoFix=true",
+                                              "-XepDisableAllWarnings"]
+//        "-XepOpt:NullAway:FixAnnotations=androidx.annotation.NonNull,androidx.annotation.Nullable",
+        options.compilerArgs << "-Xmaxerrs" << "100000"
+    }
+}
+
