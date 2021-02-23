@@ -22,6 +22,10 @@ autoFixMode {
     maximumRound = 20
 }
 
+diagnoseMode {
+    fixPath = "/tmp/NullAwayFix/diagnose.json"
+}
+
 repositories {
     mavenLocal()
     mavenCentral()
