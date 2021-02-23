@@ -22,11 +22,6 @@ autoFixMode {
     maximumRound = 20
 }
 
-annotationEditor {
-    remove = ["org.checkerframework.checker.nullness.qual.Nullable", "org.checkerframework.checker.nullness.qual.NonNull"]
-    subProjects = ["caffeine"]
-}
-
 repositories {
     mavenLocal()
     mavenCentral()
