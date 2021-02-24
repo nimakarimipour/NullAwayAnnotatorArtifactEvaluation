@@ -20,7 +20,6 @@ def delete_file(path):
         log("Does not exist.")
 
 def prepare():
-    os.system("chmod +x dependencies.sh && ./dependencies.sh")
     try:
         os.makedirs(PROJECTS_DIR)
         os.makedirs("/tmp/NullAwayFix/")
