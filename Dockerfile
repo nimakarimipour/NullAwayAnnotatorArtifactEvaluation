@@ -62,8 +62,12 @@ ENV PATH $PATH:$GRADLE_HOME/bin
 VOLUME $GRADLE_USER_HOME
 
 # Install python
-RUN apt-get update
-RUN apt-get update -y
-RUN apt-get install -y python
+RUN apk add --update python
 
-CMD [""]
+# Script to run
+RUN mkdir -p /var/diagnoser/
+COPY ./start.sh /var/diagnoser/
+RUN chmod +x /var/diagnoser/start.sh
+
+
+ENTRYPOINT [ "./var/diagnoser/start.sh" ]
