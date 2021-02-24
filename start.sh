@@ -46,6 +46,6 @@
 
 
 source git.config
-git clone https://${username}:${key}@github.com/nimakarimipour/Docker_AE_NA.git
+git clone https://${USERNAME}:${KEY}@github.com/nimakarimipour/Docker_AE_NA.git
 cd Docker_AE_NA
-python run.py
+# python run.py
