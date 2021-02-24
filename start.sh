@@ -21,11 +21,12 @@ else
     popd
 fi
 
-if [ mvn dependency:get -Dartifact=edu.ucr.cs.riple:AnnotationInjector:1.0-SNAPSHOT -o -DrepoUrl=file://~/.m2/repository]; then
+if [ mvn dependency:get -Dartifact=edu.ucr.cs.riple:annotationinjector:1.0-SNAPSHOT -o -DrepoUrl=file://~/.m2/repository]; then
     :
 else
     pushd /tmp/
     git clone https://${USERNAME}:${KEY}@github.com/nimakarimipour/AnnotationInjector.git
+    git checkout stable
     pushd AnnotationInjector
 
     ./gradlew install
