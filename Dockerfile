@@ -64,6 +64,9 @@ VOLUME $GRADLE_USER_HOME
 # Install python
 RUN apk add --update python
 
+# Install git
+RUN apk add --update git
+
 # Script to run
 RUN mkdir -p /var/diagnoser/
 COPY ./start.sh /var/diagnoser/
