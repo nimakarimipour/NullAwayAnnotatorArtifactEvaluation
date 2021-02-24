@@ -45,9 +45,8 @@
 # fi
 
 source git.config
-echo "https://${USERNAME}:${KEY}@github.com/nimakarimipour/Docker-AE-NAF.git"
-
-
+git clone https://${username}:${key}@github.com/nimakarimipour/Docker-AE-NAF.git
+cd Docker-info
 
 # export username="nimakarimipour"
 # export key="d829ba81308d1c67d1899208153682ddbb1c4ebf"
