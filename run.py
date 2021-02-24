@@ -1,9 +1,10 @@
 import json
-import subprocess
 import os
-import threading
+import sys
 
 PROJECTS_DIR = "/tmp/projects/"
+GIT_USERNAME = str(sys.argv[1])
+GIT_KEY = str(sys.argv[2])
 
 def log(message):
     print("log: " + message)
@@ -25,13 +26,12 @@ def prepare():
         os.makedirs("/tmp/NullAwayFix/")
     except FileExistsError:
         log("in prepare: project already exists")    
-    os.system("cp git.key " + PROJECTS_DIR + "/git.key")
 
 def prepare_project(project):
     log("Cloning project " + project['name'])
     change_dir = "cd " + PROJECTS_DIR
     if(not os.path.isdir(PROJECTS_DIR + project['name'] + "/")):
-        command = change_dir + " && git clone " + project['git'] + " < git.key"
+        command = change_dir + " && git clone " + project['git'].format(GIT_USERNAME, GIT_KEY) + " < git.key"
         print("Command: " + command)
         os.system(command)
     else:
@@ -42,10 +42,9 @@ def prepare_project(project):
 
 def commit():
     log("trying to make a commit")
-    token = open("git.key", "r")
     os.system("git add .")
     os.system("git commit -m \"changes comming from docker\"")
-    os.system("git push < git.key")
+    os.system("git push " + project['git'].format(GIT_USERNAME, GIT_KEY))
 
 
 def make_report(project):
@@ -91,5 +90,5 @@ def run():
                     commit()
                     log("finsihed commit")
                     
-prepare()
-run()
+# prepare()
+# run()

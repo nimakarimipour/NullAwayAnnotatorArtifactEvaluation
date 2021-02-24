@@ -3,7 +3,7 @@
         {
             "name": "PhotoView",
             "path": "PhotoView",
-            "git": "https://github.com/nimakarimipour/PhotoView.git",
+            "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "active": true
         },
         {
