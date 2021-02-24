@@ -1,0 +1,75 @@
+{
+    "projects": [
+        {
+            "name": "PhotoView",
+            "path": "PhotoView",
+            "git": "https://github.com/nimakarimipour/PhotoView.git",
+            "active": true
+        },
+        {
+            "name": "MPAndroid",
+            "path": "MPAndroidChart",
+            "active": false
+        },
+        {
+            "name": "Mockito",
+            "path": "mockito",
+            "active": false
+        },
+        {
+            "name": "Conductor",
+            "path": "conductor",
+            "active": false
+        },
+        {
+            "name": "LitiEngine",
+            "path": "litiengine",
+            "active": false
+        },
+        {
+            "name": "NullAway",
+            "path": "nullaway",
+            "active": false
+        },
+        {
+            "name": "EventBus",
+            "path": "eventbus",
+            "active": false
+        },
+        {
+            "name": "Gson",
+            "path": "gson",
+            "active": false
+        },
+        {
+            "name": "Jadx",
+            "path": "jadx",
+            "active": false
+        },
+        {
+            "name": "LibGdx",
+            "path": "libgdx",
+            "active": false
+        },
+        {
+            "name": "LottieAndroid",
+            "path": "lottieandroid",
+            "active": false
+        },
+        {
+            "name": "Retrofit",
+            "path": "retrofit",
+            "active": false
+        },
+        {
+            "name": "SpringBoot",
+            "path": "springboot",
+            "active": false
+        },
+        {
+            "name": "Zuul",
+            "path": "zuul",
+            "active": false
+        }
+    ]
+}
