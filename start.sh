@@ -7,7 +7,7 @@ git config --global user.email "${EMAIL}"
 git config --global user.name "${USERNAME}"
 
 
-if [ mvn dependency:get -Dartifact=edu.ucr.cs.riple:nullaway:0.7.12-SNAPSHOT -o -DrepoUrl=file://~/.m2/repository]; then
+if [ mvn dependency:get -Dartifact=edu.ucr.cs.riple:nullaway:0.7.12-SNAPSHOT -o -DrepoUrl=file://~/.m2/repository ]; then
     :
 else
     pushd /tmp/
@@ -21,13 +21,13 @@ else
     popd
 fi
 
-if [ mvn dependency:get -Dartifact=edu.ucr.cs.riple:annotationinjector:1.0-SNAPSHOT -o -DrepoUrl=file://~/.m2/repository]; then
+if [ mvn dependency:get -Dartifact=edu.ucr.cs.riple:annotationinjector:1.0-SNAPSHOT -o -DrepoUrl=file://~/.m2/repository ]; then
     :
 else
     pushd /tmp/
     git clone https://${USERNAME}:${KEY}@github.com/nimakarimipour/AnnotationInjector.git
-    git checkout stable
     pushd AnnotationInjector
+    git checkout stable
 
     ./gradlew install
     
@@ -36,7 +36,7 @@ else
 fi
 
 
-if [ mvn dependency:get -Dartifact=edu.ucr.cs.riple:NullAwayAutoFixer:1.0-SNAPSHOT -o -DrepoUrl=file://~/.m2/repository]; then
+if [ mvn dependency:get -Dartifact=edu.ucr.cs.riple:NullAwayAutoFixer:1.0-SNAPSHOT -o -DrepoUrl=file://~/.m2/repository ]; then
     :
 else
     pushd /tmp/
