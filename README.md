@@ -1,2 +1,2 @@
-# Docker-AE-NAF
-Docker for performing artifact evaluation of NullAway AutoFixer
+# Docker-AE-NA
+Docker for performing Artifact Evaluation of NullAway AutoFixer
