@@ -69,8 +69,8 @@ RUN apk add --update git
 
 # Script to run
 RUN mkdir -p /var/diagnoser/
-COPY ./start.sh /var/diagnoser/
-COPY ./git.config /var/diagnoser/
+COPY ./start.sh /var/diagnoser/start.sh
+COPY ./git.config /var/diagnoser/git.config
 RUN chmod +x /var/diagnoser/start.sh
 
 
