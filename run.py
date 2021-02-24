@@ -31,7 +31,7 @@ def prepare_project(project):
     log("Cloning project " + project['name'])
     change_dir = "cd " + PROJECTS_DIR
     if(not os.path.isdir(PROJECTS_DIR + project['name'] + "/")):
-        command = change_dir + " && git clone " + project['git'].format(GIT_USERNAME, GIT_KEY) + " < git.key"
+        command = change_dir + " && git clone " + project['git'].format(GIT_USERNAME, GIT_KEY)
         print("Command: " + command)
         os.system(command)
     else:

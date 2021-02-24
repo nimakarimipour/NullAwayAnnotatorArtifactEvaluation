@@ -3,6 +3,9 @@
 # install dependencies locally
 source /var/diagnoser/git.config
 
+git config --global user.email "${EMAIL}"
+git config --global user.name "${USERNAME}"
+
 
 if [ mvn dependency:get -Dartifact=edu.ucr.cs.riple:nullaway:0.7.12-SNAPSHOT -o -DrepoUrl=file://~/.m2/repository]; then
     :
