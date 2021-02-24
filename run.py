@@ -40,7 +40,7 @@ def prepare_project(project):
     delete_file("/tmp/NullAwayFix/diagnose.json")
     delete_file("/tmp/NullAwayFix/diagnose_report.json")
 
-def commit():
+def commit(project):
     log("trying to make a commit")
     os.system("git add .")
     os.system("git commit -m \"changes comming from docker\"")
@@ -87,7 +87,7 @@ def run():
                     log("something went wrong for: " + project['name'])
                 finally:
                     log("requesting commit")
-                    commit()
+                    commit(project)
                     log("finsihed commit")
                     
 prepare()
