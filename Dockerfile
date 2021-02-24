@@ -61,4 +61,9 @@ ENV PATH $PATH:$GRADLE_HOME/bin
 
 VOLUME $GRADLE_USER_HOME
 
+# Install python
+RUN apt-get update
+RUN apt-get update -y
+RUN apt-get install -y python
+
 CMD [""]
