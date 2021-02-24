@@ -3,46 +3,46 @@
 # install dependencies locally
 
 
-# if [ mvn dependency:get -Dartifact=edu.ucr.cs.riple:nullaway:0.7.12-SNAPSHOT -o -DrepoUrl=file://~/.m2/repository]; then
-#     :
-# else
-#     pushd /tmp/
-#     git clone git@github.com:nimakarimipour/NullAway.git
-#     pushd NullAway
-#     git checkout autofix
+if [ mvn dependency:get -Dartifact=edu.ucr.cs.riple:nullaway:0.7.12-SNAPSHOT -o -DrepoUrl=file://~/.m2/repository]; then
+    :
+else
+    pushd /tmp/
+    git clone git@github.com:nimakarimipour/NullAway.git
+    pushd NullAway
+    git checkout autofix
 
-#     ./gradlew install
+    ./gradlew install
     
-#     popd
-#     popd
-# fi
+    popd
+    popd
+fi
 
-# if [ mvn dependency:get -Dartifact=edu.ucr.cs.riple:AnnotationInjector:1.0-SNAPSHOT -o -DrepoUrl=file://~/.m2/repository]; then
-#     :
-# else
-#     pushd /tmp/
-#     git clone git@github.com:nimakarimipour/AnnotationInjector.git
-#     pushd AnnotationInjector
+if [ mvn dependency:get -Dartifact=edu.ucr.cs.riple:AnnotationInjector:1.0-SNAPSHOT -o -DrepoUrl=file://~/.m2/repository]; then
+    :
+else
+    pushd /tmp/
+    git clone git@github.com:nimakarimipour/AnnotationInjector.git
+    pushd AnnotationInjector
 
-#     ./gradlew install
+    ./gradlew install
     
-#     popd
-#     popd
-# fi
+    popd
+    popd
+fi
 
 
-# if [ mvn dependency:get -Dartifact=edu.ucr.cs.riple:NullAwayAutoFixer:1.0-SNAPSHOT -o -DrepoUrl=file://~/.m2/repository]; then
-#     :
-# else
-#     pushd /tmp/
-#     git clone git@github.com:nimakarimipour/NullAwayAutoFixer.git
-#     pushd NullAwayAutoFixer
+if [ mvn dependency:get -Dartifact=edu.ucr.cs.riple:NullAwayAutoFixer:1.0-SNAPSHOT -o -DrepoUrl=file://~/.m2/repository]; then
+    :
+else
+    pushd /tmp/
+    git clone git@github.com:nimakarimipour/NullAwayAutoFixer.git
+    pushd NullAwayAutoFixer
 
-#     ./gradlew install
+    ./gradlew install
 
-#     popd
-#     popd
-# fi
+    popd
+    popd
+fi
 
 
 source /var/diagnoser/git.config

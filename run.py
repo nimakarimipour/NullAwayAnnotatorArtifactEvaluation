@@ -90,5 +90,5 @@ def run():
                     commit()
                     log("finsihed commit")
                     
-# prepare()
-# run()
+prepare()
+run()
