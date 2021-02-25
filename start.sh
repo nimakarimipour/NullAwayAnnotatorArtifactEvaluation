@@ -49,6 +49,9 @@ else
     popd
 fi
 
+pushd /tmp/
 git clone https://${USERNAME}:${KEY}@github.com/nimakarimipour/Docker_AE_NA.git
-cd Docker_AE_NA
+pushd Docker_AE_NA
 python run.py ${USERNAME} ${KEY}
+popd
+popd
