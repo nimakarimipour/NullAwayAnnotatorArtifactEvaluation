@@ -34,6 +34,7 @@ def prepare_project(project):
         command = change_dir + " && git clone " + project['git'].format(GIT_USERNAME, GIT_KEY)
         print("Command: " + command)
         os.system(command)
+        os.system(change_dir + " && git checkout diagnose")
     else:
         log("Project already exists")
     delete_file("/tmp/NullAwayFix/fixes.json")
