@@ -1,9 +1,29 @@
-FROM openjdk:8-jdk-alpine
+FROM ubuntu:16.04
 
 LABEL Nima Karimipour <karimipour.nima@gmail.com>
 
-RUN apk add --no-cache curl tar bash procps
+# Install basic software support
+RUN apt-get update && \
+    apt-get install --yes software-properties-common
 
+# Install Java 8
+RUN apt-get update && \
+    apt-get install -y openjdk-8-jdk && \
+    apt-get install -y ant && \
+    apt-get clean;
+
+RUN apt-get update && \
+    apt-get install ca-certificates-java && \
+    apt-get clean && \
+    update-ca-certificates -f;
+
+ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/
+RUN export JAVA_HOME
+
+# Install required softwares (curl & zip & wget)
+RUN apt install curl
+RUN apt install zip -y
+RUN apt install wget -y
 
 # Install Maven
 ARG MAVEN_VERSION=3.6.3
@@ -51,12 +71,14 @@ ENV GRADLE_USER_HOME /cache
 ENV PATH $PATH:$GRADLE_HOME/bin
 VOLUME $GRADLE_USER_HOME
 
+# update
+RUN apt-get update -y
 
 # Install python
-RUN apk add --update python
+RUN apt-get install -y python
 
 # Install git
-RUN apk add --update git
+RUN apt-get install -y git
 
 #Install Android SDK
 ARG ANDROID_SDK_VERSION=6858069
@@ -76,13 +98,10 @@ ENV QTWEBENGINE_DISABLE_SANDBOX 1
 ADD license_accepter.sh /opt/
 RUN chmod +x /opt/license_accepter.sh && /opt/license_accepter.sh $ANDROID_SDK_ROOT
 
-
-
 # Script to run
 RUN mkdir -p /var/diagnoser/
 COPY ./start.sh /var/diagnoser/start.sh
 COPY ./git.config /var/diagnoser/git.config
 RUN chmod +x /var/diagnoser/start.sh
-
 
 ENTRYPOINT [ "./var/diagnoser/start.sh" ]
