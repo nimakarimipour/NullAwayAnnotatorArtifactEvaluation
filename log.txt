@@ -113,3 +113,8 @@ finished make report request
 successfully ran the command for project: PhotoView
 requesting commit
 trying to make a commit
+finsihed commit
+Cloning project MPAndroid
+something went wrong for: MPAndroid
+requesting commit
+trying to make a commit
