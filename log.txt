@@ -18,3 +18,22 @@ finished make report request
 successfully ran the command for project: Mockito
 requesting commit
 trying to make a commit
+Cloning project EventBus
+Cleaning: /tmp/NullAwayFix/fixes.json
+Does not exist.
+Cleaning: /tmp/NullAwayFix/diagnose.json
+Does not exist.
+Cleaning: /tmp/NullAwayFix/diagnose_report.json
+Does not exist.
+trying to make a report for project: EventBus
+changing branch: cd /tmp/projects/eventbus/
+finished setting the branch: cd /tmp/projects/eventbus/
+building project
+making diagnose.json
+starting diagnose tasks
+finished diagnose_report.json
+copying to right results directory
+finished make report request
+successfully ran the command for project: EventBus
+requesting commit
+trying to make a commit
