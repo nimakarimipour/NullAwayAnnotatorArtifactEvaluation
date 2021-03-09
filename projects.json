@@ -9,66 +9,79 @@
         {
             "name": "MPAndroid",
             "path": "MPAndroidChart",
+            "git": "https://{}:{}@github.com/nimakarimipour/MPAndroid.git",
             "active": false
         },
         {
             "name": "Mockito",
             "path": "mockito",
+            "git": "https://{}:{}@github.com/nimakarimipour/mockito.git",
             "active": true
         },
         {
             "name": "Conductor",
             "path": "conductor",
+            "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "active": false
         },
         {
             "name": "LitiEngine",
             "path": "litiengine",
+            "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "active": false
         },
         {
             "name": "NullAway",
             "path": "nullaway",
+            "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "active": false
         },
         {
             "name": "EventBus",
             "path": "eventbus",
+            "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "active": false
         },
         {
             "name": "Gson",
             "path": "gson",
+            "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "active": false
         },
         {
             "name": "Jadx",
             "path": "jadx",
+            "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "active": false
         },
         {
             "name": "LibGdx",
             "path": "libgdx",
+            "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "active": false
         },
         {
             "name": "LottieAndroid",
             "path": "lottieandroid",
+            "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "active": false
         },
         {
             "name": "Retrofit",
             "path": "retrofit",
+            "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "active": false
         },
         {
             "name": "SpringBoot",
             "path": "springboot",
+            "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "active": false
         },
         {
             "name": "Zuul",
             "path": "zuul",
+            "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "active": false
         }
     ]
