@@ -43,6 +43,7 @@ def prepare_project(project):
 
 def commit():
     log("trying to make a commit")
+    os.system("git pull")
     os.system("git add .")
     os.system("git commit -m \"changes comming from docker\"")
     os.system("git push " + "https://{}:{}@github.com/nimakarimipour/Docker_AE_NA.git".format(GIT_USERNAME, GIT_KEY))
