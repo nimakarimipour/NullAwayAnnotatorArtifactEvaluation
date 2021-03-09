@@ -1,5 +1,0 @@
-
-Cloning project Mockito
-something went wrong for: Mockito
-requesting commit
-trying to make a commit
