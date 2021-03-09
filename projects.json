@@ -16,13 +16,13 @@
             "name": "Mockito",
             "path": "mockito",
             "git": "https://{}:{}@github.com/nimakarimipour/mockito.git",
-            "active": true
+            "active": false
         },
         {
             "name": "Conductor",
             "path": "conductor",
             "git": "https://{}:{}@github.com/nimakarimipour/conductor.git",
-            "active": false
+            "active": true
         },
         {
             "name": "LitiEngine",
