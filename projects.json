@@ -4,12 +4,12 @@
             "name": "PhotoView",
             "path": "PhotoView",
             "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
-            "active": true
+            "active": false
         },
         {
             "name": "MPAndroid",
             "path": "MPAndroidChart",
-            "active": true
+            "active": false
         },
         {
             "name": "Mockito",
