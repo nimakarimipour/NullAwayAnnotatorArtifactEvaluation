@@ -147,3 +147,8 @@ Cloning project MPAndroid
 something went wrong for: MPAndroid
 requesting commit
 trying to make a commit
+finsihed commit
+Cloning project Mockito
+something went wrong for: Mockito
+requesting commit
+trying to make a commit
