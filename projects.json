@@ -22,7 +22,7 @@
             "name": "Conductor",
             "path": "conductor",
             "git": "https://{}:{}@github.com/nimakarimipour/conductor.git",
-            "active": true
+            "active": false
         },
         {
             "name": "LitiEngine",
@@ -40,7 +40,7 @@
             "name": "EventBus",
             "path": "eventbus",
             "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
-            "active": false
+            "active": true
         },
         {
             "name": "Gson",
