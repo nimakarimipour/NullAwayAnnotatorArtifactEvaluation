@@ -24,6 +24,7 @@ autoFixMode {
 
 diagnoseMode {
     fixPath = "/tmp/NullAwayFix/diagnose.json"
+    deep = true
 }
 
 repositories {
