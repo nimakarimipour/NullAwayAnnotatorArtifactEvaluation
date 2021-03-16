@@ -1,1 +1,1237 @@
-{"reports":[{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"value","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedTreeMap.Node","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) passing @Nullable parameter 'mine.value' where @NonNull is required","(Covered) initializer method does not guarantee @NonNull fields parent (line 435), left (line 436), right (line 437), key (line 440) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 436), right (line 437) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":4},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"value","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedHashTreeMap.Node","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) passing @Nullable parameter 'mine.value' where @NonNull is required","(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":4},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"<T>fromJson(com.google.gson.stream.JsonReader,java.lang.reflect.Type)","param":"","location":"METHOD_RETURN","class":"com.google.gson.Gson","pkg":"com.google.gson","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/Gson.java","errors":["(Covered) passing @Nullable parameter 'object' where @NonNull is required","(Covered) passing @Nullable parameter 'object' where @NonNull is required"],"jump":3},{"annotation":"javax.annotation.Nullable","reason":"ASSIGN_FIELD_NULLABLE","method":"","param":"parent","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedHashTreeMap.Node","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) passing @Nullable parameter 'originalParent' where @NonNull is required","(Covered) initializer method does not guarantee @NonNull fields left (line 464), right (line 465), key (line 468), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 464), right (line 465), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns).","dereferenced expression center is @Nullable","dereferenced expression left is @Nullable","dereferenced expression center is @Nullable","dereferenced expression center is @Nullable"],"jump":3},{"annotation":"javax.annotation.Nullable","reason":"PASS_NULLABLE","method":"replaceInParent(com.google.gson.internal.LinkedTreeMap.Node<K,V>,com.google.gson.internal.LinkedTreeMap.Node<K,V>)","param":"replacement","location":"METHOD_PARAM","class":"com.google.gson.internal.LinkedTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 435), left (line 436), right (line 437), key (line 440), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 436), right (line 437), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":2},{"annotation":"javax.annotation.Nullable","reason":"ASSIGN_FIELD_NULLABLE","method":"","param":"next","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedHashTreeMap.Node","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).","dereferenced expression e is @Nullable","dereferenced expression node.next is @Nullable","(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 469), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":2},{"annotation":"javax.annotation.Nullable","reason":"PASS_NULLABLE","method":"TreeTypeAdapter(com.google.gson.JsonSerializer<T>,com.google.gson.JsonDeserializer<T>,com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>,com.google.gson.TypeAdapterFactory)","param":"serializer","location":"METHOD_PARAM","class":"com.google.gson.internal.bind.TreeTypeAdapter","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java","errors":["(Covered) passing @Nullable parameter 'deserializer' where @NonNull is required","(Covered) initializer method does not guarantee @NonNull fields serializer (line 39), delegate (line 47) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull field deserializer (line 121) is initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":1},{"annotation":"javax.annotation.Nullable","reason":"ASSIGN_FIELD_NULLABLE","method":"","param":"prev","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedHashTreeMap.Node","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) passing @Nullable parameter 'header.prev' where @NonNull is required","(Covered) passing @Nullable parameter 'header.prev' where @NonNull is required","dereferenced expression node.prev is @Nullable","(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 469), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":1},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"chars","location":"CLASS_FIELD","class":"com.google.gson.internal.Streams.AppendableWriter.CurrentWrite","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/Streams.java","errors":["dereferenced expression chars is @Nullable","dereferenced expression chars is @Nullable"],"jump":1},{"annotation":"javax.annotation.Nullable","reason":"PASS_NULLABLE","method":"Gson(com.google.gson.internal.Excluder,com.google.gson.FieldNamingStrategy,java.util.Map<java.lang.reflect.Type,com.google.gson.InstanceCreator<?>>,boolean,boolean,boolean,boolean,boolean,boolean,boolean,com.google.gson.LongSerializationPolicy,java.lang.String,int,int,java.util.List<com.google.gson.TypeAdapterFactory>,java.util.List<com.google.gson.TypeAdapterFactory>,java.util.List<com.google.gson.TypeAdapterFactory>)","param":"datePattern","location":"METHOD_PARAM","class":"com.google.gson.Gson","pkg":"com.google.gson","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/Gson.java","errors":["(Covered) initializer method does not guarantee @NonNull field datePattern (line 101) is initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":1},{"annotation":"javax.annotation.Nullable","reason":"PASS_NULLABLE","method":"replaceInParent(com.google.gson.internal.LinkedHashTreeMap.Node<K,V>,com.google.gson.internal.LinkedHashTreeMap.Node<K,V>)","param":"replacement","location":"METHOD_PARAM","class":"com.google.gson.internal.LinkedHashTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":1},{"annotation":"javax.annotation.Nullable","reason":"ASSIGN_FIELD_NULLABLE","method":"","param":"right","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedTreeMap.Node","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).","dereferenced expression right is @Nullable","dereferenced expression pivot is @Nullable","(Covered) initializer method does not guarantee @NonNull fields parent (line 435), left (line 436), key (line 442), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 436), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":1},{"annotation":"javax.annotation.Nullable","reason":"ASSIGN_FIELD_NULLABLE","method":"","param":"left","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedTreeMap.Node","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).","dereferenced expression left is @Nullable","dereferenced expression pivot is @Nullable","(Covered) initializer method does not guarantee @NonNull fields parent (line 435), right (line 439), key (line 442), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields right (line 439), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":1},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"entrySet","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields root (line 42), keySet (line 423) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 436), left (line 437), right (line 438), key (line 441), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 437), right (line 438), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.bind.TreeTypeAdapter.SingleTypeFactory","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java","errors":["(Covered) initializer method does not guarantee @NonNull field delegate (line 47) is initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull field deserializer (line 121) is initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapterFactory.<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>) returns @NonNull"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"entrySet","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedHashTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull field keySet (line 450) is initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 463), left (line 464), right (line 465), key (line 468), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 464), right (line 465), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.bind.MapTypeAdapterFactory","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/MapTypeAdapterFactory.java","errors":["(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapterFactory.<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>) returns @NonNull"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"read(com.google.gson.stream.JsonReader)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.bind.DateTypeAdapter","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/DateTypeAdapter.java","errors":["(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.Excluder","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/Excluder.java","errors":["(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapterFactory.<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>) returns @NonNull"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"root","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 423), keySet (line 424) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) passing @Nullable parameter 'nearest' where @NonNull is required","(Covered) initializer method does not guarantee @NonNull fields parent (line 437), left (line 438), right (line 439), key (line 442), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 438), right (line 439), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"read(com.google.gson.stream.JsonReader)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.bind.ArrayTypeAdapter","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/ArrayTypeAdapter.java","errors":["(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"find(K,boolean)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.LinkedTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 422), keySet (line 423) are initialized along all control-flow paths (remember to check for exceptions or early returns).","dereferenced expression created is @Nullable","(Covered) initializer method does not guarantee @NonNull fields parent (line 436), left (line 437), right (line 438), key (line 441), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 437), right (line 438), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"read(com.google.gson.stream.JsonReader)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.bind.ObjectTypeAdapter","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/ObjectTypeAdapter.java","errors":["(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"getUnsafeInstance()","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.reflect.UnsafeReflectionAccessor","pkg":"com.google.gson.internal.reflect","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/reflect/UnsafeReflectionAccessor.java","errors":[],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"<T>fromJson(com.google.gson.JsonElement,java.lang.reflect.Type)","param":"","location":"METHOD_RETURN","class":"com.google.gson.Gson","pkg":"com.google.gson","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/Gson.java","errors":[],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"stack","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedHashTreeMap.AvlBuilder","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).","dereferenced expression stackTop is @Nullable"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"read(com.google.gson.stream.JsonReader)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.bind.TimeTypeAdapter","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TimeTypeAdapter.java","errors":["(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"INSTANCE","location":"CLASS_FIELD","class":"com.google.gson.internal.JsonReaderInternalAccess","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/JsonReaderInternalAccess.java","errors":["dereferenced expression JsonReaderInternalAccess.INSTANCE is @Nullable"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"ASSIGN_FIELD_NULLABLE","method":"","param":"parent","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedTreeMap.Node","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) passing @Nullable parameter 'originalParent' where @NonNull is required","(Covered) initializer method does not guarantee @NonNull fields left (line 437), right (line 438), key (line 441), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 437), right (line 438), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"remove(java.lang.Object)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.LinkedTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 435), left (line 436), right (line 437), key (line 440), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 436), right (line 437), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory.java","errors":["(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapterFactory.<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>) returns @NonNull"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"keySet","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 437), left (line 438), right (line 439), key (line 442), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 438), right (line 439), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"unsafeClass","location":"CLASS_FIELD","class":"com.google.gson.internal.reflect.UnsafeReflectionAccessor","pkg":"com.google.gson.internal.reflect","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/reflect/UnsafeReflectionAccessor.java","errors":["dereferenced expression unsafeClass is @Nullable"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"read(com.google.gson.stream.JsonReader)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.Adapter","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java","errors":["(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"find(K,boolean)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.LinkedHashTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 449), keySet (line 450) are initialized along all control-flow paths (remember to check for exceptions or early returns).","dereferenced expression created is @Nullable","(Covered) initializer method does not guarantee @NonNull fields parent (line 463), left (line 464), right (line 465), key (line 468), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 464), right (line 465), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"read(com.google.gson.stream.JsonReader)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.bind.CollectionTypeAdapterFactory.Adapter","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java","errors":["(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"PASS_NULLABLE","method":"SingleTypeFactory(java.lang.Object,com.google.gson.reflect.TypeToken<?>,boolean,java.lang.Class<?>)","param":"exactType","location":"METHOD_PARAM","class":"com.google.gson.internal.bind.TreeTypeAdapter.SingleTypeFactory","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java","errors":["(Covered) initializer method does not guarantee @NonNull field delegate (line 47) is initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields exactType (line 117), deserializer (line 121) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"read(com.google.gson.stream.JsonReader)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.bind.SqlDateTypeAdapter","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/SqlDateTypeAdapter.java","errors":["(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.bind.ReflectiveTypeAdapterFactory","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java","errors":["(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapterFactory.<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>) returns @NonNull"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.bind.CollectionTypeAdapterFactory","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java","errors":["(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapterFactory.<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>) returns @NonNull"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"keySet","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedHashTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull field entrySet (line 448) is initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 464), left (line 465), right (line 466), key (line 469), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 465), right (line 466), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"getOverrideField()","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.reflect.UnsafeReflectionAccessor","pkg":"com.google.gson.internal.reflect","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/reflect/UnsafeReflectionAccessor.java","errors":[],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"ASSIGN_FIELD_NULLABLE","method":"","param":"right","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedHashTreeMap.Node","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).","dereferenced expression right is @Nullable","dereferenced expression pivot is @Nullable","(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), key (line 469), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 463), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"read(com.google.gson.stream.JsonReader)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.bind.TreeTypeAdapter","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java","errors":["(Covered) initializer method does not guarantee @NonNull field delegate (line 47) is initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull","(Covered) initializer method does not guarantee @NonNull field deserializer (line 121) is initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"read(com.google.gson.stream.JsonReader)","param":"","location":"METHOD_RETURN","class":"com.google.gson.DefaultDateTypeAdapter","pkg":"com.google.gson","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/DefaultDateTypeAdapter.java","errors":["(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"ASSIGN_FIELD_NULLABLE","method":"","param":"left","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedHashTreeMap.Node","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).","dereferenced expression left is @Nullable","dereferenced expression pivot is @Nullable","(Covered) initializer method does not guarantee @NonNull fields parent (line 462), right (line 466), key (line 469), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields right (line 466), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"PASS_NULLABLE","method":"newParameterizedTypeWithOwner(java.lang.reflect.Type,java.lang.reflect.Type,java.lang.reflect.Type...)","param":"ownerType","location":"METHOD_PARAM","class":"com.google.gson.internal.$Gson$Types","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/$Gson$Types.java","errors":["(Covered) passing @Nullable parameter 'ownerType' where @NonNull is required","(Covered) initializer method does not guarantee @NonNull field ownerType (line 457) is initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull field lowerBound (line 554) is initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"read(com.google.gson.stream.JsonReader)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.bind.MapTypeAdapterFactory.Adapter","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/MapTypeAdapterFactory.java","errors":["(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"],"jump":0},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"findByObject(java.lang.Object)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.LinkedHashTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"findByObject(java.lang.Object)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.LinkedTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 435), left (line 436), right (line 437), key (line 440), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 436), right (line 437), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"findByEntry(java.util.Map.Entry<?,?>)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.LinkedHashTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 449), keySet (line 450) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 463), left (line 464), right (line 465), key (line 468), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 464), right (line 465), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"findByEntry(java.util.Map.Entry<?,?>)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.LinkedTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 422), keySet (line 423) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 436), left (line 437), right (line 438), key (line 441), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 437), right (line 438), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"read(com.google.gson.stream.JsonReader)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.bind.TypeAdapters.EnumTypeAdapter","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java","errors":["(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"<T>newDefaultConstructor(java.lang.Class<? super T>)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.ConstructorConstructor","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java","errors":[],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"get(java.lang.Object)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.LinkedHashTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"datePattern","location":"CLASS_FIELD","class":"com.google.gson.GsonBuilder","pkg":"com.google.gson","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/GsonBuilder.java","errors":["(Covered) passing @Nullable parameter 'datePattern' where @NonNull is required","(Covered) passing @Nullable parameter 'datePattern' where @NonNull is required"],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"get(java.lang.String)","param":"","location":"METHOD_RETURN","class":"com.google.gson.JsonObject","pkg":"com.google.gson","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/JsonObject.java","errors":[],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"declaringClassOf(java.lang.reflect.TypeVariable<?>)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.$Gson$Types","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/$Gson$Types.java","errors":["(Covered) initializer method does not guarantee @NonNull field ownerType (line 458) is initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull field lowerBound (line 555) is initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"delegate","location":"CLASS_FIELD","class":"com.google.gson.Gson.FutureTypeAdapter","pkg":"com.google.gson","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/Gson.java","errors":[],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"PASS_NULLABLE","method":"SingleTypeFactory(java.lang.Object,com.google.gson.reflect.TypeToken<?>,boolean,java.lang.Class<?>)","param":"hierarchyType","location":"METHOD_PARAM","class":"com.google.gson.internal.bind.TreeTypeAdapter.SingleTypeFactory","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java","errors":["(Covered) initializer method does not guarantee @NonNull field delegate (line 47) is initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields hierarchyType (line 119), deserializer (line 121) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"indent","location":"CLASS_FIELD","class":"com.google.gson.stream.JsonWriter","pkg":"com.google.gson.stream","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/stream/JsonWriter.java","errors":["(Covered) initializer method does not guarantee @NonNull field deferredName (line 94) is initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"next()","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.LinkedHashTreeMap.AvlIterator","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"<T>fromJson(java.lang.String,java.lang.reflect.Type)","param":"","location":"METHOD_RETURN","class":"com.google.gson.Gson","pkg":"com.google.gson","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/Gson.java","errors":[],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"get(java.lang.Object)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.LinkedTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 435), left (line 436), right (line 437), key (line 440), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 436), right (line 437), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"getAsJsonArray(java.lang.String)","param":"","location":"METHOD_RETURN","class":"com.google.gson.JsonObject","pkg":"com.google.gson","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/JsonObject.java","errors":[],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"getAsJsonObject(java.lang.String)","param":"","location":"METHOD_RETURN","class":"com.google.gson.JsonObject","pkg":"com.google.gson","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/JsonObject.java","errors":[],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"<T>newDefaultImplementationConstructor(java.lang.reflect.Type,java.lang.Class<? super T>)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.ConstructorConstructor","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java","errors":[],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"getAsJsonPrimitive(java.lang.String)","param":"","location":"METHOD_RETURN","class":"com.google.gson.JsonObject","pkg":"com.google.gson","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/JsonObject.java","errors":[],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"delegate","location":"CLASS_FIELD","class":"com.google.gson.internal.bind.TreeTypeAdapter","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java","errors":["(Covered) initializer method does not guarantee @NonNull field deserializer (line 122) is initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"RETURN_NULLABLE","method":"remove(java.lang.Object)","param":"","location":"METHOD_RETURN","class":"com.google.gson.internal.LinkedHashTreeMap","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-1},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"deferredName","location":"CLASS_FIELD","class":"com.google.gson.stream.JsonWriter","pkg":"com.google.gson.stream","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/stream/JsonWriter.java","errors":["(Covered) initializer method does not guarantee @NonNull field indent (line 82) is initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-2},{"annotation":"javax.annotation.Nullable","reason":"ASSIGN_FIELD_NULLABLE","method":"","param":"lastReturned","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedTreeMap.LinkedTreeMapIterator","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 435), left (line 436), right (line 437), key (line 440), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 436), right (line 437), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-2},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"pendingName","location":"CLASS_FIELD","class":"com.google.gson.internal.bind.JsonTreeWriter","pkg":"com.google.gson.internal.bind","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeWriter.java","errors":[],"jump":-2},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"stackTop","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedHashTreeMap.AvlIterator","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-2},{"annotation":"javax.annotation.Nullable","reason":"ASSIGN_FIELD_NULLABLE","method":"","param":"lastReturned","location":"CLASS_FIELD","class":"com.google.gson.internal.LinkedHashTreeMap.LinkedTreeMapIterator","pkg":"com.google.gson.internal","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java","errors":["(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns)."],"jump":-2},{"annotation":"javax.annotation.Nullable","reason":"FIELD_NO_INIT","method":"","param":"peekedString","location":"CLASS_FIELD","class":"com.google.gson.stream.JsonReader","pkg":"com.google.gson.stream","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/stream/JsonReader.java","errors":[],"jump":-4},{"annotation":"javax.annotation.Nullable","reason":"PASS_NULLABLE","method":"value(java.lang.String)","param":"value","location":"METHOD_PARAM","class":"com.google.gson.stream.JsonWriter","pkg":"com.google.gson.stream","inject":"true","uri":"//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/stream/JsonWriter.java","errors":["(Covered) initializer method does not guarantee @NonNull fields indent (line 82), deferredName (line 93) are initialized along all control-flow paths (remember to check for exceptions or early returns).","(Covered) parameter value is @NonNull, but parameter in superclass method com.google.gson.stream.JsonWriter.value(java.lang.String) is @Nullable"],"jump":-10}]}
+{
+    "reports": [
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "value",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedTreeMap.Node",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) passing @Nullable parameter 'mine.value' where @NonNull is required",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 435), left (line 436), right (line 437), key (line 440) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 436), right (line 437) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 4
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "value",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedHashTreeMap.Node",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) passing @Nullable parameter 'mine.value' where @NonNull is required",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 4
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "<T>fromJson(com.google.gson.stream.JsonReader,java.lang.reflect.Type)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.Gson",
+            "pkg": "com.google.gson",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/Gson.java",
+            "errors": [
+                "(Covered) passing @Nullable parameter 'object' where @NonNull is required",
+                "(Covered) passing @Nullable parameter 'object' where @NonNull is required"
+            ],
+            "jump": 3
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "ASSIGN_FIELD_NULLABLE",
+            "method": "",
+            "param": "parent",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedHashTreeMap.Node",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) passing @Nullable parameter 'originalParent' where @NonNull is required",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 464), right (line 465), key (line 468), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 464), right (line 465), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "dereferenced expression center is @Nullable",
+                "dereferenced expression left is @Nullable",
+                "dereferenced expression center is @Nullable",
+                "dereferenced expression center is @Nullable"
+            ],
+            "jump": 3
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "PASS_NULLABLE",
+            "method": "replaceInParent(com.google.gson.internal.LinkedTreeMap.Node<K,V>,com.google.gson.internal.LinkedTreeMap.Node<K,V>)",
+            "param": "replacement",
+            "location": "METHOD_PARAM",
+            "class": "com.google.gson.internal.LinkedTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 435), left (line 436), right (line 437), key (line 440), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 436), right (line 437), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 2
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "ASSIGN_FIELD_NULLABLE",
+            "method": "",
+            "param": "next",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedHashTreeMap.Node",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "dereferenced expression e is @Nullable",
+                "dereferenced expression node.next is @Nullable",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 469), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 2
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "PASS_NULLABLE",
+            "method": "TreeTypeAdapter(com.google.gson.JsonSerializer<T>,com.google.gson.JsonDeserializer<T>,com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>,com.google.gson.TypeAdapterFactory)",
+            "param": "serializer",
+            "location": "METHOD_PARAM",
+            "class": "com.google.gson.internal.bind.TreeTypeAdapter",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java",
+            "errors": [
+                "(Covered) passing @Nullable parameter 'deserializer' where @NonNull is required",
+                "(Covered) initializer method does not guarantee @NonNull fields serializer (line 39), delegate (line 47) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull field deserializer (line 121) is initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "ASSIGN_FIELD_NULLABLE",
+            "method": "",
+            "param": "prev",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedHashTreeMap.Node",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) passing @Nullable parameter 'header.prev' where @NonNull is required",
+                "(Covered) passing @Nullable parameter 'header.prev' where @NonNull is required",
+                "dereferenced expression node.prev is @Nullable",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 469), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "chars",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.Streams.AppendableWriter.CurrentWrite",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/Streams.java",
+            "errors": [
+                "dereferenced expression chars is @Nullable",
+                "dereferenced expression chars is @Nullable"
+            ],
+            "jump": 1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "PASS_NULLABLE",
+            "method": "Gson(com.google.gson.internal.Excluder,com.google.gson.FieldNamingStrategy,java.util.Map<java.lang.reflect.Type,com.google.gson.InstanceCreator<?>>,boolean,boolean,boolean,boolean,boolean,boolean,boolean,com.google.gson.LongSerializationPolicy,java.lang.String,int,int,java.util.List<com.google.gson.TypeAdapterFactory>,java.util.List<com.google.gson.TypeAdapterFactory>,java.util.List<com.google.gson.TypeAdapterFactory>)",
+            "param": "datePattern",
+            "location": "METHOD_PARAM",
+            "class": "com.google.gson.Gson",
+            "pkg": "com.google.gson",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/Gson.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull field datePattern (line 101) is initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "PASS_NULLABLE",
+            "method": "replaceInParent(com.google.gson.internal.LinkedHashTreeMap.Node<K,V>,com.google.gson.internal.LinkedHashTreeMap.Node<K,V>)",
+            "param": "replacement",
+            "location": "METHOD_PARAM",
+            "class": "com.google.gson.internal.LinkedHashTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "ASSIGN_FIELD_NULLABLE",
+            "method": "",
+            "param": "right",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedTreeMap.Node",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "dereferenced expression right is @Nullable",
+                "dereferenced expression pivot is @Nullable",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 435), left (line 436), key (line 442), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 436), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "ASSIGN_FIELD_NULLABLE",
+            "method": "",
+            "param": "left",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedTreeMap.Node",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "dereferenced expression left is @Nullable",
+                "dereferenced expression pivot is @Nullable",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 435), right (line 439), key (line 442), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields right (line 439), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "entrySet",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields root (line 42), keySet (line 423) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 436), left (line 437), right (line 438), key (line 441), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 437), right (line 438), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.bind.TreeTypeAdapter.SingleTypeFactory",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull field delegate (line 47) is initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull field deserializer (line 121) is initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapterFactory.<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>) returns @NonNull"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "entrySet",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedHashTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull field keySet (line 450) is initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 463), left (line 464), right (line 465), key (line 468), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 464), right (line 465), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.bind.MapTypeAdapterFactory",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/MapTypeAdapterFactory.java",
+            "errors": [
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapterFactory.<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>) returns @NonNull"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "read(com.google.gson.stream.JsonReader)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.bind.DateTypeAdapter",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/DateTypeAdapter.java",
+            "errors": [
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.Excluder",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/Excluder.java",
+            "errors": [
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapterFactory.<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>) returns @NonNull"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "root",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 423), keySet (line 424) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) passing @Nullable parameter 'nearest' where @NonNull is required",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 437), left (line 438), right (line 439), key (line 442), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 438), right (line 439), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "read(com.google.gson.stream.JsonReader)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.bind.ArrayTypeAdapter",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/ArrayTypeAdapter.java",
+            "errors": [
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "find(K,boolean)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.LinkedTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 422), keySet (line 423) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "dereferenced expression created is @Nullable",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 436), left (line 437), right (line 438), key (line 441), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 437), right (line 438), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "read(com.google.gson.stream.JsonReader)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.bind.ObjectTypeAdapter",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/ObjectTypeAdapter.java",
+            "errors": [
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "getUnsafeInstance()",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.reflect.UnsafeReflectionAccessor",
+            "pkg": "com.google.gson.internal.reflect",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/reflect/UnsafeReflectionAccessor.java",
+            "errors": [],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "<T>fromJson(com.google.gson.JsonElement,java.lang.reflect.Type)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.Gson",
+            "pkg": "com.google.gson",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/Gson.java",
+            "errors": [],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "stack",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedHashTreeMap.AvlBuilder",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "dereferenced expression stackTop is @Nullable"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "read(com.google.gson.stream.JsonReader)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.bind.TimeTypeAdapter",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TimeTypeAdapter.java",
+            "errors": [
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "INSTANCE",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.JsonReaderInternalAccess",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/JsonReaderInternalAccess.java",
+            "errors": [
+                "dereferenced expression JsonReaderInternalAccess.INSTANCE is @Nullable"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "ASSIGN_FIELD_NULLABLE",
+            "method": "",
+            "param": "parent",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedTreeMap.Node",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) passing @Nullable parameter 'originalParent' where @NonNull is required",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 437), right (line 438), key (line 441), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 437), right (line 438), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "remove(java.lang.Object)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.LinkedTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 435), left (line 436), right (line 437), key (line 440), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 436), right (line 437), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory.java",
+            "errors": [
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapterFactory.<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>) returns @NonNull"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "keySet",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 437), left (line 438), right (line 439), key (line 442), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 438), right (line 439), value (line 443) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "unsafeClass",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.reflect.UnsafeReflectionAccessor",
+            "pkg": "com.google.gson.internal.reflect",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/reflect/UnsafeReflectionAccessor.java",
+            "errors": [
+                "dereferenced expression unsafeClass is @Nullable"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "read(com.google.gson.stream.JsonReader)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.Adapter",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java",
+            "errors": [
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "find(K,boolean)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.LinkedHashTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 449), keySet (line 450) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "dereferenced expression created is @Nullable",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 463), left (line 464), right (line 465), key (line 468), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 464), right (line 465), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "read(com.google.gson.stream.JsonReader)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.bind.CollectionTypeAdapterFactory.Adapter",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java",
+            "errors": [
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "PASS_NULLABLE",
+            "method": "SingleTypeFactory(java.lang.Object,com.google.gson.reflect.TypeToken<?>,boolean,java.lang.Class<?>)",
+            "param": "exactType",
+            "location": "METHOD_PARAM",
+            "class": "com.google.gson.internal.bind.TreeTypeAdapter.SingleTypeFactory",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull field delegate (line 47) is initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields exactType (line 117), deserializer (line 121) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "read(com.google.gson.stream.JsonReader)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.bind.SqlDateTypeAdapter",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/SqlDateTypeAdapter.java",
+            "errors": [
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java",
+            "errors": [
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapterFactory.<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>) returns @NonNull"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.bind.CollectionTypeAdapterFactory",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java",
+            "errors": [
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapterFactory.<T>create(com.google.gson.Gson,com.google.gson.reflect.TypeToken<T>) returns @NonNull"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "keySet",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedHashTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull field entrySet (line 448) is initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 464), left (line 465), right (line 466), key (line 469), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 465), right (line 466), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "getOverrideField()",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.reflect.UnsafeReflectionAccessor",
+            "pkg": "com.google.gson.internal.reflect",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/reflect/UnsafeReflectionAccessor.java",
+            "errors": [],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "ASSIGN_FIELD_NULLABLE",
+            "method": "",
+            "param": "right",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedHashTreeMap.Node",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "dereferenced expression right is @Nullable",
+                "dereferenced expression pivot is @Nullable",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), key (line 469), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 463), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "read(com.google.gson.stream.JsonReader)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.bind.TreeTypeAdapter",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull field delegate (line 47) is initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull",
+                "(Covered) initializer method does not guarantee @NonNull field deserializer (line 121) is initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "read(com.google.gson.stream.JsonReader)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.DefaultDateTypeAdapter",
+            "pkg": "com.google.gson",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/DefaultDateTypeAdapter.java",
+            "errors": [
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "ASSIGN_FIELD_NULLABLE",
+            "method": "",
+            "param": "left",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedHashTreeMap.Node",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "dereferenced expression left is @Nullable",
+                "dereferenced expression pivot is @Nullable",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 462), right (line 466), key (line 469), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields right (line 466), value (line 471) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "PASS_NULLABLE",
+            "method": "newParameterizedTypeWithOwner(java.lang.reflect.Type,java.lang.reflect.Type,java.lang.reflect.Type...)",
+            "param": "ownerType",
+            "location": "METHOD_PARAM",
+            "class": "com.google.gson.internal.$Gson$Types",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/$Gson$Types.java",
+            "errors": [
+                "(Covered) passing @Nullable parameter 'ownerType' where @NonNull is required",
+                "(Covered) initializer method does not guarantee @NonNull field ownerType (line 457) is initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull field lowerBound (line 554) is initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "read(com.google.gson.stream.JsonReader)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.bind.MapTypeAdapterFactory.Adapter",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/MapTypeAdapterFactory.java",
+            "errors": [
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"
+            ],
+            "jump": 0
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "findByObject(java.lang.Object)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.LinkedHashTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "findByObject(java.lang.Object)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.LinkedTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 435), left (line 436), right (line 437), key (line 440), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 436), right (line 437), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "findByEntry(java.util.Map.Entry<?,?>)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.LinkedHashTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 449), keySet (line 450) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 463), left (line 464), right (line 465), key (line 468), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 464), right (line 465), value (line 470) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "findByEntry(java.util.Map.Entry<?,?>)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.LinkedTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 422), keySet (line 423) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 436), left (line 437), right (line 438), key (line 441), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 437), right (line 438), value (line 442) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "read(com.google.gson.stream.JsonReader)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.bind.TypeAdapters.EnumTypeAdapter",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java",
+            "errors": [
+                "(Covered) method returns @Nullable, but superclass method com.google.gson.TypeAdapter.read(com.google.gson.stream.JsonReader) returns @NonNull"
+            ],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "<T>newDefaultConstructor(java.lang.Class<? super T>)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.ConstructorConstructor",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java",
+            "errors": [],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "get(java.lang.Object)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.LinkedHashTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "datePattern",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.GsonBuilder",
+            "pkg": "com.google.gson",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/GsonBuilder.java",
+            "errors": [
+                "(Covered) passing @Nullable parameter 'datePattern' where @NonNull is required",
+                "(Covered) passing @Nullable parameter 'datePattern' where @NonNull is required"
+            ],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "get(java.lang.String)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.JsonObject",
+            "pkg": "com.google.gson",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/JsonObject.java",
+            "errors": [],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "declaringClassOf(java.lang.reflect.TypeVariable<?>)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.$Gson$Types",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/$Gson$Types.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull field ownerType (line 458) is initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull field lowerBound (line 555) is initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "delegate",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.Gson.FutureTypeAdapter",
+            "pkg": "com.google.gson",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/Gson.java",
+            "errors": [],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "PASS_NULLABLE",
+            "method": "SingleTypeFactory(java.lang.Object,com.google.gson.reflect.TypeToken<?>,boolean,java.lang.Class<?>)",
+            "param": "hierarchyType",
+            "location": "METHOD_PARAM",
+            "class": "com.google.gson.internal.bind.TreeTypeAdapter.SingleTypeFactory",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull field delegate (line 47) is initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields hierarchyType (line 119), deserializer (line 121) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "indent",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.stream.JsonWriter",
+            "pkg": "com.google.gson.stream",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/stream/JsonWriter.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull field deferredName (line 94) is initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "next()",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.LinkedHashTreeMap.AvlIterator",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "<T>fromJson(java.lang.String,java.lang.reflect.Type)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.Gson",
+            "pkg": "com.google.gson",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/Gson.java",
+            "errors": [],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "get(java.lang.Object)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.LinkedTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 435), left (line 436), right (line 437), key (line 440), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 436), right (line 437), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "getAsJsonArray(java.lang.String)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.JsonObject",
+            "pkg": "com.google.gson",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/JsonObject.java",
+            "errors": [],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "getAsJsonObject(java.lang.String)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.JsonObject",
+            "pkg": "com.google.gson",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/JsonObject.java",
+            "errors": [],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "<T>newDefaultImplementationConstructor(java.lang.reflect.Type,java.lang.Class<? super T>)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.ConstructorConstructor",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java",
+            "errors": [],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "getAsJsonPrimitive(java.lang.String)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.JsonObject",
+            "pkg": "com.google.gson",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/JsonObject.java",
+            "errors": [],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "delegate",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.bind.TreeTypeAdapter",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull field deserializer (line 122) is initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "RETURN_NULLABLE",
+            "method": "remove(java.lang.Object)",
+            "param": "",
+            "location": "METHOD_RETURN",
+            "class": "com.google.gson.internal.LinkedHashTreeMap",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -1
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "deferredName",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.stream.JsonWriter",
+            "pkg": "com.google.gson.stream",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/stream/JsonWriter.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull field indent (line 82) is initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -2
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "ASSIGN_FIELD_NULLABLE",
+            "method": "",
+            "param": "lastReturned",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedTreeMap.LinkedTreeMapIterator",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields root (line 42), entrySet (line 421), keySet (line 422) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 435), left (line 436), right (line 437), key (line 440), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 436), right (line 437), value (line 441) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -2
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "pendingName",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.bind.JsonTreeWriter",
+            "pkg": "com.google.gson.internal.bind",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeWriter.java",
+            "errors": [],
+            "jump": -2
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "stackTop",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedHashTreeMap.AvlIterator",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -2
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "ASSIGN_FIELD_NULLABLE",
+            "method": "",
+            "param": "lastReturned",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.internal.LinkedHashTreeMap.LinkedTreeMapIterator",
+            "pkg": "com.google.gson.internal",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields entrySet (line 448), keySet (line 449) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields parent (line 462), left (line 463), right (line 464), key (line 467), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) initializer method does not guarantee @NonNull fields left (line 463), right (line 464), value (line 469) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+            ],
+            "jump": -2
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "FIELD_NO_INIT",
+            "method": "",
+            "param": "peekedString",
+            "location": "CLASS_FIELD",
+            "class": "com.google.gson.stream.JsonReader",
+            "pkg": "com.google.gson.stream",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/stream/JsonReader.java",
+            "errors": [],
+            "jump": -4
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "reason": "PASS_NULLABLE",
+            "method": "value(java.lang.String)",
+            "param": "value",
+            "location": "METHOD_PARAM",
+            "class": "com.google.gson.stream.JsonWriter",
+            "pkg": "com.google.gson.stream",
+            "inject": "true",
+            "uri": "//Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/stream/JsonWriter.java",
+            "errors": [
+                "(Covered) initializer method does not guarantee @NonNull fields indent (line 82), deferredName (line 93) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                "(Covered) parameter value is @NonNull, but parameter in superclass method com.google.gson.stream.JsonWriter.value(java.lang.String) is @Nullable"
+            ],
+            "jump": -10
+        }
+    ]
+}
