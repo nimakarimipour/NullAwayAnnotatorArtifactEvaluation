@@ -4,7 +4,7 @@
             "name": "PhotoView",
             "path": "PhotoView",
             "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
-            "active": false
+            "active": true
         },
         {
             "name": "MPAndroid",
@@ -22,7 +22,7 @@
             "name": "Conductor",
             "path": "conductor",
             "git": "https://{}:{}@github.com/nimakarimipour/conductor.git",
-            "active": true
+            "active": false
         },
         {
             "name": "LitiEngine",
