@@ -34,7 +34,7 @@
             "name": "NullAway",
             "path": "nullaway",
             "git": "https://{}:{}@github.com/nimakarimipour/NullAway.git",
-            "active": false
+            "active": true
         },
         {
             "name": "EventBus",
@@ -70,7 +70,7 @@
             "name": "Retrofit",
             "path": "retrofit",
             "git": "https://{}:{}@github.com/nimakarimipour/retrofit.git",
-            "active": true
+            "active": false
         },
         { 
             "name": "SpringBoot",
