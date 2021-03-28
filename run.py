@@ -28,9 +28,10 @@ def prepare():
         log("in prepare: project already exists")    
 
 def prepare_project(project):
-    log("Cloning project " + project['name'])
+    log("Preparing project " + project['name'])
     change_dir = "cd " + PROJECTS_DIR
     if(not os.path.isdir(PROJECTS_DIR + project['name'] + "/")):
+        log("Project does not exist, cloning now...")
         command = change_dir + " && git clone " + project['git'].format(GIT_USERNAME, GIT_KEY)
         print("Command: " + command)
         os.system(command)
