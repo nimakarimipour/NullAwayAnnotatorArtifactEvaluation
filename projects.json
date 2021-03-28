@@ -38,7 +38,7 @@
         },
         {
             "name": "EventBus",
-            "path": "eventbus",
+            "path": "EventBus",
             "git": "https://{}:{}@github.com/nimakarimipour/EventBus.git",
             "active": false
         },
@@ -62,7 +62,7 @@
         },
         {
             "name": "LottieAndroid",
-            "path": "lottieandroid",
+            "path": "lottie-android",
             "git": "https://{}:{}@github.com/nimakarimipour/lottie-android.git",
             "active": false
         },
