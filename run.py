@@ -42,6 +42,7 @@ def prepare_project(project):
     delete_file("/tmp/NullAwayFix/fixes.json")
     delete_file("/tmp/NullAwayFix/diagnose.json")
     delete_file("/tmp/NullAwayFix/diagnose_report.json")
+    log("Preparing finished")
 
 def commit():
     log("trying to make a commit")

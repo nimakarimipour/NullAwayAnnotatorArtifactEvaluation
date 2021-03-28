@@ -32,7 +32,7 @@
         },
         {
             "name": "NullAway",
-            "path": "Nullaway",
+            "path": "NullAway",
             "git": "https://{}:{}@github.com/nimakarimipour/NullAway.git",
             "active": true
         },
