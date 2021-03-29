@@ -34,7 +34,7 @@
             "name": "NullAway",
             "path": "NullAway",
             "git": "https://{}:{}@github.com/nimakarimipour/NullAway.git",
-            "active": true
+            "active": false
         },
         {
             "name": "EventBus",
@@ -74,9 +74,9 @@
         },
         { 
             "name": "SpringBoot",
-            "path": "springboot",
+            "path": "spring-boot",
             "git": "https://{}:{}@github.com/nimakarimipour/spring-boot.git",
-            "active": false
+            "active": true
         },
         {
             "name": "Zuul",
