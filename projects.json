@@ -58,7 +58,7 @@
             "name": "LibGdx",
             "path": "libgdx",
             "git": "https://{}:{}@github.com/nimakarimipour/libgdx.git",
-            "active": false
+            "active": true
         },
         {
             "name": "LottieAndroid",
@@ -76,7 +76,7 @@
             "name": "SpringBoot",
             "path": "spring-boot",
             "git": "https://{}:{}@github.com/nimakarimipour/spring-boot.git",
-            "active": true
+            "active": false
         },
         {
             "name": "Zuul",
