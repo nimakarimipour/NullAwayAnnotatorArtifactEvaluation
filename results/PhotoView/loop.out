@@ -15,6 +15,160 @@ Made.
 Preparation done
 Build command: cd /tmp/projects/PhotoView && ./gradlew build -x test
 FILE PATH IS: /tmp/NullAwayFix/diagnose.json
+Number of errors with this fix applied: 9
+NullAway found 1 number of fixes
+09:18:13.093 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/CustomGestureDetector.java
+[32mProcessing CustomGestureDetector                             ✓
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 6
+NullAway found 1 number of fixes
+09:18:15.869 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
+[32mProcessing PhotoView                                         ✓
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 7
+NullAway found 1 number of fixes
+09:18:18.515 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
+[32mProcessing PhotoView                                         ✓
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 9
+NullAway found 1 number of fixes
+09:18:21.187 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+[32mProcessing PhotoViewAttacher                                 ✓
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 10
+NullAway found 1 number of fixes
+09:18:23.948 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+[32mProcessing PhotoViewAttacher                                 ✓
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 8
+NullAway found 1 number of fixes
+09:18:26.646 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+[32mProcessing PhotoViewAttacher                                 ✓
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 9
+Number of received arguments: 2
+Actual Arguments: [apply, /tmp/NullAwayFix/cleaned.json]
+Building Injector...
+built.
+Injecting...
+FILE PATH IS: /tmp/NullAwayFix/cleaned.json
+NullAway found 5 number of fixes
+09:18:29.922 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+[32mProcessing PhotoViewAttacher                                 ✓
+[0m09:18:30.193 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
+[32mProcessing PhotoView                                         ✓
+[0m09:18:30.241 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/CustomGestureDetector.java
+[32mProcessing CustomGestureDetector                             ✓
+[0mReceived 5 fixes and applied 5 number of fixes
+Finished
+Number of received arguments: 4
+Actual Arguments: [diagnose, /tmp/NullAwayFix, cd /tmp/projects/PhotoView && ./gradlew build -x test, true]
+Diagnose Started...
+Requesting preparation
+Preparing project: true
+Executing command: cd /tmp/projects/PhotoView && ./gradlew build -x test
+Requested command: cd /tmp/projects/PhotoView && ./gradlew build -x test
+Finished.
+Deleted old diagnose file.
+Making new diagnose.json.
+Executing command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Requested command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Finished.
+Made.
+Preparation done
+Build command: cd /tmp/projects/PhotoView && ./gradlew build -x test
+FILE PATH IS: /tmp/NullAwayFix/diagnose.json
+Number of errors with this fix applied: 3
+NullAway found 1 number of fixes
+09:18:36.031 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
+[32mProcessing PhotoView                                         ✓
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 2
+NullAway found 1 number of fixes
+09:18:38.858 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+[32mProcessing PhotoViewAttacher                                 ✓
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 3
+NullAway found 1 number of fixes
+09:18:41.641 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+[32mProcessing PhotoViewAttacher                                 ✓
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 3
+Number of received arguments: 2
+Actual Arguments: [apply, /tmp/NullAwayFix/cleaned.json]
+Building Injector...
+built.
+Injecting...
+FILE PATH IS: /tmp/NullAwayFix/cleaned.json
+NullAway found 3 number of fixes
+09:18:44.994 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+[32mProcessing PhotoViewAttacher                                 ✓
+[0m09:18:45.263 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
+[32mProcessing PhotoView                                         ✓
+[0mReceived 3 fixes and applied 3 number of fixes
+Finished
+Number of received arguments: 4
+Actual Arguments: [diagnose, /tmp/NullAwayFix, cd /tmp/projects/PhotoView && ./gradlew build -x test, true]
+Diagnose Started...
+Requesting preparation
+Preparing project: true
+Executing command: cd /tmp/projects/PhotoView && ./gradlew build -x test
+Requested command: cd /tmp/projects/PhotoView && ./gradlew build -x test
+Finished.
+Deleted old diagnose file.
+Making new diagnose.json.
+Executing command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Requested command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Finished.
+Made.
+Preparation done
+Build command: cd /tmp/projects/PhotoView && ./gradlew build -x test
+FILE PATH IS: /tmp/NullAwayFix/diagnose.json
+Number of errors with this fix applied: 2
+NullAway found 1 number of fixes
+09:18:51.109 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
+[32mProcessing PhotoView                                         ✓
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 1
+Number of received arguments: 2
+Actual Arguments: [apply, /tmp/NullAwayFix/cleaned.json]
+Building Injector...
+built.
+Injecting...
+FILE PATH IS: /tmp/NullAwayFix/cleaned.json
+NullAway found 1 number of fixes
+09:18:54.410 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
+[32mProcessing PhotoView                                         ✓
+[0mReceived 1 fixes and applied 1 number of fixes
+Finished
+Number of received arguments: 4
+Actual Arguments: [diagnose, /tmp/NullAwayFix, cd /tmp/projects/PhotoView && ./gradlew build -x test, true]
+Diagnose Started...
+Requesting preparation
+Preparing project: true
+Executing command: cd /tmp/projects/PhotoView && ./gradlew build -x test
+Requested command: cd /tmp/projects/PhotoView && ./gradlew build -x test
+Finished.
+Deleted old diagnose file.
+Making new diagnose.json.
+Executing command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Requested command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Finished.
+Made.
+Preparation done
+Build command: cd /tmp/projects/PhotoView && ./gradlew build -x test
+FILE PATH IS: /tmp/NullAwayFix/diagnose.json
+Number of received arguments: 2
+Actual Arguments: [apply, /tmp/NullAwayFix/cleaned.json]
+Building Injector...
+built.
+Injecting...
+FILE PATH IS: /tmp/NullAwayFix/cleaned.json
+NullAway found 1 number of fixes
+09:18:57.915 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
+[32mProcessing PhotoView                                         ✓
+[0mReceived 1 fixes and applied 1 number of fixes
+Finished
 Executing loop command
 Executing (optimized) diagnose task...
 Started diagnose task...
@@ -24,3 +178,53 @@ Diagnosing...
 Finsihed.
 Diagnsoe task finished, applying effective fixes...
 Analyzing diagnose report...
+Selecting effective fixes...
+Selected effective fixes.
+Applying fixes at location: /tmp/NullAwayFix/cleaned.json
+Applied.
+Adding diagnosed fixes to history.
+Fished adding diagnosed fixes to history.
+Getting ready for next round...
+Executing (optimized) diagnose task...
+Started diagnose task...
+Making build command for project...
+Detected build command: "cd /tmp/projects/PhotoView && ./gradlew build -x test"
+Diagnosing...
+Finsihed.
+Diagnsoe task finished, applying effective fixes...
+Analyzing diagnose report...
+Selecting effective fixes...
+Selected effective fixes.
+Applying fixes at location: /tmp/NullAwayFix/cleaned.json
+Applied.
+Adding diagnosed fixes to history.
+Fished adding diagnosed fixes to history.
+Getting ready for next round...
+Executing (optimized) diagnose task...
+Started diagnose task...
+Making build command for project...
+Detected build command: "cd /tmp/projects/PhotoView && ./gradlew build -x test"
+Diagnosing...
+Finsihed.
+Diagnsoe task finished, applying effective fixes...
+Analyzing diagnose report...
+Selecting effective fixes...
+Selected effective fixes.
+Applying fixes at location: /tmp/NullAwayFix/cleaned.json
+Applied.
+Adding diagnosed fixes to history.
+Fished adding diagnosed fixes to history.
+Getting ready for next round...
+Executing (optimized) diagnose task...
+Started diagnose task...
+Making build command for project...
+Detected build command: "cd /tmp/projects/PhotoView && ./gradlew build -x test"
+Diagnosing...
+Finsihed.
+Diagnsoe task finished, applying effective fixes...
+Analyzing diagnose report...
+Selecting effective fixes...
+Selected effective fixes.
+Applying fixes at location: /tmp/NullAwayFix/cleaned.json
+Applied.
+Adding diagnosed fixes to history.
