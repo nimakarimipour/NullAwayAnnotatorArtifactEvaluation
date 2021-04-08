@@ -1,6 +1,7 @@
 import json
 import os
 import sys
+import subprocess
 
 PROJECTS_DIR = "/tmp/projects/"
 GIT_USERNAME = str(sys.argv[1])
@@ -48,10 +49,7 @@ def prepare_project(project):
         os.system(change_dir + "/" + project['path'] +
                   " && git reset --hard && git checkout docker && git pull")
         log("Finished git pull/reset")
-    #todo use clean for script
-    delete_file("/tmp/NullAwayFix/fixes.json")
-    delete_file("/tmp/NullAwayFix/diagnose.json")
-    delete_file("/tmp/NullAwayFix/diagnose_report.json")
+    os.system("cd /tmp/Diagnoser/ && python3 run.py reset")
     log("Preparing finished")
 
 
