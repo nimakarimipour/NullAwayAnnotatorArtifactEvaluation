@@ -67,14 +67,40 @@ def commit():
 
 def autofix(project):
     log("Autofixing project: " + str(project['name']))
+    log("Preparing config.json...")
     config = {
         "PROJECT_PATH": PROJECTS_DIR + project['path'],
         "BUILD_COMMAND": project['build'],
         "INITIALIZE_ANNOT": project['init_annot']
     }
-    
-    log("Finished make report request")
+    log("Prepared: " + str(config))
+    with open('/tmp/Diagnoser/config.json', 'w') as outfile:
+        json.dump(config, outfile)
+    log("Finished writing.")
+    delete_file("/tmp/Docker_AE_NA/pre.out")
+    delete_file("/tmp/Docker_AE_NA/loop.out")
+    log("Running autofix (pre)...")
+    os.system("cd /tmp/Diagnoser/ && python3 run.py pre > /tmp/Docker_AE_NA/pre.out")
+    log("Running autofix (pre) finished")
+    log("Running autofix (loop)...")
+    os.system("cd /tmp/Diagnoser/ && python3 run.py loop > /tmp/Docker_AE_NA/loop.out")
+    log("Running autofix (loop) finished")
+    change_path_to_project = "cd " + PROJECTS_DIR + project['path']
+    os.system(change_path_to_project + " && git add .")
+    os.system(change_path_to_project +
+              " && git commit -m \"final result of docker\"")
+    os.system(change_path_to_project + " && git push " +
+              "https://{}:{}@github.com/nimakarimipour/Docker_AE_NA.git".
+              format(GIT_USERNAME, GIT_KEY))
+    log("Commited changes to project: " + project['name'])
 
+    log("Copying infos in results directory.")
+    os.system("cd results/ && rm -rvf " + project['name'])
+    os.system("cd results/ && mkdir " + project['name'])
+    os.system("cp -r /tmp/NullAwayFix/. " + "results/" + project['name'])
+    os.system("mv loop.out " + "results/" + project['name'] + "/loop.out")
+    os.system("mv pre.out " + "results/" + project['name'] + "/pre.out")
+    log("Copying finished.")
 
 def run():
     with open('./projects.json') as f:
@@ -92,7 +118,6 @@ def run():
                     log("requesting commit")
                     commit()
                     log("finsihed commit")
-
 
 prepare()
 run()

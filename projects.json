@@ -3,6 +3,7 @@
         {
             "name": "PhotoView",
             "path": "PhotoView",
+            "root": "PhotoView",
             "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
@@ -11,6 +12,7 @@
         {
             "name": "MPAndroid",
             "path": "MPAndroidChart",
+            "root": "MPAndroidChart",
             "git": "https://{}:{}@github.com/nimakarimipour/MPAndroid.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
@@ -19,6 +21,7 @@
         {
             "name": "Mockito",
             "path": "mockito",
+            "root": "mockito",
             "git": "https://{}:{}@github.com/nimakarimipour/mockito.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
@@ -27,6 +30,7 @@
         {
             "name": "Conductor",
             "path": "conductor",
+            "root": "conductor",
             "git": "https://{}:{}@github.com/nimakarimipour/conductor.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
@@ -35,6 +39,7 @@
         {
             "name": "LitiEngine",
             "path": "litiengine",
+            "root": "litiengine",
             "git": "https://{}:{}@github.com/nimakarimipour/litiengine.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
@@ -43,6 +48,7 @@
         {
             "name": "NullAway",
             "path": "NullAway",
+            "root": "NullAway",
             "git": "https://{}:{}@github.com/nimakarimipour/NullAway.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
@@ -51,6 +57,7 @@
         {
             "name": "EventBus",
             "path": "EventBus",
+            "root": "EventBus",
             "git": "https://{}:{}@github.com/nimakarimipour/EventBus.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
@@ -59,6 +66,7 @@
         {
             "name": "Gson",
             "path": "gson",
+            "root": "gson",
             "git": "https://{}:{}@github.com/nimakarimipour/gson.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
@@ -67,6 +75,7 @@
         {
             "name": "Jadx",
             "path": "jadx",
+            "root": "jadx",
             "git": "https://{}:{}@github.com/nimakarimipour/jadx.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
@@ -75,6 +84,7 @@
         {
             "name": "LibGdx",
             "path": "libgdx",
+            "root": "libgdx",
             "git": "https://{}:{}@github.com/nimakarimipour/libgdx.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
@@ -83,6 +93,7 @@
         {
             "name": "LottieAndroid",
             "path": "lottie-android",
+            "root": "lottie-android",
             "git": "https://{}:{}@github.com/nimakarimipour/lottie-android.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
@@ -91,6 +102,7 @@
         {
             "name": "Retrofit",
             "path": "retrofit",
+            "root": "retrofit",
             "git": "https://{}:{}@github.com/nimakarimipour/retrofit.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
@@ -99,6 +111,7 @@
         { 
             "name": "SpringBoot",
             "path": "spring-boot",
+            "root": "spring-boot",
             "git": "https://{}:{}@github.com/nimakarimipour/spring-boot.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
@@ -107,6 +120,7 @@
         {
             "name": "Zuul",
             "path": "zuul",
+            "root": "zuul",
             "git": "https://{}:{}@github.com/nimakarimipour/zuul.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
