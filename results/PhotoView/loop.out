@@ -1,0 +1,26 @@
+Number of received arguments: 4
+Actual Arguments: [diagnose, /tmp/NullAwayFix, cd /tmp/projects/PhotoView && ./gradlew build -x test, true]
+Diagnose Started...
+Requesting preparation
+Preparing project: true
+Executing command: cd /tmp/projects/PhotoView && ./gradlew build -x test
+Requested command: cd /tmp/projects/PhotoView && ./gradlew build -x test
+Finished.
+Deleted old diagnose file.
+Making new diagnose.json.
+Executing command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Requested command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Finished.
+Made.
+Preparation done
+Build command: cd /tmp/projects/PhotoView && ./gradlew build -x test
+FILE PATH IS: /tmp/NullAwayFix/diagnose.json
+Executing loop command
+Executing (optimized) diagnose task...
+Started diagnose task...
+Making build command for project...
+Detected build command: "cd /tmp/projects/PhotoView && ./gradlew build -x test"
+Diagnosing...
+Finsihed.
+Diagnsoe task finished, applying effective fixes...
+Analyzing diagnose report...

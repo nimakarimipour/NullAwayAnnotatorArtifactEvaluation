@@ -7,7 +7,7 @@ PROJECTS_DIR = "/tmp/projects/"
 GIT_USERNAME = str(sys.argv[1])
 GIT_KEY = str(sys.argv[2])
 
-GIT_KEY = "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"
+GIT_KEY = "ghp_cbbl3TZTg6XksbjjjeJIihiH5G8iGFjUg1V2c49"
 GIT_USERNAME = "nimakarimipour"
 
 def log(message):
