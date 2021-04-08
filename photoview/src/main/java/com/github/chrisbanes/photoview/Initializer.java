@@ -1,4 +1,4 @@
 package com.github.chrisbanes.photoview;
 
-public @interface Initialize {
+public @interface Initializer {
 }
