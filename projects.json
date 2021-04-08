@@ -7,7 +7,7 @@
             "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
-            "active": false
+            "active": true
         },
         {
             "name": "MPAndroid",
