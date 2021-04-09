@@ -1,6 +1,49 @@
+Number of received arguments: 2
+Actual Arguments: [apply, /tmp/NullAwayFix/init_methods.json]
+Building Injector...
+built.
+Injecting...
+FILE PATH IS: /tmp/NullAwayFix/init_methods.json
+NullAway found 10 number of fixes
+12:59:58.985 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+[32mProcessing PhotoViewAttacher                                 ✓
+[0mReceived 10 fixes and applied 10 number of fixes
+Finished
 Started preprocessing task...
 Removing old files...
 Removed.
 Building project...
 Built.
 Analyzing suggested fixes...
+Deecting uninitialized class fields...
+found 14fields.
+Analyzing method infos...
+Selecting appropriate method for each class field...
+Analyzing class field: mVelocityTracker
+Analyzing class field: pendingScaleType
+Analyzing class field: mGestureDetector
+Selected method: setOnDoubleTapListener(android.view.GestureDetector.OnDoubleTapListener)
+Analyzing class field: mScaleDragDetector
+Analyzing class field: mMatrixChangeListener
+Selected method: setImageViewMatrix(android.graphics.Matrix)
+Analyzing class field: mPhotoTapListener
+Selected method: setOnPhotoTapListener(com.github.chrisbanes.photoview.OnPhotoTapListener)
+Analyzing class field: mOutsidePhotoTapListener
+Selected method: setOnOutsidePhotoTapListener(com.github.chrisbanes.photoview.OnOutsidePhotoTapListener)
+Analyzing class field: mViewTapListener
+Selected method: setOnViewTapListener(com.github.chrisbanes.photoview.OnViewTapListener)
+Analyzing class field: mOnClickListener
+Selected method: setOnClickListener(android.view.View.OnClickListener)
+Analyzing class field: mLongClickListener
+Selected method: setOnLongClickListener(android.view.View.OnLongClickListener)
+Analyzing class field: mScaleChangeListener
+Selected method: setOnScaleChangeListener(com.github.chrisbanes.photoview.OnScaleChangedListener)
+Analyzing class field: mSingleFlingListener
+Selected method: setOnSingleFlingListener(com.github.chrisbanes.photoview.OnSingleFlingListener)
+Analyzing class field: mOnViewDragListener
+Selected method: setOnViewDragListener(com.github.chrisbanes.photoview.OnViewDragListener)
+Analyzing class field: mCurrentFlingRunnable
+Finished detecting methods.
+Passing to injector to annotate...
+Annotated.
+Finished.
