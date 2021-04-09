@@ -5,7 +5,7 @@ built.
 Injecting...
 FILE PATH IS: /tmp/NullAwayFix/init_methods.json
 NullAway found 10 number of fixes
-12:59:58.985 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+13:11:18.485 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
 [32mProcessing PhotoViewAttacher                                 ✓
 [0mReceived 10 fixes and applied 10 number of fixes
 Finished
