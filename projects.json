@@ -8,7 +8,7 @@
             "build": "./gradlew build -x test",
             "init_annot": "com.github.chrisbanes.photoview.Initializer",
             "branch": "exp_1",
-            "active": true
+            "active": false
         },
         {
             "name": "MPAndroid",
@@ -17,7 +17,8 @@
             "git": "https://{}:{}@github.com/nimakarimipour/MPAndroid.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
-            "active": false
+            "branch": "gc_1",
+            "active": true
         },
         {
             "name": "Mockito",
