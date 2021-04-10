@@ -771,3 +771,28 @@ Copying finished.
 successfully ran the command for project: MPAndroid
 requesting commit
 trying to make a commit
+finsihed commit
+in prepare: project already exists
+in prepare: project already exists
+in prepare: project already exists
+Preparing project MPAndroid
+Project does not exist, cloning now...
+Preparing finished
+Autofixing project: MPAndroid
+Preparing config.json...
+Prepared: {'INITIALIZE_ANNOT': 'com.github.mikephil.Initializer', 'PROJECT_PATH': '/tmp/projects/MPAndroidChart', 'BUILD_COMMAND': './gradlew build -x test'}
+Finished writing.
+Cleaning: /tmp/Docker_AE_NA/pre.out
+Does not exist.
+Cleaning: /tmp/Docker_AE_NA/loop.out
+Does not exist.
+Running autofix (pre)...
+Running autofix (pre) finished
+Running autofix (loop)...
+Running autofix (loop) finished
+Commited changes to project: MPAndroid
+Copying infos in results directory.
+Copying finished.
+successfully ran the command for project: MPAndroid
+requesting commit
+trying to make a commit
