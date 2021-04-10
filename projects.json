@@ -7,6 +7,7 @@
             "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.chrisbanes.photoview.Initializer",
+            "branch": "exp_1",
             "active": true
         },
         {

@@ -43,18 +43,17 @@ def prepare_project(project):
     change_dir = "cd " + PROJECTS_DIR
     if (not os.path.isdir(PROJECTS_DIR + project['name'] + "/")):
         log("Project does not exist, cloning now...")
-        command = change_dir + " && git clone " + project['git'].format(
-            GIT_USERNAME, GIT_KEY)
-        print("Command: " + command)
-        os.system(command)
-        print(change_dir + "/" + project['path'] + " && git checkout docker")
-        os.system(change_dir + "/" + project['path'] +
-                  " && git checkout docker")
+        os.system(change_dir + " && git clone " + project['git'].format(
+            GIT_USERNAME, GIT_KEY))
     else:
         log("Project already exists")
-        os.system(change_dir + "/" + project['path'] +
-                  " && git reset --hard && git checkout docker && git pull")
-        log("Finished git pull/reset")
+    os.system(change_dir + "/" + project['path'] + 
+    " && git reset --hard && git checkout docker && git pull" +
+    " && git branch -d " + project['branch'] + 
+    " && git push origin --delete " + project['branch'] + 
+    " && git checkout -b " + project['branch'] + 
+    " && git push --set-upstream origin " + project['branch']
+    )
     os.system("cd /tmp/Diagnoser/ && python3 run.py reset")
     log("Preparing finished")
 
