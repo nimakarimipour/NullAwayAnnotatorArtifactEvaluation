@@ -17,32 +17,32 @@ Build command: cd /tmp/projects/PhotoView && ./gradlew build -x test
 FILE PATH IS: /tmp/NullAwayFix/diagnose.json
 Number of errors with this fix applied: 9
 NullAway found 1 number of fixes
-13:11:24.664 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/CustomGestureDetector.java
+19:08:37.808 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/CustomGestureDetector.java
 [32mProcessing CustomGestureDetector                             ✓
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 6
 NullAway found 1 number of fixes
-13:11:27.438 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
+19:08:40.798 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
 [32mProcessing PhotoView                                         ✓
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 7
 NullAway found 1 number of fixes
-13:11:30.126 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
+19:08:43.548 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
 [32mProcessing PhotoView                                         ✓
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 9
 NullAway found 1 number of fixes
-13:11:32.801 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+19:08:46.354 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
 [32mProcessing PhotoViewAttacher                                 ✓
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 10
 NullAway found 1 number of fixes
-13:11:35.561 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+19:08:49.253 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
 [32mProcessing PhotoViewAttacher                                 ✓
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 8
 NullAway found 1 number of fixes
-13:11:38.282 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+19:08:52.108 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
 [32mProcessing PhotoViewAttacher                                 ✓
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 9
@@ -53,11 +53,11 @@ built.
 Injecting...
 FILE PATH IS: /tmp/NullAwayFix/cleaned.json
 NullAway found 5 number of fixes
-13:11:41.576 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+19:08:55.426 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
 [32mProcessing PhotoViewAttacher                                 ✓
-[0m13:11:41.846 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
+[0m19:08:55.711 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
 [32mProcessing PhotoView                                         ✓
-[0m13:11:41.892 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/CustomGestureDetector.java
+[0m19:08:55.762 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/CustomGestureDetector.java
 [32mProcessing CustomGestureDetector                             ✓
 [0mReceived 5 fixes and applied 5 number of fixes
 Finished
@@ -80,17 +80,17 @@ Build command: cd /tmp/projects/PhotoView && ./gradlew build -x test
 FILE PATH IS: /tmp/NullAwayFix/diagnose.json
 Number of errors with this fix applied: 3
 NullAway found 1 number of fixes
-13:11:47.760 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
+19:09:01.720 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
 [32mProcessing PhotoView                                         ✓
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 2
 NullAway found 1 number of fixes
-13:11:50.617 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+19:09:04.556 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
 [32mProcessing PhotoViewAttacher                                 ✓
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 3
 NullAway found 1 number of fixes
-13:11:53.426 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+19:09:07.382 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
 [32mProcessing PhotoViewAttacher                                 ✓
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 3
@@ -101,9 +101,9 @@ built.
 Injecting...
 FILE PATH IS: /tmp/NullAwayFix/cleaned.json
 NullAway found 3 number of fixes
-13:11:56.794 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
+19:09:10.979 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java
 [32mProcessing PhotoViewAttacher                                 ✓
-[0m13:11:57.060 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
+[0m19:09:11.250 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
 [32mProcessing PhotoView                                         ✓
 [0mReceived 3 fixes and applied 3 number of fixes
 Finished
@@ -126,7 +126,7 @@ Build command: cd /tmp/projects/PhotoView && ./gradlew build -x test
 FILE PATH IS: /tmp/NullAwayFix/diagnose.json
 Number of errors with this fix applied: 2
 NullAway found 1 number of fixes
-13:12:02.938 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
+19:09:17.267 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
 [32mProcessing PhotoView                                         ✓
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 1
@@ -137,7 +137,7 @@ built.
 Injecting...
 FILE PATH IS: /tmp/NullAwayFix/cleaned.json
 NullAway found 1 number of fixes
-13:12:06.255 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
+19:09:20.872 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /private/tmp/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoView.java
 [32mProcessing PhotoView                                         ✓
 [0mReceived 1 fixes and applied 1 number of fixes
 Finished
@@ -162,6 +162,8 @@ FILE PATH IS: /tmp/NullAwayFix/cleaned.json
 NullAway found 0 number of fixes
 Received 0 fixes and applied 0 number of fixes
 Finished
+Cleaning...
+Finished.
 Executing loop command
 Executing (optimized) diagnose task...
 Started diagnose task...
@@ -223,3 +225,5 @@ Applied.
 Adding diagnosed fixes to history.
 Fished adding diagnosed fixes to history.
 No changes, shutting down.
+Cleaning...
+Finished.
