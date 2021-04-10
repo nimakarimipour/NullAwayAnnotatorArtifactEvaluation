@@ -1,0 +1,1681 @@
+Number of received arguments: 4
+Actual Arguments: [diagnose, /tmp/NullAwayFix, cd /tmp/projects/MPAndroidChart && ./gradlew build -x test, true]
+Diagnose Started...
+Requesting preparation
+Preparing project: true
+Executing command: cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+Requested command: cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+Finished.
+Deleted old diagnose file.
+Making new diagnose.json.
+Executing command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Requested command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Finished.
+Made.
+Preparation done
+Build command: cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+FILE PATH IS: /tmp/NullAwayFix/diagnose.json
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:27:51.900 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/animation/ChartAnimator.java
+[32mProcessing ChartAnimator                                     ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:27:59.719 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/RadarHighlighter.java
+[32mProcessing RadarHighlighter                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:28:07.166 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/PieRadarHighlighter.java
+[32mProcessing PieRadarHighlighter                               ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:28:14.837 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 131
+NullAway found 1 number of fixes
+18:28:22.718 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 155
+NullAway found 1 number of fixes
+18:28:30.378 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 133
+NullAway found 1 number of fixes
+18:28:38.017 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 126
+NullAway found 1 number of fixes
+18:28:45.600 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 129
+NullAway found 1 number of fixes
+18:28:52.935 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:29:00.418 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 160
+NullAway found 1 number of fixes
+18:29:07.806 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/ChartTouchListener.java
+[32mProcessing ChartTouchListener                                ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:29:15.121 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/ChartTouchListener.java
+[32mProcessing ChartTouchListener                                ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 129
+NullAway found 1 number of fixes
+18:29:22.281 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/OnChartValueSelectedListener.java
+[32mProcessing OnChartValueSelectedListener                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:29:29.559 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/AxisBase.java
+[32mProcessing AxisBase                                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:29:36.802 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/AxisBase.java
+[32mProcessing AxisBase                                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:29:43.933 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/ComponentBase.java
+[32mProcessing ComponentBase                                     ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:29:50.815 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 129
+NullAway found 1 number of fixes
+18:29:58.380 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:30:05.813 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 143
+NullAway found 1 number of fixes
+18:30:13.004 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 126
+NullAway found 1 number of fixes
+18:30:20.327 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:30:27.508 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:30:34.776 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:30:42.002 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 136
+NullAway found 1 number of fixes
+18:30:49.185 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseEntry.java
+[32mProcessing BaseEntry                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:30:56.391 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseEntry.java
+[32mProcessing BaseEntry                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:31:03.454 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/Highlight.java
+[32mProcessing Highlight                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:31:10.713 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/YAxisRenderer.java
+[32mProcessing YAxisRenderer                                     ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:31:17.921 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 131
+NullAway found 1 number of fixes
+18:31:25.082 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 143
+NullAway found 1 number of fixes
+18:31:31.943 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 133
+NullAway found 1 number of fixes
+18:31:38.963 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 135
+NullAway found 1 number of fixes
+18:31:46.074 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/XAxisRenderer.java
+[32mProcessing XAxisRenderer                                     ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:31:53.469 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/LimitLine.java
+[32mProcessing LimitLine                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:32:00.851 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineDataSet.java
+[32mProcessing LineDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 131
+NullAway found 1 number of fixes
+18:32:07.924 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineDataSet.java
+[32mProcessing LineDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:32:15.029 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineRadarDataSet.java
+[32mProcessing LineRadarDataSet                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:32:22.020 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineScatterCandleRadarDataSet.java
+[32mProcessing LineScatterCandleRadarDataSet                     ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:32:29.032 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/DataSet.java
+[32mProcessing DataSet                                           ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 129
+NullAway found 1 number of fixes
+18:32:36.174 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 129
+NullAway found 1 number of fixes
+18:32:43.214 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 129
+NullAway found 1 number of fixes
+18:32:50.118 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 132
+NullAway found 1 number of fixes
+18:32:57.302 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 132
+NullAway found 1 number of fixes
+18:33:04.355 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:33:11.461 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/Legend.java
+[32mProcessing Legend                                            ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:33:18.746 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/LegendEntry.java
+[32mProcessing LegendEntry                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:33:25.582 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/LegendEntry.java
+[32mProcessing LegendEntry                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:33:32.734 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/LegendEntry.java
+[32mProcessing LegendEntry                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:33:39.514 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/LegendEntry.java
+[32mProcessing LegendEntry                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:33:46.563 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/ChartHighlighter.java
+[32mProcessing ChartHighlighter                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:33:53.696 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/ChartHighlighter.java
+[32mProcessing ChartHighlighter                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:34:00.980 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/CombinedHighlighter.java
+[32mProcessing CombinedHighlighter                               ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 126
+NullAway found 1 number of fixes
+18:34:08.083 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/BarHighlighter.java
+[32mProcessing BarHighlighter                                    ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:34:14.961 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/BarHighlighter.java
+[32mProcessing BarHighlighter                                    ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:34:22.098 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BarEntry.java
+[32mProcessing BarEntry                                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:34:29.018 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/utils/Fill.java
+[32mProcessing Fill                                              ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 126
+NullAway found 1 number of fixes
+18:34:36.227 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/utils/Fill.java
+[32mProcessing Fill                                              ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 129
+NullAway found 1 number of fixes
+18:34:43.146 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/utils/Fill.java
+[32mProcessing Fill                                              ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:34:49.809 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/CombinedData.java
+[32mProcessing CombinedData                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 126
+NullAway found 1 number of fixes
+18:34:56.912 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/CombinedData.java
+[32mProcessing CombinedData                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:35:04.193 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/PieData.java
+[32mProcessing PieData                                           ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:35:11.252 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/PieData.java
+[32mProcessing PieData                                           ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:35:18.206 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/PieEntry.java
+[32mProcessing PieEntry                                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 126
+NullAway found 1 number of fixes
+18:35:24.946 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/PieDataSet.java
+[32mProcessing PieDataSet                                        ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 126
+NullAway found 1 number of fixes
+18:35:32.129 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/HorizontalBarHighlighter.java
+[32mProcessing HorizontalBarHighlighter                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:35:39.230 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedZoomJob.java
+[32mProcessing AnimatedZoomJob                                   ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 129
+NullAway found 1 number of fixes
+18:35:46.111 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/MoveViewJob.java
+[32mProcessing MoveViewJob                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 129
+NullAway found 1 number of fixes
+18:35:53.223 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/ZoomJob.java
+[32mProcessing ZoomJob                                           ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 129
+NullAway found 1 number of fixes
+18:36:00.581 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedMoveViewJob.java
+[32mProcessing AnimatedMoveViewJob                               ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 129
+NullAway found 1 number of fixes
+18:36:07.550 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java
+[32mProcessing CombinedChart                                     ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:36:14.726 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java
+[32mProcessing CombinedChart                                     ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:36:23.540 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java
+[32mProcessing CombinedChart                                     ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:36:34.418 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java
+[32mProcessing CombinedChart                                     ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:36:42.677 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java
+[32mProcessing CombinedChart                                     ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:36:49.797 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java
+[32mProcessing CombinedChart                                     ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:36:56.903 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/BarLineChartBase.java
+[32mProcessing BarLineChartBase                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:37:04.254 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/BarLineChartBase.java
+[32mProcessing BarLineChartBase                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:37:11.681 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/BarLineChartBase.java
+[32mProcessing BarLineChartBase                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:37:19.181 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/BarLineChartBase.java
+[32mProcessing BarLineChartBase                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:37:26.262 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/HorizontalBarChart.java
+[32mProcessing HorizontalBarChart                                ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:37:33.205 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/HorizontalBarChart.java
+[32mProcessing HorizontalBarChart                                ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:37:40.501 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/BarChart.java
+[32mProcessing BarChart                                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:37:47.827 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/CombinedChartRenderer.java
+[32mProcessing CombinedChartRenderer                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:37:55.050 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java
+[32mProcessing PieChartRenderer                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 129
+NullAway found 1 number of fixes
+18:38:02.273 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java
+[32mProcessing PieChartRenderer                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:38:09.584 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java
+[32mProcessing PieChartRenderer                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:38:16.936 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java
+[32mProcessing PieChartRenderer                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 130
+NullAway found 1 number of fixes
+18:38:24.460 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/LineChartRenderer.java
+[32mProcessing LineChartRenderer                                 ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 126
+NullAway found 1 number of fixes
+18:38:31.504 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/LineChartRenderer.java
+[32mProcessing LineChartRenderer                                 ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 131
+NullAway found 1 number of fixes
+18:38:38.722 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/utils/Utils.java
+[32mProcessing Utils                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:38:45.731 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/MarkerImage.java
+[32mProcessing MarkerImage                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:38:52.766 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/MarkerView.java
+[32mProcessing MarkerView                                        ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+NullAway found 1 number of fixes
+18:38:59.511 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BarDataSet.java
+[32mProcessing BarDataSet                                        ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 132
+NullAway found 1 number of fixes
+18:39:06.777 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ScatterDataSet.java
+[32mProcessing ScatterDataSet                                    ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 128
+NullAway found 1 number of fixes
+18:39:14.046 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/BarLineChartTouchListener.java
+[32mProcessing BarLineChartTouchListener                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 127
+Number of received arguments: 2
+Actual Arguments: [apply, /tmp/NullAwayFix/cleaned.json]
+Building Injector...
+built.
+Injecting...
+FILE PATH IS: /tmp/NullAwayFix/cleaned.json
+NullAway found 67 number of fixes
+18:39:22.283 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java
+[32mProcessing CombinedChart                                     ?
+[0m18:39:22.717 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/ChartHighlighter.java
+[32mProcessing ChartHighlighter                                  ?
+[0m18:39:22.813 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineRadarDataSet.java
+[32mProcessing LineRadarDataSet                                  ?
+[0m18:39:22.852 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ScatterDataSet.java
+[32mProcessing ScatterDataSet                                    ?
+[0m18:39:23.054 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java
+[32mProcessing PieChartRenderer                                  ?
+[0m18:39:23.304 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BarEntry.java
+[32mProcessing BarEntry                                          ?
+[0m18:39:23.341 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/HorizontalBarHighlighter.java
+[32mProcessing HorizontalBarHighlighter                          ?
+[0m18:39:23.477 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/BarLineChartBase.java
+[32mProcessing BarLineChartBase                                  ?
+[0m18:39:23.670 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/LegendEntry.java
+[32mProcessing LegendEntry                                       ?
+[0m18:39:23.710 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/XAxisRenderer.java
+[32mProcessing XAxisRenderer                                     ?
+[0m18:39:23.770 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/YAxisRenderer.java
+[32mProcessing YAxisRenderer                                     ?
+[0m18:39:23.805 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/PieData.java
+[32mProcessing PieData                                           ?
+[0m18:39:23.820 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/RadarHighlighter.java
+[32mProcessing RadarHighlighter                                  ?
+[0m18:39:23.838 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/BarHighlighter.java
+[32mProcessing BarHighlighter                                    ?
+[0m18:39:23.869 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/BarChart.java
+[32mProcessing BarChart                                          ?
+[0m18:39:23.891 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/ComponentBase.java
+[32mProcessing ComponentBase                                     ?
+[0m18:39:23.966 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/Legend.java
+[32mProcessing Legend                                            ?
+[0m18:39:24.068 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/HorizontalBarChart.java
+[32mProcessing HorizontalBarChart                                ?
+[0m18:39:24.099 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/ChartTouchListener.java
+[32mProcessing ChartTouchListener                                ?
+[0m18:39:24.125 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0m18:39:24.175 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseEntry.java
+[32mProcessing BaseEntry                                         ?
+[0m18:39:24.183 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/OnChartValueSelectedListener.java
+[32mProcessing OnChartValueSelectedListener                      ?
+[0m18:39:24.213 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0m18:39:24.281 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/PieRadarHighlighter.java
+[32mProcessing PieRadarHighlighter                               ?
+[0m18:39:24.300 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/CombinedData.java
+[32mProcessing CombinedData                                      ?
+[0m18:39:24.327 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineScatterCandleRadarDataSet.java
+[32mProcessing LineScatterCandleRadarDataSet                     ?
+[0m18:39:24.342 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/MarkerImage.java
+[32mProcessing MarkerImage                                       ?
+[0m18:39:24.364 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/utils/Fill.java
+[32mProcessing Fill                                              ?
+[0m18:39:24.431 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/AxisBase.java
+[32mProcessing AxisBase                                          ?
+[0m18:39:24.475 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/CombinedChartRenderer.java
+[32mProcessing CombinedChartRenderer                             ?
+[0m18:39:24.502 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/animation/ChartAnimator.java
+[32mProcessing ChartAnimator                                     ?
+[0m18:39:24.533 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/BarLineChartTouchListener.java
+[32mProcessing BarLineChartTouchListener                         ?
+[0m18:39:24.586 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/LimitLine.java
+[32mProcessing LimitLine                                         ?
+[0m18:39:24.601 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/Highlight.java
+[32mProcessing Highlight                                         ?
+[0m18:39:24.631 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/utils/Utils.java
+[32mProcessing Utils                                             ?
+[0m18:39:24.682 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineDataSet.java
+[32mProcessing LineDataSet                                       ?
+[0m18:39:24.740 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0m18:39:24.964 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/MarkerView.java
+[32mProcessing MarkerView                                        ?
+[0m18:39:25.003 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/CombinedHighlighter.java
+[32mProcessing CombinedHighlighter                               ?
+[0m18:39:25.053 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/LineChartRenderer.java
+[32mProcessing LineChartRenderer                                 ?
+[0m18:39:25.137 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/PieDataSet.java
+[32mProcessing PieDataSet                                        ?
+[0m18:39:25.160 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/PieEntry.java
+[32mProcessing PieEntry                                          ?
+[0mReceived 67 fixes and applied 67 number of fixes
+Finished
+Number of received arguments: 4
+Actual Arguments: [diagnose, /tmp/NullAwayFix, cd /tmp/projects/MPAndroidChart && ./gradlew build -x test, true]
+Diagnose Started...
+Requesting preparation
+Preparing project: true
+Executing command: cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+Requested command: cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+Finished.
+Deleted old diagnose file.
+Making new diagnose.json.
+Executing command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Requested command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Finished.
+Made.
+Preparation done
+Build command: cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+FILE PATH IS: /tmp/NullAwayFix/diagnose.json
+Number of errors with this fix applied: 77
+NullAway found 1 number of fixes
+18:39:39.741 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/PieRadarHighlighter.java
+[32mProcessing PieRadarHighlighter                               ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:39:46.923 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/IHighlighter.java
+[32mProcessing IHighlighter                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 77
+NullAway found 1 number of fixes
+18:39:54.097 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 80
+NullAway found 1 number of fixes
+18:40:01.429 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 104
+NullAway found 1 number of fixes
+18:40:08.475 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 82
+NullAway found 1 number of fixes
+18:40:15.413 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:40:22.215 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 109
+NullAway found 1 number of fixes
+18:40:29.419 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/OnChartValueSelectedListener.java
+[32mProcessing OnChartValueSelectedListener                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:40:36.112 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/AxisBase.java
+[32mProcessing AxisBase                                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:40:42.884 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/AxisBase.java
+[32mProcessing AxisBase                                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:40:49.891 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/ComponentBase.java
+[32mProcessing ComponentBase                                     ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:40:56.505 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:41:03.481 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 90
+NullAway found 1 number of fixes
+18:41:10.434 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 85
+NullAway found 1 number of fixes
+18:41:17.546 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseEntry.java
+[32mProcessing BaseEntry                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:41:24.590 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseEntry.java
+[32mProcessing BaseEntry                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 81
+NullAway found 1 number of fixes
+18:41:31.282 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/Highlight.java
+[32mProcessing Highlight                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 79
+NullAway found 1 number of fixes
+18:41:37.973 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:41:44.941 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 80
+NullAway found 1 number of fixes
+18:41:51.883 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 92
+NullAway found 1 number of fixes
+18:41:58.820 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 82
+NullAway found 1 number of fixes
+18:42:05.723 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 84
+NullAway found 1 number of fixes
+18:42:12.451 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/LimitLine.java
+[32mProcessing LimitLine                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:42:19.125 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineDataSet.java
+[32mProcessing LineDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 80
+NullAway found 1 number of fixes
+18:42:25.898 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineDataSet.java
+[32mProcessing LineDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 77
+NullAway found 1 number of fixes
+18:42:32.697 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineRadarDataSet.java
+[32mProcessing LineRadarDataSet                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 77
+NullAway found 1 number of fixes
+18:42:39.471 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineScatterCandleRadarDataSet.java
+[32mProcessing LineScatterCandleRadarDataSet                     ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 77
+NullAway found 1 number of fixes
+18:42:46.158 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/DataSet.java
+[32mProcessing DataSet                                           ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 78
+NullAway found 1 number of fixes
+18:42:53.207 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 78
+NullAway found 1 number of fixes
+18:43:00.030 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 78
+NullAway found 1 number of fixes
+18:43:07.112 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 81
+NullAway found 1 number of fixes
+18:43:14.030 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 81
+NullAway found 1 number of fixes
+18:43:20.880 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 77
+NullAway found 1 number of fixes
+18:43:27.587 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/Legend.java
+[32mProcessing Legend                                            ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:43:34.362 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/ChartTouchListener.java
+[32mProcessing ChartTouchListener                                ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:43:41.339 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/LegendRenderer.java
+[32mProcessing LegendRenderer                                    ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:43:48.108 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/ChartHighlighter.java
+[32mProcessing ChartHighlighter                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:43:55.134 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BarEntry.java
+[32mProcessing BarEntry                                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 78
+NullAway found 1 number of fixes
+18:44:01.731 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/utils/Fill.java
+[32mProcessing Fill                                              ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 78
+NullAway found 1 number of fixes
+18:44:08.539 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/PieEntry.java
+[32mProcessing PieEntry                                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:44:15.169 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/PieEntry.java
+[32mProcessing PieEntry                                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:44:21.870 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedZoomJob.java
+[32mProcessing AnimatedZoomJob                                   ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 78
+NullAway found 1 number of fixes
+18:44:28.554 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/MoveViewJob.java
+[32mProcessing MoveViewJob                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 78
+NullAway found 1 number of fixes
+18:44:35.527 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/ZoomJob.java
+[32mProcessing ZoomJob                                           ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 78
+NullAway found 1 number of fixes
+18:44:42.308 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedMoveViewJob.java
+[32mProcessing AnimatedMoveViewJob                               ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 78
+NullAway found 1 number of fixes
+18:44:48.940 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/LineDataProvider.java
+[32mProcessing LineDataProvider                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 81
+NullAway found 1 number of fixes
+18:44:55.457 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/BarDataProvider.java
+[32mProcessing BarDataProvider                                   ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 89
+NullAway found 1 number of fixes
+18:45:02.368 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/ScatterDataProvider.java
+[32mProcessing ScatterDataProvider                               ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 79
+NullAway found 1 number of fixes
+18:45:08.972 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/CandleDataProvider.java
+[32mProcessing CandleDataProvider                                ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 79
+NullAway found 1 number of fixes
+18:45:16.019 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/BubbleDataProvider.java
+[32mProcessing BubbleDataProvider                                ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 78
+NullAway found 1 number of fixes
+18:45:23.071 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java
+[32mProcessing PieChartRenderer                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 78
+NullAway found 1 number of fixes
+18:45:29.958 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java
+[32mProcessing PieChartRenderer                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 79
+NullAway found 1 number of fixes
+18:45:36.977 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/LineChartRenderer.java
+[32mProcessing LineChartRenderer                                 ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 80
+NullAway found 1 number of fixes
+18:45:44.041 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BarDataSet.java
+[32mProcessing BarDataSet                                        ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 81
+NullAway found 1 number of fixes
+18:45:51.148 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ScatterDataSet.java
+[32mProcessing ScatterDataSet                                    ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 77
+NullAway found 1 number of fixes
+18:45:57.888 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/BarLineChartTouchListener.java
+[32mProcessing BarLineChartTouchListener                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 75
+NullAway found 1 number of fixes
+18:46:04.749 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/utils/Utils.java
+[32mProcessing Utils                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 77
+Number of received arguments: 2
+Actual Arguments: [apply, /tmp/NullAwayFix/cleaned.json]
+Building Injector...
+built.
+Injecting...
+FILE PATH IS: /tmp/NullAwayFix/cleaned.json
+NullAway found 24 number of fixes
+18:46:12.442 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineDataSet.java
+[32mProcessing LineDataSet                                       ?
+[0m18:46:12.860 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0m18:46:12.974 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ScatterDataSet.java
+[32mProcessing ScatterDataSet                                    ?
+[0m18:46:13.027 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineRadarDataSet.java
+[32mProcessing LineRadarDataSet                                  ?
+[0m18:46:13.047 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/IHighlighter.java
+[32mProcessing IHighlighter                                      ?
+[0m18:46:13.060 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineScatterCandleRadarDataSet.java
+[32mProcessing LineScatterCandleRadarDataSet                     ?
+[0m18:46:13.172 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/utils/Utils.java
+[32mProcessing Utils                                             ?
+[0m18:46:13.340 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/Legend.java
+[32mProcessing Legend                                            ?
+[0m18:46:13.442 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/LimitLine.java
+[32mProcessing LimitLine                                         ?
+[0m18:46:13.475 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/AxisBase.java
+[32mProcessing AxisBase                                          ?
+[0m18:46:13.541 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/ChartHighlighter.java
+[32mProcessing ChartHighlighter                                  ?
+[0m18:46:13.629 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0m18:46:13.845 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/PieEntry.java
+[32mProcessing PieEntry                                          ?
+[0m18:46:13.879 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0m18:46:13.904 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/PieRadarHighlighter.java
+[32mProcessing PieRadarHighlighter                               ?
+[0m18:46:13.951 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/LegendRenderer.java
+[32mProcessing LegendRenderer                                    ?
+[0m18:46:14.038 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseEntry.java
+[32mProcessing BaseEntry                                         ?
+[0m18:46:14.048 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/ComponentBase.java
+[32mProcessing ComponentBase                                     ?
+[0m18:46:14.058 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/OnChartValueSelectedListener.java
+[32mProcessing OnChartValueSelectedListener                      ?
+[0m18:46:14.087 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0m18:46:14.138 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/ChartTouchListener.java
+[32mProcessing ChartTouchListener                                ?
+[0m18:46:14.202 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/BarLineChartTouchListener.java
+[32mProcessing BarLineChartTouchListener                         ?
+[0mReceived 24 fixes and applied 24 number of fixes
+Finished
+Number of received arguments: 4
+Actual Arguments: [diagnose, /tmp/NullAwayFix, cd /tmp/projects/MPAndroidChart && ./gradlew build -x test, true]
+Diagnose Started...
+Requesting preparation
+Preparing project: true
+Executing command: cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+Requested command: cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+Finished.
+Deleted old diagnose file.
+Making new diagnose.json.
+Executing command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Requested command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Finished.
+Made.
+Preparation done
+Build command: cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+FILE PATH IS: /tmp/NullAwayFix/diagnose.json
+Number of errors with this fix applied: 57
+NullAway found 1 number of fixes
+18:46:28.569 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 60
+NullAway found 1 number of fixes
+18:46:36.235 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 84
+NullAway found 1 number of fixes
+18:46:46.373 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 62
+NullAway found 1 number of fixes
+18:46:53.923 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 89
+NullAway found 1 number of fixes
+18:47:01.188 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IDataSet.java
+[32mProcessing IDataSet                                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 57
+NullAway found 1 number of fixes
+18:47:08.063 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IDataSet.java
+[32mProcessing IDataSet                                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 56
+NullAway found 1 number of fixes
+18:47:14.669 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 70
+NullAway found 1 number of fixes
+18:47:21.523 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 65
+NullAway found 1 number of fixes
+18:47:28.494 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseEntry.java
+[32mProcessing BaseEntry                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 62
+NullAway found 1 number of fixes
+18:47:35.400 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/Highlight.java
+[32mProcessing Highlight                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 59
+NullAway found 1 number of fixes
+18:47:42.261 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/Highlight.java
+[32mProcessing Highlight                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 55
+NullAway found 1 number of fixes
+18:47:49.050 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 72
+NullAway found 1 number of fixes
+18:47:55.934 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 60
+NullAway found 1 number of fixes
+18:48:02.814 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 72
+NullAway found 1 number of fixes
+18:48:09.515 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 62
+NullAway found 1 number of fixes
+18:48:16.431 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 64
+NullAway found 1 number of fixes
+18:48:23.082 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineDataSet.java
+[32mProcessing LineDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 60
+NullAway found 1 number of fixes
+18:48:29.581 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/ILineDataSet.java
+[32mProcessing ILineDataSet                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 56
+NullAway found 1 number of fixes
+18:48:36.524 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/ILineRadarDataSet.java
+[32mProcessing ILineRadarDataSet                                 ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 56
+NullAway found 1 number of fixes
+18:48:43.536 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/ILineScatterCandleRadarDataSet.java
+[32mProcessing ILineScatterCandleRadarDataSet                    ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 56
+NullAway found 1 number of fixes
+18:48:49.923 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/DataSet.java
+[32mProcessing DataSet                                           ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 58
+NullAway found 1 number of fixes
+18:48:56.886 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 58
+NullAway found 1 number of fixes
+18:49:04.012 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 58
+NullAway found 1 number of fixes
+18:49:11.029 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 61
+NullAway found 1 number of fixes
+18:49:17.878 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 61
+NullAway found 1 number of fixes
+18:49:24.543 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BarEntry.java
+[32mProcessing BarEntry                                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 58
+NullAway found 1 number of fixes
+18:49:31.275 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/utils/Fill.java
+[32mProcessing Fill                                              ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 58
+NullAway found 1 number of fixes
+18:49:37.928 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedZoomJob.java
+[32mProcessing AnimatedZoomJob                                   ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 58
+NullAway found 1 number of fixes
+18:49:44.527 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/MoveViewJob.java
+[32mProcessing MoveViewJob                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 58
+NullAway found 1 number of fixes
+18:49:51.252 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/ZoomJob.java
+[32mProcessing ZoomJob                                           ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 58
+NullAway found 1 number of fixes
+18:49:57.625 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedMoveViewJob.java
+[32mProcessing AnimatedMoveViewJob                               ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 58
+NullAway found 1 number of fixes
+18:50:04.377 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/LineDataProvider.java
+[32mProcessing LineDataProvider                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 61
+NullAway found 1 number of fixes
+18:50:11.120 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/BarDataProvider.java
+[32mProcessing BarDataProvider                                   ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 69
+NullAway found 1 number of fixes
+18:50:17.732 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/ScatterDataProvider.java
+[32mProcessing ScatterDataProvider                               ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 59
+NullAway found 1 number of fixes
+18:50:24.328 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/CandleDataProvider.java
+[32mProcessing CandleDataProvider                                ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 59
+NullAway found 1 number of fixes
+18:50:30.829 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/BubbleDataProvider.java
+[32mProcessing BubbleDataProvider                                ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 58
+NullAway found 1 number of fixes
+18:50:37.782 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java
+[32mProcessing PieChartRenderer                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 58
+NullAway found 1 number of fixes
+18:50:44.672 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java
+[32mProcessing PieChartRenderer                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 59
+NullAway found 1 number of fixes
+18:50:51.500 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/LineChartRenderer.java
+[32mProcessing LineChartRenderer                                 ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 60
+NullAway found 1 number of fixes
+18:50:58.290 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BarDataSet.java
+[32mProcessing BarDataSet                                        ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 61
+NullAway found 1 number of fixes
+18:51:05.220 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ScatterDataSet.java
+[32mProcessing ScatterDataSet                                    ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 57
+NullAway found 1 number of fixes
+18:51:11.892 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/ChartTouchListener.java
+[32mProcessing ChartTouchListener                                ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 55
+Number of received arguments: 2
+Actual Arguments: [apply, /tmp/NullAwayFix/cleaned.json]
+Building Injector...
+built.
+Injecting...
+FILE PATH IS: /tmp/NullAwayFix/cleaned.json
+NullAway found 8 number of fixes
+18:51:19.603 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ScatterDataSet.java
+[32mProcessing ScatterDataSet                                    ?
+[0m18:51:19.894 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IDataSet.java
+[32mProcessing IDataSet                                          ?
+[0m18:51:19.974 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/ILineRadarDataSet.java
+[32mProcessing ILineRadarDataSet                                 ?
+[0m18:51:19.988 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/ILineScatterCandleRadarDataSet.java
+[32mProcessing ILineScatterCandleRadarDataSet                    ?
+[0m18:51:20.006 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/ILineDataSet.java
+[32mProcessing ILineDataSet                                      ?
+[0m18:51:20.039 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/Highlight.java
+[32mProcessing Highlight                                         ?
+[0m18:51:20.101 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/ChartTouchListener.java
+[32mProcessing ChartTouchListener                                ?
+[0mReceived 8 fixes and applied 8 number of fixes
+Finished
+Number of received arguments: 4
+Actual Arguments: [diagnose, /tmp/NullAwayFix, cd /tmp/projects/MPAndroidChart && ./gradlew build -x test, true]
+Diagnose Started...
+Requesting preparation
+Preparing project: true
+Executing command: cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+Requested command: cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+Finished.
+Deleted old diagnose file.
+Making new diagnose.json.
+Executing command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Requested command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Finished.
+Made.
+Preparation done
+Build command: cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+FILE PATH IS: /tmp/NullAwayFix/diagnose.json
+Number of errors with this fix applied: 49
+NullAway found 1 number of fixes
+18:51:34.720 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 52
+NullAway found 1 number of fixes
+18:51:42.329 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 76
+NullAway found 1 number of fixes
+18:51:49.354 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 54
+NullAway found 1 number of fixes
+18:51:56.492 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 81
+NullAway found 1 number of fixes
+18:52:03.138 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 62
+NullAway found 1 number of fixes
+18:52:09.726 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 57
+NullAway found 1 number of fixes
+18:52:16.532 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseEntry.java
+[32mProcessing BaseEntry                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 54
+NullAway found 1 number of fixes
+18:52:22.996 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/Highlight.java
+[32mProcessing Highlight                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 51
+NullAway found 1 number of fixes
+18:52:29.687 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 64
+NullAway found 1 number of fixes
+18:52:36.352 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 52
+NullAway found 1 number of fixes
+18:52:42.765 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 64
+NullAway found 1 number of fixes
+18:52:49.946 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 54
+NullAway found 1 number of fixes
+18:52:56.711 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 56
+NullAway found 1 number of fixes
+18:53:03.481 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineDataSet.java
+[32mProcessing LineDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 52
+NullAway found 1 number of fixes
+18:53:10.352 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/DataSet.java
+[32mProcessing DataSet                                           ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 48
+NullAway found 1 number of fixes
+18:53:17.185 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/DataSet.java
+[32mProcessing DataSet                                           ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 50
+NullAway found 1 number of fixes
+18:53:23.969 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 50
+NullAway found 1 number of fixes
+18:53:30.782 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 50
+NullAway found 1 number of fixes
+18:53:37.489 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 53
+NullAway found 1 number of fixes
+18:53:43.915 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 53
+NullAway found 1 number of fixes
+18:53:50.594 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BarEntry.java
+[32mProcessing BarEntry                                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 50
+NullAway found 1 number of fixes
+18:53:57.104 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/utils/Fill.java
+[32mProcessing Fill                                              ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 50
+NullAway found 1 number of fixes
+18:54:03.843 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedZoomJob.java
+[32mProcessing AnimatedZoomJob                                   ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 50
+NullAway found 1 number of fixes
+18:54:10.786 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/MoveViewJob.java
+[32mProcessing MoveViewJob                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 50
+NullAway found 1 number of fixes
+18:54:17.504 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/ZoomJob.java
+[32mProcessing ZoomJob                                           ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 50
+NullAway found 1 number of fixes
+18:54:23.861 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedMoveViewJob.java
+[32mProcessing AnimatedMoveViewJob                               ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 50
+NullAway found 1 number of fixes
+18:54:30.628 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/LineDataProvider.java
+[32mProcessing LineDataProvider                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 53
+NullAway found 1 number of fixes
+18:54:37.347 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/BarDataProvider.java
+[32mProcessing BarDataProvider                                   ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 61
+NullAway found 1 number of fixes
+18:54:44.003 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/ScatterDataProvider.java
+[32mProcessing ScatterDataProvider                               ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 51
+NullAway found 1 number of fixes
+18:54:50.315 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/CandleDataProvider.java
+[32mProcessing CandleDataProvider                                ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 51
+NullAway found 1 number of fixes
+18:54:56.832 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/BubbleDataProvider.java
+[32mProcessing BubbleDataProvider                                ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 50
+NullAway found 1 number of fixes
+18:55:03.404 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java
+[32mProcessing PieChartRenderer                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 50
+NullAway found 1 number of fixes
+18:55:10.034 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java
+[32mProcessing PieChartRenderer                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 51
+NullAway found 1 number of fixes
+18:55:16.594 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/LineChartRenderer.java
+[32mProcessing LineChartRenderer                                 ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 52
+NullAway found 1 number of fixes
+18:55:23.317 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BarDataSet.java
+[32mProcessing BarDataSet                                        ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 53
+NullAway found 1 number of fixes
+18:55:29.717 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IScatterDataSet.java
+[32mProcessing IScatterDataSet                                   ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 48
+Number of received arguments: 2
+Actual Arguments: [apply, /tmp/NullAwayFix/cleaned.json]
+Building Injector...
+built.
+Injecting...
+FILE PATH IS: /tmp/NullAwayFix/cleaned.json
+NullAway found 2 number of fixes
+18:55:37.202 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/DataSet.java
+[32mProcessing DataSet                                           ?
+[0m18:55:37.608 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IScatterDataSet.java
+[32mProcessing IScatterDataSet                                   ?
+[0mReceived 2 fixes and applied 2 number of fixes
+Finished
+Number of received arguments: 4
+Actual Arguments: [diagnose, /tmp/NullAwayFix, cd /tmp/projects/MPAndroidChart && ./gradlew build -x test, true]
+Diagnose Started...
+Requesting preparation
+Preparing project: true
+Executing command: cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+Requested command: cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+Finished.
+Deleted old diagnose file.
+Making new diagnose.json.
+Executing command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Requested command: cp /tmp/NullAwayFix/fixes.json /tmp/NullAwayFix/diagnose.json
+Finished.
+Made.
+Preparation done
+Build command: cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+FILE PATH IS: /tmp/NullAwayFix/diagnose.json
+Number of errors with this fix applied: 47
+NullAway found 1 number of fixes
+18:55:52.058 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 50
+NullAway found 1 number of fixes
+18:55:59.815 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 74
+NullAway found 1 number of fixes
+18:56:07.087 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 52
+NullAway found 1 number of fixes
+18:56:13.869 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 79
+NullAway found 1 number of fixes
+18:56:20.845 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 60
+NullAway found 1 number of fixes
+18:56:28.019 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java
+[32mProcessing ChartData                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 55
+NullAway found 1 number of fixes
+18:56:34.874 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseEntry.java
+[32mProcessing BaseEntry                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 52
+NullAway found 1 number of fixes
+18:56:41.646 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/Highlight.java
+[32mProcessing Highlight                                         ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 49
+NullAway found 1 number of fixes
+18:56:48.334 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 62
+NullAway found 1 number of fixes
+18:56:57.798 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 50
+NullAway found 1 number of fixes
+18:57:05.593 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 62
+NullAway found 1 number of fixes
+18:57:12.581 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 52
+NullAway found 1 number of fixes
+18:57:19.430 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java
+[32mProcessing AxisRenderer                                      ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 54
+NullAway found 1 number of fixes
+18:57:26.002 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineDataSet.java
+[32mProcessing LineDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 50
+NullAway found 1 number of fixes
+18:57:32.842 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/DataSet.java
+[32mProcessing DataSet                                           ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 48
+NullAway found 1 number of fixes
+18:57:39.674 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 48
+NullAway found 1 number of fixes
+18:57:46.366 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 48
+NullAway found 1 number of fixes
+18:57:53.218 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 51
+NullAway found 1 number of fixes
+18:57:59.750 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java
+[32mProcessing BaseDataSet                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 51
+NullAway found 1 number of fixes
+18:58:06.330 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BarEntry.java
+[32mProcessing BarEntry                                          ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 48
+NullAway found 1 number of fixes
+18:58:13.187 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/utils/Fill.java
+[32mProcessing Fill                                              ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 48
+NullAway found 1 number of fixes
+18:58:19.989 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedZoomJob.java
+[32mProcessing AnimatedZoomJob                                   ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 48
+NullAway found 1 number of fixes
+18:58:26.713 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/MoveViewJob.java
+[32mProcessing MoveViewJob                                       ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 48
+NullAway found 1 number of fixes
+18:58:33.448 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/ZoomJob.java
+[32mProcessing ZoomJob                                           ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 48
+NullAway found 1 number of fixes
+18:58:40.189 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedMoveViewJob.java
+[32mProcessing AnimatedMoveViewJob                               ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 48
+NullAway found 1 number of fixes
+18:58:47.149 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/LineDataProvider.java
+[32mProcessing LineDataProvider                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 51
+NullAway found 1 number of fixes
+18:58:54.006 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/BarDataProvider.java
+[32mProcessing BarDataProvider                                   ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 59
+NullAway found 1 number of fixes
+18:59:00.693 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/ScatterDataProvider.java
+[32mProcessing ScatterDataProvider                               ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 49
+NullAway found 1 number of fixes
+18:59:07.525 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/CandleDataProvider.java
+[32mProcessing CandleDataProvider                                ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 49
+NullAway found 1 number of fixes
+18:59:14.180 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/BubbleDataProvider.java
+[32mProcessing BubbleDataProvider                                ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 48
+NullAway found 1 number of fixes
+18:59:20.791 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java
+[32mProcessing PieChartRenderer                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 48
+NullAway found 1 number of fixes
+18:59:27.638 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java
+[32mProcessing PieChartRenderer                                  ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 49
+NullAway found 1 number of fixes
+18:59:34.445 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/LineChartRenderer.java
+[32mProcessing LineChartRenderer                                 ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 50
+NullAway found 1 number of fixes
+18:59:41.228 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BarDataSet.java
+[32mProcessing BarDataSet                                        ?
+[0mReceived 1 fixes and applied 1 number of fixes
+Number of errors with this fix applied: 51
+Number of received arguments: 2
+Actual Arguments: [apply, /tmp/NullAwayFix/cleaned.json]
+Building Injector...
+built.
+Injecting...
+FILE PATH IS: /tmp/NullAwayFix/cleaned.json
+NullAway found 0 number of fixes
+Received 0 fixes and applied 0 number of fixes
+Finished
+Cleaning...
+Finished.
+Executing loop command
+Executing (optimized) diagnose task...
+Started diagnose task...
+Making build command for project...
+Detected build command: "cd /tmp/projects/MPAndroidChart && ./gradlew build -x test"
+Diagnosing...
+Finsihed.
+Diagnsoe task finished, applying effective fixes...
+Analyzing diagnose report...
+Selecting effective fixes...
+Selected effective fixes.
+Applying fixes at location: /tmp/NullAwayFix/cleaned.json
+Applied.
+Adding diagnosed fixes to history.
+Fished adding diagnosed fixes to history.
+Getting ready for next round...
+Executing (optimized) diagnose task...
+Started diagnose task...
+Making build command for project...
+Detected build command: "cd /tmp/projects/MPAndroidChart && ./gradlew build -x test"
+Diagnosing...
+Finsihed.
+Diagnsoe task finished, applying effective fixes...
+Analyzing diagnose report...
+Selecting effective fixes...
+Selected effective fixes.
+Applying fixes at location: /tmp/NullAwayFix/cleaned.json
+Applied.
+Adding diagnosed fixes to history.
+Fished adding diagnosed fixes to history.
+Getting ready for next round...
+Executing (optimized) diagnose task...
+Started diagnose task...
+Making build command for project...
+Detected build command: "cd /tmp/projects/MPAndroidChart && ./gradlew build -x test"
+Diagnosing...
+Finsihed.
+Diagnsoe task finished, applying effective fixes...
+Analyzing diagnose report...
+Selecting effective fixes...
+Selected effective fixes.
+Applying fixes at location: /tmp/NullAwayFix/cleaned.json
+Applied.
+Adding diagnosed fixes to history.
+Fished adding diagnosed fixes to history.
+Getting ready for next round...
+Executing (optimized) diagnose task...
+Started diagnose task...
+Making build command for project...
+Detected build command: "cd /tmp/projects/MPAndroidChart && ./gradlew build -x test"
+Diagnosing...
+Finsihed.
+Diagnsoe task finished, applying effective fixes...
+Analyzing diagnose report...
+Selecting effective fixes...
+Selected effective fixes.
+Applying fixes at location: /tmp/NullAwayFix/cleaned.json
+Applied.
+Adding diagnosed fixes to history.
+Fished adding diagnosed fixes to history.
+Getting ready for next round...
+Executing (optimized) diagnose task...
+Started diagnose task...
+Making build command for project...
+Detected build command: "cd /tmp/projects/MPAndroidChart && ./gradlew build -x test"
+Diagnosing...
+Finsihed.
+Diagnsoe task finished, applying effective fixes...
+Analyzing diagnose report...
+Selecting effective fixes...
+Selected effective fixes.
+Applying fixes at location: /tmp/NullAwayFix/cleaned.json
+Applied.
+Adding diagnosed fixes to history.
+Fished adding diagnosed fixes to history.
+No changes, shutting down.
+Cleaning...
+Finished.

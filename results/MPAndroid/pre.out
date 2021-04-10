@@ -1,0 +1,312 @@
+Started preprocessing task...
+Removing old files...
+Removed.
+Building project...
+cd /tmp/projects/MPAndroidChart && ./gradlew build -x test
+Built.
+Analyzing suggested fixes...
+Deecting uninitialized class fields...
+found 139fields.
+Analyzing method infos...
+Selecting appropriate method for each class field...
+Analyzing class field: mListener
+Selected method: ChartAnimator(android.animation.ValueAnimator.AnimatorUpdateListener)
+Analyzing class field: mYAxis
+Selected method: getFactor()
+Analyzing class field: mYAxisRenderer
+Analyzing class field: mXAxisRenderer
+Analyzing class field: mYAxis
+Already chosen.
+Analyzing class field: mYAxisRenderer
+Analyzing class field: mXAxisRenderer
+Analyzing class field: mYAxis
+Already chosen.
+Analyzing class field: mYAxisRenderer
+Analyzing class field: mXAxisRenderer
+Analyzing class field: mDescPaint
+Selected method: init()
+Analyzing class field: mInfoPaint
+Already chosen.
+Analyzing class field: mXAxis
+Already chosen.
+Analyzing class field: mDescription
+Already chosen.
+Analyzing class field: mLegend
+Already chosen.
+Analyzing class field: mSelectionListener
+Selected method: setOnChartValueSelectedListener(com.github.mikephil.charting.listener.OnChartValueSelectedListener)
+Analyzing class field: mChartTouchListener
+Selected method: clear()
+Analyzing class field: mGestureListener
+Selected method: setOnChartGestureListener(com.github.mikephil.charting.listener.OnChartGestureListener)
+Analyzing class field: mLegendRenderer
+Already chosen.
+Analyzing class field: mRenderer
+Analyzing class field: mHighlighter
+Selected method: setHighlighter(com.github.mikephil.charting.highlight.ChartHighlighter)
+Analyzing class field: mAnimator
+Already chosen.
+Analyzing class field: mIndicesToHighlight
+Selected method: valuesToHighlight()
+Analyzing class field: mMarker
+Selected method: drawMarkers(android.graphics.Canvas)
+Analyzing class field: mDescPaint
+Already chosen.
+Analyzing class field: mInfoPaint
+Already chosen.
+Analyzing class field: mXAxis
+Already chosen.
+Analyzing class field: mDescription
+Already chosen.
+Analyzing class field: mLegend
+Already chosen.
+Analyzing class field: mSelectionListener
+Already chosen.
+Analyzing class field: mChartTouchListener
+Already chosen.
+Analyzing class field: mGestureListener
+Already chosen.
+Analyzing class field: mLegendRenderer
+Already chosen.
+Analyzing class field: mRenderer
+Analyzing class field: mHighlighter
+Already chosen.
+Analyzing class field: mAnimator
+Already chosen.
+Analyzing class field: mIndicesToHighlight
+Already chosen.
+Analyzing class field: mMarker
+Already chosen.
+Analyzing class field: mDescPaint
+Already chosen.
+Analyzing class field: mInfoPaint
+Already chosen.
+Analyzing class field: mXAxis
+Already chosen.
+Analyzing class field: mDescription
+Already chosen.
+Analyzing class field: mLegend
+Already chosen.
+Analyzing class field: mSelectionListener
+Already chosen.
+Analyzing class field: mChartTouchListener
+Already chosen.
+Analyzing class field: mGestureListener
+Already chosen.
+Analyzing class field: mLegendRenderer
+Already chosen.
+Analyzing class field: mRenderer
+Analyzing class field: mHighlighter
+Already chosen.
+Analyzing class field: mAnimator
+Already chosen.
+Analyzing class field: mIndicesToHighlight
+Already chosen.
+Analyzing class field: mMarker
+Already chosen.
+Analyzing class field: mAxisValueFormatter
+Selected method: setValueFormatter(com.github.mikephil.charting.formatter.IAxisValueFormatter)
+Analyzing class field: mLabels
+Selected method: setLabels(java.util.List<java.lang.String>)
+Analyzing class field: mLabels
+Already chosen.
+Analyzing class field: mLabels
+Already chosen.
+Analyzing class field: axis
+Selected method: Highlight(float,float,float,float,int,com.github.mikephil.charting.components.YAxis.AxisDependency)
+Analyzing class field: axis
+Already chosen.
+Analyzing class field: mZeroLinePaint
+Selected method: drawZeroLine(android.graphics.Canvas)
+Analyzing class field: mGridPaint
+Analyzing class field: mAxisLabelPaint
+Analyzing class field: mAxisLinePaint
+Analyzing class field: mLimitLinePaint
+Analyzing class field: mFillDrawable
+Selected method: setFillDrawable(android.graphics.drawable.Drawable)
+Analyzing class field: mValueFormatter
+Analyzing class field: mValueTypeface
+Analyzing class field: mExtraEntries
+Selected method: setExtra(java.util.List<com.github.mikephil.charting.components.LegendEntry>)
+Analyzing class field: label
+Selected method: LegendEntry(java.lang.String,com.github.mikephil.charting.components.Legend.LegendForm,float,float,android.graphics.DashPathEffect,int)
+Analyzing class field: mFormat
+Selected method: setup(int)
+Analyzing class field: mPosition
+Selected method: setPosition(float,float)
+Analyzing class field: mLastHighlighted
+Selected method: setLastHighlighted(com.github.mikephil.charting.highlight.Highlight)
+Analyzing class field: barHighlighter
+Analyzing class field: mYVals
+Selected method: calcPosNegSum()
+Analyzing class field: mRanges
+Analyzing class field: mYVals
+Already chosen.
+Analyzing class field: mRanges
+Analyzing class field: mYVals
+Already chosen.
+Analyzing class field: mRanges
+Analyzing class field: mYVals
+Already chosen.
+Analyzing class field: mRanges
+Analyzing class field: mRanges
+Analyzing class field: mRanges
+Analyzing class field: mRanges
+Analyzing class field: mRanges
+Analyzing class field: mLineData
+Selected method: getAllData()
+Analyzing class field: mBarData
+Already chosen.
+Analyzing class field: mScatterData
+Already chosen.
+Analyzing class field: mCandleData
+Already chosen.
+Analyzing class field: mBubbleData
+Already chosen.
+Analyzing class field: label
+Selected method: PieEntry(float,java.lang.String)
+Analyzing class field: label
+Already chosen.
+Analyzing class field: label
+Already chosen.
+Analyzing class field: label
+Already chosen.
+Analyzing class field: mDrawOrder
+Analyzing class field: mDrawOrder
+Analyzing class field: mDrawOrder
+Analyzing class field: mGridBackgroundPaint
+Selected method: setGridBackgroundColor(int)
+Analyzing class field: mBorderPaint
+Selected method: setBorderWidth(float)
+Analyzing class field: mDrawListener
+Selected method: setOnDrawListener(com.github.mikephil.charting.listener.OnDrawListener)
+Analyzing class field: mAxisLeft
+Selected method: prepareValuePxMatrix()
+Analyzing class field: mAxisRight
+Already chosen.
+Analyzing class field: mAxisRendererLeft
+Selected method: setRendererLeftYAxis(com.github.mikephil.charting.renderer.YAxisRenderer)
+Analyzing class field: mAxisRendererRight
+Selected method: setRendererRightYAxis(com.github.mikephil.charting.renderer.YAxisRenderer)
+Analyzing class field: mLeftAxisTransformer
+Already chosen.
+Analyzing class field: mRightAxisTransformer
+Already chosen.
+Analyzing class field: mXAxisRenderer
+Selected method: setXAxisRenderer(com.github.mikephil.charting.renderer.XAxisRenderer)
+Analyzing class field: mGridBackgroundPaint
+Already chosen.
+Analyzing class field: mBorderPaint
+Already chosen.
+Analyzing class field: mDrawListener
+Already chosen.
+Analyzing class field: mAxisLeft
+Already chosen.
+Analyzing class field: mAxisRight
+Already chosen.
+Analyzing class field: mAxisRendererLeft
+Already chosen.
+Analyzing class field: mAxisRendererRight
+Already chosen.
+Analyzing class field: mLeftAxisTransformer
+Already chosen.
+Analyzing class field: mRightAxisTransformer
+Already chosen.
+Analyzing class field: mXAxisRenderer
+Already chosen.
+Analyzing class field: mGridBackgroundPaint
+Already chosen.
+Analyzing class field: mBorderPaint
+Already chosen.
+Analyzing class field: mDrawListener
+Already chosen.
+Analyzing class field: mAxisLeft
+Already chosen.
+Analyzing class field: mAxisRight
+Already chosen.
+Analyzing class field: mAxisRendererLeft
+Already chosen.
+Analyzing class field: mAxisRendererRight
+Already chosen.
+Analyzing class field: mLeftAxisTransformer
+Already chosen.
+Analyzing class field: mRightAxisTransformer
+Already chosen.
+Analyzing class field: mXAxisRenderer
+Already chosen.
+Analyzing class field: mCenterTextLayout
+Analyzing class field: mCenterTextLastValue
+Analyzing class field: mDrawBitmap
+Analyzing class field: mBitmapCanvas
+Analyzing class field: mBarBuffers
+Selected method: drawDataSet(android.graphics.Canvas,com.github.mikephil.charting.interfaces.datasets.IBarDataSet,int)Number of received arguments: 2
+Actual Arguments: [apply, /tmp/NullAwayFix/init_methods.json]
+Building Injector...
+built.
+Injecting...
+FILE PATH IS: /tmp/NullAwayFix/init_methods.json
+NullAway found 35 number of fixes
+18:27:29.212 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/animation/ChartAnimator.java
+[32mProcessing ChartAnimator                                     ?
+[0m18:27:29.483 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/RadarChart.java
+[32mProcessing RadarChart                                        ?
+[0m18:27:29.772 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java
+[32mProcessing Chart                                             ?
+[0m18:27:30.214 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/AxisBase.java
+[32mProcessing AxisBase                                          ?
+[0m18:27:30.278 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/RadarData.java
+[32mProcessing RadarData                                         ?
+[0m18:27:30.301 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/Highlight.java
+[32mProcessing Highlight                                         ?
+[0m18:27:30.362 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/YAxisRenderer.java
+[32mProcessing YAxisRenderer                                     ?
+[0m18:27:30.404 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineRadarDataSet.java
+[32mProcessing LineRadarDataSet                                  ?
+[0m18:27:30.468 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/Legend.java
+[32mProcessing Legend                                            ?
+[0m18:27:30.586 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/LegendEntry.java
+[32mProcessing LegendEntry                                       ?
+[0m18:27:30.615 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/formatter/DefaultValueFormatter.java
+[32mProcessing DefaultValueFormatter                             ?
+[0m18:27:30.648 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/Description.java
+[32mProcessing Description                                       ?
+[0m18:27:30.668 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/ChartTouchListener.java
+[32mProcessing ChartTouchListener                                ?
+[0m18:27:30.715 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BarEntry.java
+[32mProcessing BarEntry                                          ?
+[0m18:27:30.751 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/CombinedData.java
+[32mProcessing CombinedData                                      ?
+[0m18:27:30.791 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/PieEntry.java
+[32mProcessing PieEntry                                          ?
+[0m18:27:30.932 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/BarLineChartBase.java
+[32mProcessing BarLineChartBase                                  ?
+[0m18:27:31.216 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/BarChartRenderer.java
+[32mProcessing BarChartRenderer                                  ?
+[0m18:27:31.346 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/LineChartRenderer.java
+[32mProcessing LineChartRenderer                                 ?
+[0m18:27:31.445 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/MarkerImage.java
+[32mProcessing MarkerImage                                       ?
+[0m18:27:31.477 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/MarkerView.java
+[32mProcessing MarkerView                                        ?
+[0m18:27:31.525 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/BarLineChartTouchListener.java
+[32mProcessing BarLineChartTouchListener                         ?
+[0mReceived 35 fixes and applied 35 number of fixes
+Finished
+
+Analyzing class field: mDrawBitmap
+Analyzing class field: mBitmapCanvas
+Selected method: drawHorizontalBezier(com.github.mikephil.charting.interfaces.datasets.ILineDataSet)
+Analyzing class field: circleBitmaps
+Selected method: init(com.github.mikephil.charting.interfaces.datasets.ILineDataSet)
+Analyzing class field: mMetrics
+Analyzing class field: mWeakChart
+Selected method: setChartView(com.github.mikephil.charting.charts.Chart)
+Analyzing class field: mWeakChart
+Selected method: setChartView(com.github.mikephil.charting.charts.Chart)
+Analyzing class field: mClosestDataSetToTouch
+Selected method: saveTouchStart(android.view.MotionEvent)
+Analyzing class field: mVelocityTracker
+Finished detecting methods.
+Passing to injector to annotate...
+Annotated.
+Finished.
