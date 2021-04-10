@@ -89,9 +89,7 @@ def autofix(project):
     os.system(change_path_to_project + " && git add .")
     os.system(change_path_to_project +
               " && git commit -m \"final result of docker\"")
-    os.system(change_path_to_project + " && git push " +
-              "https://{}:{}@github.com/nimakarimipour/Docker_AE_NA.git".
-              format(GIT_USERNAME, GIT_KEY))
+    os.system(change_path_to_project + " && git push " + project['git'].format(GIT_USERNAME, GIT_KEY))
     log("Commited changes to project: " + project['name'])
 
     log("Copying infos in results directory.")
