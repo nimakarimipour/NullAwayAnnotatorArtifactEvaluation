@@ -14,7 +14,7 @@
             "name": "MPAndroid",
             "path": "MPAndroidChart",
             "root": "MPAndroidChart",
-            "git": "https://{}:{}@github.com/nimakarimipour/MPAndroid.git",
+            "git": "https://{}:{}@github.com/nimakarimipour/MPAndroidChart.git",
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_1",
