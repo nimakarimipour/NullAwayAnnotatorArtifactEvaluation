@@ -32,6 +32,10 @@ def prepare():
         os.makedirs("/tmp/NullAwayFix/")
     except FileExistsError:
         log("in prepare: project already exists")
+    try:
+        os.makedirs("./results")
+    except FileExistsError:
+        log("in prepare: project already exists")
 
 
 def prepare_project(project):
