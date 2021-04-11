@@ -18,7 +18,7 @@
             "build": "./gradlew build -x test",
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "Mockito",
@@ -26,8 +26,9 @@
             "root": "mockito",
             "git": "https://{}:{}@github.com/nimakarimipour/mockito.git",
             "build": "./gradlew build -x test",
-            "init_annot": "com.github.mikephil.Initializer",
-            "active": false
+            "init_annot": "main.java.org.mockito.Initializer",
+            "branch": "gc_1",
+            "active": true
         },
         {
             "name": "Conductor",
