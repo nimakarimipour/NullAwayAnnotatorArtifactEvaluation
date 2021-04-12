@@ -6,6 +6,7 @@
             "root": "PhotoView",
             "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "build": "./gradlew build -x test",
+            "format": "",
             "init_annot": "com.github.chrisbanes.photoview.Initializer",
             "branch": "exp_1",
             "active": false
@@ -16,6 +17,7 @@
             "root": "MPAndroidChart",
             "git": "https://{}:{}@github.com/nimakarimipour/MPAndroidChart.git",
             "build": "./gradlew build -x test",
+            "format": "",
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_1",
             "active": false
@@ -26,9 +28,10 @@
             "root": "mockito",
             "git": "https://{}:{}@github.com/nimakarimipour/mockito.git",
             "build": "./gradlew build -x test",
+            "format": "",
             "init_annot": "main.java.org.mockito.Initializer",
-            "branch": "gc_1",
-            "active": false
+            "branch": "gc_2",
+            "active": true
         },
         {
             "name": "Conductor",
@@ -36,9 +39,10 @@
             "root": "conductor",
             "git": "https://{}:{}@github.com/nimakarimipour/conductor.git",
             "build": "./gradlew build -x test",
+            "format": "",
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "LitiEngine",
@@ -46,9 +50,10 @@
             "root": "litiengine",
             "git": "https://{}:{}@github.com/nimakarimipour/litiengine.git",
             "build": "./gradlew build -x test",
+            "format": "",
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "NullAway",
@@ -56,9 +61,10 @@
             "root": "NullAway",
             "git": "https://{}:{}@github.com/nimakarimipour/NullAway.git",
             "build": "./gradlew build -x test",
+            "format": "",
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "EventBus",
@@ -66,9 +72,10 @@
             "root": "EventBus",
             "git": "https://{}:{}@github.com/nimakarimipour/EventBus.git",
             "build": "./gradlew build -x test",
+            "format": "",
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "Gson",
@@ -76,9 +83,10 @@
             "root": "gson",
             "git": "https://{}:{}@github.com/nimakarimipour/gson.git",
             "build": "./gradlew build -x test",
+            "format": "",
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "Jadx",
@@ -86,6 +94,7 @@
             "root": "jadx",
             "git": "https://{}:{}@github.com/nimakarimipour/jadx.git",
             "build": "./gradlew build -x test",
+            "format": "",
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_1",
             "active": false
@@ -96,6 +105,7 @@
             "root": "libgdx",
             "git": "https://{}:{}@github.com/nimakarimipour/libgdx.git",
             "build": "./gradlew build -x test",
+            "format": "",
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_1",
             "active": false
@@ -106,6 +116,7 @@
             "root": "lottie-android",
             "git": "https://{}:{}@github.com/nimakarimipour/lottie-android.git",
             "build": "./gradlew build -x test",
+            "format": "",
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_1",
             "active": false
@@ -116,6 +127,7 @@
             "root": "retrofit",
             "git": "https://{}:{}@github.com/nimakarimipour/retrofit.git",
             "build": "./gradlew build -x test",
+            "format": "",
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_1",
             "active": false
@@ -126,6 +138,7 @@
             "root": "spring-boot",
             "git": "https://{}:{}@github.com/nimakarimipour/spring-boot.git",
             "build": "./gradlew build -x test",
+            "format": "",
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_1",
             "active": false
@@ -136,6 +149,7 @@
             "root": "zuul",
             "git": "https://{}:{}@github.com/nimakarimipour/zuul.git",
             "build": "./gradlew build -x test",
+            "format": "",
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_1",
             "active": false
