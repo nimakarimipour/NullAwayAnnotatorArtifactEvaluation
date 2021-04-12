@@ -46,3 +46,13 @@ Copying finished.
 successfully ran the command for project: Mockito
 requesting commit
 trying to make a commit
+in prepare: project already exists
+Preparing project Mockito
+Project does not exist, cloning now...
+Preparing finished
+Autofixing project: Mockito
+Preparing config.json...
+Prepared: {'PROJECT_PATH': '/tmp/projects/mockito', 'INITIALIZE_ANNOT': 'main.java.org.mockito.Initializer', 'BUILD_COMMAND': './gradlew build -x test'}
+something went wrong for: Mockito
+requesting commit
+trying to make a commit
