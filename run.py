@@ -73,7 +73,8 @@ def autofix(project):
     config = {
         "PROJECT_PATH": PROJECTS_DIR + project['path'],
         "BUILD_COMMAND": project['build'],
-        "INITIALIZE_ANNOT": project['init_annot']
+        "INITIALIZE_ANNOT": project['init_annot'],
+        "FORMAT": project['format']
     }
     log("Prepared: " + str(config))
     with open('/tmp/Diagnoser/config.json', 'w') as outfile:
