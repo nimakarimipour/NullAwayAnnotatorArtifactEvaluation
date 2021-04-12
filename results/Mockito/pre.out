@@ -5,21 +5,21 @@ built.
 Injecting...
 FILE PATH IS: /tmp/NullAwayFix/init_methods.json
 NullAway found 8 number of fixes
-21:53:08.030 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java
+22:24:11.347 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java
 [32mProcessing InvocationContainerImpl                           ?
-[0m21:53:08.341 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/StubbedInvocationMatcher.java
+[0m22:24:11.645 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/StubbedInvocationMatcher.java
 [32mProcessing StubbedInvocationMatcher                          ?
-[0m21:53:08.373 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/DoAnswerStyleStubbing.java
+[0m22:24:11.675 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/DoAnswerStyleStubbing.java
 [32mProcessing DoAnswerStyleStubbing                             ?
-[0m21:53:08.392 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/injection/MockInjectionStrategy.java
+[0m22:24:11.694 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/injection/MockInjectionStrategy.java
 [32mProcessing MockInjectionStrategy                             ?
-[0m21:53:08.424 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/junit/JUnitSessionStore.java
+[0m22:24:11.727 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/junit/JUnitSessionStore.java
 [32mProcessing JUnitSessionStore                                 ?
-[0m21:53:08.488 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/InstanceField.java
+[0m22:24:11.780 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/InstanceField.java
 [32mProcessing InstanceField                                     ?
-[0m21:53:08.552 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
+[0m22:24:11.852 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
 [32mProcessing CreationSettings                                  ?
-[0m21:53:08.608 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/OngoingStubbingImpl.java
+[0m22:24:11.909 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/OngoingStubbingImpl.java
 [32mProcessing OngoingStubbingImpl                               ?
 [0mReceived 8 fixes and applied 8 number of fixes
 Finished
