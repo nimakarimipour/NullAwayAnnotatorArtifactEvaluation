@@ -17,697 +17,697 @@ Build command: cd /tmp/projects/mockito && ./gradlew build -x test
 FILE PATH IS: /tmp/NullAwayFix/diagnose.json
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-22:55:32.235 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:26:16.323 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:55:45.724 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:26:29.932 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:55:58.927 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:26:43.488 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:56:11.974 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:26:56.544 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:56:25.175 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:27:09.545 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:56:38.010 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:27:22.490 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:56:50.783 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:27:35.182 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:57:03.800 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:27:48.003 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:57:16.616 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:28:00.842 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:57:29.695 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:28:13.695 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:57:42.547 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:28:26.563 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:57:55.400 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:28:39.533 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:58:08.291 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:28:52.181 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:58:21.224 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:29:05.001 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:58:34.020 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:29:17.772 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:58:46.919 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:29:30.250 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:59:00.094 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:29:43.057 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:59:12.951 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
+23:29:55.738 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java
 [32mProcessing AdditionalMatchers                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:59:26.058 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/exceptions/Reporter.java
+23:30:08.693 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/exceptions/Reporter.java
 [32mProcessing Reporter                                          ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 197
 NullAway found 1 number of fixes
-22:59:39.007 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/exceptions/Reporter.java
+23:30:21.736 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/exceptions/Reporter.java
 [32mProcessing Reporter                                          ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-22:59:51.723 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/exceptions/Reporter.java
+23:30:34.549 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/exceptions/Reporter.java
 [32mProcessing Reporter                                          ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:00:04.507 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java
+23:30:47.502 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java
 [32mProcessing InvocationsFinder                                 ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:00:17.509 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java
+23:31:00.229 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java
 [32mProcessing InvocationsFinder                                 ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:00:30.215 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java
+23:31:13.232 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java
 [32mProcessing InvocationsFinder                                 ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:00:43.276 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java
+23:31:25.906 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java
 [32mProcessing InvocationsFinder                                 ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:00:56.016 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java
+23:31:38.915 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java
 [32mProcessing InvocationsFinder                                 ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:01:08.523 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java
+23:31:51.640 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java
 [32mProcessing InvocationsFinder                                 ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:01:20.943 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java
+23:32:04.224 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java
 [32mProcessing InvocationsFinder                                 ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:01:33.835 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/verification/SingleRegisteredInvocation.java
+23:32:16.766 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/verification/SingleRegisteredInvocation.java
 [32mProcessing SingleRegisteredInvocation                        ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 196
 NullAway found 1 number of fixes
-23:01:46.410 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/verification/VerificationDataImpl.java
+23:32:29.471 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/verification/VerificationDataImpl.java
 [32mProcessing VerificationDataImpl                              ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 196
 NullAway found 1 number of fixes
-23:01:59.294 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/verification/api/VerificationDataInOrderImpl.java
+23:32:42.339 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/verification/api/VerificationDataInOrderImpl.java
 [32mProcessing VerificationDataInOrderImpl                       ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:02:12.133 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/MockitoCore.java
+23:32:54.970 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/MockitoCore.java
 [32mProcessing MockitoCore                                       ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:02:25.017 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/Primitives.java
+23:33:07.948 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/Primitives.java
 [32mProcessing Primitives                                        ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:02:37.791 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/Primitives.java
+23:33:20.740 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/Primitives.java
 [32mProcessing Primitives                                        ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 207
 NullAway found 1 number of fixes
-23:02:50.272 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
+23:33:33.493 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
 [32mProcessing ArgumentMatchers                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:03:03.033 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
+23:33:46.355 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
 [32mProcessing ArgumentMatchers                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:03:15.765 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
+23:33:59.248 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
 [32mProcessing ArgumentMatchers                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:03:28.676 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
+23:34:12.155 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
 [32mProcessing ArgumentMatchers                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:03:41.231 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
+23:34:24.725 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
 [32mProcessing ArgumentMatchers                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:03:54.035 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
+23:34:37.484 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
 [32mProcessing ArgumentMatchers                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:04:06.712 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
+23:34:50.342 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
 [32mProcessing ArgumentMatchers                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:04:19.375 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
+23:35:03.052 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java
 [32mProcessing ArgumentMatchers                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:04:31.959 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java
+23:35:15.798 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java
 [32mProcessing InvocationContainerImpl                           ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 197
 NullAway found 1 number of fixes
-23:04:44.877 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java
+23:35:28.702 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java
 [32mProcessing InvocationContainerImpl                           ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:04:57.507 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/DoAnswerStyleStubbing.java
+23:35:41.388 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/DoAnswerStyleStubbing.java
 [32mProcessing DoAnswerStyleStubbing                             ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:05:10.288 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/verification/VerificationEventImpl.java
+23:35:53.996 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/verification/VerificationEventImpl.java
 [32mProcessing VerificationEventImpl                             ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:05:22.698 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/progress/MockingProgressImpl.java
+23:36:06.719 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/progress/MockingProgressImpl.java
 [32mProcessing MockingProgressImpl                               ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:05:35.423 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/progress/MockingProgressImpl.java
+23:36:19.559 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/progress/MockingProgressImpl.java
 [32mProcessing MockingProgressImpl                               ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 196
 NullAway found 1 number of fixes
-23:05:48.181 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/progress/MockingProgressImpl.java
+23:36:32.300 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/progress/MockingProgressImpl.java
 [32mProcessing MockingProgressImpl                               ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 195
 NullAway found 1 number of fixes
-23:06:01.026 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/progress/MockingProgressImpl.java
+23:36:45.301 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/progress/MockingProgressImpl.java
 [32mProcessing MockingProgressImpl                               ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:06:13.597 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/ClassPathLoader.java
+23:36:57.895 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/ClassPathLoader.java
 [32mProcessing ClassPathLoader                                   ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:06:26.267 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/injection/scanner/MockScanner.java
+23:37:10.477 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/injection/scanner/MockScanner.java
 [32mProcessing MockScanner                                       ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:06:39.221 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/injection/ConstructorInjection.java
+23:37:23.202 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/injection/ConstructorInjection.java
 [32mProcessing SimpleArgumentResolver                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:06:51.974 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/FieldInitializationReport.java
+23:37:35.890 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/FieldInitializationReport.java
 [32mProcessing FieldInitializationReport                         ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:07:05.005 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/Checks.java
+23:37:48.509 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/Checks.java
 [32mProcessing Checks                                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:07:17.571 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/plugins/PluginInitializer.java
+23:38:01.099 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/plugins/PluginInitializer.java
 [32mProcessing PluginInitializer                                 ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:07:30.349 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/plugins/PluginInitializer.java
+23:38:13.984 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/plugins/PluginInitializer.java
 [32mProcessing PluginInitializer                                 ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:07:42.996 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java
+23:38:26.556 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java
 [32mProcessing PluginLoader                                      ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:07:55.823 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/plugins/DefaultMockitoPlugins.java
+23:38:39.294 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/plugins/DefaultMockitoPlugins.java
 [32mProcessing DefaultMockitoPlugins                             ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 196
 NullAway found 1 number of fixes
-23:08:08.218 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/plugins/DefaultMockitoPlugins.java
+23:38:52.083 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/plugins/DefaultMockitoPlugins.java
 [32mProcessing DefaultMockitoPlugins                             ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:08:20.965 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/plugins/PluginFileReader.java
+23:39:04.801 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/plugins/PluginFileReader.java
 [32mProcessing PluginFileReader                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:08:33.452 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/io/IOUtil.java
+23:39:17.987 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/io/IOUtil.java
 [32mProcessing IOUtil                                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:08:45.875 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/io/IOUtil.java
+23:39:30.572 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/io/IOUtil.java
 [32mProcessing IOUtil                                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:08:58.313 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/plugins/PluginFinder.java
+23:39:43.415 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/plugins/PluginFinder.java
 [32mProcessing PluginFinder                                      ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:09:10.829 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/GenericTypeExtractor.java
+23:39:56.035 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/GenericTypeExtractor.java
 [32mProcessing GenericTypeExtractor                              ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:09:23.471 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/junit/VerificationCollectorImpl.java
+23:40:08.625 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/junit/VerificationCollectorImpl.java
 [32mProcessing VerificationCollectorImpl                         ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:09:36.451 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/junit/util/JUnitFailureHacker.java
+23:40:21.405 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/junit/util/JUnitFailureHacker.java
 [32mProcessing JUnitFailureHacker                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:09:49.262 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/JavaEightUtil.java
+23:40:34.091 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/JavaEightUtil.java
 [32mProcessing JavaEightUtil                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:10:01.888 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/JavaEightUtil.java
+23:40:46.797 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/JavaEightUtil.java
 [32mProcessing JavaEightUtil                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:10:14.877 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/JavaEightUtil.java
+23:40:59.592 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/JavaEightUtil.java
 [32mProcessing JavaEightUtil                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:10:27.458 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/JavaEightUtil.java
+23:41:12.190 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/JavaEightUtil.java
 [32mProcessing JavaEightUtil                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:10:40.160 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/JavaEightUtil.java
+23:41:24.595 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/JavaEightUtil.java
 [32mProcessing JavaEightUtil                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:10:52.879 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/JavaEightUtil.java
+23:41:37.428 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/JavaEightUtil.java
 [32mProcessing JavaEightUtil                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:11:05.457 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/concurrent/WeakConcurrentMap.java
+23:41:50.006 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/concurrent/WeakConcurrentMap.java
 [32mProcessing WeakConcurrentMap                                 ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:11:18.274 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/concurrent/WeakConcurrentMap.java
+23:42:02.583 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/concurrent/WeakConcurrentMap.java
 [32mProcessing EntryIterator                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:11:30.953 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/concurrent/WeakConcurrentMap.java
+23:42:15.134 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/concurrent/WeakConcurrentMap.java
 [32mProcessing EntryIterator                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 197
 NullAway found 1 number of fixes
-23:11:43.494 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/concurrent/DetachedThreadLocal.java
+23:42:27.901 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/concurrent/DetachedThreadLocal.java
 [32mProcessing DetachedThreadLocal                               ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:11:56.205 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/InstrumentationMemberAccessor.java
+23:42:40.539 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/InstrumentationMemberAccessor.java
 [32mProcessing InstrumentationMemberAccessor                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 196
 NullAway found 1 number of fixes
-23:12:09.012 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/GenericMetadataSupport.java
+23:42:53.508 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/GenericMetadataSupport.java
 [32mProcessing GenericMetadataSupport                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:12:21.705 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/GenericMetadataSupport.java
+23:43:06.219 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/GenericMetadataSupport.java
 [32mProcessing GenericMetadataSupport                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:12:34.297 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/GenericMetadataSupport.java
+23:43:18.950 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/GenericMetadataSupport.java
 [32mProcessing TypeVariableReturnType                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:12:47.219 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/GenericMetadataSupport.java
+23:43:31.306 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/GenericMetadataSupport.java
 [32mProcessing TypeVariableReturnType                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:12:59.981 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/GenericMetadataSupport.java
+23:43:44.093 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/GenericMetadataSupport.java
 [32mProcessing TypeVariableReturnType                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:13:12.797 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/exceptions/stacktrace/StackTraceFilter.java
+23:43:56.702 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/exceptions/stacktrace/StackTraceFilter.java
 [32mProcessing StackTraceFilter                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:13:25.239 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/exceptions/stacktrace/StackTraceFilter.java
+23:44:09.368 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/exceptions/stacktrace/StackTraceFilter.java
 [32mProcessing StackTraceFilter                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:13:38.047 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/exceptions/stacktrace/StackTraceFilter.java
+23:44:22.333 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/exceptions/stacktrace/StackTraceFilter.java
 [32mProcessing StackTraceFilter                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:13:50.533 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InterceptedInvocation.java
+23:44:34.746 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/invocation/InterceptedInvocation.java
 [32mProcessing InterceptedInvocation                             ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:14:03.516 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/handler/NotifiedMethodInvocationReport.java
+23:44:47.273 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/handler/NotifiedMethodInvocationReport.java
 [32mProcessing NotifiedMethodInvocationReport                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:14:16.257 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/handler/MockHandlerImpl.java
+23:44:59.734 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/handler/MockHandlerImpl.java
 [32mProcessing MockHandlerImpl                                   ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:14:28.793 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
+23:45:12.588 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
 [32mProcessing CreationSettings                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 201
 NullAway found 1 number of fixes
-23:14:41.574 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
+23:45:25.216 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
 [32mProcessing CreationSettings                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:14:54.272 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
+23:45:37.739 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
 [32mProcessing CreationSettings                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 201
 NullAway found 1 number of fixes
-23:15:06.884 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
+23:45:50.243 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
 [32mProcessing CreationSettings                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 201
 NullAway found 1 number of fixes
-23:15:19.483 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
+23:46:02.980 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
 [32mProcessing CreationSettings                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 201
 NullAway found 1 number of fixes
-23:15:32.244 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
+23:46:15.635 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
 [32mProcessing CreationSettings                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:15:44.559 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
+23:46:28.254 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
 [32mProcessing CreationSettings                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:15:57.114 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/MockSettingsImpl.java
+23:46:41.026 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/MockSettingsImpl.java
 [32mProcessing MockSettingsImpl                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:16:09.603 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/MockSettingsImpl.java
+23:46:53.688 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/MockSettingsImpl.java
 [32mProcessing MockSettingsImpl                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:16:22.147 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/creation/instance/InstantiationException.java
+23:47:06.579 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/creation/instance/InstantiationException.java
 [32mProcessing InstantiationException                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:16:34.696 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/creation/instance/InstantiationException.java
+23:47:19.181 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/creation/instance/InstantiationException.java
 [32mProcessing InstantiationException                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:16:47.288 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/instance/InstantiationException.java
+23:47:31.802 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/instance/InstantiationException.java
 [32mProcessing InstantiationException                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:16:59.898 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java
+23:47:44.721 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java
 [32mProcessing MockMethodAdvice                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:17:12.687 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java
+23:47:57.541 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java
 [32mProcessing MockMethodAdvice                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:17:25.604 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java
+23:48:10.210 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java
 [32mProcessing MockMethodAdvice                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:17:38.228 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java
+23:48:23.034 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java
 [32mProcessing MockMethodAdvice                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:17:50.748 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java
+23:48:35.820 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java
 [32mProcessing ForStatic                                         ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:18:03.541 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.java
+23:48:48.484 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.java
 [32mProcessing MockMethodDispatcher                              ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 197
 NullAway found 1 number of fixes
-23:18:16.134 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.java
+23:49:01.022 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.java
 [32mProcessing MockMethodDispatcher                              ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 197
 NullAway found 1 number of fixes
-23:18:28.931 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java
+23:49:13.497 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java
 [32mProcessing InlineBytecodeGenerator                           ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:18:41.660 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java
+23:49:26.199 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java
 [32mProcessing InlineBytecodeGenerator                           ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 197
 NullAway found 1 number of fixes
-23:18:54.418 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/ConstructionCallback.java
+23:49:38.865 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/ConstructionCallback.java
 [32mProcessing ConstructionCallback                              ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:19:07.082 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java
+23:49:51.354 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java
 [32mProcessing InlineByteBuddyMockMaker                          ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:19:19.918 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java
+23:50:04.429 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java
 [32mProcessing InlineByteBuddyMockMaker                          ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:19:32.846 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java
+23:50:17.224 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java
 [32mProcessing InlineByteBuddyMockMaker                          ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:19:45.433 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java
+23:50:30.186 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java
 [32mProcessing SubclassBytecodeGenerator                         ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:19:58.408 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java
+23:50:42.796 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java
 [32mProcessing SubclassByteBuddyMockMaker                        ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:20:11.237 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java
+23:50:55.323 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java
 [32mProcessing SubclassByteBuddyMockMaker                        ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:20:23.951 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/matchers/apachecommons/EqualsBuilder.java
+23:51:08.098 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/matchers/apachecommons/EqualsBuilder.java
 [32mProcessing EqualsBuilder                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:20:36.592 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/matchers/apachecommons/EqualsBuilder.java
+23:51:20.608 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/matchers/apachecommons/EqualsBuilder.java
 [32mProcessing EqualsBuilder                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:20:49.183 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/session/DefaultMockitoSessionBuilder.java
+23:51:33.269 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/session/DefaultMockitoSessionBuilder.java
 [32mProcessing DefaultMockitoSessionBuilder                      ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:21:01.662 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/session/DefaultMockitoSessionBuilder.java
+23:51:45.658 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/session/DefaultMockitoSessionBuilder.java
 [32mProcessing DefaultMockitoSessionBuilder                      ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:21:14.259 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/session/DefaultMockitoSessionBuilder.java
+23:51:58.600 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/session/DefaultMockitoSessionBuilder.java
 [32mProcessing DefaultMockitoSessionBuilder                      ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:21:26.835 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/answers/DoesNothing.java
+23:52:11.301 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/answers/DoesNothing.java
 [32mProcessing DoesNothing                                       ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:21:39.313 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/plugins/InstantiatorProvider2.java
+23:52:24.126 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/plugins/InstantiatorProvider2.java
 [32mProcessing InstantiatorProvider2                             ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:21:51.724 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/stubbing/OngoingStubbing.java
+23:52:36.793 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/stubbing/OngoingStubbing.java
 [32mProcessing OngoingStubbing                                   ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:22:04.309 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/BaseStubbing.java
+23:52:49.406 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/BaseStubbing.java
 [32mProcessing BaseStubbing                                      ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:22:16.835 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/BaseStubbing.java
+23:53:02.075 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/BaseStubbing.java
 [32mProcessing BaseStubbing                                      ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:22:29.259 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/BaseStubbing.java
+23:53:14.741 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/BaseStubbing.java
 [32mProcessing BaseStubbing                                      ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:22:41.653 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/answers/Returns.java
+23:53:27.496 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/answers/Returns.java
 [32mProcessing Returns                                           ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:22:54.249 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/answers/ThrowsException.java
+23:53:39.882 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/answers/ThrowsException.java
 [32mProcessing ThrowsException                                   ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:23:06.401 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/RetrieveGenericsForDefaultAnswers.java
+23:53:52.345 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/RetrieveGenericsForDefaultAnswers.java
 [32mProcessing RetrieveGenericsForDefaultAnswers                 ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:23:19.149 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/RetrieveGenericsForDefaultAnswers.java
+23:54:04.933 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/RetrieveGenericsForDefaultAnswers.java
 [32mProcessing AnswerCallback                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:23:31.607 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/RetrieveGenericsForDefaultAnswers.java
+23:54:17.403 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/RetrieveGenericsForDefaultAnswers.java
 [32mProcessing RetrieveGenericsForDefaultAnswers                 ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:23:44.154 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java
+23:54:29.864 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java
 [32mProcessing ReturnsEmptyValues                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 201
 NullAway found 1 number of fixes
-23:23:56.526 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValues.java
+23:54:42.458 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValues.java
 [32mProcessing ReturnsMoreEmptyValues                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 200
 NullAway found 1 number of fixes
-23:24:09.100 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java
+23:54:55.445 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java
 [32mProcessing ReturnsDeepStubs                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
 NullAway found 1 number of fixes
-23:24:21.678 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ForwardsInvocations.java
+23:55:08.057 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ForwardsInvocations.java
 [32mProcessing ForwardsInvocations                               ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 202
 NullAway found 1 number of fixes
-23:24:34.380 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/framework/DefaultMockitoFramework.java
+23:55:21.032 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/framework/DefaultMockitoFramework.java
 [32mProcessing DefaultMockitoFramework                           ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 198
 NullAway found 1 number of fixes
-23:24:46.969 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/framework/DefaultMockitoSession.java
+23:55:33.964 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/framework/DefaultMockitoSession.java
 [32mProcessing DefaultMockitoSession                             ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 199
