@@ -5,9 +5,9 @@ built.
 Injecting...
 FILE PATH IS: /tmp/NullAwayFix/init_methods.json
 NullAway found 2 number of fixes
-15:11:49.633 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/MethodNameUtil.java
+15:28:10.102 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/MethodNameUtil.java
 [32mProcessing MethodNameUtil                                    ?
-[0m15:11:49.920 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamModelBuilder.java
+[0m15:28:10.333 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamModelBuilder.java
 [32mProcessing StreamModelBuilder                                ?
 [0mReceived 2 fixes and applied 2 number of fixes
 Finished

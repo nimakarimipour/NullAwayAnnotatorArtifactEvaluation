@@ -17,137 +17,137 @@ Build command: cd /tmp/projects/NullAway && ./gradlew build -x test
 FILE PATH IS: /tmp/NullAwayFix/diagnose.json
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:12:01.956 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/NullAway.java
+15:28:20.855 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/NullAway.java
 [32mProcessing NullAway                                          ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 57
 NullAway found 1 number of fixes
-15:12:07.885 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/NullnessStore.java
+15:28:27.073 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/NullnessStore.java
 [32mProcessing Builder                                           ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 57
 NullAway found 1 number of fixes
-15:12:12.728 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/AccessPathElement.java
+15:28:31.677 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/AccessPathElement.java
 [32mProcessing AccessPathElement                                 ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 57
 NullAway found 1 number of fixes
-15:12:18.454 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
+15:28:37.297 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
 [32mProcessing DataFlow                                          ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:12:23.459 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
+15:28:41.823 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
 [32mProcessing DataFlow                                          ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:12:29.227 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
+15:28:46.293 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
 [32mProcessing DataFlow                                          ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 57
 NullAway found 1 number of fixes
-15:12:34.673 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
+15:28:51.079 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
 [32mProcessing CfgParams                                         ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:12:39.502 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/InferredJARModelsHandler.java
+15:28:55.688 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/InferredJARModelsHandler.java
 [32mProcessing InferredJARModelsHandler                          ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 56
 NullAway found 1 number of fixes
-15:12:44.656 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamModelBuilder.java
+15:29:00.923 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamModelBuilder.java
 [32mProcessing StreamModelBuilder                                ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 57
 NullAway found 1 number of fixes
-15:12:49.801 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamTypeRecord.java
+15:29:05.890 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamTypeRecord.java
 [32mProcessing StreamTypeRecord                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 59
 NullAway found 1 number of fixes
-15:12:54.505 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/AbstractFieldContractHandler.java
+15:29:10.559 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/AbstractFieldContractHandler.java
 [32mProcessing AbstractFieldContractHandler                      ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:12:58.876 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+15:29:15.030 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:13:03.099 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+15:29:19.839 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 59
 NullAway found 1 number of fixes
-15:13:07.520 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+15:29:24.777 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 59
 NullAway found 1 number of fixes
-15:13:11.845 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/OptionalEmptinessHandler.java
+15:29:28.891 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/OptionalEmptinessHandler.java
 [32mProcessing OptionalEmptinessHandler                          ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:13:16.123 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:29:33.197 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:13:21.736 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:29:37.512 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:13:26.492 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:29:41.817 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 57
 NullAway found 1 number of fixes
-15:13:30.580 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:29:46.116 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:13:35.026 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:29:50.288 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:13:39.801 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:29:54.584 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 57
 NullAway found 1 number of fixes
-15:13:44.048 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:29:58.771 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:13:48.971 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:30:02.862 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:13:53.265 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:30:07.075 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:13:58.695 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:30:11.301 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:14:02.773 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:30:15.405 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
 NullAway found 1 number of fixes
-15:14:07.145 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:30:19.765 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 58
@@ -158,25 +158,25 @@ built.
 Injecting...
 FILE PATH IS: /tmp/NullAwayFix/cleaned.json
 NullAway found 24 number of fixes
-15:14:12.058 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
+15:30:24.580 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
 [32mProcessing DataFlow                                          ?
-[0m15:14:12.343 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+[0m15:30:24.856 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
-[0m15:14:12.467 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/OptionalEmptinessHandler.java
+[0m15:30:24.979 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/OptionalEmptinessHandler.java
 [32mProcessing OptionalEmptinessHandler                          ?
-[0m15:14:12.534 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/AbstractFieldContractHandler.java
+[0m15:30:25.044 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/AbstractFieldContractHandler.java
 [32mProcessing AbstractFieldContractHandler                      ?
-[0m15:14:12.567 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+[0m15:30:25.073 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
-[0m15:14:12.592 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamModelBuilder.java
+[0m15:30:25.096 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamModelBuilder.java
 [32mProcessing StreamModelBuilder                                ?
-[0m15:14:12.773 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/NullAway.java
+[0m15:30:25.266 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/NullAway.java
 [32mProcessing NullAway                                          ?
-[0m15:14:13.002 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/NullnessStore.java
+[0m15:30:25.495 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/NullnessStore.java
 [32mProcessing Builder                                           ?
-[0m15:14:13.038 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/AccessPathElement.java
+[0m15:30:25.941 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/AccessPathElement.java
 [32mProcessing AccessPathElement                                 ?
-[0m15:14:13.069 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/InferredJARModelsHandler.java
+[0m15:30:25.972 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/InferredJARModelsHandler.java
 [32mProcessing InferredJARModelsHandler                          ?
 [0mReceived 24 fixes and applied 24 number of fixes
 Finished
@@ -199,52 +199,52 @@ Build command: cd /tmp/projects/NullAway && ./gradlew build -x test
 FILE PATH IS: /tmp/NullAwayFix/diagnose.json
 Number of errors with this fix applied: 49
 NullAway found 1 number of fixes
-15:14:22.322 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
+15:30:35.252 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
 [32mProcessing CfgParams                                         ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 49
 NullAway found 1 number of fixes
-15:14:27.111 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
+15:30:39.781 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
 [32mProcessing DataFlow                                          ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 49
 NullAway found 1 number of fixes
-15:14:31.312 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
+15:30:44.145 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
 [32mProcessing CfgParams                                         ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 48
 NullAway found 1 number of fixes
-15:14:35.674 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamTypeRecord.java
+15:30:48.264 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamTypeRecord.java
 [32mProcessing StreamTypeRecord                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 50
 NullAway found 1 number of fixes
-15:14:39.962 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+15:30:52.350 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 50
 NullAway found 1 number of fixes
-15:14:44.278 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+15:30:56.783 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 50
 NullAway found 1 number of fixes
-15:14:48.537 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:31:00.905 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 49
 NullAway found 1 number of fixes
-15:14:52.743 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:31:05.264 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 49
 NullAway found 1 number of fixes
-15:14:57.057 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:31:09.510 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 49
 NullAway found 1 number of fixes
-15:15:01.191 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:31:13.759 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 49
@@ -255,9 +255,9 @@ built.
 Injecting...
 FILE PATH IS: /tmp/NullAwayFix/cleaned.json
 NullAway found 7 number of fixes
-15:15:05.976 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
+15:31:18.616 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/AbstractConfig.java
 [32mProcessing AbstractConfig                                    ?
-[0m15:15:06.256 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
+[0m15:31:18.901 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
 [32mProcessing DataFlow                                          ?
 [0mReceived 7 fixes and applied 7 number of fixes
 Finished
@@ -280,47 +280,47 @@ Build command: cd /tmp/projects/NullAway && ./gradlew build -x test
 FILE PATH IS: /tmp/NullAwayFix/diagnose.json
 Number of errors with this fix applied: 48
 NullAway found 1 number of fixes
-15:15:15.202 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
+15:31:27.880 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
 [32mProcessing DataFlow                                          ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 48
 NullAway found 1 number of fixes
-15:15:19.549 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
+15:31:32.159 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
 [32mProcessing AutoValue_DataFlow_CfgParams                      ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 48
 NullAway found 1 number of fixes
-15:15:23.858 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamTypeRecord.java
+15:31:36.294 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamTypeRecord.java
 [32mProcessing StreamTypeRecord                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 49
 NullAway found 1 number of fixes
-15:15:28.633 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+15:31:41.825 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 49
 NullAway found 1 number of fixes
-15:15:33.088 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+15:31:45.885 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 49
 NullAway found 1 number of fixes
-15:15:37.302 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/Config.java
+15:31:50.323 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/Config.java
 [32mProcessing Config                                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 48
 NullAway found 1 number of fixes
-15:15:41.322 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/Config.java
+15:31:54.440 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/Config.java
 [32mProcessing Config                                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 47
 NullAway found 1 number of fixes
-15:15:45.498 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/Config.java
+15:31:58.463 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/Config.java
 [32mProcessing Config                                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 47
 NullAway found 1 number of fixes
-15:15:49.631 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/Config.java
+15:32:02.711 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/Config.java
 [32mProcessing Config                                            ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 47
@@ -331,11 +331,11 @@ built.
 Injecting...
 FILE PATH IS: /tmp/NullAwayFix/cleaned.json
 NullAway found 6 number of fixes
-15:15:54.111 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
+15:32:07.293 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
 [32mProcessing AutoValue_DataFlow_CfgParams                      ?
-[0m15:15:54.249 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/Config.java
+[0m15:32:07.437 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/Config.java
 [32mProcessing Config                                            ?
-[0m15:15:54.382 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
+[0m15:32:07.570 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
 [32mProcessing DataFlow                                          ?
 [0mReceived 6 fixes and applied 6 number of fixes
 Finished
@@ -358,27 +358,27 @@ Build command: cd /tmp/projects/NullAway && ./gradlew build -x test
 FILE PATH IS: /tmp/NullAwayFix/diagnose.json
 Number of errors with this fix applied: 45
 NullAway found 1 number of fixes
-15:16:03.750 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
+15:32:17.360 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
 [32mProcessing DataFlow                                          ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 45
 NullAway found 1 number of fixes
-15:16:08.143 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
+15:32:22.910 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
 [32mProcessing AutoValue_DataFlow_CfgParams                      ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 45
 NullAway found 1 number of fixes
-15:16:12.345 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamTypeRecord.java
+15:32:26.952 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamTypeRecord.java
 [32mProcessing StreamTypeRecord                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 46
 NullAway found 1 number of fixes
-15:16:16.575 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+15:32:31.187 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 46
 NullAway found 1 number of fixes
-15:16:21.458 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+15:32:35.260 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 46
@@ -389,9 +389,9 @@ built.
 Injecting...
 FILE PATH IS: /tmp/NullAwayFix/cleaned.json
 NullAway found 2 number of fixes
-15:16:26.756 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
+15:32:40.008 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
 [32mProcessing DataFlow                                          ?
-[0m15:16:26.982 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
+[0m15:32:40.210 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
 [32mProcessing AutoValue_DataFlow_CfgParams                      ?
 [0mReceived 2 fixes and applied 2 number of fixes
 Finished
@@ -414,27 +414,27 @@ Build command: cd /tmp/projects/NullAway && ./gradlew build -x test
 FILE PATH IS: /tmp/NullAwayFix/diagnose.json
 Number of errors with this fix applied: 45
 NullAway found 1 number of fixes
-15:16:37.242 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
+15:32:49.348 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
 [32mProcessing AnalysisParams                                    ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 45
 NullAway found 1 number of fixes
-15:16:41.771 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
+15:32:53.874 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
 [32mProcessing AutoValue_DataFlow_CfgParams                      ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 45
 NullAway found 1 number of fixes
-15:16:46.069 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamTypeRecord.java
+15:32:57.920 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamTypeRecord.java
 [32mProcessing StreamTypeRecord                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 46
 NullAway found 1 number of fixes
-15:16:50.493 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+15:33:01.972 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 46
 NullAway found 1 number of fixes
-15:16:54.745 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+15:33:06.111 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 46
@@ -445,9 +445,9 @@ built.
 Injecting...
 FILE PATH IS: /tmp/NullAwayFix/cleaned.json
 NullAway found 2 number of fixes
-15:16:59.674 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
+15:33:10.684 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
 [32mProcessing AutoValue_DataFlow_CfgParams                      ?
-[0m15:16:59.893 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
+[0m15:33:10.898 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java
 [32mProcessing AnalysisParams                                    ?
 [0mReceived 2 fixes and applied 2 number of fixes
 Finished
@@ -470,27 +470,27 @@ Build command: cd /tmp/projects/NullAway && ./gradlew build -x test
 FILE PATH IS: /tmp/NullAwayFix/diagnose.json
 Number of errors with this fix applied: 45
 NullAway found 1 number of fixes
-15:17:08.862 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
+15:33:19.962 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
 [32mProcessing AutoValue_DataFlow_CfgParams                      ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 45
 NullAway found 1 number of fixes
-15:17:13.058 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_AnalysisParams.java
+15:33:24.657 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_AnalysisParams.java
 [32mProcessing AutoValue_DataFlow_AnalysisParams                 ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 45
 NullAway found 1 number of fixes
-15:17:17.346 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamTypeRecord.java
+15:33:29.129 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamTypeRecord.java
 [32mProcessing StreamTypeRecord                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 46
 NullAway found 1 number of fixes
-15:17:21.565 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+15:33:33.267 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 46
 NullAway found 1 number of fixes
-15:17:25.577 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+15:33:37.392 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 46
@@ -501,9 +501,9 @@ built.
 Injecting...
 FILE PATH IS: /tmp/NullAwayFix/cleaned.json
 NullAway found 2 number of fixes
-15:17:30.543 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
+15:33:42.427 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
 [32mProcessing AutoValue_DataFlow_CfgParams                      ?
-[0m15:17:30.699 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_AnalysisParams.java
+[0m15:33:42.562 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_AnalysisParams.java
 [32mProcessing AutoValue_DataFlow_AnalysisParams                 ?
 [0mReceived 2 fixes and applied 2 number of fixes
 Finished
@@ -526,27 +526,27 @@ Build command: cd /tmp/projects/NullAway && ./gradlew build -x test
 FILE PATH IS: /tmp/NullAwayFix/diagnose.json
 Number of errors with this fix applied: 45
 NullAway found 1 number of fixes
-15:17:40.677 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
+15:33:51.500 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
 [32mProcessing AutoValue_DataFlow_CfgParams                      ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 45
 NullAway found 1 number of fixes
-15:17:44.923 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_AnalysisParams.java
+15:33:55.687 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_AnalysisParams.java
 [32mProcessing AutoValue_DataFlow_AnalysisParams                 ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 45
 NullAway found 1 number of fixes
-15:17:49.313 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamTypeRecord.java
+15:33:59.835 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/stream/StreamTypeRecord.java
 [32mProcessing StreamTypeRecord                                  ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 46
 NullAway found 1 number of fixes
-15:17:53.610 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+15:34:04.021 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 46
 NullAway found 1 number of fixes
-15:17:58.115 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
+15:34:08.144 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java
 [32mProcessing ContractUtils                                     ?
 [0mReceived 1 fixes and applied 1 number of fixes
 Number of errors with this fix applied: 46
@@ -557,9 +557,9 @@ built.
 Injecting...
 FILE PATH IS: /tmp/NullAwayFix/cleaned.json
 NullAway found 2 number of fixes
-15:18:02.648 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
+15:34:13.235 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_CfgParams.java
 [32mProcessing AutoValue_DataFlow_CfgParams                      ?
-[0m15:18:02.785 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_AnalysisParams.java
+[0m15:34:13.374 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/NullAway/nullaway/build/generated/sources/annotationProcessor/java/main/com/uber/nullaway/dataflow/AutoValue_DataFlow_AnalysisParams.java
 [32mProcessing AutoValue_DataFlow_AnalysisParams                 ?
 [0mReceived 2 fixes and applied 2 number of fixes
 Finished
