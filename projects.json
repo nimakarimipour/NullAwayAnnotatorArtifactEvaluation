@@ -29,7 +29,7 @@
             "git": "https://{}:{}@github.com/nimakarimipour/mockito.git",
             "build": "./gradlew build -x test",
             "format": "",
-            "init_annot": "main.java.org.mockito.Initializer",
+            "init_annot": "org.mockito.Initializer",
             "branch": "gc_1",
             "active": true
         },
