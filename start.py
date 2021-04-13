@@ -24,7 +24,7 @@ def delete_file(path):
         log("Does not exist.")
 
 def exec(command):
-    print("Executing: " + command)
+    log("Executing: " + command)
     os.system(command)
 
 
