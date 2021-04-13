@@ -56,7 +56,7 @@ def prepare_project(project):
             GIT_USERNAME, GIT_KEY) + " --delete " + project['branch'])
 
     print("3")
-    print(os.system(change_dir + "/" + project['path'] + " && git checkout -b " + project['branch']))
+    print(change_dir + "/" + project['path'] + " && git checkout -b " + project['branch'])
     os.system(change_dir + "/" + project['path'] + " && git checkout -b " + project['branch'])
 
     print("4")
