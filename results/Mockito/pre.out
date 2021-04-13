@@ -1,0 +1,90 @@
+Number of received arguments: 2
+Actual Arguments: [apply, /tmp/NullAwayFix/init_methods.json]
+Building Injector...
+built.
+Injecting...
+FILE PATH IS: /tmp/NullAwayFix/init_methods.json
+NullAway found 8 number of fixes
+02:08:44.909 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java
+[32mProcessing InvocationContainerImpl                           ?
+[0m02:08:45.250 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/StubbedInvocationMatcher.java
+[32mProcessing StubbedInvocationMatcher                          ?
+[0m02:08:45.286 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/DoAnswerStyleStubbing.java
+[32mProcessing DoAnswerStyleStubbing                             ?
+[0m02:08:45.312 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/configuration/injection/MockInjectionStrategy.java
+[32mProcessing MockInjectionStrategy                             ?
+[0m02:08:45.350 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/junit/JUnitSessionStore.java
+[32mProcessing JUnitSessionStore                                 ?
+[0m02:08:45.416 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/util/reflection/InstanceField.java
+[32mProcessing InstanceField                                     ?
+[0m02:08:45.484 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java
+[32mProcessing CreationSettings                                  ?
+[0m02:08:45.543 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/mockito/src/main/java/org/mockito/internal/stubbing/OngoingStubbingImpl.java
+[32mProcessing OngoingStubbingImpl                               ?
+[0mReceived 8 fixes and applied 8 number of fixes
+Finished
+Started preprocessing task...
+Removing old files...
+Removed.
+Building project...
+cd /tmp/projects/mockito && ./gradlew build -x test
+Built.
+Analyzing suggested fixes...
+Deecting uninitialized class fields...
+found 36fields.
+Analyzing method infos...
+Selecting appropriate method for each class field...
+Analyzing class field: invocation
+Analyzing class field: invocationForStubbing
+Selected method: setInvocationForPotentialStubbing(org.mockito.invocation.MatchableInvocation)
+Analyzing class field: usedAt
+Selected method: markStubUsed(org.mockito.invocation.DescribedInvocation)
+Analyzing class field: stubbingStrictness
+Selected method: setAnswers(java.util.List<org.mockito.stubbing.Answer<?>>,org.mockito.quality.Strictness)
+Analyzing class field: ongoingStubbing
+Analyzing class field: verificationMode
+Analyzing class field: nextStrategy
+Selected method: thenTry(org.mockito.internal.configuration.injection.MockInjectionStrategy)
+Analyzing class field: session
+Selected method: setStrictness(org.mockito.quality.Strictness)
+Analyzing class field: emptyOptional
+Analyzing class field: emptyOptionalDouble
+Analyzing class field: emptyOptionalInt
+Analyzing class field: emptyOptionalLong
+Analyzing class field: emptyDuration
+Analyzing class field: emptyPeriod
+Analyzing class field: nextEntry
+Analyzing class field: nextKey
+Analyzing class field: fieldReader
+Selected method: reader()
+Analyzing class field: rawType
+Analyzing class field: extraInterfaces
+Analyzing class field: JAVA_LANG_ACCESS
+Analyzing class field: GET_STACK_TRACE_ELEMENT
+Analyzing class field: stubInfo
+Analyzing class field: typeToMock
+Selected method: CreationSettings(org.mockito.internal.creation.settings.CreationSettings)
+Analyzing class field: name
+Already chosen.
+Analyzing class field: spiedInstance
+Already chosen.
+Analyzing class field: defaultAnswer
+Already chosen.
+Analyzing class field: mockName
+Already chosen.
+Analyzing class field: outerClassInstance
+Already chosen.
+Analyzing class field: constructorArgs
+Already chosen.
+Analyzing class field: outerClassInstance
+Analyzing class field: constructorArgs
+Analyzing class field: lastException
+Analyzing class field: name
+Analyzing class field: strictness
+Analyzing class field: logger
+Analyzing class field: strictness
+Selected method: setStrictness(org.mockito.quality.Strictness)
+Finished detecting methods.
+Passing to injector to annotate...
+Annotated.
+Finished.
