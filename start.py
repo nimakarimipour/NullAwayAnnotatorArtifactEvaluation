@@ -61,12 +61,12 @@ def prepare_project(project):
 
 def commit():
     log("trying to make a commit")
-    # exec("git pull")
-    # exec("git add .")
-    # exec("git commit -m \"changes comming from google cloud\"")
-    # exec("git push " +
-    #           "https://{}:{}@github.com/nimakarimipour/Docker_AE_NA.git".
-    #           format(GIT_USERNAME, GIT_KEY))
+    exec("git pull")
+    exec("git add .")
+    exec("git commit -m \"changes comming from google cloud\"")
+    exec("git push " +
+              "https://{}:{}@github.com/nimakarimipour/Docker_AE_NA.git".
+              format(GIT_USERNAME, GIT_KEY))
 
 
 def autofix(project):
