@@ -42,7 +42,7 @@
             "format": "",
             "init_annot": "com.netflix.conductor.Initializer",
             "branch": "gc_1",
-            "active": false
+            "active": true
         },
         {
             "name": "LitiEngine",
@@ -64,7 +64,7 @@
             "format": "",
             "init_annot": "com.uber.nullaway.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "EventBus",
@@ -97,7 +97,7 @@
             "format": "",
             "init_annot": "jadx.Initializer",
             "branch": "gc_1",
-            "active": false
+            "active": true
         },
         {
             "name": "Zuul",
@@ -108,7 +108,7 @@
             "format": "",
             "init_annot": "com.netflix.Initializer",
             "branch": "gc_1",
-            "active": false
+            "active": true
         },
         {
             "name": "LottieAndroid",
@@ -130,7 +130,7 @@
             "format": "",
             "init_annot": "retrofit2.Initializer",
             "branch": "gc_1",
-            "active": false
+            "active": true
         },
         { 
             "name": "SpringBoot",
