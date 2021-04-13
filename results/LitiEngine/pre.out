@@ -1,0 +1,628 @@
+Started preprocessing task...
+Removing old files...
+Removed.
+Building project...
+cd /tmp/projects/litiengine && ./gradlew build -x test
+Built.
+Analyzing suggested fixes...
+Deecting uninitialized class fields...
+found 322fields.
+Analyzing method infos...
+Selecting appropriate method for each class field...
+Analyzing class field: currentFrame
+Selected method: restart()
+Analyzing class field: firstFrame
+Analyzing class field: randomDeathSprite
+Analyzing class field: randomDeathSprite
+Analyzing class field: spritePrefix
+Selected method: EntityAnimationController(T,de.gurkenlabs.litiengine.graphics.animation.Animation,de.gurkenlabs.litiengine.graphics.animation.Animation...)
+Analyzing class field: affineTransform
+Analyzing class field: currentAnimation
+Analyzing class field: defaultAnimation
+Analyzing class field: velocity
+Analyzing class field: spritesheetName
+Selected method: setSpritesheetName(java.lang.String)
+Analyzing class field: target
+Analyzing class field: collisionBox
+Selected method: refreshCollisionBox()
+Analyzing class field: environment
+Analyzing class field: boundingBox
+Analyzing class field: name
+Selected method: Entity(java.lang.String)
+Analyzing class field: identifier
+Selected method: setIdentifier(java.lang.String)
+Analyzing class field: currentExecution
+Selected method: setCurrentExecution(de.gurkenlabs.litiengine.abilities.AbilityExecution)
+Analyzing class field: relativeEntity
+Selected method: RelativeEntityComparator(de.gurkenlabs.litiengine.entities.IEntity)
+Analyzing class field: animationController
+Selected method: getAnimationController()
+Analyzing class field: ambientLight
+Selected method: updateLighting(java.awt.geom.Rectangle2D)
+Analyzing class field: staticShadowLayer
+Already chosen.
+Analyzing class field: map
+Selected method: Environment(de.gurkenlabs.litiengine.environment.tilemap.IMap)
+Analyzing class field: description
+Selected method: setDescription(java.lang.String)
+Analyzing class field: area
+Analyzing class field: area
+Analyzing class field: area
+Analyzing class field: shadowType
+Selected method: StaticShadow(de.gurkenlabs.litiengine.graphics.StaticShadowType,int)
+Analyzing class field: area
+Analyzing class field: shadowType
+Already chosen.
+Analyzing class field: lightShape
+Selected method: updateShape()
+Analyzing class field: sound
+Selected method: getSoundName()
+Analyzing class field: playback
+Selected method: play()
+Analyzing class field: sound
+Already chosen.
+Analyzing class field: playback
+Already chosen.
+Analyzing class field: sound
+Already chosen.
+Analyzing class field: playback
+Already chosen.
+Analyzing class field: sound
+Already chosen.
+Analyzing class field: playback
+Already chosen.
+Analyzing class field: direction
+Selected method: setDirection(de.gurkenlabs.litiengine.Direction)
+Analyzing class field: spawnInfo
+Selected method: setSpawnInfo(java.lang.String)
+Analyzing class field: spawnPivotType
+Selected method: setSpawnPivotType(de.gurkenlabs.litiengine.entities.EntityPivotType)
+Analyzing class field: direction
+Already chosen.
+Analyzing class field: spawnInfo
+Already chosen.
+Analyzing class field: spawnPivotType
+Already chosen.
+Analyzing class field: direction
+Already chosen.
+Analyzing class field: spawnInfo
+Already chosen.
+Analyzing class field: spawnPivotType
+Already chosen.
+Analyzing class field: gid
+Analyzing class field: name
+Analyzing class field: type
+Selected method: MapObject(java.lang.String)
+Analyzing class field: x
+Analyzing class field: y
+Analyzing class field: tile
+Analyzing class field: polyline
+Analyzing class field: polygon
+Analyzing class field: point
+Selected method: MapObject(de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject)
+Analyzing class field: ellipse
+Already chosen.
+Analyzing class field: text
+Already chosen.
+Analyzing class field: layer
+Selected method: setLayer(de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer)
+Analyzing class field: gid
+Analyzing class field: name
+Analyzing class field: x
+Analyzing class field: y
+Analyzing class field: tile
+Analyzing class field: polyline
+Analyzing class field: polygon
+Analyzing class field: point
+Already chosen.
+Analyzing class field: ellipse
+Already chosen.
+Analyzing class field: text
+Already chosen.
+Analyzing class field: layer
+Already chosen.
+Analyzing class field: gid
+Analyzing class field: name
+Analyzing class field: type
+Already chosen.
+Analyzing class field: x
+Analyzing class field: y
+Analyzing class field: tile
+Analyzing class field: polyline
+Analyzing class field: polygon
+Analyzing class field: layer
+Already chosen.
+Analyzing class field: fontfamily
+Selected method: getFontName()
+Analyzing class field: pixelsize
+Selected method: getPixelSize()
+Analyzing class field: wrap
+Analyzing class field: color
+Analyzing class field: bold
+Analyzing class field: italic
+Analyzing class field: underline
+Analyzing class field: strikeout
+Analyzing class field: kerning
+Analyzing class field: halign
+Analyzing class field: valign
+Analyzing class field: text
+Analyzing class field: color
+Analyzing class field: decodedColor
+Analyzing class field: color
+Analyzing class field: decodedColor
+Analyzing class field: name
+Analyzing class field: width
+Analyzing class field: height
+Analyzing class field: opacity
+Analyzing class field: visible
+Analyzing class field: offsetx
+Selected method: Layer(de.gurkenlabs.litiengine.environment.tilemap.xml.Layer)
+Analyzing class field: offsety
+Already chosen.
+Analyzing class field: parentMap
+Selected method: setMap(de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap)
+Analyzing class field: renderType
+Analyzing class field: name
+Analyzing class field: width
+Analyzing class field: height
+Analyzing class field: opacity
+Analyzing class field: visible
+Analyzing class field: parentMap
+Already chosen.
+Analyzing class field: renderType
+Analyzing class field: tiledversion
+Selected method: setTiledVersion(java.lang.String)
+Analyzing class field: orientation
+Selected method: afterUnmarshal(javax.xml.bind.Unmarshaller,java.lang.Object)
+Analyzing class field: mapOrientation
+Already chosen.
+Analyzing class field: renderorder
+Selected method: TmxMap(de.gurkenlabs.litiengine.environment.tilemap.IMapOrientation)
+Analyzing class field: hexsidelength
+Selected method: setHexSideLength(int)
+Analyzing class field: staggeraxis
+Selected method: setStaggerAxis(de.gurkenlabs.litiengine.environment.tilemap.StaggerAxis)
+Analyzing class field: staggerindex
+Selected method: setStaggerIndex(de.gurkenlabs.litiengine.environment.tilemap.StaggerIndex)
+Analyzing class field: backgroundcolor
+Analyzing class field: nextLayerId
+Analyzing class field: nextObjectId
+Analyzing class field: name
+Analyzing class field: tilesets
+Already chosen.
+Analyzing class field: layers
+Already chosen.
+Analyzing class field: path
+Selected method: setPath(java.net.URL)
+Analyzing class field: orientation
+Already chosen.
+Analyzing class field: hexsidelength
+Already chosen.
+Analyzing class field: staggeraxis
+Already chosen.
+Analyzing class field: staggerindex
+Already chosen.
+Analyzing class field: backgroundcolor
+Analyzing class field: nextLayerId
+Analyzing class field: nextObjectId
+Analyzing class field: name
+Analyzing class field: tilesets
+Already chosen.
+Analyzing class field: layers
+Already chosen.
+Analyzing class field: path
+Already chosen.
+Analyzing class field: image
+Analyzing class field: margin
+Analyzing class field: name
+Analyzing class field: tilewidth
+Analyzing class field: tileheight
+Analyzing class field: tileoffset
+Analyzing class field: tilecount
+Analyzing class field: columns
+Analyzing class field: spacing
+Analyzing class field: source
+Selected method: Tileset(de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset)
+Analyzing class field: allTiles
+Analyzing class field: sourceTileset
+Already chosen.
+Analyzing class field: spriteSheet
+Analyzing class field: image
+Analyzing class field: margin
+Analyzing class field: name
+Analyzing class field: tilewidth
+Analyzing class field: tileheight
+Analyzing class field: tileoffset
+Analyzing class field: tilecount
+Analyzing class field: columns
+Analyzing class field: spacing
+Analyzing class field: allTiles
+Analyzing class field: spriteSheet
+Analyzing class field: source
+Analyzing class field: transparentcolor
+Analyzing class field: absolutePath
+Analyzing class field: source
+Analyzing class field: transparentcolor
+Analyzing class field: absolutePath
+Analyzing class field: name
+Analyzing class field: tileset
+Selected method: TilesetEntry(de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset,int)
+Analyzing class field: terrains
+Selected method: setTerrains(de.gurkenlabs.litiengine.environment.tilemap.ITerrain[])
+Analyzing class field: id
+Already chosen.
+Analyzing class field: terrain
+Selected method: getTerrainIds()
+Analyzing class field: animation
+Analyzing class field: image
+Analyzing class field: type
+Analyzing class field: collisionData
+Analyzing class field: terrains
+Already chosen.
+Analyzing class field: terrain
+Already chosen.
+Analyzing class field: animation
+Analyzing class field: image
+Analyzing class field: type
+Analyzing class field: collisionData
+Analyzing class field: frames
+Analyzing class field: format
+Analyzing class field: stream
+Analyzing class field: streamData
+Selected method: getStreamData()
+Analyzing class field: panControl
+Analyzing class field: color
+Analyzing class field: colors
+Selected method: setColor(java.awt.Color)
+Analyzing class field: name
+Selected method: initDefaults()
+Analyzing class field: texts
+Selected method: setText(java.lang.String)
+Analyzing class field: spritesheet
+Already chosen.
+Analyzing class field: animation
+Selected method: setLoopSprite(boolean)
+Analyzing class field: currentImage
+Analyzing class field: font
+Selected method: setFont(java.awt.Font)
+Analyzing class field: currentBufferStrategy
+Selected method: render()
+Analyzing class field: targetFocus
+Analyzing class field: image
+Selected method: set(java.awt.Image,int,int)
+Analyzing class field: transform
+Selected method: setTransform(java.awt.geom.AffineTransform)
+Analyzing class field: font
+Selected method: setFont(java.awt.Font)
+Analyzing class field: hoverSound
+Selected method: setHoverSound(de.gurkenlabs.litiengine.sound.Sound)
+Analyzing class field: name
+Selected method: setName(java.lang.String)
+Analyzing class field: tag
+Selected method: setTag(java.lang.Object)
+Analyzing class field: text
+Selected method: setText(java.lang.String)
+Analyzing class field: textShadowColor
+Selected method: setTextShadowColor(java.awt.Color)
+Analyzing class field: scaledImage
+Selected method: getImage()
+Analyzing class field: spritesheet
+Selected method: ImageComponent(double,double,double,double,de.gurkenlabs.litiengine.graphics.Spritesheet,java.lang.String,java.awt.Image)
+Analyzing class field: scaledImage
+Already chosen.
+Analyzing class field: spritesheet
+Already chosen.
+Analyzing class field: baseImage
+Selected method: ImageComponent(double,double,java.awt.Image)
+Analyzing class field: scaledImage
+Already chosen.
+Analyzing class field: spritesheet
+Already chosen.
+Analyzing class field: baseImage
+Already chosen.
+Analyzing class field: scaledImage
+Already chosen.
+Analyzing class field: spritesheet
+Already chosen.
+Analyzing class field: baseImage
+Already chosen.
+Analyzing class field: foreColor
+Selected method: Appearance(java.awt.Color,java.awt.Color)
+Analyzing class field: backgroundColor1
+Already chosen.
+Analyzing class field: backgroundColor2
+Selected method: setBackgroundColor2(java.awt.Color)
+Analyzing class field: borderColor
+Selected method: setBorderColor(java.awt.Color)
+Analyzing class field: borderStyle
+Selected method: setBorderStyle(java.awt.Stroke)
+Analyzing class field: currentScreen
+Analyzing class field: defaultFont
+Analyzing class field: format
+Selected method: setFormat(java.lang.String)
+Analyzing class field: fullText
+Analyzing class field: button1
+Selected method: setButton1(de.gurkenlabs.litiengine.gui.ImageComponent)
+Analyzing class field: button2
+Selected method: setButton2(de.gurkenlabs.litiengine.gui.ImageComponent)
+Analyzing class field: sliderComponent
+Selected method: setSliderComponent(de.gurkenlabs.litiengine.gui.ImageComponent)
+Analyzing class field: buttonSprite
+Selected method: setButtonSpritesheet(de.gurkenlabs.litiengine.graphics.Spritesheet)
+Analyzing class field: sliderSprite
+Selected method: setSliderSpritesheet(de.gurkenlabs.litiengine.graphics.Spritesheet)
+Analyzing class field: currentValue
+Selected method: setCurrentValue(java.math.BigDecimal)
+Analyzing class field: buttonSprite
+Selected method: setButtonSprite(de.gurkenlabs.litiengine.graphics.Spritesheet)
+Analyzing class field: entrySprite
+Selected method: setEntrySprite(de.gurkenlabs.litiengine.graphics.Spritesheet)
+Analyzing class field: selectedComponent
+Selected method: refresh()
+Analyzing class field: verticalSlider
+Analyzing class field: horizontalSlider
+Analyzing class field: contentList
+Analyzing class field: dropDownButton
+Analyzing class field: chosenElementComponent
+Selected method: toggleDropDown()
+Analyzing class field: entrySprite
+Selected method: setEntrySprite(de.gurkenlabs.litiengine.graphics.Spritesheet)
+Analyzing class field: buttonSprite
+Selected method: setButtonSprite(de.gurkenlabs.litiengine.graphics.Spritesheet)
+Analyzing class field: borderColor
+Selected method: SpeechBubbleAppearance(java.awt.Color,java.awt.Color,java.awt.Color)
+Analyzing class field: borderColor
+Already chosen.
+Analyzing class field: borderColor
+Already chosen.
+Analyzing class field: font
+Selected method: setFont(java.awt.Font)
+Analyzing class field: typeSound
+Selected method: SpeechBubble(de.gurkenlabs.litiengine.entities.IEntity,java.lang.String,de.gurkenlabs.litiengine.sound.Sound,de.gurkenlabs.litiengine.gui.SpeechBubbleAppearance,java.awt.Font)
+Analyzing class field: entityCenter
+Analyzing class field: country
+Analyzing class field: language
+Analyzing class field: state
+Selected method: Transition(int,de.gurkenlabs.litiengine.entities.behavior.State)
+Analyzing class field: predecessor
+Selected method: setPredecessor(de.gurkenlabs.litiengine.entities.behavior.AStarNode)
+Analyzing class field: path
+Selected method: isNavigating()
+Analyzing class field: currentState
+Selected method: setState(de.gurkenlabs.litiengine.entities.behavior.State)
+Analyzing class field: value
+Analyzing class field: encoding
+Selected method: TileData(java.util.List<de.gurkenlabs.litiengine.environment.tilemap.xml.Tile>,int,int,java.lang.String,java.lang.String)
+Analyzing class field: compression
+Already chosen.
+Analyzing class field: rawValue
+Selected method: setValue(java.lang.String)
+Analyzing class field: value
+Already chosen.
+Analyzing class field: chunks
+Selected method: updateDimensionsByTileData()
+Analyzing class field: tiles
+Already chosen.
+Analyzing class field: rawValue
+Already chosen.
+Analyzing class field: value
+Already chosen.
+Analyzing class field: chunks
+Already chosen.
+Analyzing class field: gid
+Selected method: Tile(de.gurkenlabs.litiengine.environment.tilemap.xml.Tile)
+Analyzing class field: tileCoordinate
+Already chosen.
+Analyzing class field: tilesetEntry
+Already chosen.
+Analyzing class field: tileCoordinate
+Already chosen.
+Analyzing class field: tilesetEntry
+Already chosen.
+Analyzing class field: location
+Selected method: CustomProperty(java.net.URL)
+Analyzing class field: location
+Already chosen.
+Analyzing class field: location
+Already chosen.
+Analyzing class field: name
+Selected method: Property(java.lang.String,java.lang.String)
+Analyzing class field: type
+Already chosen.
+Analyzing class field: value
+Analyzing class field: contents
+Analyzing class field: location
+Selected method: beforeMarshal(javax.xml.bind.Marshaller)
+Analyzing class field: value
+Analyzing class field: contents
+Analyzing class field: location
+Already chosen.
+Analyzing class field: properties
+Selected method: PropertyList(java.util.List<de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property>)
+Analyzing class field: layers
+Analyzing class field: image
+Analyzing class field: trans
+Analyzing class field: tileList
+Analyzing class field: tiles
+Analyzing class field: tileList
+Analyzing class field: tiles
+Analyzing class field: spawnpoints
+Selected method: EntitySpawner(java.util.List<de.gurkenlabs.litiengine.entities.Spawnpoint>,int,int,de.gurkenlabs.litiengine.environment.IEntitySpawner.SpawnMode)
+Analyzing class field: customSpawnpoints
+Selected method: EntitySpawner(int,java.util.function.Function<de.gurkenlabs.litiengine.environment.IEntitySpawner<T>,java.util.List<de.gurkenlabs.litiengine.entities.Spawnpoint>>)Number of received arguments: 2
+Actual Arguments: [apply, /tmp/NullAwayFix/init_methods.json]
+Building Injector...
+built.
+Injecting...
+FILE PATH IS: /tmp/NullAwayFix/init_methods.json
+NullAway found 104 number of fixes
+08:28:44.264 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/Animation.java
+[32mProcessing Animation                                         ?
+[0m08:28:44.939 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/EntityAnimationController.java
+[32mProcessing EntityAnimationController                         ?
+[0m08:28:45.124 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/entities/Creature.java
+[32mProcessing Creature                                          ?
+[0m08:28:45.233 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/entities/CollisionEntity.java
+[32mProcessing CollisionEntity                                   ?
+[0m08:28:45.513 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/entities/Entity.java
+[32mProcessing Entity                                            ?
+[0m08:28:46.052 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/physics/Force.java
+[32mProcessing Force                                             ?
+[0m08:28:46.106 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/abilities/Ability.java
+[32mProcessing Ability                                           ?
+[0m08:28:46.176 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/entities/RelativeEntityComparator.java
+[32mProcessing RelativeEntityComparator                          ?
+[0m08:28:46.197 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/entities/EntityControllers.java
+[32mProcessing EntityControllers                                 ?
+[0m08:28:46.500 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java
+[32mProcessing Environment                                       ?
+[0m08:28:47.385 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/entities/EntityAction.java
+[32mProcessing EntityAction                                      ?
+[0m08:28:47.424 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java
+[32mProcessing StaticShadow                                      ?
+[0m08:28:47.517 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/entities/LightSource.java
+[32mProcessing LightSource                                       ?
+[0m08:28:47.740 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/entities/SoundSource.java
+[32mProcessing SoundSource                                       ?
+[0m08:28:47.810 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/entities/Spawnpoint.java
+[32mProcessing Spawnpoint                                        ?
+[0m08:28:47.962 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObject.java
+[32mProcessing MapObject                                         ?
+[0m08:28:48.328 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Text.java
+[32mProcessing Text                                              ?
+[0m08:28:48.679 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Layer.java
+[32mProcessing Layer                                             ?
+[0m08:28:48.831 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TmxMap.java
+[32mProcessing TmxMap                                            ?
+[0m08:28:49.358 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java
+[32mProcessing Tileset                                           ?
+[0m08:28:49.946 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TilesetEntry.java
+[32mProcessing TilesetEntry                                      ?
+[0m08:28:50.105 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/sound/Sound.java
+[32mProcessing Sound                                             ?
+[0m08:28:50.159 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/graphics/emitters/xml/EmitterData.java
+[32mProcessing EmitterData                                       ?
+[0m08:28:50.332 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/graphics/emitters/particles/SpriteParticle.java
+[32mProcessing SpriteParticle                                    ?
+[0m08:28:50.349 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/graphics/emitters/particles/TextParticle.java
+[32mProcessing TextParticle                                      ?
+[0m08:28:50.409 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/graphics/RenderComponent.java
+[32mProcessing RenderComponent                                   ?
+[0m08:28:50.808 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/graphics/MouseCursor.java
+[32mProcessing MouseCursor                                       ?
+[0m08:28:50.929 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/gui/GuiComponent.java
+[32mProcessing GuiComponent                                      ?
+[0m08:28:52.210 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/gui/ImageComponent.java
+[32mProcessing ImageComponent                                    ?
+[0m08:28:52.557 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/gui/Appearance.java
+[32mProcessing Appearance                                        ?
+[0m08:28:52.644 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/gui/TextFieldComponent.java
+[32mProcessing TextFieldComponent                                ?
+[0m08:28:53.217 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/gui/Slider.java
+[32mProcessing Slider                                            ?
+[0m08:28:53.991 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/gui/NumberAdjuster.java
+[32mProcessing NumberAdjuster                                    ?
+[0m08:28:54.521 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/gui/ListField.java
+[32mProcessing ListField                                         ?
+[0m08:28:56.780 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/gui/DropdownListField.java
+[32mProcessing DropdownListField                                 ?
+[0m08:28:58.481 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/gui/SpeechBubbleAppearance.java
+[32mProcessing SpeechBubbleAppearance                            ?
+[0m08:28:58.522 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/gui/SpeechBubble.java
+[32mProcessing SpeechBubble                                      ?
+[0m08:28:59.052 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/Transition.java
+[32mProcessing Transition                                        ?
+[0m08:28:59.061 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/AStarNode.java
+[32mProcessing AStarNode                                         ?
+[0m08:28:59.079 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/EntityNavigator.java
+[32mProcessing EntityNavigator                                   ?
+[0m08:28:59.104 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/StateMachine.java
+[32mProcessing StateMachine                                      ?
+[0m08:28:59.146 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileData.java
+[32mProcessing TileData                                          ?
+[0m08:28:59.406 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tile.java
+[32mProcessing Tile                                              ?
+[0m08:28:59.484 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomProperty.java
+[32mProcessing CustomProperty                                    ?
+[0m08:28:59.565 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomPropertyAdapter.java
+[32mProcessing Property                                          ?
+[0m08:28:59.639 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/environment/EntitySpawner.java
+[32mProcessing EntitySpawner                                     ?
+[0m08:28:59.720 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/environment/GameWorld.java
+[32mProcessing GameWorld                                         ?
+[0m08:29:00.089 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/GameWindow.java
+[32mProcessing GameWindow                                        ?
+[0m08:29:03.088 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/resources/SpritesheetResource.java
+[32mProcessing SpritesheetResource                               ?
+[0m08:29:03.111 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/resources/SoundResource.java
+[32mProcessing SoundResource                                     ?
+[0m08:29:03.130 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/resources/TextureAtlas.java
+[32mProcessing TextureAtlas                                      ?
+[0m08:29:03.230 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java
+[32mProcessing PhysicsEngine                                     ?
+[0m08:29:03.304 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/tweening/Tween.java
+[32mProcessing Tween                                             ?
+[0m08:29:03.338 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundEngine.java
+[32mProcessing SoundEngine                                       ?
+[0mReceived 104 fixes and applied 104 number of fixes
+Finished
+
+Analyzing class field: spawnpoints
+Already chosen.
+Analyzing class field: customSpawnpoints
+Already chosen.
+Analyzing class field: customSpawnpoints
+Already chosen.
+Analyzing class field: environment
+Selected method: loadEnvironment(de.gurkenlabs.litiengine.environment.Environment)
+Analyzing class field: camera
+Selected method: setCamera(de.gurkenlabs.litiengine.graphics.ICamera)
+Analyzing class field: publisher
+Analyzing class field: graphicsConfig
+Analyzing class field: resolution
+Selected method: init()
+Analyzing class field: screenLocation
+Selected method: getLocationOnScreen()
+Analyzing class field: imageformat
+Selected method: setImageFormat(de.gurkenlabs.litiengine.resources.ImageFormat)
+Analyzing class field: image
+Selected method: setImage(java.lang.String)
+Analyzing class field: keyframes
+Selected method: getKeyframes()
+Analyzing class field: imageformat
+Already chosen.
+Analyzing class field: image
+Already chosen.
+Analyzing class field: keyframes
+Already chosen.
+Analyzing class field: name
+Analyzing class field: data
+Selected method: SoundResource(de.gurkenlabs.litiengine.sound.Sound,de.gurkenlabs.litiengine.resources.SoundFormat)
+Analyzing class field: rawImagePath
+Selected method: setImagePath(java.lang.String)
+Analyzing class field: sprites
+Selected method: getSprites()
+Analyzing class field: absoluteImagePath
+Analyzing class field: name
+Selected method: setName(java.lang.String)
+Analyzing class field: rotated
+Selected method: isRotated()
+Analyzing class field: environmentBounds
+Selected method: setBounds(java.awt.geom.Rectangle2D)
+Analyzing class field: equation
+Selected method: ease(de.gurkenlabs.litiengine.tweening.TweenEquation)
+Analyzing class field: gamePadManager
+Analyzing class field: keyboard
+Analyzing class field: mouse
+Analyzing class field: gameLoop
+Analyzing class field: screenManager
+Analyzing class field: gameWindow
+Analyzing class field: listenerLocation
+Selected method: getListenerLocation()
+Analyzing class field: music
+Analyzing class field: appliedForce
+Analyzing class field: updateLocation
+Finished detecting methods.
+Passing to injector to annotate...
+Annotated.
+Finished.
