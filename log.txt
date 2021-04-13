@@ -320,3 +320,131 @@ requesting commit
 trying to make a commit
 Executing: git pull
 Executing: git add .
+Executing: git commit -m "changes comming from google cloud"
+Executing: git push https://nimakarimipour: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@github.com/nimakarimipour/Docker_AE_NA.git
+finsihed commit
+making directories.
+in prepare: directory already exists: /tmp/projects/
+in prepare: directory already exists: /tmp/NullAwayFix/
+in prepare: directory already exists: ./results
+Preparing project NullAway
+Project does not exist, cloning now...
+Executing: cd /tmp/projects/ && git clone https://nimakarimipour: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@github.com/nimakarimipour/NullAway.git
+Executing: cd /tmp/projects//NullAway && git reset --hard && git checkout docker && git pull
+Executing: cd /tmp/projects//NullAway && git branch -d gc_1
+Executing: cd /tmp/projects//NullAway && git push https://nimakarimipour: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@github.com/nimakarimipour/NullAway.git --delete gc_1
+Executing: cd /tmp/projects//NullAway && git checkout -b gc_1
+Executing: cd /tmp/projects//NullAway && git push --set-upstream https://nimakarimipour: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@github.com/nimakarimipour/NullAway.git gc_1
+Executing: cd /tmp/Diagnoser/ && python3 run.py reset
+Preparing finished
+Autofixing project: NullAway
+Preparing config.json...
+Prepared: {'PROJECT_PATH': '/tmp/projects/NullAway', 'BUILD_COMMAND': './gradlew build -x test', 'INITIALIZE_ANNOT': 'com.uber.nullaway.Initializer', 'FORMAT': ''}
+Finished writing.
+Cleaning: /tmp/Docker_AE_NA/pre.out
+Does not exist.
+Cleaning: /tmp/Docker_AE_NA/loop.out
+Does not exist.
+Running autofix (pre)...
+Executing: cd /tmp/Diagnoser/ && python3 run.py pre
+Running autofix (pre) finished
+Running autofix (loop)...
+Executing: cd /tmp/Diagnoser/ && python3 run.py loop
+making directories.
+in prepare: directory already exists: /tmp/projects/
+in prepare: directory already exists: /tmp/NullAwayFix/
+in prepare: directory already exists: ./results
+Preparing project NullAway
+Project does not exist, cloning now...
+Executing: cd /tmp/projects/ && git clone https://nimakarimipour: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@github.com/nimakarimipour/NullAway.git
+Executing: cd /tmp/projects//NullAway && git reset --hard && git checkout docker && git pull
+Executing: cd /tmp/projects//NullAway && git branch -d gc_1
+Executing: cd /tmp/projects//NullAway && git push https://nimakarimipour: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@github.com/nimakarimipour/NullAway.git --delete gc_1
+Executing: cd /tmp/projects//NullAway && git checkout -b gc_1
+Executing: cd /tmp/projects//NullAway && git push --set-upstream https://nimakarimipour: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@github.com/nimakarimipour/NullAway.git gc_1
+Executing: cd /tmp/Diagnoser/ && python3 run.py reset
+Preparing finished
+Autofixing project: NullAway
+Preparing config.json...
+Prepared: {'PROJECT_PATH': '/tmp/projects/NullAway', 'BUILD_COMMAND': './gradlew build -x test', 'INITIALIZE_ANNOT': 'com.uber.nullaway.Initializer', 'FORMAT': ''}
+Finished writing.
+Cleaning: /tmp/Docker_AE_NA/pre.out
+Does not exist.
+Cleaning: /tmp/Docker_AE_NA/loop.out
+Does not exist.
+Running autofix (pre)...
+Executing: cd /tmp/Diagnoser/ && python3 run.py pre
+Running autofix (pre) finished
+Running autofix (loop)...
+Executing: cd /tmp/Diagnoser/ && python3 run.py loop
+making directories.
+in prepare: directory already exists: /tmp/projects/
+in prepare: directory already exists: /tmp/NullAwayFix/
+in prepare: directory already exists: ./results
+Preparing project NullAway
+Project does not exist, cloning now...
+Executing: cd /tmp/projects/ && git clone https://nimakarimipour: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@github.com/nimakarimipour/NullAway.git
+Executing: cd /tmp/projects/NullAway && git reset --hard && git checkout docker && git pull
+Executing: cd /tmp/projects/NullAway && git branch -d gc_1
+Executing: cd /tmp/projects/NullAway && git push https://nimakarimipour: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@github.com/nimakarimipour/NullAway.git --delete gc_1
+Executing: cd /tmp/projects/NullAway && git checkout -b gc_1
+Executing: cd /tmp/projects/NullAway && git push --set-upstream https://nimakarimipour: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@github.com/nimakarimipour/NullAway.git gc_1
+Executing: cd /tmp/Diagnoser/ && python3 run.py reset
+Preparing finished
+Autofixing project: NullAway
+Preparing config.json...
+Prepared: {'PROJECT_PATH': '/tmp/projects/NullAway', 'BUILD_COMMAND': './gradlew build -x test', 'INITIALIZE_ANNOT': 'com.uber.nullaway.Initializer', 'FORMAT': ''}
+Finished writing.
+Cleaning: /tmp/Docker_AE_NA/pre.out
+Does not exist.
+Cleaning: /tmp/Docker_AE_NA/loop.out
+Does not exist.
+Running autofix (pre)...
+Executing: cd /tmp/Diagnoser/ && python3 run.py pre
+Running autofix (pre) finished
+Running autofix (loop)...
+Executing: cd /tmp/Diagnoser/ && python3 run.py loop
+making directories.
+in prepare: directory already exists: /tmp/projects/
+in prepare: directory already exists: /tmp/NullAwayFix/
+in prepare: directory already exists: ./results
+Preparing project NullAway
+Project does not exist, cloning now...
+Executing: cd /tmp/projects/ && git clone https://nimakarimipour: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@github.com/nimakarimipour/NullAway.git
+Executing: cd /tmp/projects/NullAway && git reset --hard && git checkout docker && git pull
+Executing: cd /tmp/projects/NullAway && git branch -d gc_1
+Executing: cd /tmp/projects/NullAway && git push https://nimakarimipour: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@github.com/nimakarimipour/NullAway.git --delete gc_1
+Executing: cd /tmp/projects/NullAway && git checkout -b gc_1
+Executing: cd /tmp/projects/NullAway && git push --set-upstream https://nimakarimipour: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@github.com/nimakarimipour/NullAway.git gc_1
+Executing: cd /tmp/Diagnoser/ && python3 run.py reset
+Preparing finished
+Autofixing project: NullAway
+Preparing config.json...
+Prepared: {'PROJECT_PATH': '/tmp/projects/NullAway', 'BUILD_COMMAND': './gradlew build -x test', 'INITIALIZE_ANNOT': 'com.uber.nullaway.Initializer', 'FORMAT': ''}
+Finished writing.
+Cleaning: /tmp/Docker_AE_NA/pre.out
+Does not exist.
+Cleaning: /tmp/Docker_AE_NA/loop.out
+Does not exist.
+Running autofix (pre)...
+Executing: cd /tmp/Diagnoser/ && python3 run.py pre
+Running autofix (pre) finished
+Running autofix (loop)...
+Executing: cd /tmp/Diagnoser/ && python3 run.py loop
+Running autofix (loop) finished
+Executing: cd /tmp/projects/NullAway && git add .
+Executing: cd /tmp/projects/NullAway && git commit --no-verify -m "final result of docker"
+Executing: cd /tmp/projects/NullAway && git push https://nimakarimipour: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@github.com/nimakarimipour/NullAway.git
+Commited changes to project: NullAway
+Copying infos in results directory.
+Executing: cd results/ && rm -rvf NullAway
+Executing: cd results/ && mkdir NullAway
+Executing: cp -r /tmp/NullAwayFix/. results/NullAway
+Executing: mv loop.out results/NullAway/loop.out
+Executing: mv pre.out results/NullAway/pre.out
+Copying finished.
+successfully ran the command for project: NullAway
+requesting commit
+trying to make a commit
+Executing: git pull
+Executing: git add .
