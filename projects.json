@@ -97,7 +97,7 @@
             "format": "",
             "init_annot": "jadx.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "Zuul",
@@ -108,7 +108,7 @@
             "format": "",
             "init_annot": "com.netflix.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "LottieAndroid",
@@ -130,7 +130,7 @@
             "format": "",
             "init_annot": "retrofit2.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         { 
             "name": "SpringBoot",
