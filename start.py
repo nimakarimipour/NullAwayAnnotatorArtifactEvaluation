@@ -46,11 +46,11 @@ def prepare_project(project):
     os.system(change_dir + "/" + project['path'] + 
     " && git reset --hard && git checkout docker && git pull")
     os.system(change_dir + "/" + project['path'] + " && git branch -d " + project['branch'])
-    os.system(change_dir + "/" + project['path'] + " && git push origin --delete " + project['branch'] + " " + project['git'].format(
-            GIT_USERNAME, GIT_KEY))
+    os.system(change_dir + "/" + project['path'] + " && git push " + project['git'].format(
+            GIT_USERNAME, GIT_KEY) + " --delete " + project['branch'])
     os.system(change_dir + "/" + project['path'] + " && git checkout -b " + project['branch'])
-    os.system(change_dir + "/" + project['path'] + " && git push --set-upstream origin " + project['branch'] + " " + project['git'].format(
-            GIT_USERNAME, GIT_KEY))
+    os.system(change_dir + "/" + project['path'] + " && git push --set-upstream " + project['git'].format(
+            GIT_USERNAME, GIT_KEY) + " " + project['branch'])
     os.system("cd /tmp/Diagnoser/ && python3 run.py reset")
     log("Preparing finished")
 
