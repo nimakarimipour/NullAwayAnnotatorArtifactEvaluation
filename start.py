@@ -80,10 +80,10 @@ def autofix(project):
     delete_file("/tmp/Docker_AE_NA/pre.out")
     delete_file("/tmp/Docker_AE_NA/loop.out")
     log("Running autofix (pre)...")
-    os.system("cd /tmp/Diagnoser/ && python3 run.py pre > /tmp/Docker_AE_NA/pre.out")
+    os.system("cd /tmp/Diagnoser/ && python3 run.py pre")
     log("Running autofix (pre) finished")
     log("Running autofix (loop)...")
-    os.system("cd /tmp/Diagnoser/ && python3 run.py loop > /tmp/Docker_AE_NA/loop.out")
+    os.system("cd /tmp/Diagnoser/ && python3 run.py loop")
     log("Running autofix (loop) finished")
     change_path_to_project = "cd " + PROJECTS_DIR + project['path']
     os.system(change_path_to_project + " && git add .")
