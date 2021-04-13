@@ -1,0 +1,80 @@
+Number of received arguments: 2
+Actual Arguments: [apply, /tmp/NullAwayFix/init_methods.json]
+Building Injector...
+built.
+Injecting...
+FILE PATH IS: /tmp/NullAwayFix/init_methods.json
+NullAway found 12 number of fixes
+12:43:57.063 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/EventBus/EventBus/src/org/greenrobot/eventbus/PendingPostQueue.java
+[32mProcessing PendingPostQueue                                  ?
+[0m12:43:57.368 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethod.java
+[32mProcessing SubscriberMethod                                  ?
+[0m12:43:57.628 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBusBuilder.java
+[32mProcessing EventBusBuilder                                   ?
+[0m12:43:57.818 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java
+[32mProcessing FindState                                         ?
+[0m12:43:58.186 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogConfig.java
+[32mProcessing ErrorDialogConfig                                 ?
+[0m12:43:58.243 [main] DEBUG o.o.j.ReloadableJava8ParserVisitor - Building AST for: /tmp/projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/AsyncExecutor.java
+[32mProcessing Builder                                           ?
+[0mReceived 12 fixes and applied 12 number of fixes
+Finished
+Started preprocessing task...
+Removing old files...
+Removed.
+Building project...
+cd /tmp/projects/EventBus && ./gradlew build -x test
+Built.
+Analyzing suggested fixes...
+Deecting uninitialized class fields...
+found 29fields.
+Analyzing method infos...
+Selecting appropriate method for each class field...
+Analyzing class field: head
+Selected method: poll()
+Analyzing class field: tail
+Selected method: enqueue(org.greenrobot.eventbus.PendingPost)
+Analyzing class field: defaultInstance
+Analyzing class field: subscription
+Analyzing class field: event
+Analyzing class field: methodString
+Selected method: checkMethodString()
+Analyzing class field: skipMethodVerificationForClasses
+Selected method: skipMethodVerificationFor(java.lang.Class<?>)
+Analyzing class field: subscriberInfoIndexes
+Selected method: addIndex(org.greenrobot.eventbus.meta.SubscriberInfoIndex)
+Analyzing class field: logger
+Selected method: logger(org.greenrobot.eventbus.Logger)
+Analyzing class field: mainThreadSupport
+Selected method: getMainThreadSupport()
+Analyzing class field: subscriberClass
+Selected method: initForSubscriber(java.lang.Class<?>)
+Analyzing class field: clazz
+Already chosen.
+Analyzing class field: subscriberInfo
+Analyzing class field: next
+Analyzing class field: executionContext
+Analyzing class field: executionContext
+Analyzing class field: factory
+Analyzing class field: argumentsForErrorDialog
+Analyzing class field: executionScope
+Analyzing class field: argumentsForErrorDialog
+Analyzing class field: eventBus
+Analyzing class field: executionScope
+Analyzing class field: eventBus
+Selected method: setEventBus(org.greenrobot.eventbus.EventBus)
+Analyzing class field: tagForLoggingExceptions
+Selected method: setTagForLoggingExceptions(java.lang.String)
+Analyzing class field: defaultEventTypeOnDialogClosed
+Selected method: setDefaultEventTypeOnDialogClosed(java.lang.Class<?>)
+Analyzing class field: threadPool
+Selected method: buildForScope(java.lang.Object)
+Analyzing class field: failureEventType
+Already chosen.
+Analyzing class field: eventBus
+Already chosen.
+Analyzing class field: EVENT_TYPE_ON_CLICK
+Finished detecting methods.
+Passing to injector to annotate...
+Annotated.
+Finished.

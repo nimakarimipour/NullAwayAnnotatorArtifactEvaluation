@@ -65,3 +65,25 @@ Copying finished.
 successfully ran the command for project: NullAway
 requesting commit
 trying to make a commit
+finsihed commit
+Preparing project EventBus
+Project does not exist, cloning now...
+Preparing finished
+Autofixing project: EventBus
+Preparing config.json...
+Prepared: {'PROJECT_PATH': '/tmp/projects/EventBus', 'BUILD_COMMAND': './gradlew build -x test', 'FORMAT': '', 'INITIALIZE_ANNOT': 'org.greenrobot.eventbus.Initializer'}
+Finished writing.
+Cleaning: /tmp/Docker_AE_NA/pre.out
+Does not exist.
+Cleaning: /tmp/Docker_AE_NA/loop.out
+Does not exist.
+Running autofix (pre)...
+Running autofix (pre) finished
+Running autofix (loop)...
+Running autofix (loop) finished
+Commited changes to project: EventBus
+Copying infos in results directory.
+Copying finished.
+successfully ran the command for project: EventBus
+requesting commit
+trying to make a commit
