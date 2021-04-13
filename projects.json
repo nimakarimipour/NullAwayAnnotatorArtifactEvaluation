@@ -64,7 +64,7 @@
             "format": "",
             "init_annot": "com.uber.nullaway.Initializer",
             "branch": "gc_1",
-            "active": false
+            "active": true
         },
         {
             "name": "EventBus",
