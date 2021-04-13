@@ -42,7 +42,7 @@
             "format": "",
             "init_annot": "com.netflix.conductor.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "LitiEngine",
@@ -53,7 +53,7 @@
             "format": "",
             "init_annot": "de.gurkenlabs.litiengine.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "NullAway",
@@ -64,7 +64,7 @@
             "format": "",
             "init_annot": "com.uber.nullaway.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "EventBus",
@@ -75,7 +75,7 @@
             "format": "",
             "init_annot": "org.greenrobot.eventbus.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "Gson",
@@ -86,7 +86,7 @@
             "format": "",
             "init_annot": "com.google.gson.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "Jadx",
@@ -97,7 +97,7 @@
             "format": "",
             "init_annot": "jadx.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "Zuul",
@@ -108,7 +108,7 @@
             "format": "",
             "init_annot": "com.netflix.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "LottieAndroid",
@@ -130,7 +130,7 @@
             "format": "",
             "init_annot": "retrofit2.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         { 
             "name": "SpringBoot",
@@ -141,7 +141,7 @@
             "format": "",
             "init_annot": "org.springframework.boot.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "LibGdx",
