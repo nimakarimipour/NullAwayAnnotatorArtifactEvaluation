@@ -1,0 +1,23 @@
+
+in prepare: project already exists
+Preparing project Conductor
+Project does not exist, cloning now...
+Preparing finished
+Autofixing project: Conductor
+Preparing config.json...
+Prepared: {'PROJECT_PATH': '/tmp/projects/conductor', 'BUILD_COMMAND': './gradlew build -x test', 'FORMAT': '', 'INITIALIZE_ANNOT': 'com.netflix.conductor.Initializer'}
+Finished writing.
+Cleaning: /tmp/Docker_AE_NA/pre.out
+Does not exist.
+Cleaning: /tmp/Docker_AE_NA/loop.out
+Does not exist.
+Running autofix (pre)...
+Running autofix (pre) finished
+Running autofix (loop)...
+Running autofix (loop) finished
+Commited changes to project: Conductor
+Copying infos in results directory.
+Copying finished.
+successfully ran the command for project: Conductor
+requesting commit
+trying to make a commit
