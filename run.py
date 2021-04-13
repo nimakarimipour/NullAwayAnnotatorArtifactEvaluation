@@ -2,6 +2,7 @@ import json
 import os
 import sys
 import subprocess
+import time
 
 PROJECTS_DIR = "/tmp/projects/"
 GIT_USERNAME = str(sys.argv[1])
@@ -108,6 +109,7 @@ def run():
         projects = json.load(f)
         for project in projects['projects']:
             if project['active']:
+                start = time.time()
                 try:
                     prepare_project(project)
                     autofix(project)
@@ -116,6 +118,10 @@ def run():
                 except Exception:
                     log("something went wrong for: " + project['name'])
                 finally:
+                    end = time.time()
+                    file_object = open('time.txt', 'a')
+                    file_object.write("\n" + project['name'] + ": " + str(end - start))
+                    file_object.close()
                     log("requesting commit")
                     commit()
                     log("finsihed commit")
