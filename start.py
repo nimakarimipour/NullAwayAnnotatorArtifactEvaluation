@@ -23,6 +23,10 @@ def delete_file(path):
     else:
         log("Does not exist.")
 
+def exec(command):
+    print("Executing: " + command)
+    os.system(command)
+
 
 def prepare():
     log("making directories.")
@@ -39,41 +43,27 @@ def prepare_project(project):
     change_dir = "cd " + PROJECTS_DIR
     if (not os.path.isdir(PROJECTS_DIR + project['name'] + "/")):
         log("Project does not exist, cloning now...")
-        os.system(change_dir + " && git clone " + project['git'].format(
+        exec(change_dir + " && git clone " + project['git'].format(
             GIT_USERNAME, GIT_KEY))
     else:
         log("Project already exists")
-    os.system(change_dir + "/" + project['path'] + 
-    " && git reset --hard && git checkout docker && git pull")
-    print("1")
-    print(change_dir + "/" + project['path'] + " && git branch -d " + project['branch'])
-    os.system(change_dir + "/" + project['path'] + " && git branch -d " + project['branch'])
-
-    print("2")
-    print(change_dir + "/" + project['path'] + " && git push " + project['git'].format(
+    exec(change_dir + "/" + project['path'] + " && git reset --hard && git checkout docker && git pull")
+    exec(change_dir + "/" + project['path'] + " && git branch -d " + project['branch'])
+    exec(change_dir + "/" + project['path'] + " && git push " + project['git'].format(
             GIT_USERNAME, GIT_KEY) + " --delete " + project['branch'])
-    os.system(change_dir + "/" + project['path'] + " && git push " + project['git'].format(
-            GIT_USERNAME, GIT_KEY) + " --delete " + project['branch'])
-
-    print("3")
-    print(change_dir + "/" + project['path'] + " && git checkout -b " + project['branch'])
-    os.system(change_dir + "/" + project['path'] + " && git checkout -b " + project['branch'])
-
-    print("4")
-    print(change_dir + "/" + project['path'] + " && git push --set-upstream " + project['git'].format(
+    exec(change_dir + "/" + project['path'] + " && git checkout -b " + project['branch'])
+    exec(change_dir + "/" + project['path'] + " && git push --set-upstream " + project['git'].format(
             GIT_USERNAME, GIT_KEY) + " " + project['branch'])
-    os.system(change_dir + "/" + project['path'] + " && git push --set-upstream " + project['git'].format(
-            GIT_USERNAME, GIT_KEY) + " " + project['branch'])
-    os.system("cd /tmp/Diagnoser/ && python3 run.py reset")
+    exec("cd /tmp/Diagnoser/ && python3 run.py reset")
     log("Preparing finished")
 
 
 def commit():
     log("trying to make a commit")
-    os.system("git pull")
-    os.system("git add .")
-    os.system("git commit -m \"changes comming from google cloud\"")
-    os.system("git push " +
+    exec("git pull")
+    exec("git add .")
+    exec("git commit -m \"changes comming from google cloud\"")
+    exec("git push " +
               "https://{}:{}@github.com/nimakarimipour/Docker_AE_NA.git".
               format(GIT_USERNAME, GIT_KEY))
 
@@ -95,24 +85,24 @@ def autofix(project):
     delete_file("/tmp/Docker_AE_NA/pre.out")
     delete_file("/tmp/Docker_AE_NA/loop.out")
     log("Running autofix (pre)...")
-    os.system("cd /tmp/Diagnoser/ && python3 run.py pre")
+    exec("cd /tmp/Diagnoser/ && python3 run.py pre")
     log("Running autofix (pre) finished")
     log("Running autofix (loop)...")
-    os.system("cd /tmp/Diagnoser/ && python3 run.py loop")
+    exec("cd /tmp/Diagnoser/ && python3 run.py loop")
     log("Running autofix (loop) finished")
     change_path_to_project = "cd " + PROJECTS_DIR + project['path']
-    os.system(change_path_to_project + " && git add .")
-    os.system(change_path_to_project +
+    exec(change_path_to_project + " && git add .")
+    exec(change_path_to_project +
               " && git commit --no-verify -m \"final result of docker\"")
-    os.system(change_path_to_project + " && git push " + project['git'].format(GIT_USERNAME, GIT_KEY))
+    exec(change_path_to_project + " && git push " + project['git'].format(GIT_USERNAME, GIT_KEY))
     log("Commited changes to project: " + project['name'])
 
     log("Copying infos in results directory.")
-    os.system("cd results/ && rm -rvf " + project['name'])
-    os.system("cd results/ && mkdir " + project['name'])
-    os.system("cp -r /tmp/NullAwayFix/. " + "results/" + project['name'])
-    os.system("mv loop.out " + "results/" + project['name'] + "/loop.out")
-    os.system("mv pre.out " + "results/" + project['name'] + "/pre.out")
+    exec("cd results/ && rm -rvf " + project['name'])
+    exec("cd results/ && mkdir " + project['name'])
+    exec("cp -r /tmp/NullAwayFix/. " + "results/" + project['name'])
+    exec("mv loop.out " + "results/" + project['name'] + "/loop.out")
+    exec("mv pre.out " + "results/" + project['name'] + "/pre.out")
     log("Copying finished.")
 
 def run():
