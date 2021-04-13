@@ -10,6 +10,7 @@ GIT_KEY = str(sys.argv[2])
 
 def log(message):
     print("log: " + message, flush=True)
+    sys.stdout.flush()
     file_object = open('log.txt', 'a')
     file_object.write("\n" + str(message))
     file_object.close()
