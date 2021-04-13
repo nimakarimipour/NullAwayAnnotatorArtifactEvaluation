@@ -103,7 +103,7 @@ def autofix(project):
     change_path_to_project = "cd " + PROJECTS_DIR + project['path']
     os.system(change_path_to_project + " && git add .")
     os.system(change_path_to_project +
-              " && git commit -m \"final result of docker\"")
+              " && git commit --no-verify -m \"final result of docker\"")
     os.system(change_path_to_project + " && git push " + project['git'].format(GIT_USERNAME, GIT_KEY))
     log("Commited changes to project: " + project['name'])
 
