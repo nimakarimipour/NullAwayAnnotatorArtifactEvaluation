@@ -25,18 +25,13 @@ def delete_file(path):
 
 
 def prepare():
-    try:
-        os.makedirs(PROJECTS_DIR)
-    except FileExistsError:
-        log("in prepare: project already exists")
-    try:
-        os.makedirs("/tmp/NullAwayFix/")
-    except FileExistsError:
-        log("in prepare: project already exists")
-    try:
-        os.makedirs("./results")
-    except FileExistsError:
-        log("in prepare: project already exists")
+    log("making directories.")
+    dirs = [PROJECTS_DIR, "/tmp/NullAwayFix/", "./results"]
+    for directory in dirs:
+        try:
+            os.makedirs(PROJECTS_DIR)
+        except FileExistsError:
+            log("in prepare: directory already exists: " + directory)
 
 
 def prepare_project(project):
