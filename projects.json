@@ -30,7 +30,7 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "main.java.org.mockito.Initializer",
-            "branch": "gc_2",
+            "branch": "gc_1",
             "active": true
         },
         {
