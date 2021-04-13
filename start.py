@@ -121,7 +121,7 @@ def run():
                     log("something went wrong for: " + project['name'])
                 finally:
                     end = time.time()
-                    file_object = open('time.txt', 'a')
+                    file_object = open(project['name'] + '.txt', 'a')
                     file_object.write("\n" + project['name'] + ": " + str(end - start))
                     file_object.close()
                     log("requesting commit")
