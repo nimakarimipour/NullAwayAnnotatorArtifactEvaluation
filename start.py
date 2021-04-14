@@ -91,6 +91,10 @@ def autofix(project):
     log("Running autofix (loop)...")
     exec("cd /tmp/Diagnoser/ && python3 run.py loop")
     log("Running autofix (loop) finished")
+
+    #todo change this in future.
+    exec("cp -r /tmp/NullAwayFix/. " + PROJECTS_DIR + project['path'])
+
     change_path_to_project = "cd " + PROJECTS_DIR + project['path']
     exec(change_path_to_project + " && git add .")
     exec(change_path_to_project +
