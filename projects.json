@@ -108,7 +108,7 @@
             "format": "",
             "init_annot": "com.netflix.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "LottieAndroid",
