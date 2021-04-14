@@ -119,7 +119,7 @@
             "format": "",
             "init_annot": "com.airbnb.lottie.Initializer",
             "branch": "gc_1",
-            "active": false
+            "active": true
         },
         {
             "name": "Retrofit",
@@ -141,7 +141,7 @@
             "format": "",
             "init_annot": "org.springframework.boot.Initializer",
             "branch": "gc_1",
-            "active": true
+            "active": false
         },
         {
             "name": "LibGdx",

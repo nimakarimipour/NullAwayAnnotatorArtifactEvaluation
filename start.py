@@ -49,12 +49,12 @@ def prepare_project(project):
     else:
         log("Project already exists")
     exec(change_dir + project['path'] + " && git reset --hard && git checkout gc_1 && git pull")
-    # exec(change_dir + project['path'] + " && git branch -d " + project['branch'])
-    # exec(change_dir + project['path'] + " && git push " + project['git'].format(
-    #         GIT_USERNAME, GIT_KEY) + " --delete " + project['branch'])
-    # exec(change_dir + project['path'] + " && git checkout -b " + project['branch'])
-    # exec(change_dir + project['path'] + " && git push --set-upstream " + project['git'].format(
-    #         GIT_USERNAME, GIT_KEY) + " " + project['branch'])
+    exec(change_dir + project['path'] + " && git branch -d " + project['branch'])
+    exec(change_dir + project['path'] + " && git push " + project['git'].format(
+            GIT_USERNAME, GIT_KEY) + " --delete " + project['branch'])
+    exec(change_dir + project['path'] + " && git checkout -b " + project['branch'])
+    exec(change_dir + project['path'] + " && git push --set-upstream " + project['git'].format(
+            GIT_USERNAME, GIT_KEY) + " " + project['branch'])
     exec("cd /tmp/Diagnoser/ && python3 run.py reset")
     log("Preparing finished")
 
@@ -83,9 +83,9 @@ def autofix(project):
         json.dump(config, outfile)
         outfile.close()
     log("Finished writing.")
-    # log("Running autofix (pre)...")
-    # exec("cd /tmp/Diagnoser/ && python3 run.py pre")
-    # log("Running autofix (pre) finished")
+    log("Running autofix (pre)...")
+    exec("cd /tmp/Diagnoser/ && python3 run.py pre")
+    log("Running autofix (pre) finished")
     log("Running autofix (loop)...")
     exec("cd /tmp/Diagnoser/ && python3 run.py loop")
     log("Running autofix (loop) finished")
