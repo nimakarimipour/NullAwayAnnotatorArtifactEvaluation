@@ -83,9 +83,12 @@ def autofix(project):
         json.dump(config, outfile)
         outfile.close()
     log("Finished writing.")
-    log("Running autofix (pre)...")
-    exec("cd /tmp/Diagnoser/ && python3 run.py pre")
-    log("Running autofix (pre) finished")
+    if(project['preprocess']):
+        log("Running autofix (pre)...")
+        exec("cd /tmp/Diagnoser/ && python3 run.py pre")
+        log("Running autofix (pre) finished")
+    else:
+        log("Skipping preproces...")
     log("Running autofix (loop)...")
     exec("cd /tmp/Diagnoser/ && python3 run.py loop")
     log("Running autofix (loop) finished")

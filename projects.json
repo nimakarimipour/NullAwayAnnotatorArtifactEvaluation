@@ -9,6 +9,7 @@
             "format": "",
             "init_annot": "com.github.chrisbanes.photoview.Initializer",
             "branch": "exp_1",
+            "preprocess": true,
             "active": false
         },
         {
@@ -20,6 +21,7 @@
             "format": "",
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_1",
+            "preprocess": true,
             "active": false
         },
         {
@@ -31,6 +33,7 @@
             "format": "",
             "init_annot": "org.mockito.Initializer",
             "branch": "gc_1",
+            "preprocess": true,
             "active": false
         },
         {
@@ -42,6 +45,7 @@
             "format": "",
             "init_annot": "com.netflix.conductor.Initializer",
             "branch": "gc_1",
+            "preprocess": true,
             "active": false
         },
         {
@@ -53,6 +57,7 @@
             "format": "",
             "init_annot": "de.gurkenlabs.litiengine.Initializer",
             "branch": "gc_1",
+            "preprocess": true,
             "active": false
         },
         {
@@ -64,6 +69,7 @@
             "format": "",
             "init_annot": "com.uber.nullaway.Initializer",
             "branch": "gc_1",
+            "preprocess": true,
             "active": false
         },
         {
@@ -75,6 +81,7 @@
             "format": "",
             "init_annot": "org.greenrobot.eventbus.Initializer",
             "branch": "gc_1",
+            "preprocess": true,
             "active": false
         },
         {
@@ -86,6 +93,7 @@
             "format": "",
             "init_annot": "com.google.gson.Initializer",
             "branch": "gc_1",
+            "preprocess": true,
             "active": false
         },
         {
@@ -97,6 +105,7 @@
             "format": "",
             "init_annot": "jadx.Initializer",
             "branch": "gc_1",
+            "preprocess": true,
             "active": false
         },
         {
@@ -108,6 +117,7 @@
             "format": "",
             "init_annot": "com.netflix.Initializer",
             "branch": "gc_1",
+            "preprocess": true,
             "active": false
         },
         {
@@ -119,7 +129,8 @@
             "format": "",
             "init_annot": "com.airbnb.lottie.Initializer",
             "branch": "gc_1",
-            "active": true
+            "preprocess": true,
+            "active": false
         },
         {
             "name": "Retrofit",
@@ -130,6 +141,7 @@
             "format": "",
             "init_annot": "retrofit2.Initializer",
             "branch": "gc_1",
+            "preprocess": true,
             "active": false
         },
         { 
@@ -141,7 +153,8 @@
             "format": "",
             "init_annot": "org.springframework.boot.Initializer",
             "branch": "gc_1",
-            "active": false
+            "preprocess": false,
+            "active": true
         },
         {
             "name": "LibGdx",
@@ -152,6 +165,7 @@
             "format": "",
             "init_annot": "com.badlogic.gdx.Initializer",
             "branch": "gc_1",
+            "preprocess": true,
             "active": false
         }
     ]
