@@ -46,7 +46,7 @@
             "init_annot": "com.netflix.conductor.Initializer",
             "branch": "gc_1",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "LitiEngine",
@@ -166,7 +166,7 @@
             "init_annot": "com.badlogic.gdx.Initializer",
             "branch": "gc_1",
             "preprocess": true,
-            "active": true
+            "active": false
         }
     ]
 }
