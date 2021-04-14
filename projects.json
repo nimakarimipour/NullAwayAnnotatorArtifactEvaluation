@@ -115,7 +115,7 @@
             "path": "lottie-android",
             "root": "lottie-android",
             "git": "https://{}:{}@github.com/nimakarimipour/lottie-android.git",
-            "build": "./gradlew build -x test",
+            "build": "./gradlew lottie:build -x test",
             "format": "",
             "init_annot": "com.airbnb.lottie.Initializer",
             "branch": "gc_1",
