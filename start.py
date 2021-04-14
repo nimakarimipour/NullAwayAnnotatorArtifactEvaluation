@@ -48,13 +48,13 @@ def prepare_project(project):
             GIT_USERNAME, GIT_KEY))
     else:
         log("Project already exists")
-    exec(change_dir + project['path'] + " && git reset --hard && git checkout docker && git pull")
-    exec(change_dir + project['path'] + " && git branch -d " + project['branch'])
-    exec(change_dir + project['path'] + " && git push " + project['git'].format(
-            GIT_USERNAME, GIT_KEY) + " --delete " + project['branch'])
-    exec(change_dir + project['path'] + " && git checkout -b " + project['branch'])
-    exec(change_dir + project['path'] + " && git push --set-upstream " + project['git'].format(
-            GIT_USERNAME, GIT_KEY) + " " + project['branch'])
+    exec(change_dir + project['path'] + " && git reset --hard && git checkout gc_1 && git pull")
+    # exec(change_dir + project['path'] + " && git branch -d " + project['branch'])
+    # exec(change_dir + project['path'] + " && git push " + project['git'].format(
+    #         GIT_USERNAME, GIT_KEY) + " --delete " + project['branch'])
+    # exec(change_dir + project['path'] + " && git checkout -b " + project['branch'])
+    # exec(change_dir + project['path'] + " && git push --set-upstream " + project['git'].format(
+    #         GIT_USERNAME, GIT_KEY) + " " + project['branch'])
     exec("cd /tmp/Diagnoser/ && python3 run.py reset")
     log("Preparing finished")
 
@@ -83,11 +83,9 @@ def autofix(project):
         json.dump(config, outfile)
         outfile.close()
     log("Finished writing.")
-    delete_file("/tmp/Docker_AE_NA/pre.out")
-    delete_file("/tmp/Docker_AE_NA/loop.out")
-    log("Running autofix (pre)...")
-    exec("cd /tmp/Diagnoser/ && python3 run.py pre")
-    log("Running autofix (pre) finished")
+    # log("Running autofix (pre)...")
+    # exec("cd /tmp/Diagnoser/ && python3 run.py pre")
+    # log("Running autofix (pre) finished")
     log("Running autofix (loop)...")
     exec("cd /tmp/Diagnoser/ && python3 run.py loop")
     log("Running autofix (loop) finished")
@@ -106,8 +104,6 @@ def autofix(project):
     exec("cd results/ && rm -rvf " + project['name'])
     exec("cd results/ && mkdir " + project['name'])
     exec("cp -r /tmp/NullAwayFix/. " + "results/" + project['name'])
-    exec("mv loop.out " + "results/" + project['name'] + "/loop.out")
-    exec("mv pre.out " + "results/" + project['name'] + "/pre.out")
     log("Copying finished.")
 
 def run():
