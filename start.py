@@ -56,8 +56,11 @@ def prepare_project(project):
     exec(change_dir + project['path'] + " && git push --set-upstream " + project['git'].format(
             GIT_USERNAME, GIT_KEY) + " " + project['branch'])
     exec("cd /tmp/Diagnoser/ && python3 run.py reset")
-    log("Preparing finished")
 
+    log("Making the first build of the project")
+    exec(change_dir + project['path'] + " && " + project['build'])
+    log("Build finished.")
+    log("Finished.")
 
 def commit():
     log("trying to make a commit")
