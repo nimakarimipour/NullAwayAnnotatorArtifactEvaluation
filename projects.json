@@ -10,7 +10,7 @@
             "init_annot": "com.github.chrisbanes.photoview.Initializer",
             "branch": "exp_1",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "MPAndroid",
@@ -166,7 +166,7 @@
             "init_annot": "com.badlogic.gdx.Initializer",
             "branch": "gc_1",
             "preprocess": true,
-            "active": false
+            "active": true
         }
     ]
 }
