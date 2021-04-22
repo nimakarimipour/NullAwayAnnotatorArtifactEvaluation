@@ -161,7 +161,7 @@
             "path": "libgdx",
             "root": "libgdx",
             "git": "https://{}:{}@github.com/nimakarimipour/libgdx.git",
-            "build": "./gradlew libgdx:build -x test",
+            "build": "./gradlew gdx:build -x test",
             "format": "",
             "init_annot": "com.badlogic.gdx.Initializer",
             "branch": "gc_1",
