@@ -90,7 +90,6 @@ def autofix(project):
         log("Running autofix (pre)...")
         exec("cd /tmp/Diagnoser/ && python3 run.py pre")
         log("Running autofix (pre) finished")
-        quit()
     else:
         log("Skipping preproces...")
     log("Running autofix (loop)...")
