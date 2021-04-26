@@ -48,13 +48,13 @@ def prepare_project(project):
             GIT_USERNAME, GIT_KEY))
     else:
         log("Project already exists")
-    exec(change_dir + project['path'] + " && git reset --hard && git checkout docker && git pull")
-    exec(change_dir + project['path'] + " && git branch -d " + project['branch'])
-    exec(change_dir + project['path'] + " && git push " + project['git'].format(
-            GIT_USERNAME, GIT_KEY) + " --delete " + project['branch'])
-    exec(change_dir + project['path'] + " && git checkout -b " + project['branch'])
-    exec(change_dir + project['path'] + " && git push --set-upstream " + project['git'].format(
-            GIT_USERNAME, GIT_KEY) + " " + project['branch'])
+    exec(change_dir + project['path'] + " && git reset --hard && git checkout gc_1 && git pull")
+    # exec(change_dir + project['path'] + " && git branch -d " + project['branch'])
+    # exec(change_dir + project['path'] + " && git push " + project['git'].format(
+    #         GIT_USERNAME, GIT_KEY) + " --delete " + project['branch'])
+    # exec(change_dir + project['path'] + " && git checkout -b " + project['branch'])
+    # exec(change_dir + project['path'] + " && git push --set-upstream " + project['git'].format(
+    #         GIT_USERNAME, GIT_KEY) + " " + project['branch'])
     exec("cd /tmp/Diagnoser/ && python3 run.py reset")
 
     log("Making the first build of the project")
