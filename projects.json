@@ -153,8 +153,8 @@
             "format": "",
             "init_annot": "org.springframework.boot.Initializer",
             "branch": "gc_1",
-            "preprocess": false,
-            "active": false
+            "preprocess": true,
+            "active": true
         },
         {
             "name": "LibGdx",
@@ -166,7 +166,7 @@
             "init_annot": "com.badlogic.gdx.Initializer",
             "branch": "gc_1",
             "preprocess": true,
-            "active": true
+            "active": false
         }
     ]
 }
