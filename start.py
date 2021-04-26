@@ -48,7 +48,7 @@ def prepare_project(project):
             GIT_USERNAME, GIT_KEY))
     else:
         log("Project already exists")
-    exec(change_dir + project['path'] + " && git reset --hard && git checkout gc_1 && git pull")
+    exec(change_dir + project['path'] + " && git reset --hard && git checkout docker && git pull")
     exec(change_dir + project['path'] + " && git branch -d " + project['branch'])
     exec(change_dir + project['path'] + " && git push " + project['git'].format(
             GIT_USERNAME, GIT_KEY) + " --delete " + project['branch'])
@@ -90,6 +90,7 @@ def autofix(project):
         log("Running autofix (pre)...")
         exec("cd /tmp/Diagnoser/ && python3 run.py pre")
         log("Running autofix (pre) finished")
+        quit()
     else:
         log("Skipping preproces...")
     log("Running autofix (loop)...")
