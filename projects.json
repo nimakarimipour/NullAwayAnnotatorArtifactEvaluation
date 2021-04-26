@@ -149,7 +149,7 @@
             "path": "spring-boot",
             "root": "spring-boot",
             "git": "https://{}:{}@github.com/nimakarimipour/spring-boot.git",
-            "build": "./gradlew spring-boot-project:spring-boot:build -x test",
+            "build": "./gradlew spring-boot-project:spring-boot:compileJava -x compileKotlin",
             "format": "",
             "init_annot": "org.springframework.boot.Initializer",
             "branch": "gc_1",
