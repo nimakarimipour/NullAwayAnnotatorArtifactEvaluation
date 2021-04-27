@@ -1,2 +1,3 @@
 
 LottieAndroid: 3041.686887025833
+LottieAndroid: 1.3828277587890625e-05
