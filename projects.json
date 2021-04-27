@@ -152,7 +152,7 @@
             "build": "./gradlew spring-boot-project:spring-boot:compileJava -x test",
             "format": "",
             "init_annot": "org.springframework.boot.Initializer",
-            "branch": "gc_2",
+            "branch": "gc_1",
             "preprocess": false,
             "active": true
         },
