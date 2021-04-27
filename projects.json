@@ -8,9 +8,9 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "com.github.chrisbanes.photoview.Initializer",
-            "branch": "exp_1",
+            "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "MPAndroid",
@@ -20,9 +20,9 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "com.github.mikephil.Initializer",
-            "branch": "gc_1",
+            "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Mockito",
@@ -32,9 +32,9 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "org.mockito.Initializer",
-            "branch": "gc_1",
+            "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Conductor",
@@ -44,9 +44,9 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "com.netflix.conductor.Initializer",
-            "branch": "gc_1",
+            "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "LitiEngine",
@@ -56,9 +56,9 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "de.gurkenlabs.litiengine.Initializer",
-            "branch": "gc_1",
+            "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "NullAway",
@@ -68,9 +68,9 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "com.uber.nullaway.Initializer",
-            "branch": "gc_1",
+            "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "EventBus",
@@ -80,9 +80,9 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "org.greenrobot.eventbus.Initializer",
-            "branch": "gc_1",
+            "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Gson",
@@ -92,9 +92,9 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "com.google.gson.Initializer",
-            "branch": "gc_1",
+            "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Jadx",
@@ -104,9 +104,9 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "jadx.Initializer",
-            "branch": "gc_1",
+            "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Zuul",
@@ -116,9 +116,9 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "com.netflix.Initializer",
-            "branch": "gc_1",
+            "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "LottieAndroid",
@@ -128,9 +128,9 @@
             "build": "./gradlew lottie:build -x test",
             "format": "",
             "init_annot": "com.airbnb.lottie.Initializer",
-            "branch": "gc_1",
+            "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Retrofit",
@@ -140,7 +140,7 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "retrofit2.Initializer",
-            "branch": "gc_1",
+            "branch": "gc_2",
             "preprocess": true,
             "active": false
         },
