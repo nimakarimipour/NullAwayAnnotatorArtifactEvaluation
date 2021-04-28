@@ -91,9 +91,9 @@ def autofix(project):
         log("Running autofix (pre) finished")
     else:
         log("Skipping preproces...")
-    # log("Running autofix (loop)...")
-    # exec("cd /tmp/Diagnoser/ && python3 run.py loop")
-    # log("Running autofix (loop) finished")
+    log("Running autofix (loop)...")
+    exec("cd /tmp/Diagnoser/ && python3 run.py loop")
+    log("Running autofix (loop) finished")
 
     #todo change this in future.
     exec("cp -r /tmp/NullAwayFix/. " + PROJECTS_DIR + project['path'])
@@ -122,7 +122,6 @@ def run():
                     print("RUNNING FOR: " + str(project['name']))
                     prepare_project(project)
                     autofix(project)
-                    # project['active'] = False
                     log("successfully ran the command for project: " +
                         project['name'])
                 except Exception:
