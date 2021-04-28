@@ -1,0 +1,303 @@
+{
+    "PROJECTS": {
+        "EventBus": {
+            "errors": [
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethod.java:30: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/SubscriberMethod.java#L30",
+                    "message": " (Covered) initializer method does not guarantee @NonNull field methodString (line 28) is initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                    "position": "public SubscriberMethod(Method method, Class<?> eventType, ThreadMode threadMode, int priority, boolean sticky) {"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:45: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/EventBus.java#L45",
+                    "message": " (Covered) @NonNull static field defaultInstance not initialized",
+                    "position": "static volatile EventBus defaultInstance;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:118: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/EventBus.java#L118",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field",
+                    "position": "mainThreadPoster = mainThreadSupport != null ? mainThreadSupport.createPoster(this) : null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:197: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/EventBus.java#L197",
+                    "message": " (Covered) passing @Nullable parameter 'stickyEvent' where @NonNull is required",
+                    "position": "checkPostStickyEventToSubscription(newSubscription, stickyEvent);"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:417: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/EventBus.java#L417",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field",
+                    "position": "postingState.event = null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:418: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/EventBus.java#L418",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field",
+                    "position": "postingState.subscription = null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:549: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/EventBus.java#L549",
+                    "message": " (Covered) @NonNull field EventBus$PostingThreadState.subscription not initialized",
+                    "position": "Subscription subscription;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:550: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/EventBus.java#L550",
+                    "message": " (Covered) @NonNull field EventBus$PostingThreadState.event not initialized",
+                    "position": "Object event;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBusBuilder.java:50: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/EventBusBuilder.java#L50",
+                    "message": " (Covered) initializer method does not guarantee @NonNull fields skipMethodVerificationForClasses (line 45), subscriberInfoIndexes (line 46), logger (line 47), mainThreadSupport (line 48) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                    "position": "EventBusBuilder() {"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBusBuilder.java:170: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/EventBusBuilder.java#L170",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type",
+                    "position": "return looperOrNull == null ? null :"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBusBuilder.java:173: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/EventBusBuilder.java#L173",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type",
+                    "position": "return null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBusBuilder.java:182: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/EventBusBuilder.java#L182",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type",
+                    "position": "return null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:137: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java#L137",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type",
+                    "position": "return null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:207: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java#L207",
+                    "message": " (Covered) @NonNull field SubscriberMethodFinder$FindState.subscriberClass not initialized",
+                    "position": "Class<?> subscriberClass;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:208: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java#L208",
+                    "message": " (Covered) @NonNull field SubscriberMethodFinder$FindState.clazz not initialized",
+                    "position": "Class<?> clazz;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:210: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java#L210",
+                    "message": " (Covered) @NonNull field SubscriberMethodFinder$FindState.subscriberInfo not initialized",
+                    "position": "SubscriberInfo subscriberInfo;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:215: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java#L215",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field",
+                    "position": "subscriberInfo = null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:223: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java#L223",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field",
+                    "position": "subscriberClass = null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:224: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java#L224",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field",
+                    "position": "clazz = null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:226: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java#L226",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field",
+                    "position": "subscriberInfo = null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:268: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java#L268",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field",
+                    "position": "clazz = null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:276: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java#L276",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field",
+                    "position": "clazz = null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/Logger.java:78: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/Logger.java#L78",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type",
+                    "position": "return null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/PendingPost.java:28: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/PendingPost.java#L28",
+                    "message": " (Covered) initializer method does not guarantee @NonNull field next (line 26) is initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                    "position": "private PendingPost(Object event, Subscription subscription) {"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/PendingPost.java:40: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/PendingPost.java#L40",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field",
+                    "position": "pendingPost.next = null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/PendingPost.java:48: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/PendingPost.java#L48",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field",
+                    "position": "pendingPost.event = null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/PendingPost.java:49: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/PendingPost.java#L49",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field",
+                    "position": "pendingPost.subscription = null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/PendingPost.java:50: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/PendingPost.java#L50",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field",
+                    "position": "pendingPost.next = null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/PendingPostQueue.java:20: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/PendingPostQueue.java#L20",
+                    "message": " (Covered) @NonNull field head not initialized",
+                    "position": "private PendingPost head;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/PendingPostQueue.java:21: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/PendingPostQueue.java#L21",
+                    "message": " (Covered) @NonNull field tail not initialized",
+                    "position": "private PendingPost tail;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/PendingPostQueue.java:43: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/PendingPostQueue.java#L43",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field",
+                    "position": "tail = null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogFragmentFactory.java:42: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogFragmentFactory.java#L42",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type",
+                    "position": "return null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogConfig.java:36: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogConfig.java#L36",
+                    "message": " (Covered) initializer method does not guarantee @NonNull fields eventBus (line 30), tagForLoggingExceptions (line 32), defaultEventTypeOnDialogClosed (line 34) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                    "position": "public ErrorDialogConfig(Resources resources, int defaultTitleId, int defaultMsgId) {"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ThrowableFailureEvent.java:27: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ThrowableFailureEvent.java#L27",
+                    "message": " (Covered) initializer method does not guarantee @NonNull field executionContext (line 25) is initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                    "position": "public ThrowableFailureEvent(Throwable throwable) {"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ThrowableFailureEvent.java:36: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ThrowableFailureEvent.java#L36",
+                    "message": " (Covered) initializer method does not guarantee @NonNull field executionContext (line 25) is initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                    "position": "public ThrowableFailureEvent(Throwable throwable, boolean suppressErrorUi) {"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ExceptionToResourceMapping.java:57: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ExceptionToResourceMapping.java#L57",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type",
+                    "position": "return null;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ExceptionToResourceMapping.java:82: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ExceptionToResourceMapping.java#L82",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type",
+                    "position": "return resId;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/AsyncExecutor.java:38: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/AsyncExecutor.java#L38",
+                    "message": " (Covered) initializer method does not guarantee @NonNull fields threadPool (line 34), failureEventType (line 35), eventBus (line 36) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                    "position": "private Builder() {"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/AsyncExecutor.java:57: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/AsyncExecutor.java#L57",
+                    "message": " (Covered) passing @Nullable parameter 'null' where @NonNull is required",
+                    "position": "return buildForScope(null);"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:178: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java#L178",
+                    "message": " (Covered) @NonNull static field factory not initialized",
+                    "position": "public static ErrorDialogFragmentFactory<?> factory;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:56: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java#L56",
+                    "message": " (Covered) initializer method does not guarantee @NonNull fields argumentsForErrorDialog (line 50), executionScope (line 53) are initialized along all control-flow paths (remember to check for exceptions or early returns).",
+                    "position": "public void onCreate(Bundle savedInstanceState) {"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:121: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java#L121",
+                    "message": " (Covered) @NonNull field ErrorDialogManager$HoneycombManagerFragment.argumentsForErrorDialog not initialized",
+                    "position": "protected Bundle argumentsForErrorDialog;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:122: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java#L122",
+                    "message": " (Covered) @NonNull field ErrorDialogManager$HoneycombManagerFragment.eventBus not initialized",
+                    "position": "private EventBus eventBus;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:123: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java#L123",
+                    "message": " (Covered) @NonNull field ErrorDialogManager$HoneycombManagerFragment.executionScope not initialized",
+                    "position": "private Object executionScope;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:191: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java#L191",
+                    "message": " (Covered) passing @Nullable parameter 'null' where @NonNull is required",
+                    "position": "attachTo(activity, false, null);"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:196: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java#L196",
+                    "message": " (Covered) passing @Nullable parameter 'null' where @NonNull is required",
+                    "position": "attachTo(activity, finishAfterDialog, null);"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogFragments.java:37: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogFragments.java#L37",
+                    "message": " (Covered) @NonNull static field EVENT_TYPE_ON_CLICK not initialized",
+                    "position": "public static Class<?> EVENT_TYPE_ON_CLICK;"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/meta/SimpleSubscriberInfo.java:28: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/meta/SimpleSubscriberInfo.java#L28",
+                    "message": " (Covered) passing @Nullable parameter 'null' where @NonNull is required",
+                    "position": "super(subscriberClass, null, shouldCheckSuperclass);"
+                },
+                {
+                    "url": "/Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/meta/AbstractSubscriberInfo.java:45: ",
+                    "urll": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/meta/AbstractSubscriberInfo.java#L45",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type",
+                    "position": "return null;"
+                }
+            ],
+            "size": 49
+        }
+    }
+}

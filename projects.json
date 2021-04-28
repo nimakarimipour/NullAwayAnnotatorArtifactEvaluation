@@ -82,7 +82,7 @@
             "init_annot": "org.greenrobot.eventbus.Initializer",
             "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Gson",
