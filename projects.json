@@ -22,7 +22,7 @@
             "init_annot": "com.github.mikephil.charting.Initializer",
             "branch": "gc_2",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Mockito",
@@ -140,7 +140,7 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "retrofit2.Initializer",
-            "branch": "gc_2",
+            "branch": "gc_1",
             "preprocess": true,
             "active": false
         },
@@ -152,7 +152,7 @@
             "build": "./gradlew spring-boot-project:spring-boot:compileJava -x test",
             "format": "",
             "init_annot": "org.springframework.boot.Initializer",
-            "branch": "gc_1",
+            "branch": "gc_2",
             "preprocess": false,
             "active": false
         },
@@ -161,12 +161,12 @@
             "path": "libgdx",
             "root": "libgdx",
             "git": "https://{}:{}@github.com/nimakarimipour/libgdx.git",
-            "build": "./gradlew gdx:build -x test",
+            "build": "./gradlew gdx:compileJava",
             "format": "",
             "init_annot": "com.badlogic.gdx.Initializer",
             "branch": "gc_1",
             "preprocess": true,
-            "active": false
+            "active": true
         }
     ]
 }
