@@ -125,6 +125,7 @@ def run():
                     print("RUNNING FOR: " + str(project['name']))
                     prepare_project(project)
                     autofix(project)
+                    project['active'] = False
                     log("successfully ran the command for project: " +
                         project['name'])
                 except Exception:
