@@ -121,8 +121,8 @@ def run():
             if project['active']:
                 start = time.time()
                 try:
-                    # prepare_project(project)
-                    # autofix(project)
+                    prepare_project(project)
+                    autofix(project)
                     print(project['name'])
                     log("successfully ran the command for project: " +
                         project['name'])
