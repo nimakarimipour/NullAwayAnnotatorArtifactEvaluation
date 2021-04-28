@@ -28,7 +28,6 @@ def exec(command):
     sys.stdout.flush()
     os.system(command)
 
-
 def prepare():
     log("making directories.")
     dirs = [PROJECTS_DIR, "/tmp/NullAwayFix/", "./results"]
@@ -37,7 +36,6 @@ def prepare():
             os.makedirs(PROJECTS_DIR)
         except FileExistsError:
             log("in prepare: directory already exists: " + directory)
-
 
 def prepare_project(project):
     log("Preparing project " + project['name'])
@@ -73,7 +71,6 @@ def commit():
               "https://{}:{}@github.com/nimakarimipour/Docker_AE_NA.git".
               format(GIT_USERNAME, GIT_KEY))
 
-
 def autofix(project):
     log("Autofixing project: " + str(project['name']))
     log("Preparing config.json...")
@@ -94,9 +91,9 @@ def autofix(project):
         log("Running autofix (pre) finished")
     else:
         log("Skipping preproces...")
-    log("Running autofix (loop)...")
-    exec("cd /tmp/Diagnoser/ && python3 run.py loop")
-    log("Running autofix (loop) finished")
+    # log("Running autofix (loop)...")
+    # exec("cd /tmp/Diagnoser/ && python3 run.py loop")
+    # log("Running autofix (loop) finished")
 
     #todo change this in future.
     exec("cp -r /tmp/NullAwayFix/. " + PROJECTS_DIR + project['path'])
@@ -125,7 +122,7 @@ def run():
                     print("RUNNING FOR: " + str(project['name']))
                     prepare_project(project)
                     autofix(project)
-                    project['active'] = False
+                    # project['active'] = False
                     log("successfully ran the command for project: " +
                         project['name'])
                 except Exception:
