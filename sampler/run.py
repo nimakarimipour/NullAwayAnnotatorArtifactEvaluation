@@ -17,13 +17,11 @@ def delete_file(path):
         os.remove(path)
 
 
-outfilename = "errors_local.json"
+outfilename = "errors.json"
 # outfilename = "test.json"
 with open('../projects.json') as f:
     projects = json.load(f)
     for project in projects['projects']:
-        if(project['name'] != "EventBus"):
-            continue
         print("WORKING ON: " + str(project['name']))
         current_errors = json.load(open(outfilename))
         new_errors = []

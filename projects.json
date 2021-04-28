@@ -22,7 +22,7 @@
             "init_annot": "com.github.mikephil.Initializer",
             "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Mockito",
@@ -34,7 +34,7 @@
             "init_annot": "org.mockito.Initializer",
             "branch": "gc_3",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Conductor",
