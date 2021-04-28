@@ -19,7 +19,7 @@
             "git": "https://{}:{}@github.com/nimakarimipour/MPAndroidChart.git",
             "build": "./gradlew build -x test",
             "format": "",
-            "init_annot": "com.github.mikephil.Initializer",
+            "init_annot": "com.github.mikephil.charting.Initializer",
             "branch": "gc_2",
             "preprocess": true,
             "active": true
