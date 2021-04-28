@@ -64,6 +64,7 @@ def prepare_project(project):
 
 def commit():
     log("trying to make a commit")
+    exec("git branch")
     exec("git pull")
     exec("git add .")
     exec("git commit -m \"changes comming from google cloud\"")
@@ -100,6 +101,7 @@ def autofix(project):
     exec("cp -r /tmp/NullAwayFix/. " + PROJECTS_DIR + project['path'])
 
     change_path_to_project = "cd " + PROJECTS_DIR + project['path']
+    exec(change_path_to_project + " && git branch")
     exec(change_path_to_project + " && git add .")
     exec(change_path_to_project +
               " && git commit --no-verify -m \"final result of docker\"")
