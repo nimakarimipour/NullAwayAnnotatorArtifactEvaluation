@@ -4,12 +4,7 @@ import subprocess
 from subprocess import Popen, PIPE
 
 
-BLOBS = {
-    "EventBus": "docker"
-}
-
-
-GIT_RESET = " && git reset --hard && git checkout docker && "
+GIT_RESET = " && git reset --hard && git checkout {} && "
 START = "https://github.com/nimakarimipour/"
 
 def delete_file(path):
@@ -25,20 +20,23 @@ with open('../projects.json') as f:
         print("WORKING ON: " + str(project['name']))
         current_errors = json.load(open(outfilename))
         new_errors = []
+        project['active'] = True
         if project['active']:
-            command = "cd /Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/" + project['path'] + "/" + GIT_RESET +  project['build']
+            command = "cd /Users/nima/Developer/ArtifactEvaluation/NullAwayFixer/Projects/" + project['path'] + "/" + GIT_RESET.format(project['branch']) +  project['build']
             print("Command: " + command)
             res = subprocess.Popen(command + " > /dev/null && echo done", shell=True, stderr=PIPE)
             out, err = res.communicate()
             errors = str(err).split("\n")
+            print(len(errors))
             errors.pop()
             for i in range(0, len(errors)):
                 disp = {}
                 if("error: [NullAway]" in errors[i]):
+                    print(errors[i])
                     line = errors[i]
                     error_url = line[0:line.index("error: [NullAway]")]
                     error_url = error_url[:-2]
-                    error_link = START + project['root'] + "/blob/" + BLOBS[project['name']] + error_url[error_url.index(project['path']) + len(project['path']):]
+                    error_link = START + project['root'] + "/blob/docker" + error_url[error_url.index(project['path']) + len(project['path']):]
                     error_link = error_link.replace(".java:", ".java#L")
                     disp['url'] = error_link
                     disp['message'] = line[line.index("error: [NullAway]") + len("error: [NullAway]"):]
@@ -53,3 +51,5 @@ with open('../projects.json') as f:
             current_errors['PROJECTS'][project['name']] = final_out
             with open(outfilename, 'w') as outfile:
                 json.dump(current_errors, outfile)
+                outfile.flush()
+                outfile.close()

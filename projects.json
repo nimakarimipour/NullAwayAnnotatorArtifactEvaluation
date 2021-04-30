@@ -32,7 +32,7 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "org.mockito.Initializer",
-            "branch": "gc_3",
+            "branch": "gc_2",
             "preprocess": true,
             "active": false
         },
