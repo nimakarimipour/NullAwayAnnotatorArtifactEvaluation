@@ -128,9 +128,13 @@ def run():
                     log("something went wrong for: " + project['name'])
                 finally:
                     end = time.time()
-                    file_object = open(project['name'] + '.txt', 'a')
-                    file_object.write("\n" + project['name'] + ": " + str(end - start))
-                    file_object.close()
+                    time_json_file = open('time.json')
+                    times = json.load(time_json_file)
+                    time_json_file.close()
+                    times[project['name']] = {"total": end - start}
+                    time_json_file = open('time.json', "w")
+                    json.dump(times, time_json_file)
+                    time_json_file.close()
                     log("requesting commit")
                     commit()
                     log("finsihed commit")
