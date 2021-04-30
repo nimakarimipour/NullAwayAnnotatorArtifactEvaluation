@@ -27,12 +27,10 @@ with open('../projects.json') as f:
             res = subprocess.Popen(command + " > /dev/null && echo done", shell=True, stderr=PIPE)
             out, err = res.communicate()
             errors = str(err).split("\n")
-            print(len(errors))
             errors.pop()
             for i in range(0, len(errors)):
                 disp = {}
                 if("error: [NullAway]" in errors[i]):
-                    print(errors[i])
                     line = errors[i]
                     error_url = line[0:line.index("error: [NullAway]")]
                     error_url = error_url[:-2]

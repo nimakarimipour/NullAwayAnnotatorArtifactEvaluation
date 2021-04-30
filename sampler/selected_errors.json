@@ -1,0 +1,858 @@
+{
+    "PROJECTS": [
+        {
+            "name": "Zuul",
+            "size": 7,
+            "errors": [
+                {
+                    "url": "https://github.com/nimakarimipour/zuul/blob/docker/zuul-core/src/main/java/com/netflix/zuul/context/SessionContext.java#L249",
+                    "position": "if (sb.length() > 0)",
+                    "message": " dereferenced expression sb is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/zuul/blob/docker/zuul-core/src/main/java/com/netflix/zuul/netty/server/ssl/SslHandshakeInfoHandler.java#L65",
+                    "position": "spectatorRegistry = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/zuul/blob/docker/zuul-core/src/main/java/com/netflix/zuul/netty/filter/ZuulEndPointRunner.java#L190",
+                    "position": "resp.finishBufferedBodyIfIncomplete();",
+                    "message": " dereferenced expression resp is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/zuul/blob/docker/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java#L316",
+                    "position": "final Server chosenServer = loadBalancer.chooseServer(key);",
+                    "message": " (Covered) passing @Nullable parameter 'key' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/zuul/blob/docker/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java#L772",
+                    "position": "zuulResponse = buildZuulHttpResponse(originResponse, statusCategory, context.getError());",
+                    "message": " (Covered) passing @Nullable parameter 'context.getError()' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/zuul/blob/docker/zuul-core/src/main/java/com/netflix/zuul/netty/server/DirectMemoryMonitor.java#L85",
+                    "position": "directMemoryLimitGetter = directMemoryLimit;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/zuul/blob/docker/zuul-core/src/main/java/com/netflix/zuul/filters/http/HttpSyncEndpoint.java#L95",
+                    "position": "this.response = response;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                }
+            ]
+        },
+        {
+            "name": "SpringBoot",
+            "size": 23,
+            "errors": [
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/PropertyMapper.java#L59",
+                    "position": "private static final PropertyMapper INSTANCE = new PropertyMapper(null, null);",
+                    "message": " (Covered) passing @Nullable parameter 'null' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplication.java#L284",
+                    "position": "this.mainApplicationClass = deduceMainApplicationClass();",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java#L88",
+                    "position": "this.transformerFactoryClass = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/logging/LoggingApplicationListener.java#L382",
+                    "position": "system.setLogLevel(name, level);",
+                    "message": " (Covered) passing @Nullable parameter 'name' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java#L85",
+                    "position": "this.marshaller = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java#L75",
+                    "position": "this.threadNamePrefix = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java#L108",
+                    "position": "this.messageConverters = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/InvalidConfigurationPropertyValueFailureAnalyzer.java#L127",
+                    "position": "this.origin = origin;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataProperties.java#L151",
+                    "position": "this.onCloudPlatform = onCloudPlatform;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java#L111",
+                    "position": "this.uriTemplateHandler = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/view/MustacheView.java#L84",
+                    "position": "return this.compiler.compile(reader);",
+                    "message": " dereferenced expression this.compiler is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/DeferredLog.java#L298",
+                    "position": "this.throwable = throwable;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/jetty/JettyReactiveWebServerFactory.java#L87",
+                    "position": "public JettyReactiveWebServerFactory(int port) {",
+                    "message": " (Covered) initializer method does not guarantee @NonNull fields resourceFactory (line 72), threadPool (line 74) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/ResourceBanner.java#L105",
+                    "position": "return SpringBootVersion.getVersion();",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/server/Ssl.java#L240",
+                    "position": "return this.trustStoreProvider;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/jetty/JettyReactiveWebServerFactory.java#L79",
+                    "position": "public JettyReactiveWebServerFactory() {",
+                    "message": " (Covered) initializer method does not guarantee @NonNull fields resourceFactory (line 72), threadPool (line 74) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java#L89",
+                    "position": "this.messageFactory = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertySource.java#L82",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/system/SystemProperties.java#L41",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/ServletContextInitializerBeans.java#L248",
+                    "position": "this.multipartConfig = multipartConfig;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/AliasedConfigurationPropertySource.java#L47",
+                    "position": "result = getSource().getConfigurationProperty(aliasedName);",
+                    "message": " (Covered) passing @Nullable parameter 'aliasedName' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/DurationStyle.java#L98",
+                    "position": "return parse(value, null);",
+                    "message": " (Covered) passing @Nullable parameter 'null' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/spring-boot/blob/docker/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskSchedulerBuilder.java#L58",
+                    "position": "this.customizers = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                }
+            ]
+        },
+        {
+            "name": "Conductor",
+            "size": 7,
+            "errors": [
+                {
+                    "url": "https://github.com/nimakarimipour/conductor/blob/docker/core/src/main/java/com/netflix/conductor/service/TaskServiceImpl.java#L114",
+                    "position": "public Task getPendingTaskForWorkflow(String workflowId, String taskReferenceName) {",
+                    "message": " (Covered) method returns @Nullable, but superclass method com.netflix.conductor.service.TaskService.getPendingTaskForWorkflow(@javax.validation.constraints.NotEmpty(message=\"WorkflowId cannot be null or empty.\") java.lang.String,@javax.validation.constraints.NotEmpty(message=\"TaskReferenceName cannot be null or empty.\") java.lang.String) returns @NonNull"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/conductor/blob/docker/core/src/main/java/com/netflix/conductor/service/AdminServiceImpl.java#L46",
+                    "position": "this.eventQueueManager = eventQueueManager.orElse(null);",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/conductor/blob/docker/core/src/main/java/com/netflix/conductor/core/events/DefaultEventProcessor.java#L205",
+                    "position": "Map<String, Object> output = new RetryUtil<Map<String, Object>>().retryOnException(() -> actionProcessor.execute(action, payload, eventExecution.getEvent(), eventExecution.getMessageId()), this::isTransientException, null, RETRY_COUNT, description, methodName);",
+                    "message": " (Covered) passing @Nullable parameter 'null' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/conductor/blob/docker/core/src/main/java/com/netflix/conductor/core/utils/ParametersUtils.java#L192",
+                    "position": "String[] values = paramString.split(\"(?=(?<!\\\\$)\\\\$\\\\{)|(?<=\\\\})\");",
+                    "message": " dereferenced expression paramString is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/conductor/blob/docker/core/src/main/java/com/netflix/conductor/service/TaskServiceImpl.java#L158",
+                    "position": "}, null, null, 3, ackTaskDesc, ackTaskOperation);",
+                    "message": " (Covered) passing @Nullable parameter 'null' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/conductor/blob/docker/core/src/main/java/com/netflix/conductor/core/execution/tasks/Event.java#L95",
+                    "position": "Message message = new Message(task.getTaskId(), null, task.getTaskId());",
+                    "message": " (Covered) passing @Nullable parameter 'null' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/conductor/blob/docker/core/src/main/java/com/netflix/conductor/metrics/WorkflowMonitor.java#L59",
+                    "position": "public WorkflowMonitor(MetadataDAO metadataDAO, QueueDAO queueDAO, ExecutionDAOFacade executionDAOFacade, @Value(\"${conductor.workflow-monitor.metadataRefreshInterval:10}\") int metadataRefreshInterval, @Value(\"${conductor.workflow-monitor.statsFrequency:60s}\") Duration statsFrequency, SystemTaskRegistry systemTaskRegistry) {",
+                    "message": " (Covered) initializer method does not guarantee @NonNull fields taskDefs (line 53), workflowDefs (line 55) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+                }
+            ]
+        },
+        {
+            "name": "NullAway",
+            "size": 5,
+            "errors": [
+                {
+                    "url": "https://github.com/nimakarimipour/NullAway/blob/dockerFixer/Projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/NullnessStore.java#L218",
+                    "position": "AccessPath newAP = new AccessPath(new AccessPath.Root(toVar.getElement()), ap.getElements());",
+                    "message": " dereferenced expression toVar is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/NullAway/blob/dockerFixer/Projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/OptionalEmptinessHandler.java#L216",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/NullAway/blob/dockerFixer/Projects/NullAway/nullaway/src/main/java/com/uber/nullaway/ErrorBuilder.java#L285",
+                    "position": "final String[] parts = fullMethodName.split(\"\\\\.\");",
+                    "message": " dereferenced expression fullMethodName is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/NullAway/blob/dockerFixer/Projects/NullAway/nullaway/src/main/java/com/uber/nullaway/dataflow/DataFlow.java#L276",
+                    "position": "AnalysisParams ap = new AutoValue_DataFlow_AnalysisParams(transferFunction, cfg);",
+                    "message": " (Covered) passing @Nullable parameter 'transferFunction' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/NullAway/blob/dockerFixer/Projects/NullAway/nullaway/src/main/java/com/uber/nullaway/handlers/contract/ContractUtils.java#L25",
+                    "position": "return fieldNames.stream().map((Function<String, String>) input -> input.substring(input.lastIndexOf(\".\") + 1)).collect(Collectors.toSet());",
+                    "message": " dereferenced expression fieldNames is @Nullable"
+                }
+            ]
+        },
+        {
+            "name": "LibGdx",
+            "size": 43,
+            "errors": [
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g3d/decals/DecalBatch.java#L164",
+                    "position": "groupStrategy.beforeGroup(group.index, group.value);",
+                    "message": " (Covered) passing @Nullable parameter 'group.value' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g3d/particles/influencers/ModelInfluencer.java#L132",
+                    "position": "public ModelInfluencer() {",
+                    "message": " (Covered) initializer method does not guarantee @NonNull field modelChannel (line 130) is initialized along all control-flow paths (remember to check for exceptions or early returns)."
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ParticleController.java#L96",
+                    "position": "public ParticleController() {",
+                    "message": " (Covered) initializer method does not guarantee @NonNull fields name (line 52), particleChannels (line 74) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Table.java#L268",
+                    "position": "cell.actor = actor;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java#L1161",
+                    "position": "spaceBottom = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/utils/ObjectMap.java#L572",
+                    "position": "public V value;",
+                    "message": " (Covered) @NonNull field ObjectMap$Entry.value not initialized"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java#L1103",
+                    "position": "return uniformY;",
+                    "message": " unboxing of a @Nullable value"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g3d/utils/ModelBuilder.java#L130",
+                    "position": "node.id = \"node\" + model.nodes.size;",
+                    "message": " dereferenced expression model is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Window.java#L399",
+                    "position": "public WindowStyle() {",
+                    "message": " (Covered) initializer method does not guarantee @NonNull fields background (line 387), titleFont (line 390) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/utils/ObjectFloatMap.java#L101",
+                    "position": "public ObjectFloatMap(int initialCapacity, float loadFactor) {",
+                    "message": " (Covered) initializer method does not guarantee @NonNull fields entries1 (line 75), entries2 (line 75), values1 (line 77), values2 (line 77), keys1 (line 79), keys2 (line 79) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g3d/particles/influencers/DynamicsModifier.java#L64",
+                    "position": "for (int i = 0, accelOffset = 0, c = i + controller.particles.size * rotationChannel.strideSize; i < c; i += rotationChannel.strideSize, accelOffset += accellerationChannel.strideSize) {",
+                    "message": " dereferenced expression rotationChannel is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/utils/JsonValue.java#L239",
+                    "position": "return stringValue;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g3d/particles/batches/BillboardParticleBatch.java#L166",
+                    "position": "this(mode, useGPU, capacity, null, null);",
+                    "message": " (Covered) passing @Nullable parameter 'null' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/utils/viewport/Viewport.java#L93",
+                    "position": "camera.unproject(tmp, screenX, screenY, screenWidth, screenHeight);",
+                    "message": " read of @NonNull field camera before initialization"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g3d/environment/DirectionalShadowLight.java#L122",
+                    "position": "fbo = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g2d/PixmapPacker.java#L673",
+                    "position": "public Node leftChild;",
+                    "message": " (Covered) @NonNull field PixmapPacker$GuillotineStrategy$Node.leftChild not initialized"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g3d/shaders/BaseShader.java#L307",
+                    "position": "locations = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g3d/utils/CameraInputController.java#L180",
+                    "position": "return controller.pinchZoom(amount / ((w > h) ? h : w));",
+                    "message": " dereferenced expression controller is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/utils/IntIntMap.java#L104",
+                    "position": "public IntIntMap(int initialCapacity, float loadFactor) {",
+                    "message": " (Covered) initializer method does not guarantee @NonNull fields entries1 (line 78), entries2 (line 78), values1 (line 80), values2 (line 80), keys1 (line 82), keys2 (line 82) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/utils/JsonReader.java#L659",
+                    "position": "child.setName(name);",
+                    "message": " (Covered) passing @Nullable parameter 'name' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/utils/JsonValue.java#L668",
+                    "position": "v = value.stringValue.length() == 0 ? 0 : value.stringValue.charAt(0);",
+                    "message": " dereferenced expression value.stringValue is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g3d/model/data/ModelMaterial.java#L55",
+                    "position": "public Array<ModelTexture> textures;",
+                    "message": " (Covered) @NonNull field textures not initialized"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g3d/particles/influencers/ColorInfluencer.java#L50",
+                    "position": "for (int i = startIndex * colorChannel.strideSize, c = i + count * colorChannel.strideSize; i < c; i += colorChannel.strideSize) {",
+                    "message": " dereferenced expression colorChannel is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/Mesh.java#L227",
+                    "position": "instances = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/assets/AssetManager.java#L328",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/utils/compression/lzma/Encoder.java#L312",
+                    "position": "com.badlogic.gdx.utils.compression.lz.BinTree _matchFinder = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/maps/tiled/TiledMapTileSets.java#L56",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/input/RemoteInput.java#L265",
+                    "position": "this(port, null);",
+                    "message": " (Covered) passing @Nullable parameter 'null' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g3d/shaders/BaseShader.java#L137",
+                    "position": "public Camera camera;",
+                    "message": " (Covered) @NonNull field camera not initialized"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/PixmapIO.java#L284",
+                    "position": "prevLine = prevLineBytes.ensureCapacity(lineLen);",
+                    "message": " read of @NonNull field prevLineBytes before initialization"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java#L1190",
+                    "position": "minWidth = cell.minWidth;",
+                    "message": " dereferenced expression cell is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/ImageButton.java#L64",
+                    "position": "this(new ImageButtonStyle(null, null, null, imageUp, imageDown, null));",
+                    "message": " (Covered) passing @Nullable parameter 'null' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/Cubemap.java#L340",
+                    "position": "builder.append(managedCubemaps.get(app).size);",
+                    "message": " dereferenced expression managedCubemaps.get(app) is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g2d/PolygonSpriteBatch.java#L1106",
+                    "position": "lastTexture.bind();",
+                    "message": " dereferenced expression lastTexture is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/scenes/scene2d/InputEvent.java#L162",
+                    "position": "return relatedActor;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/Input.java#L725",
+                    "position": "return keyNames.get(keyname, -1);",
+                    "message": " dereferenced expression keyNames is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/utils/JsonValue.java#L126",
+                    "position": "return current;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/utils/ArrayMap.java#L83",
+                    "position": "public ArrayMap(boolean ordered, int capacity, Class keyArrayType, Class valueArrayType) {",
+                    "message": " (Covered) initializer method does not guarantee @NonNull fields entries1 (line 46), entries2 (line 46), values1 (line 48), values2 (line 48), keys1 (line 50), keys2 (line 50) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g2d/ParticleEmitter.java#L1325",
+                    "position": "public Particle(@Nullable() Sprite sprite) {",
+                    "message": " (Covered) initializer method does not guarantee @NonNull field tint (line 1321) is initialized along all control-flow paths (remember to check for exceptions or early returns)."
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ParticleEffectLoader.java#L126",
+                    "position": "effectData.resource.load(manager, effectData);",
+                    "message": " dereferenced expression effectData is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/g3d/particles/influencers/DynamicsModifier.java#L400",
+                    "position": "TMP_V1.set(positionChannel.data[positionOffset + ParticleChannels.XOffset], positionChannel.data[positionOffset + ParticleChannels.YOffset], positionChannel.data[positionOffset + ParticleChannels.ZOffset]);",
+                    "message": " dereferenced expression positionChannel is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/HorizontalGroup.java#L59",
+                    "position": "public HorizontalGroup() {",
+                    "message": " (Covered) initializer method does not guarantee @NonNull field rowSizes (line 51) is initialized along all control-flow paths (remember to check for exceptions or early returns)."
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/libgdx/blob/docker/gdx/src/com/badlogic/gdx/graphics/Texture.java#L350",
+                    "position": "builder.append(managedTextures.get(app).size);",
+                    "message": " dereferenced expression managedTextures.get(app) is @Nullable"
+                }
+            ]
+        },
+        {
+            "name": "Mockito",
+            "size": 7,
+            "errors": [
+                {
+                    "url": "https://github.com/nimakarimipour/mockito/blob/docker/src/main/java/org/mockito/internal/util/concurrent/DetachedThreadLocal.java#L110",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/mockito/blob/docker/src/main/java/org/mockito/internal/handler/NotifiedMethodInvocationReport.java#L44",
+                    "position": "this.returnedValue = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/mockito/blob/docker/src/main/java/org/mockito/internal/util/reflection/InstrumentationMemberAccessor.java#L60",
+                    "position": "DISPATCHER = dispatcher;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/mockito/blob/docker/src/main/java/org/mockito/internal/stubbing/defaultanswers/RetrieveGenericsForDefaultAnswers.java#L36",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/mockito/blob/docker/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java#L92",
+                    "position": "this.canRead = canRead;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/mockito/blob/docker/src/main/java/org/mockito/internal/util/reflection/InstrumentationMemberAccessor.java#L29",
+                    "position": "private static final Dispatcher DISPATCHER;",
+                    "message": " (Covered) @NonNull static field DISPATCHER not initialized"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/mockito/blob/docker/src/main/java/org/mockito/internal/stubbing/defaultanswers/RetrieveGenericsForDefaultAnswers.java#L40",
+                    "position": "return answerCallback.apply(null);",
+                    "message": " (Covered) passing @Nullable parameter 'null' where @NonNull is required"
+                }
+            ]
+        },
+        {
+            "name": "LottieAndroid",
+            "size": 10,
+            "errors": [
+                {
+                    "url": "https://github.com/nimakarimipour/lottie-android/blob/docker/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java#L259",
+                    "position": "node.next = node.prev = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/lottie-android/blob/docker/lottie/src/main/java/com/airbnb/lottie/animation/content/FillContent.java#L55",
+                    "position": "colorAnimation = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/lottie-android/blob/docker/lottie/src/main/java/com/airbnb/lottie/TextDelegate.java#L27",
+                    "position": "animationView = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/lottie-android/blob/docker/lottie/src/main/java/com/airbnb/lottie/parser/ShapeStrokeParser.java#L127",
+                    "position": "name, offset, lineDashPattern, color, opacity, width, capType, joinType, miterLimit, hidden);",
+                    "message": " (Covered) passing @Nullable parameter 'name' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/lottie-android/blob/docker/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java#L78",
+                    "position": "skewValues = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/lottie-android/blob/docker/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java#L726",
+                    "position": "node.parent = stack;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/lottie-android/blob/docker/lottie/src/main/java/com/airbnb/lottie/parser/AnimatablePathValueParser.java#L93",
+                    "position": "return new AnimatableSplitDimensionPathValue(xAnimation, yAnimation);",
+                    "message": " (Covered) passing @Nullable parameter 'xAnimation' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/lottie-android/blob/docker/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java#L503",
+                    "position": "Node(Node<K, V> parent, K key, int hash, Node<K, V> next, Node<K, V> prev) {",
+                    "message": " (Covered) initializer method does not guarantee @NonNull field value (line 487) is initialized along all control-flow paths (remember to check for exceptions or early returns)."
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/lottie-android/blob/docker/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java#L781",
+                    "position": "if (stackTop.parent != null) {",
+                    "message": " dereferenced expression stackTop is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/lottie-android/blob/docker/lottie/src/main/java/com/airbnb/lottie/animation/content/PolystarContent.java#L82",
+                    "position": "innerRadiusAnimation.addUpdateListener(this);",
+                    "message": " read of @NonNull field innerRadiusAnimation before initialization"
+                }
+            ]
+        },
+        {
+            "name": "MPAndroid",
+            "size": 5,
+            "errors": [
+                {
+                    "url": "https://github.com/nimakarimipour/MPAndroidChart/blob/docker/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/ZoomJob.java#L75",
+                    "position": "return new ZoomJob(null, 0, 0, 0, 0, null, null, null);",
+                    "message": " (Covered) passing @Nullable parameter 'null' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/MPAndroidChart/blob/docker/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java#L135",
+                    "position": "public ScatterData getScatterData() {",
+                    "message": " (Covered) method returns @Nullable, but superclass method com.github.mikephil.charting.interfaces.dataprovider.ScatterDataProvider.getScatterData() returns @NonNull"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/MPAndroidChart/blob/docker/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/BarChartRenderer.java#L107",
+                    "position": "BarBuffer buffer = mBarBuffers[index];",
+                    "message": " read of @NonNull field mBarBuffers before initialization"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/MPAndroidChart/blob/docker/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java#L97",
+                    "position": "public BaseDataSet() {",
+                    "message": " (Covered) initializer method does not guarantee @NonNull fields mValueFormatter (line 53), mValueTypeface (line 58) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/MPAndroidChart/blob/docker/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/LineChartRenderer.java#L144",
+                    "position": "mBitmapCanvas.drawPath(cubicPath, mRenderPaint);",
+                    "message": " read of @NonNull field mBitmapCanvas before initialization"
+                }
+            ]
+        },
+        {
+            "name": "PhotoView",
+            "size": 1,
+            "errors": [
+                {
+                    "url": "https://github.com/nimakarimipour/PhotoView/blob/docker/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java#L137",
+                    "position": "if (mScaleDragDetector.isScaling()) {",
+                    "message": " dereferenced expression mScaleDragDetector is @Nullable"
+                }
+            ]
+        },
+        {
+            "name": "Jadx",
+            "size": 10,
+            "errors": [
+                {
+                    "url": "https://github.com/nimakarimipour/jadx/blob/docker/jadx-core/src/main/java/jadx/core/codegen/CodeWriter.java#L252",
+                    "position": "buf = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/jadx/blob/docker/jadx-core/src/main/java/jadx/core/dex/instructions/args/ArgType.java#L625",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/jadx/blob/docker/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java#L356",
+                    "position": "return enterBlock;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/jadx/blob/docker/jadx-core/src/main/java/jadx/core/dex/instructions/mods/TernaryInsn.java#L31",
+                    "position": "private TernaryInsn() {",
+                    "message": " (Covered) initializer method does not guarantee @NonNull field condition (line 14) is initialized along all control-flow paths (remember to check for exceptions or early returns)."
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/jadx/blob/docker/jadx-core/src/main/java/jadx/core/dex/regions/loops/LoopRegion.java#L117",
+                    "position": "if (!found && ifInsn.containsVar(res)) {",
+                    "message": " dereferenced expression ifInsn is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/jadx/blob/docker/jadx-core/src/main/java/jadx/core/clsp/ClsSet.java#L359",
+                    "position": "nClass.setParents(readArgTypesArray(in));",
+                    "message": " (Covered) passing @Nullable parameter 'readArgTypesArray(in)' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/jadx/blob/docker/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java#L441",
+                    "position": "EdgeInsnAttr.addEdgeInsn(insertBlock, insertBlock.getSuccessors().get(0), breakInsn);",
+                    "message": " (Covered) passing @Nullable parameter 'insertBlock' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/jadx/blob/docker/jadx-core/src/main/java/jadx/core/dex/visitors/regions/ProcessTryCatchRegions.java#L100",
+                    "position": "if (!wrapBlocks(region, tb, dominator)) {",
+                    "message": " (Covered) passing @Nullable parameter 'tb' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/jadx/blob/docker/jadx-core/src/main/java/jadx/core/dex/nodes/parser/SignatureParser.java#L164",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/jadx/blob/docker/jadx-core/src/main/java/jadx/core/dex/instructions/args/RegisterArg.java#L159",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                }
+            ]
+        },
+        {
+            "name": "Gson",
+            "size": 9,
+            "errors": [
+                {
+                    "url": "https://github.com/nimakarimipour/gson/blob/docker/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java#L575",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/gson/blob/docker/gson/src/main/java/com/google/gson/internal/bind/TimeTypeAdapter.java#L48",
+                    "position": "return typeToken.getRawType() == Time.class ? (TypeAdapter<T>) new TimeTypeAdapter() : null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/gson/blob/docker/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java#L142",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/gson/blob/docker/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java#L268",
+                    "position": "node.right = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/gson/blob/docker/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java#L595",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/gson/blob/docker/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java#L458",
+                    "position": "Node() {",
+                    "message": " (Covered) initializer method does not guarantee @NonNull fields left (line 441), right (line 443), value (line 451) are initialized along all control-flow paths (remember to check for exceptions or early returns)."
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/gson/blob/docker/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java#L985",
+                    "position": "return result;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/gson/blob/docker/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java#L260",
+                    "position": "node.next = node.prev = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/gson/blob/docker/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java#L140",
+                    "position": "deserializer = typeAdapter instanceof JsonDeserializer ? (JsonDeserializer<?>) typeAdapter : null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                }
+            ]
+        },
+        {
+            "name": "EventBus",
+            "size": 5,
+            "errors": [
+                {
+                    "url": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java#L279",
+                    "position": "clazz = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/EventBus.java#L315",
+                    "position": "} else if (postingState.subscription.subscriberMethod.threadMode != ThreadMode.POSTING) {",
+                    "message": " dereferenced expression postingState.subscription is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java#L286",
+                    "position": "clazz = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java#L183",
+                    "position": "public static ErrorDialogFragmentFactory<?> factory;",
+                    "message": " (Covered) @NonNull static field factory not initialized"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/EventBus/blob/docker/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java#L143",
+                    "position": "eventBus.unregister(this);",
+                    "message": " dereferenced expression eventBus is @Nullable"
+                }
+            ]
+        },
+        {
+            "name": "LitiEngine",
+            "size": 17,
+            "errors": [
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/graphics/emitters/EntityEmitter.java#L72",
+                    "position": "public Point2D getLocation() {",
+                    "message": " (Covered) method returns @Nullable, but superclass method de.gurkenlabs.litiengine.entities.Entity.getLocation() returns @NonNull"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/util/Imaging.java#L316",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObjectLayer.java#L126",
+                    "position": "return this.color;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/graphics/animation/AnimationController.java#L187",
+                    "position": "return this.currentAnimation;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Layer.java#L167",
+                    "position": "return this.parentMap;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java#L87",
+                    "position": "this.collisionEntities.get(Collision.ANY).add(entity);",
+                    "message": " dereferenced expression this.collisionEntities.get(Collision.ANY) is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/resources/Strings.java#L49",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/entities/behavior/Path.java#L30",
+                    "position": "this.start = null;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/environment/tilemap/MapOrientations.java#L90",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/input/Input.java#L75",
+                    "position": "return mouse;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/environment/EntitySpawner.java#L110",
+                    "position": "return this.spawnpoints;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/environment/GameWorld.java#L335",
+                    "position": "return null;",
+                    "message": " (Covered) returning @Nullable expression from method with @NonNull return type"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/tweening/TweenEngine.java#L118",
+                    "position": "this.getTweens().get(target).remove(type);",
+                    "message": " dereferenced expression this.getTweens().get(target) is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/util/TimeUtilities.java#L9",
+                    "position": "UNDEFINED(null),",
+                    "message": " (Covered) passing @Nullable parameter 'null' where @NonNull is required"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/sound/SoundEvent.java#L20",
+                    "position": "this.sound = sound;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/physics/RaycastHit.java#L16",
+                    "position": "this.point = point;",
+                    "message": " (Covered) assigning @Nullable expression to @NonNull field"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/litiengine/blob/docker/src/de/gurkenlabs/litiengine/environment/Environment.java#L351",
+                    "position": "this.miscEntities.get(entity.getRenderType()).put(entity.getMapId(), entity);",
+                    "message": " dereferenced expression this.miscEntities.get(entity.getRenderType()) is @Nullable"
+                }
+            ]
+        },
+        {
+            "name": "Retrofit",
+            "size": 5,
+            "errors": [
+                {
+                    "url": "https://github.com/nimakarimipour/retrofit/blob/docker/retrofit/src/main/java/retrofit2/OkHttpCall.java#L148",
+                    "position": "call.enqueue(",
+                    "message": " dereferenced expression call is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/retrofit/blob/docker/retrofit/src/main/java/retrofit2/RequestBuilder.java#L210",
+                    "position": "formBuilder.add(name, value);",
+                    "message": " dereferenced expression formBuilder is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/retrofit/blob/docker/retrofit/src/main/java/retrofit2/RequestBuilder.java#L136",
+                    "position": "for (int i = 0, limit = input.length(); i < limit; i += Character.charCount(codePoint)) {",
+                    "message": " dereferenced expression input is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/retrofit/blob/docker/retrofit/src/main/java/retrofit2/RequestBuilder.java#L208",
+                    "position": "formBuilder.addEncoded(name, value);",
+                    "message": " dereferenced expression formBuilder is @Nullable"
+                },
+                {
+                    "url": "https://github.com/nimakarimipour/retrofit/blob/docker/retrofit/src/main/java/retrofit2/RequestFactory.java#L791",
+                    "position": "ParameterHandler<?> otherHandler = parameterHandlers[i];",
+                    "message": " dereferenced expression parameterHandlers is @Nullable"
+                }
+            ]
+        }
+    ]
+}
