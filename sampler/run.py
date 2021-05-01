@@ -34,7 +34,7 @@ with open('../projects.json') as f:
                     line = errors[i]
                     error_url = line[0:line.index("error: [NullAway]")]
                     error_url = error_url[:-2]
-                    error_link = START + project['root'] + "/blob/docker" + error_url[error_url.index(project['path']) + len(project['path']):]
+                    error_link = START + project['root'] + "/blob/{}".format(project['branch']) + error_url[error_url.index(project['path']) + len(project['path']):]
                     error_link = error_link.replace(".java:", ".java#L")
                     disp['url'] = error_link
                     disp['message'] = line[line.index("error: [NullAway]") + len("error: [NullAway]"):]
