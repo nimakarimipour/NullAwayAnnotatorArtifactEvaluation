@@ -1,9 +1,13 @@
-package models.reasons;
+class A {
 
-public class A {
-    Field f;
+    A(Field f){
+        
+    }
+}
 
-    A(@Nullable Field f){
-        this.f = f;
+class B extends A{
+
+    B(@Nullable Field f){
+       super(f); //Here we make A to accept Nullable
     }
 }
