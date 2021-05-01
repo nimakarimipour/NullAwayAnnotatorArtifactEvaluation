@@ -3,6 +3,7 @@ import json
 import subprocess
 from subprocess import Popen, PIPE
 
+# Run with Python2
 
 GIT_RESET = " && git reset --hard && git checkout {} && "
 START = "https://github.com/nimakarimipour/"
