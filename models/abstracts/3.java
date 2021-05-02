@@ -8,5 +8,3 @@ public class A {
 
     //Usage of f with no if check.
 }
-
-class 
