@@ -1,3 +1,6 @@
+//Reason for: public @Nullable Object foo();
+
+
 public class A {
 
     public Object foo(){
@@ -6,5 +9,4 @@ public class A {
         }
         return new Object();
     }
-    
 }
