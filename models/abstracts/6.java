@@ -5,5 +5,4 @@ class A {
     A(){
         f = new Field();
     }
-    
 }
