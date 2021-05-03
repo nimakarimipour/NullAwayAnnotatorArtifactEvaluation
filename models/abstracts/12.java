@@ -5,7 +5,8 @@ interface A {
 
 class B implements A{
 
-    @Nullable foo(){
+    @Nullable 
+    foo(){
 
     }
 }
