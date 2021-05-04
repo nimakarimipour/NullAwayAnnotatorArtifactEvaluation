@@ -1,2 +1,2 @@
 # Docker-AE-NA
-Docker for performing Artifact Evaluation of NullAway AutoFixer
+Docker script for performing Artifact Evaluation of NullAway AutoFixer
