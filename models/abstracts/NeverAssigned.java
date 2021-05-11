@@ -5,5 +5,4 @@ public class A {
     public String get(){
         return f.toString();
     }
-    
 }
