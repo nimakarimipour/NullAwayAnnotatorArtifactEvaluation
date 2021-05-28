@@ -164,7 +164,7 @@
             "build": "./gradlew gdx:compileJava",
             "format": "",
             "init_annot": "com.badlogic.gdx.Initializer",
-            "branch": "gc_1",
+            "branch": "gc_2",
             "preprocess": true,
             "active": true
         }
