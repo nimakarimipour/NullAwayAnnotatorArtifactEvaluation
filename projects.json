@@ -8,7 +8,7 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "com.github.chrisbanes.photoview.Initializer",
-            "branch": "gc_4",
+            "branch": "gc_5",
             "preprocess": true,
             "active": true
         },
@@ -20,7 +20,7 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "com.github.mikephil.charting.Initializer",
-            "branch": "gc_4",
+            "branch": "gc_5",
             "preprocess": true,
             "active": true
         },
@@ -32,7 +32,7 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "org.mockito.Initializer",
-            "branch": "gc_4",
+            "branch": "gc_5",
             "preprocess": true,
             "active": true
         },
@@ -44,7 +44,7 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "com.netflix.conductor.Initializer",
-            "branch": "gc_4",
+            "branch": "gc_5",
             "preprocess": true,
             "active": true
         },
@@ -56,19 +56,7 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "de.gurkenlabs.litiengine.Initializer",
-            "branch": "gc_4",
-            "preprocess": true,
-            "active": true
-        },
-        {
-            "name": "NullAway",
-            "path": "NullAway",
-            "root": "NullAway",
-            "git": "https://{}:{}@github.com/nimakarimipour/NullAway.git",
-            "build": "./gradlew build -x test",
-            "format": "",
-            "init_annot": "com.uber.nullaway.Initializer",
-            "branch": "gc_4",
+            "branch": "gc_5",
             "preprocess": true,
             "active": true
         },
@@ -80,7 +68,7 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "org.greenrobot.eventbus.Initializer",
-            "branch": "gc_4",
+            "branch": "gc_5",
             "preprocess": true,
             "active": true
         },
@@ -92,7 +80,7 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "com.google.gson.Initializer",
-            "branch": "gc_4",
+            "branch": "gc_5",
             "preprocess": true,
             "active": true
         },
@@ -104,7 +92,7 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "jadx.Initializer",
-            "branch": "gc_4",
+            "branch": "gc_5",
             "preprocess": true,
             "active": true
         },
@@ -116,7 +104,7 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "com.netflix.Initializer",
-            "branch": "gc_4",
+            "branch": "gc_5",
             "preprocess": true,
             "active": true
         },
@@ -128,7 +116,7 @@
             "build": "./gradlew lottie:build -x test",
             "format": "",
             "init_annot": "com.airbnb.lottie.Initializer",
-            "branch": "gc_4",
+            "branch": "gc_5",
             "preprocess": true,
             "active": true
         },
@@ -140,7 +128,7 @@
             "build": "./gradlew build -x test",
             "format": "",
             "init_annot": "retrofit2.Initializer",
-            "branch": "gc_4",
+            "branch": "gc_5",
             "preprocess": true,
             "active": true
         },
@@ -164,7 +152,7 @@
             "build": "./gradlew gdx:compileJava",
             "format": "",
             "init_annot": "com.badlogic.gdx.Initializer",
-            "branch": "gc_4",
+            "branch": "gc_5",
             "preprocess": true,
             "active": true
         }
