@@ -9,8 +9,8 @@
             "format": "",
             "init_annot": "com.github.chrisbanes.photoview.Initializer",
             "branch": "gc_5",
-            "preprocess": true,
-            "active": true
+            "preprocess": false,
+            "active": false
         },
         {
             "name": "MPAndroid",
@@ -21,8 +21,8 @@
             "format": "",
             "init_annot": "com.github.mikephil.charting.Initializer",
             "branch": "gc_5",
-            "preprocess": true,
-            "active": true
+            "preprocess": false,
+            "active": false
         },
         {
             "name": "Mockito",
@@ -33,8 +33,8 @@
             "format": "",
             "init_annot": "org.mockito.Initializer",
             "branch": "gc_5",
-            "preprocess": true,
-            "active": true
+            "preprocess": false,
+            "active": false
         },
         {
             "name": "Conductor",
@@ -45,8 +45,8 @@
             "format": "",
             "init_annot": "com.netflix.conductor.Initializer",
             "branch": "gc_5",
-            "preprocess": true,
-            "active": true
+            "preprocess": false,
+            "active": false
         },
         {
             "name": "LitiEngine",
@@ -57,8 +57,8 @@
             "format": "",
             "init_annot": "de.gurkenlabs.litiengine.Initializer",
             "branch": "gc_5",
-            "preprocess": true,
-            "active": true
+            "preprocess": false,
+            "active": false
         },
         {
             "name": "EventBus",
@@ -69,8 +69,8 @@
             "format": "",
             "init_annot": "org.greenrobot.eventbus.Initializer",
             "branch": "gc_5",
-            "preprocess": true,
-            "active": true
+            "preprocess": false,
+            "active": false
         },
         {
             "name": "Gson",
@@ -81,8 +81,8 @@
             "format": "",
             "init_annot": "com.google.gson.Initializer",
             "branch": "gc_5",
-            "preprocess": true,
-            "active": true
+            "preprocess": false,
+            "active": false
         },
         {
             "name": "Jadx",
@@ -93,8 +93,8 @@
             "format": "",
             "init_annot": "jadx.Initializer",
             "branch": "gc_5",
-            "preprocess": true,
-            "active": true
+            "preprocess": false,
+            "active": false
         },
         {
             "name": "Zuul",
@@ -105,8 +105,8 @@
             "format": "",
             "init_annot": "com.netflix.Initializer",
             "branch": "gc_5",
-            "preprocess": true,
-            "active": true
+            "preprocess": false,
+            "active": false
         },
         {
             "name": "LottieAndroid",
@@ -117,8 +117,8 @@
             "format": "",
             "init_annot": "com.airbnb.lottie.Initializer",
             "branch": "gc_5",
-            "preprocess": true,
-            "active": true
+            "preprocess": false,
+            "active": false
         },
         {
             "name": "Retrofit",
@@ -129,8 +129,8 @@
             "format": "",
             "init_annot": "retrofit2.Initializer",
             "branch": "gc_5",
-            "preprocess": true,
-            "active": true
+            "preprocess": false,
+            "active": false
         },
         { 
             "name": "SpringBoot",
@@ -152,7 +152,7 @@
             "build": "./gradlew gdx:compileJava",
             "format": "",
             "init_annot": "com.badlogic.gdx.Initializer",
-            "branch": "gc_5",
+            "branch": "gc_3",
             "preprocess": true,
             "active": true
         }
