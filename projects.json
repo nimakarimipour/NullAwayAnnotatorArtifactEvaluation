@@ -24,7 +24,7 @@
             "format": "",
             "annot": {
                 "init": "com.github.mikephil.charting.Initializer",
-                "nullable": "javax.annotation.Nullable"
+                "nullable": "androidx.annotation.Nullable"
             },
             "branch": "gc_5",
             "preprocess": false,
