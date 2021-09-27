@@ -60,7 +60,6 @@ com.github.mikephil.charting.data.BaseEntry$*$setIcon(android.graphics.drawable.
 com.github.mikephil.charting.data.BaseEntry$*$setIcon(android.graphics.drawable.Drawable)$*$this$*$com.github.mikephil.charting.data.BaseEntry
 com.github.mikephil.charting.data.BaseEntry$*$setY(float)$*$y$*$com.github.mikephil.charting.data.BaseEntry
 com.github.mikephil.charting.data.BaseEntry$*$setY(float)$*$this$*$com.github.mikephil.charting.data.BaseEntry
-com.github.mikephil.charting.data.BaseEntry$*$getData()$*$mData$*$com.github.mikephil.charting.data.BaseEntry
 com.github.mikephil.charting.data.BaseEntry$*$setData(java.lang.Object)$*$mData$*$com.github.mikephil.charting.data.BaseEntry
 com.github.mikephil.charting.data.BaseEntry$*$setData(java.lang.Object)$*$this$*$com.github.mikephil.charting.data.BaseEntry
 com.github.mikephil.charting.utils.ViewPortHandler$*$null$*$MAX_VALUE$*$java.lang.Float
@@ -2205,13 +2204,10 @@ com.github.mikephil.charting.listener.ChartTouchListener$*$startAction(android.v
 com.github.mikephil.charting.listener.ChartTouchListener$*$startAction(android.view.MotionEvent)$*$mLastGesture$*$com.github.mikephil.charting.listener.ChartTouchListener
 com.github.mikephil.charting.listener.ChartTouchListener$*$endAction(android.view.MotionEvent)$*$mChart$*$com.github.mikephil.charting.listener.ChartTouchListener
 com.github.mikephil.charting.listener.ChartTouchListener$*$endAction(android.view.MotionEvent)$*$mLastGesture$*$com.github.mikephil.charting.listener.ChartTouchListener
-com.github.mikephil.charting.listener.ChartTouchListener$*$setLastHighlighted(com.github.mikephil.charting.highlight.Highlight)$*$mLastHighlighted$*$com.github.mikephil.charting.listener.ChartTouchListener
 com.github.mikephil.charting.listener.ChartTouchListener$*$getLastGesture()$*$mLastGesture$*$com.github.mikephil.charting.listener.ChartTouchListener
 com.github.mikephil.charting.listener.ChartTouchListener$*$performHighlight(com.github.mikephil.charting.highlight.Highlight,android.view.MotionEvent)$*$mLastHighlighted$*$com.github.mikephil.charting.listener.ChartTouchListener
 com.github.mikephil.charting.listener.ChartTouchListener$*$performHighlight(com.github.mikephil.charting.highlight.Highlight,android.view.MotionEvent)$*$mChart$*$com.github.mikephil.charting.listener.ChartTouchListener
-com.github.mikephil.charting.listener.ChartTouchListener$*$performHighlight(com.github.mikephil.charting.highlight.Highlight,android.view.MotionEvent)$*$mLastHighlighted$*$com.github.mikephil.charting.listener.ChartTouchListener
 com.github.mikephil.charting.listener.ChartTouchListener$*$performHighlight(com.github.mikephil.charting.highlight.Highlight,android.view.MotionEvent)$*$mChart$*$com.github.mikephil.charting.listener.ChartTouchListener
-com.github.mikephil.charting.listener.ChartTouchListener$*$performHighlight(com.github.mikephil.charting.highlight.Highlight,android.view.MotionEvent)$*$mLastHighlighted$*$com.github.mikephil.charting.listener.ChartTouchListener
 com.github.mikephil.charting.renderer.LegendRenderer$*$LegendRenderer(com.github.mikephil.charting.utils.ViewPortHandler,com.github.mikephil.charting.components.Legend)$*$mLegend$*$com.github.mikephil.charting.renderer.LegendRenderer
 com.github.mikephil.charting.renderer.LegendRenderer$*$LegendRenderer(com.github.mikephil.charting.utils.ViewPortHandler,com.github.mikephil.charting.components.Legend)$*$mLegend$*$com.github.mikephil.charting.renderer.LegendRenderer
 com.github.mikephil.charting.renderer.LegendRenderer$*$LegendRenderer(com.github.mikephil.charting.utils.ViewPortHandler,com.github.mikephil.charting.components.Legend)$*$this$*$com.github.mikephil.charting.renderer.LegendRenderer
@@ -5234,7 +5230,6 @@ com.github.mikephil.charting.listener.BarLineChartTouchListener$*$performZoom(an
 com.github.mikephil.charting.listener.BarLineChartTouchListener$*$performZoom(android.view.MotionEvent)$*$x$*$com.github.mikephil.charting.utils.MPPointF
 com.github.mikephil.charting.listener.BarLineChartTouchListener$*$performZoom(android.view.MotionEvent)$*$y$*$com.github.mikephil.charting.utils.MPPointF
 com.github.mikephil.charting.listener.BarLineChartTouchListener$*$performHighlightDrag(android.view.MotionEvent)$*$mChart$*$com.github.mikephil.charting.listener.ChartTouchListener
-com.github.mikephil.charting.listener.BarLineChartTouchListener$*$performHighlightDrag(android.view.MotionEvent)$*$mLastHighlighted$*$com.github.mikephil.charting.listener.ChartTouchListener
 com.github.mikephil.charting.listener.BarLineChartTouchListener$*$performHighlightDrag(android.view.MotionEvent)$*$mLastHighlighted$*$com.github.mikephil.charting.listener.ChartTouchListener
 com.github.mikephil.charting.listener.BarLineChartTouchListener$*$performHighlightDrag(android.view.MotionEvent)$*$mChart$*$com.github.mikephil.charting.listener.ChartTouchListener
 com.github.mikephil.charting.listener.BarLineChartTouchListener$*$midPoint(com.github.mikephil.charting.utils.MPPointF,android.view.MotionEvent)$*$x$*$com.github.mikephil.charting.utils.MPPointF
