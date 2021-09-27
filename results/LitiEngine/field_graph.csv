@@ -213,7 +213,6 @@ de.gurkenlabs.litiengine.graphics.animation.AnimationController$*$getAll()$*$ani
 de.gurkenlabs.litiengine.graphics.animation.AnimationController$*$getAll()$*$animations$*$de.gurkenlabs.litiengine.graphics.animation.AnimationController
 de.gurkenlabs.litiengine.graphics.animation.AnimationController$*$getAll()$*$this$*$de.gurkenlabs.litiengine.graphics.animation.AnimationController
 de.gurkenlabs.litiengine.graphics.animation.AnimationController$*$getCurrent()$*$currentAnimation$*$de.gurkenlabs.litiengine.graphics.animation.AnimationController
-de.gurkenlabs.litiengine.graphics.animation.AnimationController$*$getCurrent()$*$currentAnimation$*$de.gurkenlabs.litiengine.graphics.animation.AnimationController
 de.gurkenlabs.litiengine.graphics.animation.AnimationController$*$getCurrent()$*$this$*$de.gurkenlabs.litiengine.graphics.animation.AnimationController
 de.gurkenlabs.litiengine.graphics.animation.AnimationController$*$getCurrentImage()$*$this$*$de.gurkenlabs.litiengine.graphics.animation.AnimationController
 de.gurkenlabs.litiengine.graphics.animation.AnimationController$*$getCurrentImage()$*$this$*$de.gurkenlabs.litiengine.graphics.animation.AnimationController
@@ -349,7 +348,6 @@ de.gurkenlabs.litiengine.graphics.animation.Animation$*$Animation(java.lang.Stri
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$Animation(java.lang.String,de.gurkenlabs.litiengine.graphics.Spritesheet,boolean,int...)$*$name$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$Animation(java.lang.String,de.gurkenlabs.litiengine.graphics.Spritesheet,boolean,int...)$*$this$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$Animation(java.lang.String,de.gurkenlabs.litiengine.graphics.Spritesheet,boolean,int...)$*$spritesheet$*$de.gurkenlabs.litiengine.graphics.animation.Animation
-de.gurkenlabs.litiengine.graphics.animation.Animation$*$Animation(java.lang.String,de.gurkenlabs.litiengine.graphics.Spritesheet,boolean,int...)$*$spritesheet$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$Animation(java.lang.String,de.gurkenlabs.litiengine.graphics.Spritesheet,boolean,int...)$*$this$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$Animation(java.lang.String,de.gurkenlabs.litiengine.graphics.Spritesheet,boolean,int...)$*$loop$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$Animation(java.lang.String,de.gurkenlabs.litiengine.graphics.Spritesheet,boolean,int...)$*$this$*$de.gurkenlabs.litiengine.graphics.animation.Animation
@@ -383,13 +381,11 @@ de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$sprit
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$this$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$this$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$spritesheet$*$de.gurkenlabs.litiengine.graphics.animation.Animation
-de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$spritesheet$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$this$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$spritesheet$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$spritesheet$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$this$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$this$*$de.gurkenlabs.litiengine.graphics.animation.Animation
-de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$spritesheet$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$spritesheet$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$this$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$isLooping()$*$loop$*$de.gurkenlabs.litiengine.graphics.animation.Animation
@@ -3946,7 +3942,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset$*$getSpritesheet()$*$th
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset$*$getSpritesheet()$*$spriteSheet$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset$*$getSpritesheet()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset$*$getSpritesheet()$*$spriteSheet$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset
-de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset$*$getSpritesheet()$*$spriteSheet$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset$*$getSpritesheet()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset$*$getTileDimension()$*$sourceTileset$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset$*$getTileDimension()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset
@@ -5941,7 +5936,6 @@ de.gurkenlabs.litiengine.entities.EntityControllers$*$getAnimationController()$*
 de.gurkenlabs.litiengine.entities.EntityControllers$*$getAnimationController()$*$class$*$de.gurkenlabs.litiengine.graphics.animation.IEntityAnimationController
 de.gurkenlabs.litiengine.entities.EntityControllers$*$getAnimationController()$*$this$*$de.gurkenlabs.litiengine.entities.EntityControllers
 de.gurkenlabs.litiengine.entities.EntityControllers$*$getAnimationController()$*$animationController$*$de.gurkenlabs.litiengine.entities.EntityControllers
-de.gurkenlabs.litiengine.entities.EntityControllers$*$getAnimationController()$*$animationController$*$de.gurkenlabs.litiengine.entities.EntityControllers
 de.gurkenlabs.litiengine.entities.EntityControllers$*$getAnimationController()$*$this$*$de.gurkenlabs.litiengine.entities.EntityControllers
 de.gurkenlabs.litiengine.entities.EntityControllers$*$<T>getController(java.lang.Class<T>)$*$this$*$de.gurkenlabs.litiengine.entities.EntityControllers
 de.gurkenlabs.litiengine.entities.EntityControllers$*$<T>getController(java.lang.Class<T>)$*$controllers$*$de.gurkenlabs.litiengine.entities.EntityControllers
@@ -6923,7 +6917,6 @@ de.gurkenlabs.litiengine.graphics.MouseCursor$*$setTransform(java.awt.geom.Affin
 de.gurkenlabs.litiengine.graphics.MouseCursor$*$setVisible(boolean)$*$visible$*$de.gurkenlabs.litiengine.graphics.MouseCursor
 de.gurkenlabs.litiengine.graphics.MouseCursor$*$setVisible(boolean)$*$this$*$de.gurkenlabs.litiengine.graphics.MouseCursor
 de.gurkenlabs.litiengine.sound.SoundEngine$*$null$*$class$*$de.gurkenlabs.litiengine.sound.SoundEngine
-de.gurkenlabs.litiengine.sound.SoundEngine$*$playMusic(de.gurkenlabs.litiengine.sound.Track,java.util.function.Consumer<? super de.gurkenlabs.litiengine.sound.MusicPlayback>,boolean,boolean)$*$music$*$de.gurkenlabs.litiengine.sound.SoundEngine
 de.gurkenlabs.litiengine.sound.SoundEngine$*$playMusic(de.gurkenlabs.litiengine.sound.Track,java.util.function.Consumer<? super de.gurkenlabs.litiengine.sound.MusicPlayback>,boolean,boolean)$*$music$*$de.gurkenlabs.litiengine.sound.SoundEngine
 de.gurkenlabs.litiengine.sound.SoundEngine$*$playMusic(de.gurkenlabs.litiengine.sound.Track,java.util.function.Consumer<? super de.gurkenlabs.litiengine.sound.MusicPlayback>,boolean,boolean)$*$music$*$de.gurkenlabs.litiengine.sound.SoundEngine
 de.gurkenlabs.litiengine.sound.SoundEngine$*$playMusic(de.gurkenlabs.litiengine.sound.Track,java.util.function.Consumer<? super de.gurkenlabs.litiengine.sound.MusicPlayback>,boolean,boolean)$*$allMusic$*$de.gurkenlabs.litiengine.sound.SoundEngine
@@ -8115,7 +8108,6 @@ de.gurkenlabs.litiengine.gui.ImageComponent$*$ImageComponent(double,double,doubl
 de.gurkenlabs.litiengine.gui.ImageComponent$*$ImageComponent(double,double,double,double,java.lang.String)$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$ImageComponent(double,double,double,double,java.awt.Image)$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$ImageComponent(double,double,double,double,de.gurkenlabs.litiengine.graphics.Spritesheet,java.lang.String,java.awt.Image)$*$spritesheet$*$de.gurkenlabs.litiengine.gui.ImageComponent
-de.gurkenlabs.litiengine.gui.ImageComponent$*$ImageComponent(double,double,double,double,de.gurkenlabs.litiengine.graphics.Spritesheet,java.lang.String,java.awt.Image)$*$spritesheet$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$ImageComponent(double,double,double,double,de.gurkenlabs.litiengine.graphics.Spritesheet,java.lang.String,java.awt.Image)$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$ImageComponent(double,double,double,double,de.gurkenlabs.litiengine.graphics.Spritesheet,java.lang.String,java.awt.Image)$*$LEFT$*$de.gurkenlabs.litiengine.Align
 de.gurkenlabs.litiengine.gui.ImageComponent$*$ImageComponent(double,double,double,double,de.gurkenlabs.litiengine.graphics.Spritesheet,java.lang.String,java.awt.Image)$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
@@ -8189,7 +8181,6 @@ de.gurkenlabs.litiengine.gui.ImageComponent$*$setImageScaleMode(de.gurkenlabs.li
 de.gurkenlabs.litiengine.gui.ImageComponent$*$setImageScaleMode(de.gurkenlabs.litiengine.gui.ImageScaleMode)$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$setImageScaleMode(de.gurkenlabs.litiengine.gui.ImageScaleMode)$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$setSpriteSheet(de.gurkenlabs.litiengine.graphics.Spritesheet)$*$spritesheet$*$de.gurkenlabs.litiengine.gui.ImageComponent
-de.gurkenlabs.litiengine.gui.ImageComponent$*$setSpriteSheet(de.gurkenlabs.litiengine.graphics.Spritesheet)$*$spritesheet$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$setSpriteSheet(de.gurkenlabs.litiengine.graphics.Spritesheet)$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$setImageAlign(de.gurkenlabs.litiengine.Align)$*$imageAlign$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$setImageAlign(de.gurkenlabs.litiengine.Align)$*$imageAlign$*$de.gurkenlabs.litiengine.gui.ImageComponent
@@ -8201,7 +8192,6 @@ de.gurkenlabs.litiengine.gui.ImageComponent$*$setHeight(double)$*$super$*$de.gur
 de.gurkenlabs.litiengine.gui.ImageComponent$*$setHeight(double)$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$setWidth(double)$*$super$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$setWidth(double)$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
-de.gurkenlabs.litiengine.gui.ImageComponent$*$getSpritesheet()$*$spritesheet$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$getSpritesheet()$*$spritesheet$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$getSpritesheet()$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$getImageLocation(java.awt.Image)$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
@@ -9801,9 +9791,7 @@ de.gurkenlabs.litiengine.configuration.ClientConfiguration$*$ClientConfiguration
 de.gurkenlabs.litiengine.configuration.ClientConfiguration$*$ClientConfiguration()$*$this$*$de.gurkenlabs.litiengine.configuration.ClientConfiguration
 de.gurkenlabs.litiengine.configuration.ClientConfiguration$*$ClientConfiguration()$*$this$*$de.gurkenlabs.litiengine.configuration.ClientConfiguration
 de.gurkenlabs.litiengine.configuration.ClientConfiguration$*$getCountry()$*$country$*$de.gurkenlabs.litiengine.configuration.ClientConfiguration
-de.gurkenlabs.litiengine.configuration.ClientConfiguration$*$getCountry()$*$country$*$de.gurkenlabs.litiengine.configuration.ClientConfiguration
 de.gurkenlabs.litiengine.configuration.ClientConfiguration$*$getCountry()$*$this$*$de.gurkenlabs.litiengine.configuration.ClientConfiguration
-de.gurkenlabs.litiengine.configuration.ClientConfiguration$*$getLanguage()$*$language$*$de.gurkenlabs.litiengine.configuration.ClientConfiguration
 de.gurkenlabs.litiengine.configuration.ClientConfiguration$*$getLanguage()$*$language$*$de.gurkenlabs.litiengine.configuration.ClientConfiguration
 de.gurkenlabs.litiengine.configuration.ClientConfiguration$*$getLanguage()$*$this$*$de.gurkenlabs.litiengine.configuration.ClientConfiguration
 de.gurkenlabs.litiengine.configuration.ClientConfiguration$*$getLocale()$*$this$*$de.gurkenlabs.litiengine.configuration.ClientConfiguration
@@ -11363,7 +11351,6 @@ de.gurkenlabs.litiengine.environment.tilemap.MapOrientations.Hexagonal$*$getTile
 de.gurkenlabs.litiengine.environment.tilemap.MapOrientations.Hexagonal$*$getTile(double,double,de.gurkenlabs.litiengine.environment.tilemap.IMap)$*$x$*$java.awt.Point
 de.gurkenlabs.litiengine.environment.tilemap.MapOrientations.Hexagonal$*$checkValidity(de.gurkenlabs.litiengine.environment.tilemap.IMap)$*$super$*$de.gurkenlabs.litiengine.environment.tilemap.MapOrientations.Hexagonal
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer$*$TileLayer(de.gurkenlabs.litiengine.environment.tilemap.xml.TileData)$*$data$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer
-de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer$*$TileLayer(de.gurkenlabs.litiengine.environment.tilemap.xml.TileData)$*$data$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer$*$TileLayer(de.gurkenlabs.litiengine.environment.tilemap.xml.TileData)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer$*$getTileByLocation(java.awt.geom.Point2D)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer$*$getTile(int,int)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer
@@ -11415,7 +11402,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer$*$getData()$*$data$*$
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer$*$getData()$*$data$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer$*$getData()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer$*$getRawTileData()$*$data$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer
-de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer$*$getRawTileData()$*$data$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer$*$getRawTileData()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer$*$finish(java.net.URL)$*$super$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer$*$finish(java.net.URL)$*$tileList$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileLayer
@@ -11450,7 +11436,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$TileData(java.util.L
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$TileData(java.util.List<de.gurkenlabs.litiengine.environment.tilemap.xml.Tile>,int,int,java.lang.String,java.lang.String)$*$encoding$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$TileData(java.util.List<de.gurkenlabs.litiengine.environment.tilemap.xml.Tile>,int,int,java.lang.String,java.lang.String)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$TileData(java.util.List<de.gurkenlabs.litiengine.environment.tilemap.xml.Tile>,int,int,java.lang.String,java.lang.String)$*$compression$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
-de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$TileData(java.util.List<de.gurkenlabs.litiengine.environment.tilemap.xml.Tile>,int,int,java.lang.String,java.lang.String)$*$compression$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$TileData(java.util.List<de.gurkenlabs.litiengine.environment.tilemap.xml.Tile>,int,int,java.lang.String,java.lang.String)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$TileData(java.util.List<de.gurkenlabs.litiengine.environment.tilemap.xml.Tile>,int,int,java.lang.String,java.lang.String)$*$width$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$TileData(java.util.List<de.gurkenlabs.litiengine.environment.tilemap.xml.Tile>,int,int,java.lang.String,java.lang.String)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
@@ -11460,7 +11445,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$getEncoding()$*$enco
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$getEncoding()$*$encoding$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$getEncoding()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$getCompression()$*$compression$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
-de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$getCompression()$*$compression$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$getCompression()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$getValue()$*$value$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$getValue()$*$value$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
@@ -11468,7 +11452,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$getValue()$*$this$*$
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$setEncoding(java.lang.String)$*$encoding$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$setEncoding(java.lang.String)$*$encoding$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$setEncoding(java.lang.String)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
-de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$setCompression(java.lang.String)$*$compression$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$setCompression(java.lang.String)$*$compression$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$setCompression(java.lang.String)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$setValue(java.lang.String)$*$value$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
@@ -11594,7 +11577,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$parseChunkData()$*$c
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$parseChunkData()$*$chunks$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$parseChunkData()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$parseChunkData()$*$compression$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
-de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$parseChunkData()$*$compression$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$parseChunkData()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$parseChunkData()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$parseChunkData()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
@@ -11615,7 +11597,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$addTiles(de.gurkenla
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$parseData()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$parseData()$*$BASE64$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData.Encoding
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$parseData()$*$value$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
-de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$parseData()$*$compression$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$parseData()$*$value$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$parseData()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
 de.gurkenlabs.litiengine.environment.tilemap.xml.TileData$*$parseData()$*$compression$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TileData
@@ -11825,7 +11806,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$*$afterUnmarshal(javax.xml.bind.Unmarshaller,java.lang.Object)$*$location$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$*$afterUnmarshal(javax.xml.bind.Unmarshaller,java.lang.Object)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$*$afterUnmarshal(javax.xml.bind.Unmarshaller,java.lang.Object)$*$value$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
-de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$*$afterUnmarshal(javax.xml.bind.Unmarshaller,java.lang.Object)$*$value$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$*$afterUnmarshal(javax.xml.bind.Unmarshaller,java.lang.Object)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$*$beforeMarshal(javax.xml.bind.Marshaller)$*$type$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$*$beforeMarshal(javax.xml.bind.Marshaller)$*$type$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
@@ -11835,7 +11815,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$*$beforeMarshal(javax.xml.bind.Marshaller)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$*$beforeMarshal(javax.xml.bind.Marshaller)$*$location$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$*$beforeMarshal(javax.xml.bind.Marshaller)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
-de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$*$beforeMarshal(javax.xml.bind.Marshaller)$*$value$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$*$beforeMarshal(javax.xml.bind.Marshaller)$*$value$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$*$beforeMarshal(javax.xml.bind.Marshaller)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property$*$beforeMarshal(javax.xml.bind.Marshaller)$*$location$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
@@ -11866,8 +11845,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter$*$unmarsh
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter$*$unmarshal(de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.PropertyList)$*$location$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter$*$unmarshal(de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.PropertyList)$*$name$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter$*$marshal(java.util.Map<java.lang.String,de.gurkenlabs.litiengine.environment.tilemap.ICustomProperty>)$*$contents$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
-de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter$*$marshal(java.util.Map<java.lang.String,de.gurkenlabs.litiengine.environment.tilemap.ICustomProperty>)$*$contents$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
-de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter$*$marshal(java.util.Map<java.lang.String,de.gurkenlabs.litiengine.environment.tilemap.ICustomProperty>)$*$value$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter$*$marshal(java.util.Map<java.lang.String,de.gurkenlabs.litiengine.environment.tilemap.ICustomProperty>)$*$value$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter$*$marshal(java.util.Map<java.lang.String,de.gurkenlabs.litiengine.environment.tilemap.ICustomProperty>)$*$location$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomPropertyAdapter.Property
 de.gurkenlabs.litiengine.environment.tilemap.xml.Frame$*$getTileId()$*$tileid$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Frame
@@ -12486,7 +12463,6 @@ de.gurkenlabs.litiengine.entities.behavior.AStarNode$*$toString()$*$this$*$de.gu
 de.gurkenlabs.litiengine.entities.behavior.AStarNode$*$toString()$*$this$*$de.gurkenlabs.litiengine.entities.behavior.AStarNode
 de.gurkenlabs.litiengine.entities.behavior.AStarNode$*$toString()$*$this$*$de.gurkenlabs.litiengine.entities.behavior.AStarNode
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$getCurrentState()$*$currentState$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
-de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$getCurrentState()$*$currentState$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$getCurrentState()$*$this$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$setState(de.gurkenlabs.litiengine.entities.behavior.State)$*$currentState$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$setState(de.gurkenlabs.litiengine.entities.behavior.State)$*$this$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
@@ -12494,7 +12470,6 @@ de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$setState(de.gurkenlabs
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$setState(de.gurkenlabs.litiengine.entities.behavior.State)$*$currentState$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$setState(de.gurkenlabs.litiengine.entities.behavior.State)$*$this$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$setState(de.gurkenlabs.litiengine.entities.behavior.State)$*$currentState$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
-de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$setState(de.gurkenlabs.litiengine.entities.behavior.State)$*$currentState$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$setState(de.gurkenlabs.litiengine.entities.behavior.State)$*$this$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$setState(de.gurkenlabs.litiengine.entities.behavior.State)$*$currentState$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$setState(de.gurkenlabs.litiengine.entities.behavior.State)$*$currentState$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
@@ -12510,7 +12485,6 @@ de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$update()$*$this$*$de.g
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$update()$*$currentState$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$update()$*$currentState$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$update()$*$this$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
-de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$update()$*$currentState$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$update()$*$currentState$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$update()$*$this$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
 de.gurkenlabs.litiengine.entities.behavior.StateMachine$*$update()$*$currentState$*$de.gurkenlabs.litiengine.entities.behavior.StateMachine
