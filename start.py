@@ -136,12 +136,13 @@ def run():
                     print("RUNNING FOR: " + str(project['name']) +
                           " at depth: " + str(i))
                     start = time.time()
-                    prepare_project(project, str("deep_" + i))
+                    prepare_project(project, "deep_" + str(i))
                     autofix(project, i)
                     log("successfully ran the command for project: " +
                         project['name'])
-                    log("something went wrong for: " + project['name'] + " expection: " + str(e))
-                
+                    log("something went wrong for: " + project['name'] +
+                        " expection: " + str(e))
+
                     end = time.time()
                     time_json_file = open('time.json')
                     times = json.load(time_json_file)
