@@ -121,7 +121,8 @@ def autofix(project, depth):
     log("Copying infos in results directory.")
     exec("cd results/ && rm -rvf " + project['name'])
     exec("cd results/ && mkdir " + project['name'])
-    exec("mv /tmp/NullAwayFix/log.txt /tmp/NullAwayFix/log_{}.txt".format(depth))
+    exec("mv /tmp/NullAwayFix/log.txt /tmp/NullAwayFix/log_{}.txt".format(
+        depth))
     exec("cp -r /tmp/NullAwayFix/. " + "results/" + project['name'])
     log("Copying finished.")
 
@@ -131,10 +132,11 @@ def run():
         projects = json.load(f)
         for project in projects['projects']:
             if project['active']:
-                for i in range(0, 10):
+                for i in range(0, 11):
+                    print("RUNNING FOR: " + str(project['name']) +
+                          " at depth: " + str(i))
                     start = time.time()
                     try:
-                        print("RUNNING FOR: " + str(project['name']))
                         prepare_project(project, str("deep_" + i))
                         autofix(project, i)
                         log("successfully ran the command for project: " +
