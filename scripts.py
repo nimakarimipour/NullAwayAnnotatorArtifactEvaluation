@@ -39,19 +39,7 @@ def prepare():
             log("in prepare: directory already exists: " + directory)
 
 
-def make_branch(project, name):
-    change_dir = "cd " + PROJECTS_DIR
-    exec(change_dir + project['path'] +
-         " && git reset --hard && git checkout docker && git pull")
-    exec(change_dir + project['path'] + " && git branch -D " + name)
-    exec(change_dir + project['path'] + " && git push " +
-         project['git'].format(GIT_USERNAME, GIT_KEY) + " --delete " + name)
-    exec(change_dir + project['path'] + " && git checkout -b " + name)
-    exec(change_dir + project['path'] + " && git push --set-upstream " +
-         project['git'].format(GIT_USERNAME, GIT_KEY) + " " + name)
-
-
-def prepare_project(project, name):
+def prepare_project(project):
     log("Preparing project " + project['name'])
     change_dir = "cd " + PROJECTS_DIR
     if (not os.path.isdir(PROJECTS_DIR + project['name'] + "/")):
@@ -60,7 +48,18 @@ def prepare_project(project, name):
              project['git'].format(GIT_USERNAME, GIT_KEY))
     else:
         log("Project already exists")
-    make_branch(project, name)
+    exec(change_dir + project['path'] +
+         " && git reset --hard && git checkout docker && git pull")
+    exec(change_dir + project['path'] + " && git branch -D " +
+         project['branch'])
+    exec(change_dir + project['path'] + " && git push " +
+         project['git'].format(GIT_USERNAME, GIT_KEY) + " --delete " +
+         project['branch'])
+    exec(change_dir + project['path'] + " && git checkout -b " +
+         project['branch'])
+    exec(change_dir + project['path'] + " && git push --set-upstream " +
+         project['git'].format(GIT_USERNAME, GIT_KEY) + " " +
+         project['branch'])
     exec(change_dir + project['path'] + " && git branch")
     exec("cd /tmp/Diagnoser/ && python3 run.py reset")
 
@@ -81,7 +80,7 @@ def commit():
              GIT_USERNAME, GIT_KEY))
 
 
-def autofix(project, depth):
+def autofix(project):
     log("Autofixing project: " + str(project['name']))
     log("Preparing config.json...")
     config = {
@@ -92,7 +91,7 @@ def autofix(project, depth):
             "NULLABLE": project['annot']['nullable'],
         },
         "FORMAT": project['format'],
-        "DEPTH": depth
+        "DEPTH": 0
     }
     log("Prepared: " + str(config))
     with open('/tmp/Diagnoser/config.json', 'w') as outfile:
@@ -109,6 +108,9 @@ def autofix(project, depth):
     exec("cd /tmp/Diagnoser/ && python3 run.py loop")
     log("Running autofix (loop) finished")
 
+    #todo change this in future.
+    exec("cp -r /tmp/NullAwayFix/. " + PROJECTS_DIR + project['path'])
+
     change_path_to_project = "cd " + PROJECTS_DIR + project['path']
     exec(change_path_to_project + " && git branch")
     exec(change_path_to_project + " && git add .")
@@ -121,7 +123,6 @@ def autofix(project, depth):
     log("Copying infos in results directory.")
     exec("cd results/ && rm -rvf " + project['name'])
     exec("cd results/ && mkdir " + project['name'])
-    exec("mv /tmp/NullAwayFix/log.txt /tmp/NullAwayFix/log_{}.txt".format(depth))
     exec("cp -r /tmp/NullAwayFix/. " + "results/" + project['name'])
     log("Copying finished.")
 
@@ -131,28 +132,27 @@ def run():
         projects = json.load(f)
         for project in projects['projects']:
             if project['active']:
-                for i in range(0, 10):
-                    start = time.time()
-                    try:
-                        print("RUNNING FOR: " + str(project['name']))
-                        prepare_project(project, str("deep_" + i))
-                        autofix(project, i)
-                        log("successfully ran the command for project: " +
-                            project['name'])
-                    except Exception:
-                        log("something went wrong for: " + project['name'])
-                    finally:
-                        end = time.time()
-                        time_json_file = open('time.json')
-                        times = json.load(time_json_file)
-                        time_json_file.close()
-                        times[project['name']][i] = end - start
-                        time_json_file = open('time.json', "w")
-                        json.dump(times, time_json_file)
-                        time_json_file.close()
-                        log("requesting commit")
-                        commit()
-                        log("finsihed commit")
+                start = time.time()
+                try:
+                    print("RUNNING FOR: " + str(project['name']))
+                    prepare_project(project)
+                    autofix(project)
+                    log("successfully ran the command for project: " +
+                        project['name'])
+                except Exception:
+                    log("something went wrong for: " + project['name'])
+                finally:
+                    end = time.time()
+                    time_json_file = open('time.json')
+                    times = json.load(time_json_file)
+                    time_json_file.close()
+                    times[project['name']] = {"total": end - start}
+                    time_json_file = open('time.json', "w")
+                    json.dump(times, time_json_file)
+                    time_json_file.close()
+                    log("requesting commit")
+                    commit()
+                    log("finsihed commit")
 
 
 prepare()

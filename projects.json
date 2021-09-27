@@ -7,7 +7,10 @@
             "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
             "build": "./gradlew build -x test",
             "format": "",
-            "init_annot": "com.github.chrisbanes.photoview.Initializer",
+            "annot": {
+                "init": "com.github.chrisbanes.photoview.Initializer",
+                "nullable": "javax.annotation.Nullable"
+            },
             "branch": "gc_5",
             "preprocess": false,
             "active": false
@@ -19,7 +22,10 @@
             "git": "https://{}:{}@github.com/nimakarimipour/MPAndroidChart.git",
             "build": "./gradlew build -x test",
             "format": "",
-            "init_annot": "com.github.mikephil.charting.Initializer",
+            "annot": {
+                "init": "com.github.mikephil.charting.Initializer",
+                "nullable": "javax.annotation.Nullable"
+            },
             "branch": "gc_5",
             "preprocess": false,
             "active": false
@@ -31,7 +37,10 @@
             "git": "https://{}:{}@github.com/nimakarimipour/mockito.git",
             "build": "./gradlew build -x test",
             "format": "",
-            "init_annot": "org.mockito.Initializer",
+            "annot": {
+                "init": "org.mockito.Initializer",
+                "nullable": "javax.annotation.Nullable"
+            },
             "branch": "gc_5",
             "preprocess": false,
             "active": false
@@ -43,7 +52,10 @@
             "git": "https://{}:{}@github.com/nimakarimipour/conductor.git",
             "build": "./gradlew build -x test",
             "format": "",
-            "init_annot": "com.netflix.conductor.Initializer",
+            "annot": {
+                "init": "com.netflix.conductor.Initializer",
+                "nullable": "javax.annotation.Nullable"
+            },
             "branch": "gc_5",
             "preprocess": false,
             "active": false
@@ -55,7 +67,10 @@
             "git": "https://{}:{}@github.com/nimakarimipour/litiengine.git",
             "build": "./gradlew build -x test",
             "format": "",
-            "init_annot": "de.gurkenlabs.litiengine.Initializer",
+            "annot": {
+                "init": "de.gurkenlabs.litiengine.Initializer",
+                "nullable": "javax.annotation.Nullable"
+            },
             "branch": "gc_5",
             "preprocess": false,
             "active": false
@@ -67,7 +82,10 @@
             "git": "https://{}:{}@github.com/nimakarimipour/EventBus.git",
             "build": "./gradlew build -x test",
             "format": "",
-            "init_annot": "org.greenrobot.eventbus.Initializer",
+            "annot": {
+                "init": "org.greenrobot.eventbus.Initializer",
+                "nullable": "javax.annotation.Nullable"
+            },
             "branch": "gc_5",
             "preprocess": false,
             "active": false
@@ -79,7 +97,10 @@
             "git": "https://{}:{}@github.com/nimakarimipour/gson.git",
             "build": "./gradlew build -x test",
             "format": "",
-            "init_annot": "com.google.gson.Initializer",
+            "annot": {
+                "init": "com.google.gson.Initializer",
+                "nullable": "javax.annotation.Nullable"
+            },
             "branch": "gc_5",
             "preprocess": false,
             "active": false
@@ -91,7 +112,10 @@
             "git": "https://{}:{}@github.com/nimakarimipour/jadx.git",
             "build": "./gradlew build -x test",
             "format": "",
-            "init_annot": "jadx.Initializer",
+            "annot": {
+                "init": "jadx.Initializer",
+                "nullable": "javax.annotation.Nullable"
+            },
             "branch": "gc_5",
             "preprocess": false,
             "active": false
@@ -103,7 +127,10 @@
             "git": "https://{}:{}@github.com/nimakarimipour/zuul.git",
             "build": "./gradlew build -x test",
             "format": "",
-            "init_annot": "com.netflix.Initializer",
+            "annot": {
+                "init": "com.netflix.Initializer",
+                "nullable": "javax.annotation.Nullable"
+            },
             "branch": "gc_5",
             "preprocess": false,
             "active": false
@@ -115,7 +142,10 @@
             "git": "https://{}:{}@github.com/nimakarimipour/lottie-android.git",
             "build": "./gradlew lottie:build -x test",
             "format": "",
-            "init_annot": "com.airbnb.lottie.Initializer",
+            "annot": {
+                "init": "com.airbnb.lottie.Initializer",
+                "nullable": "javax.annotation.Nullable"
+            },
             "branch": "gc_5",
             "preprocess": false,
             "active": false
@@ -127,7 +157,10 @@
             "git": "https://{}:{}@github.com/nimakarimipour/retrofit.git",
             "build": "./gradlew build -x test",
             "format": "",
-            "init_annot": "retrofit2.Initializer",
+            "annot": {
+                "init": "retrofit2.Initializer",
+                "nullable": "javax.annotation.Nullable"
+            },
             "branch": "gc_5",
             "preprocess": false,
             "active": false
@@ -139,7 +172,10 @@
             "git": "https://{}:{}@github.com/nimakarimipour/spring-boot.git",
             "build": "./gradlew spring-boot-project:spring-boot:compileJava -x test",
             "format": "",
-            "init_annot": "org.springframework.boot.Initializer",
+            "annot": {
+                "init": "org.springframework.boot.Initializer",
+                "nullable": "javax.annotation.Nullable"
+            },
             "branch": "gc_2",
             "preprocess": false,
             "active": false
@@ -151,7 +187,10 @@
             "git": "https://{}:{}@github.com/nimakarimipour/libgdx.git",
             "build": "./gradlew gdx:compileJava",
             "format": "",
-            "init_annot": "com.badlogic.gdx.Initializer",
+            "annot": {
+                "init": "com.badlogic.gdx.Initializer",
+                "nullable": "javax.annotation.Nullable"
+            },
             "branch": "gc_3",
             "preprocess": true,
             "active": true
