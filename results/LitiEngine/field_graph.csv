@@ -387,6 +387,7 @@ de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$sprit
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$this$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$this$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$spritesheet$*$de.gurkenlabs.litiengine.graphics.animation.Animation
+de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$spritesheet$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$getSpritesheet()$*$this$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$isLooping()$*$loop$*$de.gurkenlabs.litiengine.graphics.animation.Animation
 de.gurkenlabs.litiengine.graphics.animation.Animation$*$isLooping()$*$this$*$de.gurkenlabs.litiengine.graphics.animation.Animation
@@ -2940,7 +2941,6 @@ de.gurkenlabs.litiengine.graphics.ColorLayer$*$ColorLayer(de.gurkenlabs.litiengi
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$ColorLayer(de.gurkenlabs.litiengine.environment.Environment,java.awt.Color)$*$environment$*$de.gurkenlabs.litiengine.graphics.ColorLayer
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$ColorLayer(de.gurkenlabs.litiengine.environment.Environment,java.awt.Color)$*$this$*$de.gurkenlabs.litiengine.graphics.ColorLayer
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$render(java.awt.Graphics2D)$*$layer$*$de.gurkenlabs.litiengine.graphics.ColorLayer
-de.gurkenlabs.litiengine.graphics.ColorLayer$*$render(java.awt.Graphics2D)$*$layer$*$de.gurkenlabs.litiengine.graphics.ColorLayer
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$render(java.awt.Graphics2D)$*$this$*$de.gurkenlabs.litiengine.graphics.ColorLayer
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$getColor()$*$color$*$de.gurkenlabs.litiengine.graphics.ColorLayer
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$getColor()$*$color$*$de.gurkenlabs.litiengine.graphics.ColorLayer
@@ -3038,8 +3038,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$MapObject(de.gurken
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$MapObject(de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject)$*$layer$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$MapObject(de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject)$*$text$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$MapObject(de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject)$*$text$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
-de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$MapObject(de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject)$*$text$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
-de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$MapObject(de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject)$*$text$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$MapObject(de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$MapObject(de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject)$*$text$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$MapObject(de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject)$*$ellipse$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
@@ -3062,7 +3060,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getGridId()$*$gid$*
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getGridId()$*$gid$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getGridId()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getTile()$*$tile$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
-de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getTile()$*$tile$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getTile()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getBoundingBox()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getBoundingBox()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
@@ -3074,7 +3071,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getId()$*$id$*$de.g
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getId()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getLocation()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getLocation()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
-de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getName()$*$name$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getName()$*$name$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getName()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getType()$*$type$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
@@ -3089,7 +3085,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getEllipse()$*$this
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getEllipse()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getEllipse()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getEllipse()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
-de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getText()$*$text$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getText()$*$text$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$getText()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$setGridId(int)$*$gid$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
@@ -3200,7 +3195,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$afterUnmarshal(java
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$finish(java.net.URL)$*$super$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$finish(java.net.URL)$*$gid$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$finish(java.net.URL)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
-de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$finish(java.net.URL)$*$tile$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$finish(java.net.URL)$*$tile$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$finish(java.net.URL)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject$*$finish(java.net.URL)$*$gid$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObject
@@ -3389,7 +3383,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer$*$getColor()$*$d
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer$*$getColor()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer$*$getColor()$*$decodedColor$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer$*$getColor()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer
-de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer$*$getColor()$*$color$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer$*$getColor()$*$color$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer$*$getColor()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer
 de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer$*$getColor()$*$decodedColor$*$de.gurkenlabs.litiengine.environment.tilemap.xml.MapObjectLayer
@@ -3747,7 +3740,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap$*$getRenderLayers()$*$th
 de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap$*$getExternalTilesets()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap
 de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap$*$getExternalTilesets()$*$sourceTileset$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset
 de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap$*$getExternalTilesets()$*$sourceTileset$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tileset
-de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap$*$getBackgroundColor()$*$backgroundcolor$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap
 de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap$*$getBackgroundColor()$*$backgroundcolor$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap
 de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap$*$getBackgroundColor()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap
 de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap$*$isInfinite()$*$infinite$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap
@@ -4268,9 +4260,7 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry$*$getTileset()$*$t
 de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry$*$getTileset()$*$tileset$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry
 de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry$*$getTileset()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry
 de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry$*$getType()$*$type$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry
-de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry$*$getType()$*$type$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry
 de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry$*$getType()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry
-de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry$*$getCollisionInfo()$*$collisionData$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry
 de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry$*$getCollisionInfo()$*$collisionData$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry
 de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry$*$getCollisionInfo()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry
 de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry$*$setTerrains(de.gurkenlabs.litiengine.environment.tilemap.ITerrain[])$*$terrains$*$de.gurkenlabs.litiengine.environment.tilemap.xml.TilesetEntry
@@ -6778,11 +6768,8 @@ de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$SpritePart
 de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$SpriteParticle(de.gurkenlabs.litiengine.graphics.Spritesheet)$*$spritesheet$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
 de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$SpriteParticle(de.gurkenlabs.litiengine.graphics.Spritesheet)$*$spritesheet$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
 de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$SpriteParticle(de.gurkenlabs.litiengine.graphics.Spritesheet)$*$this$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
-de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$render(java.awt.Graphics2D,java.awt.geom.Point2D)$*$currentImage$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
 de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$render(java.awt.Graphics2D,java.awt.geom.Point2D)$*$animation$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
 de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$render(java.awt.Graphics2D,java.awt.geom.Point2D)$*$SRC_OVER$*$java.awt.AlphaComposite
-de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$render(java.awt.Graphics2D,java.awt.geom.Point2D)$*$currentImage$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
-de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$render(java.awt.Graphics2D,java.awt.geom.Point2D)$*$currentImage$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
 de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$update(java.awt.geom.Point2D,float)$*$super$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
 de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$update(java.awt.geom.Point2D,float)$*$animation$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
 de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$update(java.awt.geom.Point2D,float)$*$animation$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
@@ -6797,7 +6784,6 @@ de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$setAnimate
 de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$setAnimateSprite(boolean)$*$this$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
 de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$setAnimateSprite(boolean)$*$animateSprite$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
 de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$setAnimateSprite(boolean)$*$this$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
-de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$setAnimateSprite(boolean)$*$currentImage$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
 de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$setAnimateSprite(boolean)$*$currentImage$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
 de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$setAnimateSprite(boolean)$*$this$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
 de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle$*$setAnimateSprite(boolean)$*$spritesheet$*$de.gurkenlabs.litiengine.graphics.emitters.particles.SpriteParticle
@@ -6882,7 +6868,6 @@ de.gurkenlabs.litiengine.graphics.MouseCursor$*$render(java.awt.Graphics2D)$*$th
 de.gurkenlabs.litiengine.graphics.MouseCursor$*$render(java.awt.Graphics2D)$*$this$*$de.gurkenlabs.litiengine.graphics.MouseCursor
 de.gurkenlabs.litiengine.graphics.MouseCursor$*$render(java.awt.Graphics2D)$*$this$*$de.gurkenlabs.litiengine.graphics.MouseCursor
 de.gurkenlabs.litiengine.graphics.MouseCursor$*$render(java.awt.Graphics2D)$*$this$*$de.gurkenlabs.litiengine.graphics.MouseCursor
-de.gurkenlabs.litiengine.graphics.MouseCursor$*$render(java.awt.Graphics2D)$*$DEBUG_CURSOR_IMAGE$*$de.gurkenlabs.litiengine.graphics.MouseCursor
 de.gurkenlabs.litiengine.graphics.MouseCursor$*$getImage()$*$image$*$de.gurkenlabs.litiengine.graphics.MouseCursor
 de.gurkenlabs.litiengine.graphics.MouseCursor$*$getImage()$*$image$*$de.gurkenlabs.litiengine.graphics.MouseCursor
 de.gurkenlabs.litiengine.graphics.MouseCursor$*$getImage()$*$this$*$de.gurkenlabs.litiengine.graphics.MouseCursor
@@ -8140,15 +8125,12 @@ de.gurkenlabs.litiengine.gui.ImageComponent$*$rescaleImage()$*$baseImage$*$de.gu
 de.gurkenlabs.litiengine.gui.ImageComponent$*$rescaleImage()$*$baseImage$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$rescaleImage()$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$rescaleImage()$*$scaledImage$*$de.gurkenlabs.litiengine.gui.ImageComponent
-de.gurkenlabs.litiengine.gui.ImageComponent$*$rescaleImage()$*$scaledImage$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$rescaleImage()$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
-de.gurkenlabs.litiengine.gui.ImageComponent$*$rescaleImage()$*$scaledImage$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$rescaleImage()$*$scaledImage$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$rescaleImage()$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$rescaleImage()$*$baseImage$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$rescaleImage()$*$baseImage$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$rescaleImage()$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
-de.gurkenlabs.litiengine.gui.ImageComponent$*$rescaleImage()$*$scaledImage$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$rescaleImage()$*$scaledImage$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$rescaleImage()$*$this$*$de.gurkenlabs.litiengine.gui.ImageComponent
 de.gurkenlabs.litiengine.gui.ImageComponent$*$getImage()$*$scaledImage$*$de.gurkenlabs.litiengine.gui.ImageComponent
@@ -9142,7 +9124,6 @@ de.gurkenlabs.litiengine.gui.SpeechBubble$*$render(java.awt.Graphics2D)$*$this$*
 de.gurkenlabs.litiengine.gui.SpeechBubble$*$render(java.awt.Graphics2D)$*$this$*$de.gurkenlabs.litiengine.gui.SpeechBubble
 de.gurkenlabs.litiengine.gui.SpeechBubble$*$render(java.awt.Graphics2D)$*$entityCenter$*$de.gurkenlabs.litiengine.gui.SpeechBubble
 de.gurkenlabs.litiengine.gui.SpeechBubble$*$render(java.awt.Graphics2D)$*$entityCenter$*$de.gurkenlabs.litiengine.gui.SpeechBubble
-de.gurkenlabs.litiengine.gui.SpeechBubble$*$render(java.awt.Graphics2D)$*$bubble$*$de.gurkenlabs.litiengine.gui.SpeechBubble
 de.gurkenlabs.litiengine.gui.SpeechBubble$*$render(java.awt.Graphics2D)$*$bubble$*$de.gurkenlabs.litiengine.gui.SpeechBubble
 de.gurkenlabs.litiengine.gui.SpeechBubble$*$render(java.awt.Graphics2D)$*$this$*$de.gurkenlabs.litiengine.gui.SpeechBubble
 de.gurkenlabs.litiengine.gui.SpeechBubble$*$render(java.awt.Graphics2D)$*$currentText$*$de.gurkenlabs.litiengine.gui.SpeechBubble
@@ -11616,7 +11597,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$Tile(de.gurkenlabs.litie
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$Tile(de.gurkenlabs.litiengine.environment.tilemap.xml.Tile)$*$flippedVertically$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tile
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$Tile(de.gurkenlabs.litiengine.environment.tilemap.xml.Tile)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tile
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$Tile(de.gurkenlabs.litiengine.environment.tilemap.xml.Tile)$*$tilesetEntry$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tile
-de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$Tile(de.gurkenlabs.litiengine.environment.tilemap.xml.Tile)$*$tilesetEntry$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tile
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$Tile(de.gurkenlabs.litiengine.environment.tilemap.xml.Tile)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tile
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$Tile(de.gurkenlabs.litiengine.environment.tilemap.xml.Tile)$*$gid$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tile
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$Tile(de.gurkenlabs.litiengine.environment.tilemap.xml.Tile)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tile
@@ -11683,7 +11663,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$hashCode()$*$this$*$de.g
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$hashCode()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tile
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$toString()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tile
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$toString()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tile
-de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$setTilesetEntry(de.gurkenlabs.litiengine.environment.tilemap.ITilesetEntry)$*$tilesetEntry$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tile
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$setTilesetEntry(de.gurkenlabs.litiengine.environment.tilemap.ITilesetEntry)$*$tilesetEntry$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tile
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$setTilesetEntry(de.gurkenlabs.litiengine.environment.tilemap.ITilesetEntry)$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tile
 de.gurkenlabs.litiengine.environment.tilemap.xml.Tile$*$setGridId(int)$*$gid$*$de.gurkenlabs.litiengine.environment.tilemap.xml.Tile
@@ -11933,7 +11912,6 @@ de.gurkenlabs.litiengine.environment.tilemap.xml.CustomProperty$*$getAsChar()$*$
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomProperty$*$getAsChar()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomProperty
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomProperty$*$getAsBool()$*$value$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomProperty
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomProperty$*$getAsBool()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomProperty
-de.gurkenlabs.litiengine.environment.tilemap.xml.CustomProperty$*$getAsColor()$*$value$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomProperty
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomProperty$*$getAsColor()$*$value$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomProperty
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomProperty$*$getAsColor()$*$this$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomProperty
 de.gurkenlabs.litiengine.environment.tilemap.xml.CustomProperty$*$getAsFloat()$*$value$*$de.gurkenlabs.litiengine.environment.tilemap.xml.CustomProperty
