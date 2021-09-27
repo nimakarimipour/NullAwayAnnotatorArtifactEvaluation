@@ -141,9 +141,6 @@ def run():
                     autofix(project, i)
                     log("successfully ran the command for project: " +
                         project['name'])
-                    log("something went wrong for: " + project['name'] +
-                        " expection: " + str(e))
-
                     end = time.time()
                     time_json_file = open('time.json')
                     times = json.load(time_json_file)
