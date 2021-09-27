@@ -1,5 +1,0 @@
-total=158, requested=21, time=276360, deep=75489
-total=40, requested=11, time=150316, deep=24944
-total=13, requested=4, time=64089, deep=2
-total=6, requested=2, time=39333, deep=2
-total=6, requested=2, time=39309, deep=1
