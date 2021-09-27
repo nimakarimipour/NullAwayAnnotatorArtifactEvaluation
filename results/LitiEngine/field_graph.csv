@@ -7328,13 +7328,10 @@ de.gurkenlabs.litiengine.gui.Appearance$*$Appearance()$*$changedConsumer$*$de.gu
 de.gurkenlabs.litiengine.gui.Appearance$*$Appearance()$*$changedConsumer$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$Appearance()$*$this$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$Appearance(java.awt.Color)$*$foreColor$*$de.gurkenlabs.litiengine.gui.Appearance
-de.gurkenlabs.litiengine.gui.Appearance$*$Appearance(java.awt.Color)$*$foreColor$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$Appearance(java.awt.Color)$*$this$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$Appearance(java.awt.Color)$*$this$*$de.gurkenlabs.litiengine.gui.Appearance
-de.gurkenlabs.litiengine.gui.Appearance$*$Appearance(java.awt.Color,java.awt.Color)$*$foreColor$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$Appearance(java.awt.Color,java.awt.Color)$*$foreColor$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$Appearance(java.awt.Color,java.awt.Color)$*$this$*$de.gurkenlabs.litiengine.gui.Appearance
-de.gurkenlabs.litiengine.gui.Appearance$*$Appearance(java.awt.Color,java.awt.Color)$*$backgroundColor1$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$Appearance(java.awt.Color,java.awt.Color)$*$backgroundColor1$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$Appearance(java.awt.Color,java.awt.Color)$*$this$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$equals(java.lang.Object)$*$transparentBackground$*$de.gurkenlabs.litiengine.gui.Appearance
@@ -7378,9 +7375,7 @@ de.gurkenlabs.litiengine.gui.Appearance$*$hashCode()$*$this$*$de.gurkenlabs.liti
 de.gurkenlabs.litiengine.gui.Appearance$*$hashCode()$*$foreColor$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$hashCode()$*$this$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$getForeColor()$*$foreColor$*$de.gurkenlabs.litiengine.gui.Appearance
-de.gurkenlabs.litiengine.gui.Appearance$*$getForeColor()$*$foreColor$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$getForeColor()$*$this$*$de.gurkenlabs.litiengine.gui.Appearance
-de.gurkenlabs.litiengine.gui.Appearance$*$getBackgroundColor1()$*$backgroundColor1$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$getBackgroundColor1()$*$backgroundColor1$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$getBackgroundColor1()$*$this$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$getBackgroundColor2()$*$backgroundColor2$*$de.gurkenlabs.litiengine.gui.Appearance
@@ -7416,10 +7411,8 @@ de.gurkenlabs.litiengine.gui.Appearance$*$getBorderRadius()$*$this$*$de.gurkenla
 de.gurkenlabs.litiengine.gui.Appearance$*$isHorizontalBackgroundGradient()$*$horizontalBackgroundGradient$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$isHorizontalBackgroundGradient()$*$this$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$setForeColor(java.awt.Color)$*$foreColor$*$de.gurkenlabs.litiengine.gui.Appearance
-de.gurkenlabs.litiengine.gui.Appearance$*$setForeColor(java.awt.Color)$*$foreColor$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$setForeColor(java.awt.Color)$*$this$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$setForeColor(java.awt.Color)$*$this$*$de.gurkenlabs.litiengine.gui.Appearance
-de.gurkenlabs.litiengine.gui.Appearance$*$setBackgroundColor1(java.awt.Color)$*$backgroundColor1$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$setBackgroundColor1(java.awt.Color)$*$backgroundColor1$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$setBackgroundColor1(java.awt.Color)$*$this$*$de.gurkenlabs.litiengine.gui.Appearance
 de.gurkenlabs.litiengine.gui.Appearance$*$setBackgroundColor1(java.awt.Color)$*$this$*$de.gurkenlabs.litiengine.gui.Appearance
@@ -9056,7 +9049,6 @@ de.gurkenlabs.litiengine.gui.TextFieldComponent$*$handleNormalTyping(java.awt.ev
 de.gurkenlabs.litiengine.gui.TextFieldComponent$*$isKnownNumericFormat()$*$this$*$de.gurkenlabs.litiengine.gui.TextFieldComponent
 de.gurkenlabs.litiengine.gui.TextFieldComponent$*$isKnownNumericFormat()$*$this$*$de.gurkenlabs.litiengine.gui.TextFieldComponent
 de.gurkenlabs.litiengine.gui.TextFieldComponent$*$isKnownNumericFormat()$*$this$*$de.gurkenlabs.litiengine.gui.TextFieldComponent
-de.gurkenlabs.litiengine.gui.SpeechBubble$*$null$*$WHITE$*$java.awt.Color
 de.gurkenlabs.litiengine.gui.SpeechBubble$*$null$*$WHITE$*$java.awt.Color
 de.gurkenlabs.litiengine.gui.SpeechBubble$*$SpeechBubble(de.gurkenlabs.litiengine.entities.IEntity,java.lang.String,de.gurkenlabs.litiengine.gui.SpeechBubbleAppearance,java.awt.Font)$*$DEFAULT_APPEARANCE$*$de.gurkenlabs.litiengine.gui.SpeechBubble
 de.gurkenlabs.litiengine.gui.SpeechBubble$*$SpeechBubble(de.gurkenlabs.litiengine.entities.IEntity,java.lang.String,de.gurkenlabs.litiengine.gui.SpeechBubbleAppearance,java.awt.Font)$*$appearance$*$de.gurkenlabs.litiengine.gui.SpeechBubble
