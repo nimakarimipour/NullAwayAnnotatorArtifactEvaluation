@@ -30,7 +30,7 @@
             },
             "branch": "gc_5",
             "preprocess": false,
-            "active": true
+            "active": false
         },
         {
             "name": "Mockito",
@@ -45,8 +45,8 @@
                 "nonnull": "javax.annotation.Nonnull"
             },
             "branch": "gc_5",
-            "preprocess": false,
-            "active": false
+            "preprocess": true,
+            "active": true
         },
         {
             "name": "Conductor",
@@ -61,8 +61,8 @@
                 "nonnull": "javax.annotation.Nonnull"
             },
             "branch": "gc_5",
-            "preprocess": false,
-            "active": false
+            "preprocess": true,
+            "active": true
         },
         {
             "name": "LitiEngine",
@@ -77,8 +77,8 @@
                 "nonnull": "javax.annotation.Nonnull"
             },
             "branch": "gc_5",
-            "preprocess": false,
-            "active": false
+            "preprocess": true,
+            "active": true
         },
         {
             "name": "EventBus",
@@ -93,8 +93,8 @@
                 "nonnull": "javax.annotation.Nonnull"
             },
             "branch": "gc_5",
-            "preprocess": false,
-            "active": false
+            "preprocess": true,
+            "active": true
         },
         {
             "name": "Gson",
@@ -109,8 +109,8 @@
                 "nonnull": "javax.annotation.Nonnull"
             },
             "branch": "gc_5",
-            "preprocess": false,
-            "active": false
+            "preprocess": true,
+            "active": true
         },
         {
             "name": "Jadx",
@@ -125,8 +125,8 @@
                 "nonnull": "javax.annotation.Nonnull"
             },
             "branch": "gc_5",
-            "preprocess": false,
-            "active": false
+            "preprocess": true,
+            "active": true
         },
         {
             "name": "Zuul",
@@ -141,8 +141,8 @@
                 "nonnull": "javax.annotation.Nonnull"
             },
             "branch": "gc_5",
-            "preprocess": false,
-            "active": false
+            "preprocess": true,
+            "active": true
         },
         {
             "name": "LottieAndroid",
@@ -157,8 +157,8 @@
                 "nonnull": "javax.annotation.Nonnull"
             },
             "branch": "gc_5",
-            "preprocess": false,
-            "active": false
+            "preprocess": true,
+            "active": true
         },
         {
             "name": "Retrofit",
@@ -189,8 +189,8 @@
                 "nonnull": "javax.annotation.Nonnull"
             },
             "branch": "gc_2",
-            "preprocess": false,
-            "active": false
+            "preprocess": true,
+            "active": true
         },
         {
             "name": "LibGdx",
@@ -205,8 +205,8 @@
                 "nonnull": "javax.annotation.Nonnull"
             },
             "branch": "gc_3",
-            "preprocess": false,
-            "active": false
+            "preprocess": true,
+            "active": true
         }
     ]
 }

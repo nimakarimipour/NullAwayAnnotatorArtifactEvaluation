@@ -134,24 +134,28 @@ def run():
         for project in projects['projects']:
             if project['active']:
                 for i in range(0, 11):
-                    print("RUNNING FOR: " + str(project['name']) +
-                          " at depth: " + str(i))
-                    prepare_project(project, "deep_" + str(i))
-                    start = time.time()
-                    autofix(project, i)
-                    end = time.time()
-                    log("successfully ran the command for project: " +
-                        project['name'])
-                    time_json_file = open('time.json')
-                    times = json.load(time_json_file)
-                    time_json_file.close()
-                    times[project['name']][i] = end - start
-                    time_json_file = open('time.json', "w")
-                    json.dump(times, time_json_file)
-                    time_json_file.close()
-                    log("requesting commit")
-                    commit()
-                    log("finsihed commit")
+                    try:
+                        print("RUNNING FOR: " + str(project['name']) +
+                            " at depth: " + str(i))
+                        prepare_project(project, "deep_" + str(i))
+                        start = time.time()
+                        autofix(project, i)
+                        end = time.time()
+                        log("successfully ran the command for project: " +
+                            project['name'])
+                        time_json_file = open('time.json')
+                        times = json.load(time_json_file)
+                        time_json_file.close()
+                        times[project['name']][i] = end - start
+                        time_json_file = open('time.json', "w")
+                        json.dump(times, time_json_file)
+                        time_json_file.close()
+                        log("requesting commit")
+                        commit()
+                        log("finsihed commit")
+                    except Exception:
+                        log("error happened continuing.")
+
 
 
 prepare()
