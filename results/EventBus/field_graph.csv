@@ -43,13 +43,9 @@ org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment$*$onResum
 org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment$*$onPause()$*$this$*$org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment
 org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment$*$onPause()$*$eventBus$*$org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment
 org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment$*$onPause()$*$super$*$org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment
-org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment$*$onEventMainThread(org.greenrobot.eventbus.util.ThrowableFailureEvent)$*$executionScope$*$org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment
-org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment$*$onEventMainThread(org.greenrobot.eventbus.util.ThrowableFailureEvent)$*$argumentsForErrorDialog$*$org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment
 org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment$*$onEventMainThread(org.greenrobot.eventbus.util.ThrowableFailureEvent)$*$factory$*$org.greenrobot.eventbus.util.ErrorDialogManager
 org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment$*$attachTo(android.app.Activity,java.lang.Object,boolean,android.os.Bundle)$*$finishAfterDialog$*$org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment
 org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment$*$attachTo(android.app.Activity,java.lang.Object,boolean,android.os.Bundle)$*$argumentsForErrorDialog$*$org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment
-org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment$*$attachTo(android.app.Activity,java.lang.Object,boolean,android.os.Bundle)$*$argumentsForErrorDialog$*$org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment
-org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment$*$attachTo(android.app.Activity,java.lang.Object,boolean,android.os.Bundle)$*$executionScope$*$org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment
 org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment$*$attachTo(android.app.Activity,java.lang.Object,boolean,android.os.Bundle)$*$executionScope$*$org.greenrobot.eventbus.util.ErrorDialogManager.SupportManagerFragment
 org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment$*$null$*$HONEYCOMB$*$android.os.Build.VERSION_CODES
 org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment$*$null$*$HONEYCOMB$*$android.os.Build.VERSION_CODES
@@ -64,13 +60,9 @@ org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment$*$onRes
 org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment$*$onPause()$*$this$*$org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment
 org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment$*$onPause()$*$eventBus$*$org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment
 org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment$*$onPause()$*$super$*$org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment
-org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment$*$onEventMainThread(org.greenrobot.eventbus.util.ThrowableFailureEvent)$*$executionScope$*$org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment
-org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment$*$onEventMainThread(org.greenrobot.eventbus.util.ThrowableFailureEvent)$*$argumentsForErrorDialog$*$org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment
 org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment$*$onEventMainThread(org.greenrobot.eventbus.util.ThrowableFailureEvent)$*$factory$*$org.greenrobot.eventbus.util.ErrorDialogManager
 org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment$*$attachTo(android.app.Activity,java.lang.Object,boolean,android.os.Bundle)$*$finishAfterDialog$*$org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment
 org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment$*$attachTo(android.app.Activity,java.lang.Object,boolean,android.os.Bundle)$*$argumentsForErrorDialog$*$org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment
-org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment$*$attachTo(android.app.Activity,java.lang.Object,boolean,android.os.Bundle)$*$argumentsForErrorDialog$*$org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment
-org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment$*$attachTo(android.app.Activity,java.lang.Object,boolean,android.os.Bundle)$*$executionScope$*$org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment
 org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment$*$attachTo(android.app.Activity,java.lang.Object,boolean,android.os.Bundle)$*$executionScope$*$org.greenrobot.eventbus.util.ErrorDialogManager.HoneycombManagerFragment
 org.greenrobot.eventbus.util.ErrorDialogManager$*$isSupportActivity(android.app.Activity)$*$SDK_INT$*$android.os.Build.VERSION
 org.greenrobot.eventbus.util.ErrorDialogManager$*$isSupportActivity(android.app.Activity)$*$HONEYCOMB$*$android.os.Build.VERSION_CODES
