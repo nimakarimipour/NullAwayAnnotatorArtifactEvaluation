@@ -90,6 +90,7 @@ def autofix(project, depth):
         "ANNOTATION": {
             "INITIALIZE": project['annot']['init'],
             "NULLABLE": project['annot']['nullable'],
+            "NONNULL": project['annot']['nonnull'],
         },
         "FORMAT": project['format'],
         "DEPTH": depth
