@@ -136,25 +136,23 @@ def run():
                     print("RUNNING FOR: " + str(project['name']) +
                           " at depth: " + str(i))
                     start = time.time()
-                    try:
-                        prepare_project(project, str("deep_" + i))
-                        autofix(project, i)
-                        log("successfully ran the command for project: " +
-                            project['name'])
-                    except Exception as e:
-                        log("something went wrong for: " + project['name'] + " expection: " + str(e))
-                    finally:
-                        end = time.time()
-                        time_json_file = open('time.json')
-                        times = json.load(time_json_file)
-                        time_json_file.close()
-                        times[project['name']][i] = end - start
-                        time_json_file = open('time.json', "w")
-                        json.dump(times, time_json_file)
-                        time_json_file.close()
-                        log("requesting commit")
-                        commit()
-                        log("finsihed commit")
+                    prepare_project(project, str("deep_" + i))
+                    autofix(project, i)
+                    log("successfully ran the command for project: " +
+                        project['name'])
+                    log("something went wrong for: " + project['name'] + " expection: " + str(e))
+                
+                    end = time.time()
+                    time_json_file = open('time.json')
+                    times = json.load(time_json_file)
+                    time_json_file.close()
+                    times[project['name']][i] = end - start
+                    time_json_file = open('time.json', "w")
+                    json.dump(times, time_json_file)
+                    time_json_file.close()
+                    log("requesting commit")
+                    commit()
+                    log("finsihed commit")
 
 
 prepare()
