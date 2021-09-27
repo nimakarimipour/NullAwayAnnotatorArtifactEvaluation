@@ -2929,7 +2929,6 @@ de.gurkenlabs.litiengine.graphics.ColorLayer$*$ColorLayer(de.gurkenlabs.litiengi
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$ColorLayer(de.gurkenlabs.litiengine.environment.Environment,java.awt.Color)$*$environment$*$de.gurkenlabs.litiengine.graphics.ColorLayer
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$ColorLayer(de.gurkenlabs.litiengine.environment.Environment,java.awt.Color)$*$this$*$de.gurkenlabs.litiengine.graphics.ColorLayer
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$ColorLayer(de.gurkenlabs.litiengine.environment.Environment,java.awt.Color)$*$color$*$de.gurkenlabs.litiengine.graphics.ColorLayer
-de.gurkenlabs.litiengine.graphics.ColorLayer$*$ColorLayer(de.gurkenlabs.litiengine.environment.Environment,java.awt.Color)$*$color$*$de.gurkenlabs.litiengine.graphics.ColorLayer
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$ColorLayer(de.gurkenlabs.litiengine.environment.Environment,java.awt.Color)$*$this$*$de.gurkenlabs.litiengine.graphics.ColorLayer
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$ColorLayer(de.gurkenlabs.litiengine.environment.Environment,java.awt.Color)$*$layer$*$de.gurkenlabs.litiengine.graphics.ColorLayer
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$ColorLayer(de.gurkenlabs.litiengine.environment.Environment,java.awt.Color)$*$layer$*$de.gurkenlabs.litiengine.graphics.ColorLayer
@@ -2953,7 +2952,6 @@ de.gurkenlabs.litiengine.graphics.ColorLayer$*$setAlpha(int)$*$this$*$de.gurkenl
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$setAlpha(int)$*$environment$*$de.gurkenlabs.litiengine.graphics.ColorLayer
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$setAlpha(int)$*$environment$*$de.gurkenlabs.litiengine.graphics.ColorLayer
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$setAlpha(int)$*$this$*$de.gurkenlabs.litiengine.graphics.ColorLayer
-de.gurkenlabs.litiengine.graphics.ColorLayer$*$setColor(java.awt.Color)$*$color$*$de.gurkenlabs.litiengine.graphics.ColorLayer
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$setColor(java.awt.Color)$*$color$*$de.gurkenlabs.litiengine.graphics.ColorLayer
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$setColor(java.awt.Color)$*$this$*$de.gurkenlabs.litiengine.graphics.ColorLayer
 de.gurkenlabs.litiengine.graphics.ColorLayer$*$setColor(java.awt.Color)$*$this$*$de.gurkenlabs.litiengine.graphics.ColorLayer
