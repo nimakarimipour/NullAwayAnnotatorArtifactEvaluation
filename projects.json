@@ -12,7 +12,7 @@
                 "nullable": "javax.annotation.Nullable"
             },
             "branch": "gc_5",
-            "preprocess": false,
+            "preprocess": true,
             "active": false
         },
         {
@@ -28,7 +28,7 @@
             },
             "branch": "gc_5",
             "preprocess": false,
-            "active": false
+            "active": true
         },
         {
             "name": "Mockito",
@@ -192,8 +192,8 @@
                 "nullable": "javax.annotation.Nullable"
             },
             "branch": "gc_3",
-            "preprocess": true,
-            "active": true
+            "preprocess": false,
+            "active": false
         }
     ]
 }
