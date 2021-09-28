@@ -14,7 +14,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "MPAndroid",
@@ -174,7 +174,7 @@
             },
             "branch": "gc_5",
             "preprocess": false,
-            "active": true
+            "active": false
         },
         { 
             "name": "SpringBoot",
@@ -190,7 +190,7 @@
             },
             "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "LibGdx",
@@ -206,7 +206,7 @@
             },
             "branch": "gc_3",
             "preprocess": true,
-            "active": true
+            "active": false
         }
     ]
 }
