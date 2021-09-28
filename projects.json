@@ -14,7 +14,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "MPAndroid",
@@ -46,7 +46,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Conductor",
@@ -62,7 +62,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "LitiEngine",
@@ -78,7 +78,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "EventBus",
@@ -94,7 +94,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Gson",
@@ -110,7 +110,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Jadx",
@@ -126,7 +126,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Zuul",
@@ -142,7 +142,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "LottieAndroid",
@@ -158,7 +158,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Retrofit",
@@ -174,7 +174,7 @@
             },
             "branch": "gc_5",
             "preprocess": false,
-            "active": false
+            "active": true
         },
         { 
             "name": "SpringBoot",
@@ -190,7 +190,7 @@
             },
             "branch": "gc_2",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "LibGdx",
