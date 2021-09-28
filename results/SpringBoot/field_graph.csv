@@ -1146,7 +1146,6 @@ org.springframework.boot.jdbc.DataSourceBuilder$*$password(java.lang.String)$*$t
 org.springframework.boot.jdbc.DataSourceBuilder$*$getType()$*$type$*$org.springframework.boot.jdbc.DataSourceBuilder
 org.springframework.boot.jdbc.DataSourceBuilder$*$getType()$*$this$*$org.springframework.boot.jdbc.DataSourceBuilder
 org.springframework.boot.jdbc.DataSourceBuilder$*$getType()$*$type$*$org.springframework.boot.jdbc.DataSourceBuilder
-org.springframework.boot.jdbc.DataSourceBuilder$*$getType()$*$type$*$org.springframework.boot.jdbc.DataSourceBuilder
 org.springframework.boot.jdbc.DataSourceBuilder$*$getType()$*$this$*$org.springframework.boot.jdbc.DataSourceBuilder
 org.springframework.boot.jdbc.DataSourceBuilder$*$getType()$*$settingsResolver$*$org.springframework.boot.jdbc.DataSourceBuilder
 org.springframework.boot.jdbc.DataSourceBuilder$*$getType()$*$settingsResolver$*$org.springframework.boot.jdbc.DataSourceBuilder
@@ -1157,7 +1156,6 @@ org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings$*$DataSourceS
 org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings$*$DataSourceSettings(java.lang.Class<? extends javax.sql.DataSource>,java.util.function.Consumer<org.springframework.boot.context.properties.source.ConfigurationPropertyNameAliases>)$*$aliasesCustomizer$*$org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings
 org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings$*$DataSourceSettings(java.lang.Class<? extends javax.sql.DataSource>,java.util.function.Consumer<org.springframework.boot.context.properties.source.ConfigurationPropertyNameAliases>)$*$aliasesCustomizer$*$org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings
 org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings$*$DataSourceSettings(java.lang.Class<? extends javax.sql.DataSource>,java.util.function.Consumer<org.springframework.boot.context.properties.source.ConfigurationPropertyNameAliases>)$*$this$*$org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings
-org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings$*$getType()$*$type$*$org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings
 org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings$*$getType()$*$type$*$org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings
 org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings$*$getType()$*$this$*$org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings
 org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings$*$registerAliases(javax.sql.DataSource,org.springframework.boot.context.properties.source.ConfigurationPropertyNameAliases)$*$type$*$org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings
@@ -4955,12 +4953,9 @@ org.springframework.boot.context.properties.source.SpringIterableConfigurationPr
 org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$this$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
 org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$length$*$Array
 org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$mappings$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
-org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$mappings$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
 org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$this$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
 org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$reverseMappings$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
-org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$reverseMappings$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
 org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$this$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
-org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$descendants$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
 org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$descendants$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
 org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$this$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
 org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$mappers$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
@@ -4971,7 +4966,6 @@ org.springframework.boot.context.properties.source.SpringIterableConfigurationPr
 org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$mappings$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
 org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$mappings$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
 org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$this$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
-org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$reverseMappings$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
 org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$reverseMappings$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
 org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$this$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
 org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings$*$updateMappings(java.lang.String[])$*$descendants$*$org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.Mappings
@@ -5198,14 +5192,12 @@ org.springframework.boot.context.properties.PropertyMapper.CachingSupplier$*$Cac
 org.springframework.boot.context.properties.PropertyMapper.CachingSupplier$*$get()$*$hasResult$*$org.springframework.boot.context.properties.PropertyMapper.CachingSupplier
 org.springframework.boot.context.properties.PropertyMapper.CachingSupplier$*$get()$*$this$*$org.springframework.boot.context.properties.PropertyMapper.CachingSupplier
 org.springframework.boot.context.properties.PropertyMapper.CachingSupplier$*$get()$*$result$*$org.springframework.boot.context.properties.PropertyMapper.CachingSupplier
-org.springframework.boot.context.properties.PropertyMapper.CachingSupplier$*$get()$*$result$*$org.springframework.boot.context.properties.PropertyMapper.CachingSupplier
 org.springframework.boot.context.properties.PropertyMapper.CachingSupplier$*$get()$*$this$*$org.springframework.boot.context.properties.PropertyMapper.CachingSupplier
 org.springframework.boot.context.properties.PropertyMapper.CachingSupplier$*$get()$*$supplier$*$org.springframework.boot.context.properties.PropertyMapper.CachingSupplier
 org.springframework.boot.context.properties.PropertyMapper.CachingSupplier$*$get()$*$supplier$*$org.springframework.boot.context.properties.PropertyMapper.CachingSupplier
 org.springframework.boot.context.properties.PropertyMapper.CachingSupplier$*$get()$*$this$*$org.springframework.boot.context.properties.PropertyMapper.CachingSupplier
 org.springframework.boot.context.properties.PropertyMapper.CachingSupplier$*$get()$*$hasResult$*$org.springframework.boot.context.properties.PropertyMapper.CachingSupplier
 org.springframework.boot.context.properties.PropertyMapper.CachingSupplier$*$get()$*$this$*$org.springframework.boot.context.properties.PropertyMapper.CachingSupplier
-org.springframework.boot.context.properties.PropertyMapper.CachingSupplier$*$get()$*$result$*$org.springframework.boot.context.properties.PropertyMapper.CachingSupplier
 org.springframework.boot.context.properties.PropertyMapper.CachingSupplier$*$get()$*$result$*$org.springframework.boot.context.properties.PropertyMapper.CachingSupplier
 org.springframework.boot.context.properties.PropertyMapper.CachingSupplier$*$get()$*$this$*$org.springframework.boot.context.properties.PropertyMapper.CachingSupplier
 org.springframework.boot.context.properties.PropertyMapper.Source$*$Source(java.util.function.Supplier<T>,java.util.function.Predicate<T>)$*$supplier$*$org.springframework.boot.context.properties.PropertyMapper.Source
@@ -6478,7 +6470,6 @@ org.springframework.boot.web.server.Ssl$*$getKeyStoreProvider()$*$this$*$org.spr
 org.springframework.boot.web.server.Ssl$*$setKeyStoreProvider(java.lang.String)$*$keyStoreProvider$*$org.springframework.boot.web.server.Ssl
 org.springframework.boot.web.server.Ssl$*$setKeyStoreProvider(java.lang.String)$*$keyStoreProvider$*$org.springframework.boot.web.server.Ssl
 org.springframework.boot.web.server.Ssl$*$setKeyStoreProvider(java.lang.String)$*$this$*$org.springframework.boot.web.server.Ssl
-org.springframework.boot.web.server.Ssl$*$getTrustStore()$*$trustStore$*$org.springframework.boot.web.server.Ssl
 org.springframework.boot.web.server.Ssl$*$getTrustStore()$*$trustStore$*$org.springframework.boot.web.server.Ssl
 org.springframework.boot.web.server.Ssl$*$getTrustStore()$*$this$*$org.springframework.boot.web.server.Ssl
 org.springframework.boot.web.server.Ssl$*$setTrustStore(java.lang.String)$*$trustStore$*$org.springframework.boot.web.server.Ssl
@@ -9277,7 +9268,6 @@ org.springframework.boot.web.servlet.AbstractFilterRegistrationBean$*$configure(
 org.springframework.boot.web.servlet.AbstractFilterRegistrationBean$*$configure(javax.servlet.FilterRegistration.Dynamic)$*$this$*$org.springframework.boot.web.servlet.AbstractFilterRegistrationBean
 org.springframework.boot.web.servlet.AbstractFilterRegistrationBean$*$configure(javax.servlet.FilterRegistration.Dynamic)$*$urlPatterns$*$org.springframework.boot.web.servlet.AbstractFilterRegistrationBean
 org.springframework.boot.web.servlet.AbstractFilterRegistrationBean$*$configure(javax.servlet.FilterRegistration.Dynamic)$*$this$*$org.springframework.boot.web.servlet.AbstractFilterRegistrationBean
-org.springframework.boot.web.servlet.AbstractFilterRegistrationBean$*$toString()$*$this$*$org.springframework.boot.web.servlet.AbstractFilterRegistrationBean
 org.springframework.boot.web.servlet.AbstractFilterRegistrationBean$*$toString()$*$servletNames$*$org.springframework.boot.web.servlet.AbstractFilterRegistrationBean
 org.springframework.boot.web.servlet.AbstractFilterRegistrationBean$*$toString()$*$servletNames$*$org.springframework.boot.web.servlet.AbstractFilterRegistrationBean
 org.springframework.boot.web.servlet.AbstractFilterRegistrationBean$*$toString()$*$this$*$org.springframework.boot.web.servlet.AbstractFilterRegistrationBean
@@ -9323,7 +9313,6 @@ org.springframework.boot.web.servlet.DynamicRegistrationBean$*$getOrDeduceName(j
 org.springframework.boot.web.servlet.DynamicRegistrationBean$*$getOrDeduceName(java.lang.Object)$*$name$*$org.springframework.boot.web.servlet.DynamicRegistrationBean
 org.springframework.boot.web.servlet.DynamicRegistrationBean$*$getOrDeduceName(java.lang.Object)$*$this$*$org.springframework.boot.web.servlet.DynamicRegistrationBean
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$ServletRegistrationBean(T,boolean,java.lang.String...)$*$servlet$*$org.springframework.boot.web.servlet.ServletRegistrationBean
-org.springframework.boot.web.servlet.ServletRegistrationBean$*$ServletRegistrationBean(T,boolean,java.lang.String...)$*$servlet$*$org.springframework.boot.web.servlet.ServletRegistrationBean
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$ServletRegistrationBean(T,boolean,java.lang.String...)$*$this$*$org.springframework.boot.web.servlet.ServletRegistrationBean
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$ServletRegistrationBean(T,boolean,java.lang.String...)$*$alwaysMapUrl$*$org.springframework.boot.web.servlet.ServletRegistrationBean
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$ServletRegistrationBean(T,boolean,java.lang.String...)$*$this$*$org.springframework.boot.web.servlet.ServletRegistrationBean
@@ -9331,9 +9320,7 @@ org.springframework.boot.web.servlet.ServletRegistrationBean$*$ServletRegistrati
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$ServletRegistrationBean(T,boolean,java.lang.String...)$*$urlMappings$*$org.springframework.boot.web.servlet.ServletRegistrationBean
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$ServletRegistrationBean(T,boolean,java.lang.String...)$*$this$*$org.springframework.boot.web.servlet.ServletRegistrationBean
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$setServlet(T)$*$servlet$*$org.springframework.boot.web.servlet.ServletRegistrationBean
-org.springframework.boot.web.servlet.ServletRegistrationBean$*$setServlet(T)$*$servlet$*$org.springframework.boot.web.servlet.ServletRegistrationBean
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$setServlet(T)$*$this$*$org.springframework.boot.web.servlet.ServletRegistrationBean
-org.springframework.boot.web.servlet.ServletRegistrationBean$*$getServlet()$*$servlet$*$org.springframework.boot.web.servlet.ServletRegistrationBean
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$getServlet()$*$servlet$*$org.springframework.boot.web.servlet.ServletRegistrationBean
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$getServlet()$*$this$*$org.springframework.boot.web.servlet.ServletRegistrationBean
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$setUrlMappings(java.util.Collection<java.lang.String>)$*$urlMappings$*$org.springframework.boot.web.servlet.ServletRegistrationBean
@@ -9370,7 +9357,6 @@ org.springframework.boot.web.servlet.ServletRegistrationBean$*$configure(javax.s
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$configure(javax.servlet.ServletRegistration.Dynamic)$*$this$*$org.springframework.boot.web.servlet.ServletRegistrationBean
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$configure(javax.servlet.ServletRegistration.Dynamic)$*$multipartConfig$*$org.springframework.boot.web.servlet.ServletRegistrationBean
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$configure(javax.servlet.ServletRegistration.Dynamic)$*$this$*$org.springframework.boot.web.servlet.ServletRegistrationBean
-org.springframework.boot.web.servlet.ServletRegistrationBean$*$getServletName()$*$servlet$*$org.springframework.boot.web.servlet.ServletRegistrationBean
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$getServletName()$*$servlet$*$org.springframework.boot.web.servlet.ServletRegistrationBean
 org.springframework.boot.web.servlet.ServletRegistrationBean$*$getServletName()$*$this$*$org.springframework.boot.web.servlet.ServletRegistrationBean
 org.springframework.boot.web.servlet.view.MustacheView$*$setCompiler(com.samskivert.mustache.Mustache.Compiler)$*$compiler$*$org.springframework.boot.web.servlet.view.MustacheView
@@ -9537,15 +9523,12 @@ org.springframework.boot.web.servlet.support.ErrorPageFilter$*$handleCommittedRe
 org.springframework.boot.web.servlet.support.ErrorPageFilter$*$handleCommittedResponse(javax.servlet.http.HttpServletRequest,java.lang.Throwable)$*$logger$*$org.springframework.boot.web.servlet.support.ErrorPageFilter
 org.springframework.boot.web.servlet.support.ErrorPageFilter$*$isClientAbortException(java.lang.Throwable)$*$CLIENT_ABORT_EXCEPTIONS$*$org.springframework.boot.web.servlet.support.ErrorPageFilter
 org.springframework.boot.web.servlet.support.ErrorPageFilter$*$getErrorPath(java.util.Map<java.lang.Integer,java.lang.String>,java.lang.Integer)$*$global$*$org.springframework.boot.web.servlet.support.ErrorPageFilter
-org.springframework.boot.web.servlet.support.ErrorPageFilter$*$getErrorPath(java.util.Map<java.lang.Integer,java.lang.String>,java.lang.Integer)$*$global$*$org.springframework.boot.web.servlet.support.ErrorPageFilter
 org.springframework.boot.web.servlet.support.ErrorPageFilter$*$getErrorPath(java.util.Map<java.lang.Integer,java.lang.String>,java.lang.Integer)$*$this$*$org.springframework.boot.web.servlet.support.ErrorPageFilter
 org.springframework.boot.web.servlet.support.ErrorPageFilter$*$getErrorPath(java.lang.Class<?>)$*$exceptions$*$org.springframework.boot.web.servlet.support.ErrorPageFilter
 org.springframework.boot.web.servlet.support.ErrorPageFilter$*$getErrorPath(java.lang.Class<?>)$*$exceptions$*$org.springframework.boot.web.servlet.support.ErrorPageFilter
 org.springframework.boot.web.servlet.support.ErrorPageFilter$*$getErrorPath(java.lang.Class<?>)$*$this$*$org.springframework.boot.web.servlet.support.ErrorPageFilter
 org.springframework.boot.web.servlet.support.ErrorPageFilter$*$getErrorPath(java.lang.Class<?>)$*$global$*$org.springframework.boot.web.servlet.support.ErrorPageFilter
-org.springframework.boot.web.servlet.support.ErrorPageFilter$*$getErrorPath(java.lang.Class<?>)$*$global$*$org.springframework.boot.web.servlet.support.ErrorPageFilter
 org.springframework.boot.web.servlet.support.ErrorPageFilter$*$getErrorPath(java.lang.Class<?>)$*$this$*$org.springframework.boot.web.servlet.support.ErrorPageFilter
-org.springframework.boot.web.servlet.support.ErrorPageFilter$*$addErrorPages(org.springframework.boot.web.server.ErrorPage...)$*$global$*$org.springframework.boot.web.servlet.support.ErrorPageFilter
 org.springframework.boot.web.servlet.support.ErrorPageFilter$*$addErrorPages(org.springframework.boot.web.server.ErrorPage...)$*$global$*$org.springframework.boot.web.servlet.support.ErrorPageFilter
 org.springframework.boot.web.servlet.support.ErrorPageFilter$*$addErrorPages(org.springframework.boot.web.server.ErrorPage...)$*$this$*$org.springframework.boot.web.servlet.support.ErrorPageFilter
 org.springframework.boot.web.servlet.support.ErrorPageFilter$*$addErrorPages(org.springframework.boot.web.server.ErrorPage...)$*$statuses$*$org.springframework.boot.web.servlet.support.ErrorPageFilter
@@ -9583,7 +9566,6 @@ org.springframework.boot.web.servlet.support.ErrorPageFilterConfiguration$*$erro
 org.springframework.boot.web.servlet.support.ErrorPageFilterConfiguration$*$errorPageFilterRegistration(org.springframework.boot.web.servlet.support.ErrorPageFilter)$*$ASYNC$*$javax.servlet.DispatcherType
 org.springframework.boot.web.servlet.FilterRegistrationBean$*$FilterRegistrationBean(T,org.springframework.boot.web.servlet.ServletRegistrationBean<?>...)$*$filter$*$org.springframework.boot.web.servlet.FilterRegistrationBean
 org.springframework.boot.web.servlet.FilterRegistrationBean$*$FilterRegistrationBean(T,org.springframework.boot.web.servlet.ServletRegistrationBean<?>...)$*$this$*$org.springframework.boot.web.servlet.FilterRegistrationBean
-org.springframework.boot.web.servlet.FilterRegistrationBean$*$getFilter()$*$filter$*$org.springframework.boot.web.servlet.FilterRegistrationBean
 org.springframework.boot.web.servlet.FilterRegistrationBean$*$getFilter()$*$filter$*$org.springframework.boot.web.servlet.FilterRegistrationBean
 org.springframework.boot.web.servlet.FilterRegistrationBean$*$getFilter()$*$this$*$org.springframework.boot.web.servlet.FilterRegistrationBean
 org.springframework.boot.web.servlet.FilterRegistrationBean$*$setFilter(T)$*$filter$*$org.springframework.boot.web.servlet.FilterRegistrationBean
