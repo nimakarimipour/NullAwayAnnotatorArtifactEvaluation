@@ -153,12 +153,12 @@
             "format": "",
             "annot": {
                 "init": "com.airbnb.lottie.Initializer",
-                "nullable": "javax.annotation.Nullable",
+                "nullable": "androidx.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Retrofit",
@@ -190,7 +190,7 @@
             },
             "branch": "gc_2",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "LibGdx",
