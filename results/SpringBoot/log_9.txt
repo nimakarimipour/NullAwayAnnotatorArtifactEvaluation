@@ -1,0 +1,6 @@
+total=953, requested=35, time=532911, deep=284750
+total=311, requested=29, time=421087, deep=248572
+total=97, requested=23, time=341892, deep=236946
+total=69, requested=15, time=236462, deep=129076
+total=59, requested=6, time=108811, deep=2
+total=57, requested=6, time=107334, deep=4
