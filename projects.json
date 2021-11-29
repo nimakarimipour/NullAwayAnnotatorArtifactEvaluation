@@ -121,7 +121,7 @@
             "format": "",
             "annot": {
                 "init": "jadx.Initializer",
-                "nullable": "javax.annotation.Nullable",
+                "nullable": "org.jetbrains.annotations.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
             "branch": "gc_5",
@@ -142,7 +142,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "LottieAndroid",
@@ -174,7 +174,7 @@
             },
             "branch": "gc_5",
             "preprocess": false,
-            "active": false
+            "active": true
         },
         { 
             "name": "SpringBoot",
@@ -190,7 +190,7 @@
             },
             "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "LibGdx",
