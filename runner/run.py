@@ -4,10 +4,8 @@ import time
 
 
 # Run with Python2
-
-GIT_RESET = "git reset --hard && git checkout {}"
 PROJECT_DIR = "/home/nima/Developer/AutoFixer/Evaluation/Projects/{}"
-DISP = "{} & {} & {} & {}\n\\\\"
+DISP = "{} & {} & {} & {}\n"
 CONFIG = {
     "PROJECT_PATH": "/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx",
     "BUILD_COMMAND": "./gradlew gdx:build -x test",
@@ -23,10 +21,13 @@ CONFIG = {
 with open('../projects.json') as f:
     projects = json.load(f)
     for project in projects['projects']:
-        # project['active'] = True
+        project['active'] = True
         if project['active']:
             COMMAND = "cd {} && {}".format(PROJECT_DIR.format(project['path']), {})
-            os.system(COMMAND.format(GIT_RESET.format('deep_6')))
+            os.system(COMMAND.format("git reset --hard"))
+            os.system(COMMAND.format("git checkout docker"))
+            os.system(COMMAND.format("git branch -D paper"))
+            os.system(COMMAND.format("git checkout -b paper"))
             os.system(COMMAND.format(project['build']))
             before = len(open("/tmp/NullAwayFix/errors.csv",'r').readlines()) - 1
             config = CONFIG.copy()
