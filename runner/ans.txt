@@ -1,0 +1,13 @@
+PhotoView & 9 & 1 & 33
+MPAndroid & 174 & 52 & 180
+Mockito & 205 & 69 & 269
+Conductor & 138 & 81 & 292
+LitiEngine & 481 & 177 & 331
+EventBus & 49 & 14 & 59
+Gson & 161 & 107 & 94
+Jadx & 583 & 113 & 507
+Zuul & 204 & 97 & 167
+LottieAndroid & 331 & 165 & 271
+Retrofit & 26 & 13 & 44
+SpringBoot & 699 & 199 & 396
+LibGdx & 1476 & 498 & 769

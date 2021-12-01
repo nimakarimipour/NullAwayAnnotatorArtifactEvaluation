@@ -15,7 +15,7 @@ CONFIG = {
         "NULLABLE": "javax.annotation.Nullable"
     },
     "FORMAT": False,
-    "DEPTH": 4
+    "DEPTH": 0
 }
 
 with open('../projects.json') as f:
@@ -40,6 +40,7 @@ with open('../projects.json') as f:
             start_time = time.time()
             os.system("cd /home/nima/Developer/AutoFixer/Diagnoser/ && python3 run.py loop")
             total_time = time.time() - start_time
+            os.system("mv /tmp/NullAwayFix/log.txt /tmp/NullAwayFix/{}.txt".format(project['name']))
             os.system(COMMAND.format(project['build']))
             after = len(open("/tmp/NullAwayFix/errors.csv",'r').readlines()) - 1
             file1 = open("ans.txt", "a")  # append mode
