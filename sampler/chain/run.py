@@ -25,8 +25,18 @@ with open('../projects.json') as f:
         project['active'] = True
         if project['active']:
             COMMAND = "cd {} && {}".format(PROJECT_DIR.format(project['path']), {})
+
+
             os.system(COMMAND.format("git reset --hard"))
-            os.system(COMMAND.format("git checkout docker"))
+            os.system(COMMAND.format("git checkout base"))
+
+            
+
+
+
+            
+
+
             os.system(COMMAND.format("git branch -D paper"))
             os.system(COMMAND.format("git checkout -b paper"))
             os.system(COMMAND.format(project['build']))
