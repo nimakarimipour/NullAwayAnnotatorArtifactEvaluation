@@ -1,24 +1,11 @@
 import random
 import json
 import os
+from tkinter import E
 
 # Run with Python2
 PROJECT_DIR = "/Users/nima/Developer/NullAwayFixer/Projects/{}"
-DISP = "{} & {} & {} & {}\n"
 FIX_PATH = "/tmp/NullAwayFix/fixes.csv"
-
-CONFIG = {
-    "PROJECT_PATH": "/Users/nima/Developer/NullAwayFixer/Projects/libgdx",
-    "BUILD_COMMAND": "./gradlew gdx:build -x test",
-    "ANNOTATION": {
-        "INITIALIZE": "com.badlogic.gdx.Initializer",
-        "NONNULL": "javax.annotation.NonNull",
-        "NULLABLE": "javax.annotation.Nullable"
-    },
-    "FORMAT": False,
-    "DEPTH": 0
-}
-
 
 def convert_json_to_csv(name):
     f = open('./{}/injected.json'.format(name))
@@ -123,7 +110,8 @@ def apply_fixes(fixes):
 
 
 def get_corresponding_fixes(errors, fixes):
-    pass
+    indecies = [error_index(e) for e in errors]
+    return [f for f in fixes if fix_index(f) in indecies]
 
 
 def run():
@@ -135,6 +123,7 @@ def run():
                 COMMAND = "cd {} && {}".format(
                     PROJECT_DIR.format(project['path']), {})
 
+                convert_json_to_csv(project['path'])
                 all_fixes = open('{}/injected.csv'.format(project['path']),
                                  'r').readlines()
 
@@ -180,3 +169,5 @@ def run():
                         apply_fixes(new_fixes)
 
                         base = new_base
+                    
+                    os.system(COMMAND.format("git push --set-upstream origin {}".format("chain_{}".format(i))))
