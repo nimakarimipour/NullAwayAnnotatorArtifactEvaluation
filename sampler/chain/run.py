@@ -135,7 +135,8 @@ def run():
                 COMMAND = "cd {} && {}".format(
                     PROJECT_DIR.format(project['path']), {})
 
-                all_fixes = open('{}/injected.csv'.format(project['path']), 'r').readlines()   
+                all_fixes = open('{}/injected.csv'.format(project['path']),
+                                 'r').readlines()
 
                 # reset
                 os.system(COMMAND.format("git reset --hard"))
@@ -153,24 +154,29 @@ def run():
                     # reset
                     os.system(COMMAND.format("git reset --hard"))
                     os.system(COMMAND.format("git checkout base"))
-                    os.system(COMMAND.format("git checkout -b chain_{}".format(i)))
+                    os.system(
+                        COMMAND.format("git checkout -b chain_{}".format(i)))
 
-                    base, fixes = get_error_fix(PROJECT_DIR.format(project['path']), COMMAND.format(project['build']))
+                    base, fixes = get_error_fix(
+                        PROJECT_DIR.format(project['path']),
+                        COMMAND.format(project['build']))
 
                     # inject the intial fix
                     init_fix = get_corresponding_fixes(error, fixes)
                     apply_fixes(init_fix)
 
                     while True:
-                        new_base, fixes = get_error_fix(PROJECT_DIR.format(project['path']), COMMAND.format(project['build']))
+                        new_base, fixes = get_error_fix(
+                            PROJECT_DIR.format(project['path']),
+                            COMMAND.format(project['build']))
 
-                        new_fixes = get_corresponding_fixes(exclude_list(new_base, base), fixes)
+                        new_fixes = get_corresponding_fixes(
+                            exclude_list(new_base, base), fixes)
                         new_fixes = [f for f in new_fixes if f in all_fixes]
 
-                        if(len(new_fixes) == 0):
+                        if (len(new_fixes) == 0):
                             break
 
                         apply_fixes(new_fixes)
 
                         base = new_base
-
