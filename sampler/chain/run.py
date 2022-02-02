@@ -1,14 +1,12 @@
-from dis import dis
-import imp
-
 import random
 import json
 import os
-import re
 
 # Run with Python2
 PROJECT_DIR = "/Users/nima/Developer/NullAwayFixer/Projects/{}"
 DISP = "{} & {} & {} & {}\n"
+FIX_PATH = "/tmp/NullAwayFix/fixes.csv"
+
 CONFIG = {
     "PROJECT_PATH": "/Users/nima/Developer/NullAwayFixer/Projects/libgdx",
     "BUILD_COMMAND": "./gradlew gdx:build -x test",
@@ -58,6 +56,7 @@ def remove_reason_field(path):
     f.writelines(lines)
     f.close()
 
+
 def readErrors(path):
     lines = open(path, 'r').readlines()
     index = 0
@@ -79,15 +78,19 @@ def readErrors(path):
 
 def get_error_fix(path, command):
     os.system(command + " 2> errors.txt")
-    remove_reason_field("/tmp/NullAwayFix/fixes.csv")
-    fixes = open("/tmp/NullAwayFix/fixes.csv", 'r').readlines()
+    remove_reason_field(FIX_PATH)
+    fixes = open(FIX_PATH, 'r').readlines()
     return readErrors(path + "/errors.txt"), fixes
 
 
-def select_sample_errors(COMMAND, project):
-    os.system(COMMAND.format("git reset --hard"))
-    os.system(COMMAND.format("git checkout base"))
+def exclude_list(target, toRemove):
+    for x in target:
+        if x in toRemove:
+            target.remove(x)
+    return target
 
+
+def select_sample_errors(COMMAND, project):
     errors_before, fixes = get_error_fix(PROJECT_DIR.format(project['path']),
                                          COMMAND.format(project['build']))
 
@@ -96,11 +99,31 @@ def select_sample_errors(COMMAND, project):
     errors_after, _ = get_error_fix(PROJECT_DIR.format(project['path']),
                                     COMMAND.format(project['build']))
 
-    for x in errors_before:
-        if x in errors_after:
-            errors_before.remove(x)
+    errors_before = exclude_list(errors_before, errors_after)
     selected = random.choices(errors_before, k=5)
     return selected, fixes
+
+
+def error_index(error):
+    key = "[NullAway] (INDEX= "
+    begin = error.index(key) + len(key)
+    end = error[begin:].index(")") + begin
+    return int(error[begin:end])
+
+
+def fix_index(fix):
+    vals = fix.split("$*$")
+    return int(vals[len(vals) - 1])
+
+
+def apply_fixes(fixes):
+    f = open(FIX_PATH, 'w')
+    f.writelines(fixes)
+    os.system("java -jar injector.jar {}".format(FIX_PATH))
+
+
+def get_corresponding_fixes(errors, fixes):
+    pass
 
 
 def run():
@@ -112,6 +135,12 @@ def run():
                 COMMAND = "cd {} && {}".format(
                     PROJECT_DIR.format(project['path']), {})
 
+                all_fixes = open('{}/injected.csv'.format(project['path']), 'r').readlines()   
+
+                # reset
+                os.system(COMMAND.format("git reset --hard"))
+                os.system(COMMAND.format("git checkout base"))
+
                 # select sample errors with fixes
                 selected, fixes = select_sample_errors(COMMAND, project)
 
@@ -120,5 +149,28 @@ def run():
                 file1.writelines(selected)
                 file1.close()
 
+                for i, error in enumerate(selected):
+                    # reset
+                    os.system(COMMAND.format("git reset --hard"))
+                    os.system(COMMAND.format("git checkout base"))
+                    os.system(COMMAND.format("git checkout -b chain_{}".format(i)))
 
-remove_reason_field("/tmp/NullAwayFix/fixes.csv")
+                    base, fixes = get_error_fix(PROJECT_DIR.format(project['path']), COMMAND.format(project['build']))
+
+                    # inject the intial fix
+                    init_fix = get_corresponding_fixes(error, fixes)
+                    apply_fixes(init_fix)
+
+                    while True:
+                        new_base, fixes = get_error_fix(PROJECT_DIR.format(project['path']), COMMAND.format(project['build']))
+
+                        new_fixes = get_corresponding_fixes(exclude_list(new_base, base), fixes)
+                        new_fixes = [f for f in new_fixes if f in all_fixes]
+
+                        if(len(new_fixes) == 0):
+                            break
+
+                        apply_fixes(new_fixes)
+
+                        base = new_base
+
