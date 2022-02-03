@@ -37,7 +37,7 @@ def remove_reason_field(path):
         disp = vals[0] + "$*$" + vals[1] + "$*$" + vals[2] + "$*$" + vals[
             3] + "$*$" + vals[4] + "$*$" + vals[
                 5] + "$*$" + "null" + "$*$" + vals[7] + "$*$" + vals[
-                    8] + "$*$" + vals[9]
+                    8] + "$*$" + vals[9] + "$*$" + vals[10] + "$*$" + vals[11]                      
         lines.append(disp + "\n")
 
     f = open(path, "w")
@@ -78,8 +78,8 @@ def exclude_list(target, toRemove):
 
 
 def select_sample_errors(COMMAND, project):
-    errors_before, fixes = get_error_fix(PROJECT_DIR.format(project['path']),
-                                         COMMAND.format(project['build']))
+    errors_before, _ = get_error_fix(PROJECT_DIR.format(project['path']),
+                                         COMMAND.format(project['build']))                             
 
     os.system(COMMAND.format("git checkout final"))
 
@@ -89,7 +89,10 @@ def select_sample_errors(COMMAND, project):
     errors_before = exclude_list(errors_before, errors_after)
     selected = random.choices(errors_before, k=5)
 
-    return selected, fixes
+    # Write selected errors
+    file1 = open('{}/selected.txt'.format(project['path']), 'w')
+    file1.writelines(selected)
+    file1.close()
 
 
 def error_index(error):
@@ -132,12 +135,7 @@ def run():
                 os.system(COMMAND.format("git checkout base"))
 
                 # select sample errors with fixes
-                selected, fixes = select_sample_errors(COMMAND, project)
-
-                # Write selected errors
-                file1 = open('{}/selected.txt'.format(project['path']), 'w')
-                file1.writelines(selected)
-                file1.close()
+                selected = readErrors('{}/selected.txt'.format(project['path']))
 
                 for i, error in enumerate(selected):
                     # reset
@@ -152,9 +150,6 @@ def run():
                     base, fixes = get_error_fix(
                         PROJECT_DIR.format(project['path']),
                         COMMAND.format(project['build']))
-
-                    print("LENGTH : {}".format(len(fixes)))
-                    print(fixes[0])
 
                     # inject the intial fix
                     init_fix = get_corresponding_fixes([error], fixes)
