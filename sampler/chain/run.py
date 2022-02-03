@@ -1,10 +1,10 @@
 import random
 import json
 import os
-from tkinter import E
+import platform
 
 # Run with Python2
-PROJECT_DIR = "/Users/nima/Developer/NullAwayFixer/Projects/{}"
+PROJECT_DIR = "/home/nima/Developer/AutoFixer/Evaluation/Projects/{}" if platform.system() == "Linux"  else "/Users/nima/Developer/NullAwayFixer/Projects/{}"
 FIX_PATH = "/tmp/NullAwayFix/fixes.csv"
 
 def convert_json_to_csv(name):
@@ -21,7 +21,6 @@ def convert_json_to_csv(name):
                 disp += (val if val != None else "null") + "$*$"
             else:
                 disp += "null" + "$*$"
-        print(disp)
         lines.append(disp[:-3] + "\n")
     f = open('./{}/injected.csv'.format(name), "w")
     f.writelines(lines[:-1])
@@ -49,7 +48,6 @@ def readErrors(path):
     index = 0
     while ("error: [NullAway]" not in lines[index]):
         index += 1
-    print(index)
     errors = []
     while (index < len(lines)):
         error = ""
@@ -88,6 +86,7 @@ def select_sample_errors(COMMAND, project):
 
     errors_before = exclude_list(errors_before, errors_after)
     selected = random.choices(errors_before, k=5)
+
     return selected, fixes
 
 
@@ -110,15 +109,17 @@ def apply_fixes(fixes):
 
 
 def get_corresponding_fixes(errors, fixes):
+    print("Errors size: {}".format(len(errors)))
+    for i, e in enumerate(errors):
+        print("{} : {}".format(i, e))
     indecies = [error_index(e) for e in errors]
     return [f for f in fixes if fix_index(f) in indecies]
 
 
 def run():
-    with open('../projects.json') as f:
+    with open('../../projects.json') as f:
         projects = json.load(f)
         for project in projects['projects']:
-            project['active'] = True
             if project['active']:
                 COMMAND = "cd {} && {}".format(
                     PROJECT_DIR.format(project['path']), {})
@@ -141,18 +142,20 @@ def run():
 
                 for i, error in enumerate(selected):
                     # reset
+                    branch = "chain_{}".format(i)
                     os.system(COMMAND.format("git reset --hard"))
                     os.system(COMMAND.format("git checkout base"))
+                    os.system(COMMAND.format("git branch -D {}".format(branch)))
                     os.system(
-                        COMMAND.format("git checkout -b chain_{}".format(i)))
+                        COMMAND.format("git checkout -b {}".format(branch)))
 
                     base, fixes = get_error_fix(
                         PROJECT_DIR.format(project['path']),
                         COMMAND.format(project['build']))
 
                     # inject the intial fix
-                    init_fix = get_corresponding_fixes(error, fixes)
-                    apply_fixes(init_fix)
+                    init_fix = get_corresponding_fixes([error], fixes)
+                    apply_fixes([init_fix])
 
                     while True:
                         new_base, fixes = get_error_fix(
@@ -170,4 +173,6 @@ def run():
 
                         base = new_base
                     
-                    os.system(COMMAND.format("git push --set-upstream origin {}".format("chain_{}".format(i))))
+                    os.system(COMMAND.format("git push --set-upstream origin {}".format(branch)))
+
+run()

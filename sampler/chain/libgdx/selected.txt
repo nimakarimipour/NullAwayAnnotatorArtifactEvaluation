@@ -1,0 +1,15 @@
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/Cubemap.java:295: error: [NullAway] (INDEX= 549) dereferenced expression managedCubemaps.get(Gdx.app) is @Nullable
+		return managedCubemaps.get(Gdx.app).size;
+		                                   ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/influencers/ModelInfluencer.java:71: error: [NullAway] (INDEX= 638) (Covered) passing @Nullable parameter 'models.random()' where @NonNull is required
+				return new ModelInstance(models.random());
+				                                      ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/ModelBatch.java:130: error: [NullAway] (INDEX= 986) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+		this(null, new DefaultShaderProvider(vertexShader, fragmentShader), null);
+		                                                                    ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Array.java:54: error: [NullAway] (INDEX= 14) (Covered) initializer method does not guarantee @NonNull fields iterable (line 38), predicateIterable (line 39) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public Array (boolean ordered, int capacity) {
+	       ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonReader.java:509: error: [NullAway] (INDEX= 1326) (Covered) passing @Nullable parameter 'name' where @NonNull is required
+													number(name, Long.parseLong(value), value);
+													       ^
