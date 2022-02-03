@@ -38,7 +38,7 @@ def remove_reason_field(path):
             3] + "$*$" + vals[4] + "$*$" + vals[
                 5] + "$*$" + "null" + "$*$" + vals[7] + "$*$" + vals[
                     8] + "$*$" + vals[9] + "$*$" + vals[10] + "$*$" + vals[11]                      
-        lines.append(disp + "\n")
+        lines.append(str(disp))
 
     f = open(path, "w")
     f.writelines(lines)
@@ -109,7 +109,7 @@ def fix_index(fix):
 
 def apply_fixes(fixes):
     f = open(FIX_PATH, 'w')
-    f.writelines(fixes)
+    f.writelines([str(f) for f in fixes])
     os.system("java -jar injector.jar {}".format(FIX_PATH))
 
 
