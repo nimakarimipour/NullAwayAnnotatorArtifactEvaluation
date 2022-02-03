@@ -1,15 +1,15 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/Cubemap.java:295: error: [NullAway] (INDEX= 549) dereferenced expression managedCubemaps.get(Gdx.app) is @Nullable
-		return managedCubemaps.get(Gdx.app).size;
-		                                   ^
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/influencers/ModelInfluencer.java:71: error: [NullAway] (INDEX= 638) (Covered) passing @Nullable parameter 'models.random()' where @NonNull is required
-				return new ModelInstance(models.random());
-				                                      ^
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/ModelBatch.java:130: error: [NullAway] (INDEX= 986) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-		this(null, new DefaultShaderProvider(vertexShader, fragmentShader), null);
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/shapebuilders/BoxShapeBuilder.java:81: error: [NullAway] (INDEX= 860) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+				vertTmp7.set(corner101, null, null, null), vertTmp8.set(corner111, null, null, null));
+				                                                                   ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/Mesh.java:927: error: [NullAway] (INDEX= 164) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+		return calculateRadius(center.x, center.y, center.z, offset, count, null);
 		                                                                    ^
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Array.java:54: error: [NullAway] (INDEX= 14) (Covered) initializer method does not guarantee @NonNull fields iterable (line 38), predicateIterable (line 39) are initialized along all control-flow paths (remember to check for exceptions or early returns).
-	public Array (boolean ordered, int capacity) {
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/data/ModelNodePart.java:26: error: [NullAway] (INDEX= 131) (Covered) @NonNull field meshPartId not initialized
+	public String meshPartId;
+	              ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Action.java:29: error: [NullAway] (INDEX= 472) (Covered) @NonNull field actor not initialized
+	protected Actor actor;
+	                ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/influencers/SimpleInfluencer.java:35: error: [NullAway] (INDEX= 612) (Covered) initializer method does not guarantee @NonNull fields valueChannel (line 32), interpolationChannel (line 32), lifeChannel (line 32), valueChannelDescriptor (line 33) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public SimpleInfluencer () {
 	       ^
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonReader.java:509: error: [NullAway] (INDEX= 1326) (Covered) passing @Nullable parameter 'name' where @NonNull is required
-													number(name, Long.parseLong(value), value);
-													       ^

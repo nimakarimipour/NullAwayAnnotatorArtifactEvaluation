@@ -4,8 +4,10 @@ import os
 import platform
 
 # Run with Python2
-PROJECT_DIR = "/home/nima/Developer/AutoFixer/Evaluation/Projects/{}" if platform.system() == "Linux"  else "/Users/nima/Developer/NullAwayFixer/Projects/{}"
+PROJECT_DIR = "/home/nima/Developer/AutoFixer/Evaluation/Projects/{}" if platform.system(
+) == "Linux" else "/Users/nima/Developer/NullAwayFixer/Projects/{}"
 FIX_PATH = "/tmp/NullAwayFix/fixes.csv"
+
 
 def convert_json_to_csv(name):
     f = open('./{}/injected.json'.format(name))
@@ -65,7 +67,7 @@ def get_error_fix(path, command):
     os.system(command + " 2> errors.txt")
     remove_reason_field(FIX_PATH)
     fixes = open(FIX_PATH, 'r').readlines()
-    return readErrors(path + "/errors.txt"), fixes
+    return readErrors(path + "/errors.txt"), fixes[1:]
 
 
 def exclude_list(target, toRemove):
@@ -109,9 +111,6 @@ def apply_fixes(fixes):
 
 
 def get_corresponding_fixes(errors, fixes):
-    print("Errors size: {}".format(len(errors)))
-    for i, e in enumerate(errors):
-        print("{} : {}".format(i, e))
     indecies = [error_index(e) for e in errors]
     return [f for f in fixes if fix_index(f) in indecies]
 
@@ -145,13 +144,17 @@ def run():
                     branch = "chain_{}".format(i)
                     os.system(COMMAND.format("git reset --hard"))
                     os.system(COMMAND.format("git checkout base"))
-                    os.system(COMMAND.format("git branch -D {}".format(branch)))
+                    os.system(COMMAND.format(
+                        "git branch -D {}".format(branch)))
                     os.system(
                         COMMAND.format("git checkout -b {}".format(branch)))
 
                     base, fixes = get_error_fix(
                         PROJECT_DIR.format(project['path']),
                         COMMAND.format(project['build']))
+
+                    print("LENGTH : {}".format(len(fixes)))
+                    print(fixes[0])
 
                     # inject the intial fix
                     init_fix = get_corresponding_fixes([error], fixes)
@@ -172,7 +175,11 @@ def run():
                         apply_fixes(new_fixes)
 
                         base = new_base
-                    
-                    os.system(COMMAND.format("git push --set-upstream origin {}".format(branch)))
+
+                    os.system(
+                        COMMAND.format(
+                            "git push --set-upstream origin {}".format(
+                                branch)))
+
 
 run()
