@@ -36,6 +36,11 @@ def convert_json_to_csv(name):
     f.close()
 
 
+def remove_index_from_fixes(fixes):
+    return [fix[:fix.indexof("$*$true$*$null$*$null$*$")] for fix in fixes]
+
+
+
 def remove_reason_field(path):
     fixes = readLines(path)
     lines = []
@@ -163,7 +168,6 @@ def run():
                     # inject the intial fix
                     init_fix = get_corresponding_fixes([error], fixes)
                     apply_fixes(init_fix)
-                    exit()
 
                     while True:
                         new_base, fixes = get_error_fix(
@@ -172,6 +176,7 @@ def run():
 
                         new_fixes = get_corresponding_fixes(
                             exclude_list(new_base, base), fixes)
+                        new_fixes = remove_index_from_fixes(new_fixes)    
                         new_fixes = [f for f in new_fixes if f in all_fixes]                        
 
                         if (len(new_fixes) == 0):
