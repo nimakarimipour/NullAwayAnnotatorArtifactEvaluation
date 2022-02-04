@@ -37,7 +37,7 @@ def convert_json_to_csv(name):
 
 
 def remove_index_from_fixes(fixes):
-    return [fix[:fix.indexof("$*$true$*$null$*$null$*$")] for fix in fixes]
+    return [fix[:fix.index("$*$true$*$null$*$null$*$")] for fix in fixes]
 
 
 
@@ -189,6 +189,7 @@ def run():
                         COMMAND.format(
                             "git push --set-upstream origin {}".format(
                                 branch)))
+                    exit()
 
 
 run()
