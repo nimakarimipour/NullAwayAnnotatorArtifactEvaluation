@@ -2,16 +2,23 @@ import random
 import json
 import os
 import platform
+import re
 
 # Run with Python2
 PROJECT_DIR = "/home/nima/Developer/AutoFixer/Evaluation/Projects/{}" if platform.system(
 ) == "Linux" else "/Users/nima/Developer/NullAwayFixer/Projects/{}"
 FIX_PATH = "/tmp/NullAwayFix/fixes.csv"
 
+def readLines(path):
+    f = open(path, 'r')
+    lines = f.readlines()
+    f.close()
+    return lines
 
 def convert_json_to_csv(name):
     f = open('./{}/injected.json'.format(name))
     fixes = json.load(f)['fixes']
+    f.close()
     keys = "location$*$class$*$method$*$param$*$index$*$uri$*$reason$*$annotation$*$inject".split(
         "$*$")
     lines = []
@@ -30,7 +37,7 @@ def convert_json_to_csv(name):
 
 
 def remove_reason_field(path):
-    fixes = open(path, 'r').readlines()
+    fixes = readLines(path)
     lines = []
     for fix in fixes:
         vals = fix.split("$*$")
@@ -46,7 +53,7 @@ def remove_reason_field(path):
 
 
 def readErrors(path):
-    lines = open(path, 'r').readlines()
+    lines = readLines(path)
     index = 0
     while ("error: [NullAway]" not in lines[index]):
         index += 1
@@ -66,7 +73,7 @@ def readErrors(path):
 def get_error_fix(path, command):
     os.system(command + " 2> errors.txt")
     remove_reason_field(FIX_PATH)
-    fixes = open(FIX_PATH, 'r').readlines()
+    fixes = readLines(FIX_PATH)
     return readErrors(path + "/errors.txt"), fixes[1:]
 
 
@@ -110,6 +117,7 @@ def fix_index(fix):
 def apply_fixes(fixes):
     f = open(FIX_PATH, 'w')
     f.writelines([str(f) for f in fixes])
+    f.close()
     os.system("java -jar injector.jar {}".format(FIX_PATH))
 
 
@@ -127,8 +135,7 @@ def run():
                     PROJECT_DIR.format(project['path']), {})
 
                 convert_json_to_csv(project['path'])
-                all_fixes = open('{}/injected.csv'.format(project['path']),
-                                 'r').readlines()
+                all_fixes = readLines('{}/injected.csv'.format(project['path']))
 
                 # reset
                 os.system(COMMAND.format("git reset --hard"))
@@ -143,6 +150,8 @@ def run():
                     os.system(COMMAND.format("git reset --hard"))
                     os.system(COMMAND.format("git checkout base"))
                     os.system(COMMAND.format(
+                        "git push origin --delete {}".format(branch)))
+                    os.system(COMMAND.format(
                         "git branch -D {}".format(branch)))
                     os.system(
                         COMMAND.format("git checkout -b {}".format(branch)))
@@ -153,7 +162,8 @@ def run():
 
                     # inject the intial fix
                     init_fix = get_corresponding_fixes([error], fixes)
-                    apply_fixes([init_fix])
+                    apply_fixes(init_fix)
+                    exit()
 
                     while True:
                         new_base, fixes = get_error_fix(
@@ -162,15 +172,14 @@ def run():
 
                         new_fixes = get_corresponding_fixes(
                             exclude_list(new_base, base), fixes)
-                        new_fixes = [f for f in new_fixes if f in all_fixes]
+                        new_fixes = [f for f in new_fixes if f in all_fixes]                        
 
                         if (len(new_fixes) == 0):
                             break
 
                         apply_fixes(new_fixes)
 
-                        base = new_base
-
+                        base = new_base 
                     os.system(
                         COMMAND.format(
                             "git push --set-upstream origin {}".format(
