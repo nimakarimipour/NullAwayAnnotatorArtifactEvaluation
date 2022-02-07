@@ -36,10 +36,13 @@ def convert_json_to_csv(name):
     f.close()
 
 
-def remove_index_from_fixes(fixes):
-    return [fix[:fix.index("$*$true$*$null$*$null$*$")] for fix in fixes]
+def clean_fix(fix):
+    return fix[:fix.index("$*$true$*$null$*$null$*$")]
 
-
+def remove_index_from_error(error):
+    begin = error.index("(INDEX= ")
+    end = begin + error[begin:].index(")")
+    return error[:begin-1] + error[end + 1:]
 
 def remove_reason_field(path):
     fixes = readLines(path)
@@ -82,10 +85,14 @@ def get_error_fix(path, command):
     return readErrors(path + "/errors.txt"), fixes[1:]
 
 
-def exclude_list(target, toRemove):
+def exclude_fixes(target, toRemove):
+    cleaned_target = [clean_fix(f) for f in toRemove]
+    repeated = []
     for x in target:
-        if x in toRemove:
-            target.remove(x)
+        if clean_fix(x) in cleaned_target:
+            repeated.append(x)
+    for fix in repeated:
+        target = [t for t in target if t != fix]
     return target
 
 
@@ -98,7 +105,8 @@ def select_sample_errors(COMMAND, project):
     errors_after, _ = get_error_fix(PROJECT_DIR.format(project['path']),
                                     COMMAND.format(project['build']))
 
-    errors_before = exclude_list(errors_before, errors_after)
+    # todo
+    # errors_before = exclude_error(errors_before, errors_after) 
     selected = random.choices(errors_before, k=5)
 
     # Write selected errors
@@ -120,9 +128,9 @@ def fix_index(fix):
 
 
 def apply_fixes(fixes):
-    f = open(FIX_PATH, 'w')
-    f.writelines([str(f) for f in fixes])
-    f.close()
+    ff = open(FIX_PATH, 'w')
+    ff.writelines([str(f) for f in fixes])
+    ff.close()
     os.system("java -jar injector.jar {}".format(FIX_PATH))
 
 
@@ -161,7 +169,7 @@ def run():
                     os.system(
                         COMMAND.format("git checkout -b {}".format(branch)))
 
-                    base, fixes = get_error_fix(
+                    _, fixes = get_error_fix(
                         PROJECT_DIR.format(project['path']),
                         COMMAND.format(project['build']))
 
@@ -170,26 +178,23 @@ def run():
                     apply_fixes(init_fix)
 
                     while True:
-                        new_base, fixes = get_error_fix(
+                        error, new_fix_base = get_error_fix(
                             PROJECT_DIR.format(project['path']),
                             COMMAND.format(project['build']))
+                        new_fix_base = exclude_fixes(new_fix_base, fixes)
+                        fixes = new_fix_base
+                        to_apply = [f for f in new_fix_base if clean_fix(f) in all_fixes]                        
 
-                        new_fixes = get_corresponding_fixes(
-                            exclude_list(new_base, base), fixes)
-                        new_fixes = remove_index_from_fixes(new_fixes)    
-                        new_fixes = [f for f in new_fixes if f in all_fixes]                        
-
-                        if (len(new_fixes) == 0):
+                        if (len(to_apply) == 0):
+                            print("Finished.")
                             break
+                        print("Going for another round...")
+                        apply_fixes(to_apply)
 
-                        apply_fixes(new_fixes)
-
-                        base = new_base 
                     os.system(
                         COMMAND.format(
                             "git push --set-upstream origin {}".format(
                                 branch)))
                     exit()
-
 
 run()
