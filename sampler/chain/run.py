@@ -195,6 +195,5 @@ def run():
                         COMMAND.format(
                             "git push --set-upstream origin {}".format(
                                 branch)))
-                    exit()
 
 run()
