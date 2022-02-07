@@ -9,11 +9,13 @@ PROJECT_DIR = "/home/nima/Developer/AutoFixer/Evaluation/Projects/{}" if platfor
 ) == "Linux" else "/Users/nima/Developer/NullAwayFixer/Projects/{}"
 FIX_PATH = "/tmp/NullAwayFix/fixes.csv"
 
+
 def readLines(path):
     f = open(path, 'r')
     lines = f.readlines()
     f.close()
     return lines
+
 
 def convert_json_to_csv(name):
     f = open('./{}/injected.json'.format(name))
@@ -39,10 +41,12 @@ def convert_json_to_csv(name):
 def clean_fix(fix):
     return fix[:fix.index("$*$true$*$null$*$null$*$")]
 
+
 def remove_index_from_error(error):
     begin = error.index("(INDEX= ")
     end = begin + error[begin:].index(")")
-    return error[:begin-1] + error[end + 1:]
+    return error[:begin - 1] + error[end + 1:]
+
 
 def remove_reason_field(path):
     fixes = readLines(path)
@@ -52,7 +56,7 @@ def remove_reason_field(path):
         disp = vals[0] + "$*$" + vals[1] + "$*$" + vals[2] + "$*$" + vals[
             3] + "$*$" + vals[4] + "$*$" + vals[
                 5] + "$*$" + "null" + "$*$" + vals[7] + "$*$" + vals[
-                    8] + "$*$" + vals[9] + "$*$" + vals[10] + "$*$" + vals[11]                      
+                    8] + "$*$" + vals[9] + "$*$" + vals[10] + "$*$" + vals[11]
         lines.append(str(disp))
 
     f = open(path, "w")
@@ -98,7 +102,7 @@ def exclude_fixes(target, toRemove):
 
 def select_sample_errors(COMMAND, project):
     errors_before, _ = get_error_fix(PROJECT_DIR.format(project['path']),
-                                         COMMAND.format(project['build']))                             
+                                     COMMAND.format(project['build']))
 
     os.system(COMMAND.format("git checkout final"))
 
@@ -106,7 +110,7 @@ def select_sample_errors(COMMAND, project):
                                     COMMAND.format(project['build']))
 
     # todo
-    # errors_before = exclude_error(errors_before, errors_after) 
+    # errors_before = exclude_error(errors_before, errors_after)
     selected = random.choices(errors_before, k=5)
 
     # Write selected errors
@@ -148,22 +152,25 @@ def run():
                     PROJECT_DIR.format(project['path']), {})
 
                 convert_json_to_csv(project['path'])
-                all_fixes = readLines('{}/injected.csv'.format(project['path']))
+                all_fixes = readLines('{}/injected.csv'.format(
+                    project['path']))
 
                 # reset
                 os.system(COMMAND.format("git reset --hard"))
                 os.system(COMMAND.format("git checkout base"))
 
                 # select sample errors with fixes
-                selected = read_errors('{}/selected.txt'.format(project['path']))
+                selected = read_errors('{}/selected.txt'.format(
+                    project['path']))
 
                 for i, error in enumerate(selected):
                     # reset
                     branch = "chain_{}".format(i)
                     os.system(COMMAND.format("git reset --hard"))
                     os.system(COMMAND.format("git checkout base"))
-                    os.system(COMMAND.format(
-                        "git push origin --delete {}".format(branch)))
+                    os.system(
+                        COMMAND.format(
+                            "git push origin --delete {}".format(branch)))
                     os.system(COMMAND.format(
                         "git branch -D {}".format(branch)))
                     os.system(
@@ -183,7 +190,10 @@ def run():
                             COMMAND.format(project['build']))
                         new_fix_base = exclude_fixes(new_fix_base, fixes)
                         fixes = new_fix_base
-                        to_apply = [f for f in new_fix_base if clean_fix(f) in all_fixes]                        
+                        to_apply = [
+                            f for f in new_fix_base
+                            if clean_fix(f) in all_fixes
+                        ]
 
                         if (len(to_apply) == 0):
                             print("Finished.")
@@ -195,5 +205,6 @@ def run():
                         COMMAND.format(
                             "git push --set-upstream origin {}".format(
                                 branch)))
+
 
 run()
