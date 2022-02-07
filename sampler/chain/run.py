@@ -60,7 +60,7 @@ def remove_reason_field(path):
     f.close()
 
 
-def readErrors(path):
+def read_errors(path):
     lines = readLines(path)
     index = 0
     while ("error: [NullAway]" not in lines[index]):
@@ -82,7 +82,7 @@ def get_error_fix(path, command):
     os.system(command + " 2> errors.txt")
     remove_reason_field(FIX_PATH)
     fixes = readLines(FIX_PATH)
-    return readErrors(path + "/errors.txt"), fixes[1:]
+    return read_errors(path + "/errors.txt"), fixes[1:]
 
 
 def exclude_fixes(target, toRemove):
@@ -155,7 +155,7 @@ def run():
                 os.system(COMMAND.format("git checkout base"))
 
                 # select sample errors with fixes
-                selected = readErrors('{}/selected.txt'.format(project['path']))
+                selected = read_errors('{}/selected.txt'.format(project['path']))
 
                 for i, error in enumerate(selected):
                     # reset
