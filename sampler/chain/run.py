@@ -108,9 +108,17 @@ def select_sample_errors(COMMAND, project):
 
     errors_after, _ = get_error_fix(PROJECT_DIR.format(project['path']),
                                     COMMAND.format(project['build']))
+    
+    errors_after = [remove_index_from_error(e) for e in errors_after]
 
-    # todo
-    # errors_before = exclude_error(errors_before, errors_after)
+    # remove repeated errors
+    repeated = []
+    for x in errors_before:
+        if remove_index_from_error(x) in errors_after:
+            repeated.append(x)
+    for r in repeated:
+        errors_before = [e for e in errors_before if e != r]
+
     selected = random.choices(errors_before, k=5)
 
     # Write selected errors
@@ -158,6 +166,9 @@ def run():
                 # reset
                 os.system(COMMAND.format("git reset --hard"))
                 os.system(COMMAND.format("git checkout base"))
+
+                # select new errors
+                select_sample_errors(COMMAND, project)
 
                 # select sample errors with fixes
                 selected = read_errors('{}/selected.txt'.format(
