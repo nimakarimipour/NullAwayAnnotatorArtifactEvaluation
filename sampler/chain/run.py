@@ -1,3 +1,4 @@
+from distutils.command.clean import clean
 import random
 import json
 import os
@@ -33,13 +34,15 @@ def convert_json_to_csv(name):
             else:
                 disp += "null" + "$*$"
         lines.append(disp[:-3] + "\n")
+    #todo for mac
+    lines = [l.replace("$*$///home/nima/Developer/", "$*$file:///home/nima/Developer/", 1) for l in lines]
     f = open('./projects/{}/injected.csv'.format(name), "w")
     f.writelines(lines[:-1])
     f.close()
 
 
 def clean_fix(fix):
-    return fix[:fix.index("$*$true$*$null$*$null$*$")]
+    return fix[:fix.index("$*$true$*$null$*$null$*$") + len("$*$true")]
 
 
 def remove_index_from_error(error):
@@ -97,6 +100,7 @@ def exclude_fixes(target, toRemove):
     repeated = []
     for x in target:
         if clean_fix(x) in cleaned_target:
+            print("Repeated: {}".format(clean_fix(x)))
             repeated.append(x)
     for fix in repeated:
         target = [t for t in target if t != fix]
@@ -165,13 +169,16 @@ def run():
                 convert_json_to_csv(project['path'])
                 all_fixes = readLines('projects/{}/injected.csv'.format(
                     project['path']))
+                
+                # remove new lines from fixes
+                all_fixes = [f[:-1] if f[len(f) - 1] == '\n' else f for f in all_fixes]
 
                 # reset
                 os.system(COMMAND.format("git reset --hard"))
                 os.system(COMMAND.format("git checkout base"))
 
                 # select new errors
-                select_sample_errors(COMMAND, project)
+                # select_sample_errors(COMMAND, project)
 
                 # select sample errors with fixes
                 selected = read_errors('projects/{}/selected.txt'.format(
@@ -202,10 +209,9 @@ def run():
                         error, new_fix_base = get_error_fix(
                             PROJECT_DIR.format(project['path']),
                             COMMAND.format(project['build']))
+
                         new_fix_base = exclude_fixes(new_fix_base, fixes)
-                        print("NEW: {}".format(new_fix_base[0]))
-                        exit()
-                        fixes = new_fix_base
+
                         to_apply = [
                             f for f in new_fix_base
                             if clean_fix(f) in all_fixes
@@ -216,10 +222,10 @@ def run():
                             break
                         print("Going for another round...")
                         apply_fixes(to_apply)
-
+                    
                     os.system(
                         COMMAND.format(
-                            "git push --set-upstream origin {}".format(
+                            "git add . && git commit -m \"Chain Completed\" && git push --set-upstream origin {}".format(
                                 branch)))
 
 

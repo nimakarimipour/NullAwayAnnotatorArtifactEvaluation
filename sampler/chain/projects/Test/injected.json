@@ -1,0 +1,172 @@
+{
+    "fixes": [
+        {
+            "annotation": "javax.annotation.Nullable",
+            "compulsory": "true",
+            "method": "null",
+            "param": "f",
+            "index": "0",
+            "location": "CLASS_FIELD",
+            "class": "uber.Main",
+            "pkg": "uber",
+            "inject": "true",
+            "uri": "\/\/\/home\/nima\/Developer\/AutoFixer\/Evaluation\/Projects\/Test\/src\/main\/java\/uber\/Main.java"
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "compulsory": "true",
+            "method": "null",
+            "param": "d",
+            "index": "0",
+            "location": "CLASS_FIELD",
+            "class": "uber.Main",
+            "pkg": "uber",
+            "inject": "true",
+            "uri": "\/\/\/home\/nima\/Developer\/AutoFixer\/Evaluation\/Projects\/Test\/src\/main\/java\/uber\/Main.java"
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "compulsory": "true",
+            "method": "null",
+            "param": "e",
+            "index": "0",
+            "location": "CLASS_FIELD",
+            "class": "uber.Main",
+            "pkg": "uber",
+            "inject": "true",
+            "uri": "\/\/\/home\/nima\/Developer\/AutoFixer\/Evaluation\/Projects\/Test\/src\/main\/java\/uber\/Main.java"
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "compulsory": "true",
+            "method": "null",
+            "param": "r",
+            "index": "0",
+            "location": "CLASS_FIELD",
+            "class": "uber.Main",
+            "pkg": "uber",
+            "inject": "true",
+            "uri": "\/\/\/home\/nima\/Developer\/AutoFixer\/Evaluation\/Projects\/Test\/src\/main\/java\/uber\/Main.java"
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "compulsory": "true",
+            "method": "null",
+            "param": "t",
+            "index": "0",
+            "location": "CLASS_FIELD",
+            "class": "uber.Main",
+            "pkg": "uber",
+            "inject": "true",
+            "uri": "\/\/\/home\/nima\/Developer\/AutoFixer\/Evaluation\/Projects\/Test\/src\/main\/java\/uber\/Main.java"
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "compulsory": "true",
+            "method": "null",
+            "param": "y",
+            "index": "0",
+            "location": "CLASS_FIELD",
+            "class": "uber.Main",
+            "pkg": "uber",
+            "inject": "true",
+            "uri": "\/\/\/home\/nima\/Developer\/AutoFixer\/Evaluation\/Projects\/Test\/src\/main\/java\/uber\/Main.java"
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "compulsory": "true",
+            "method": "null",
+            "param": "i",
+            "index": "0",
+            "location": "CLASS_FIELD",
+            "class": "uber.Main",
+            "pkg": "uber",
+            "inject": "true",
+            "uri": "\/\/\/home\/nima\/Developer\/AutoFixer\/Evaluation\/Projects\/Test\/src\/main\/java\/uber\/Main.java"
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "compulsory": "true",
+            "method": "null",
+            "param": "o",
+            "index": "0",
+            "location": "CLASS_FIELD",
+            "class": "uber.Main",
+            "pkg": "uber",
+            "inject": "true",
+            "uri": "\/\/\/home\/nima\/Developer\/AutoFixer\/Evaluation\/Projects\/Test\/src\/main\/java\/uber\/Main.java"
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "compulsory": "true",
+            "method": "null",
+            "param": "p",
+            "index": "0",
+            "location": "CLASS_FIELD",
+            "class": "uber.Main",
+            "pkg": "uber",
+            "inject": "true",
+            "uri": "\/\/\/home\/nima\/Developer\/AutoFixer\/Evaluation\/Projects\/Test\/src\/main\/java\/uber\/Main.java"
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "compulsory": "true",
+            "method": "null",
+            "param": "z",
+            "index": "0",
+            "location": "CLASS_FIELD",
+            "class": "uber.Main",
+            "pkg": "uber",
+            "inject": "true",
+            "uri": "\/\/\/home\/nima\/Developer\/AutoFixer\/Evaluation\/Projects\/Test\/src\/main\/java\/uber\/Main.java"
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "compulsory": "true",
+            "method": "getF()",
+            "param": "null",
+            "index": "0",
+            "location": "METHOD_RETURN",
+            "class": "uber.Main",
+            "pkg": "uber",
+            "inject": "true",
+            "uri": "\/\/\/home\/nima\/Developer\/AutoFixer\/Evaluation\/Projects\/Test\/src\/main\/java\/uber\/Main.java"
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "compulsory": "true",
+            "method": "pass(java.lang.Object)",
+            "param": "f",
+            "index": "0",
+            "location": "METHOD_PARAM",
+            "class": "uber.Main",
+            "pkg": "uber",
+            "inject": "true",
+            "uri": "\/\/\/home\/nima\/Developer\/AutoFixer\/Evaluation\/Projects\/Test\/src\/main\/java\/uber\/Main.java"
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "compulsory": "true",
+            "method": "pass(java.lang.Object)",
+            "param": "null",
+            "index": "0",
+            "location": "METHOD_RETURN",
+            "class": "uber.Main",
+            "pkg": "uber",
+            "inject": "true",
+            "uri": "\/\/\/home\/nima\/Developer\/AutoFixer\/Evaluation\/Projects\/Test\/src\/main\/java\/uber\/Main.java"
+        },
+        {
+            "annotation": "javax.annotation.Nullable",
+            "compulsory": "true",
+            "method": "pass2(java.lang.Object)",
+            "param": "f",
+            "index": "0",
+            "location": "METHOD_PARAM",
+            "class": "uber.Main",
+            "pkg": "uber",
+            "inject": "true",
+            "uri": "\/\/\/home\/nima\/Developer\/AutoFixer\/Evaluation\/Projects\/Test\/src\/main\/java\/uber\/Main.java"
+        }
+    ]
+}

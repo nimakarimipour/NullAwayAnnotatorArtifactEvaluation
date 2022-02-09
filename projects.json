@@ -126,7 +126,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Zuul",
@@ -207,6 +207,22 @@
             "branch": "gc_3",
             "preprocess": true,
             "active": false
+        },
+        {
+            "name": "Test",
+            "path": "Test",
+            "root": "Test",
+            "git": "https://{}:{}@github.com/nimakarimipour/libgdx.git",
+            "build": "./gradlew build",
+            "format": "",
+            "annot": {
+                "init": "com.badlogic.gdx.Initializer",
+                "nullable": "javax.annotation.Nullable",
+                "nonnull": "javax.annotation.Nonnull"
+            },
+            "branch": "gc_3",
+            "preprocess": true,
+            "active": true
         }
     ]
 }
