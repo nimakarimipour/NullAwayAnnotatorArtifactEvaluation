@@ -18,7 +18,7 @@ def readLines(path):
 
 
 def convert_json_to_csv(name):
-    f = open('./{}/injected.json'.format(name))
+    f = open('./projects/{}/injected.json'.format(name))
     fixes = json.load(f)['fixes']
     f.close()
     keys = "location$*$class$*$method$*$param$*$index$*$uri$*$reason$*$annotation$*$inject".split(
@@ -33,7 +33,7 @@ def convert_json_to_csv(name):
             else:
                 disp += "null" + "$*$"
         lines.append(disp[:-3] + "\n")
-    f = open('./{}/injected.csv'.format(name), "w")
+    f = open('./projects/{}/injected.csv'.format(name), "w")
     f.writelines(lines[:-1])
     f.close()
 
@@ -67,17 +67,20 @@ def remove_reason_field(path):
 def read_errors(path):
     lines = readLines(path)
     index = 0
-    while ("error: [NullAway]" not in lines[index]):
+    if (lines[len(lines) - 1] == '\n'):
+        lines = lines[:-1]
+    while (index < len(lines) and "error: [NullAway]" not in lines[index]):
         index += 1
     errors = []
     while (index < len(lines)):
         error = ""
         if ("error: [NullAway]" not in lines[index]):
             break
-        while ("(see http://t.uber.com/nullaway )" not in lines[index]):
+        while (index < len(lines)
+               and "(see http://t.uber.com/nullaway )" not in lines[index]):
             error += lines[index]
             index += 1
-        errors.append(error)
+        errors.append(error + "\t(see http://t.uber.com/nullaway )\n")
         index += 1
     return errors
 
@@ -108,7 +111,7 @@ def select_sample_errors(COMMAND, project):
 
     errors_after, _ = get_error_fix(PROJECT_DIR.format(project['path']),
                                     COMMAND.format(project['build']))
-    
+
     errors_after = [remove_index_from_error(e) for e in errors_after]
 
     # remove repeated errors
@@ -122,7 +125,7 @@ def select_sample_errors(COMMAND, project):
     selected = random.choices(errors_before, k=5)
 
     # Write selected errors
-    file1 = open('{}/selected.txt'.format(project['path']), 'w')
+    file1 = open('projects/{}/selected.txt'.format(project['path']), 'w')
     file1.writelines(selected)
     file1.close()
 
@@ -160,7 +163,7 @@ def run():
                     PROJECT_DIR.format(project['path']), {})
 
                 convert_json_to_csv(project['path'])
-                all_fixes = readLines('{}/injected.csv'.format(
+                all_fixes = readLines('projects/{}/injected.csv'.format(
                     project['path']))
 
                 # reset
@@ -171,7 +174,7 @@ def run():
                 select_sample_errors(COMMAND, project)
 
                 # select sample errors with fixes
-                selected = read_errors('{}/selected.txt'.format(
+                selected = read_errors('projects/{}/selected.txt'.format(
                     project['path']))
 
                 for i, error in enumerate(selected):
@@ -200,6 +203,8 @@ def run():
                             PROJECT_DIR.format(project['path']),
                             COMMAND.format(project['build']))
                         new_fix_base = exclude_fixes(new_fix_base, fixes)
+                        print("NEW: {}".format(new_fix_base[0]))
+                        exit()
                         fixes = new_fix_base
                         to_apply = [
                             f for f in new_fix_base
