@@ -37,7 +37,7 @@ def convert_json_to_csv(name):
     #todo for mac
     lines = [l.replace("$*$///home/nima/Developer/", "$*$file:///home/nima/Developer/", 1) for l in lines]
     f = open('./projects/{}/injected.csv'.format(name), "w")
-    f.writelines(lines[:-1])
+    f.writelines(lines)
     f.close()
 
 
@@ -100,7 +100,6 @@ def exclude_fixes(target, toRemove):
     repeated = []
     for x in target:
         if clean_fix(x) in cleaned_target:
-            print("Repeated: {}".format(clean_fix(x)))
             repeated.append(x)
     for fix in repeated:
         target = [t for t in target if t != fix]

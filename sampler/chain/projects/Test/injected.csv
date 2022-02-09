@@ -11,3 +11,4 @@ CLASS_FIELD$*$uber.Main$*$null$*$z$*$0$*$file:///home/nima/Developer/AutoFixer/E
 METHOD_RETURN$*$uber.Main$*$getF()$*$null$*$0$*$file:///home/nima/Developer/AutoFixer/Evaluation/Projects/Test/src/main/java/uber/Main.java$*$null$*$javax.annotation.Nullable$*$true
 METHOD_PARAM$*$uber.Main$*$pass(java.lang.Object)$*$f$*$0$*$file:///home/nima/Developer/AutoFixer/Evaluation/Projects/Test/src/main/java/uber/Main.java$*$null$*$javax.annotation.Nullable$*$true
 METHOD_RETURN$*$uber.Main$*$pass(java.lang.Object)$*$null$*$0$*$file:///home/nima/Developer/AutoFixer/Evaluation/Projects/Test/src/main/java/uber/Main.java$*$null$*$javax.annotation.Nullable$*$true
+METHOD_PARAM$*$uber.Main$*$pass2(java.lang.Object)$*$f$*$0$*$file:///home/nima/Developer/AutoFixer/Evaluation/Projects/Test/src/main/java/uber/Main.java$*$null$*$javax.annotation.Nullable$*$true
