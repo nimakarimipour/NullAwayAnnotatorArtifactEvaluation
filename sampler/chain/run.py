@@ -16,13 +16,15 @@ def checkout_to_branch(COMMAND, project, name, saveState=False):
     if (saveState):
         os.system(COMMAND.format("git push origin --delete {}".format(name)))
         os.system(COMMAND.format("git branch -D {}".format(name)))
-        os.system(COMMAND.format("git checkout -b {}"))
+        os.system(COMMAND.format("git checkout -b {}".format(name)))
         os.system(COMMAND.format("git add ."))
         os.system(COMMAND.format("git commit -m \"Final Result\""))
-        os.system(COMMAND.format("git push --set-upstream origin {}".format(name)))
+        os.system(
+            COMMAND.format("git push --set-upstream origin {}".format(name)))
     else:
         os.system(COMMAND.format("git reset --hard"))
         os.system(COMMAND.format("git checkout {}".format(name)))
+
 
 def read_lines(path):
     f = open(path, 'r')
@@ -182,13 +184,17 @@ def exclude_fixes(target, toRemove):
 
 
 def select_sample_errors(COMMAND, project):
+    checkout_to_branch(COMMAND, project, "base")
     errors_before, _ = get_error_fix(PROJECT_DIR.format(project['path']),
                                      COMMAND.format(project['build']))
+    print("Number of errors at branch: {} is {}".format(
+        "base", len(errors_before)))
 
     checkout_to_branch(COMMAND, project, "final")
-
     errors_after, _ = get_error_fix(PROJECT_DIR.format(project['path']),
                                     COMMAND.format(project['build']))
+    print("Number of errors at branch: {} is {}".format(
+        "final", len(errors_after)))
 
     errors_after = [remove_index_from_error(e) for e in errors_after]
 
@@ -246,18 +252,19 @@ def run():
                 # reset
                 checkout_to_branch(COMMAND, project, "base")
 
-                # get all fixes
+                # running autofixer
                 run_autofix(project)
+                # push everythig to final branch
+                checkout_to_branch(COMMAND, project, "final", saveState=True)
+                exit()
+
+                # get all fixes
                 os.system(
                     "mv /tmp/NullAwayFix/injected.json ./projects/{}/injected.json"
                     .format(project['path']))
                 convert_json_to_csv(project['path'])
                 all_fixes = read_lines('projects/{}/injected.csv'.format(
                     project['path']))
-
-                # push everythig to final branch
-                checkout_to_branch(COMMAND, project, "final", saveState=True)
-
                 # remove new lines from fixes
                 all_fixes = [
                     f[:-1] if f[len(f) - 1] == '\n' else f for f in all_fixes
@@ -279,7 +286,7 @@ def run():
                 for i, error in enumerate(selected):
                     # reset
                     checkout_to_branch(COMMAND, project, "base")
-                
+
                     _, fixes = get_error_fix(
                         PROJECT_DIR.format(project['path']),
                         COMMAND.format(project['build']))
@@ -306,7 +313,10 @@ def run():
                         print("Going for another round...")
                         apply_fixes(to_apply)
 
-                    checkout_to_branch(COMMAND, project, "chain_{}".format(i), saveState=True)
+                    checkout_to_branch(COMMAND,
+                                       project,
+                                       "chain_{}".format(i),
+                                       saveState=True)
 
 
 run()
