@@ -158,7 +158,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Retrofit",
@@ -190,7 +190,7 @@
             },
             "branch": "gc_2",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "LibGdx",
