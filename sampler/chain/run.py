@@ -206,7 +206,7 @@ def select_sample_errors(COMMAND, project):
     for r in repeated:
         errors_before = [e for e in errors_before if e != r]
 
-    selected = random.choices(errors_before, k=5)
+    selected = random.choices(errors_before, k=min([5, len(errors_before)]))
 
     # Write selected errors
     file1 = open('projects/{}/selected.txt'.format(project['path']), 'w')
@@ -256,7 +256,6 @@ def run():
                 run_autofix(project)
                 # push everythig to final branch
                 checkout_to_branch(COMMAND, project, "final", saveState=True)
-                exit()
 
                 # get all fixes
                 os.system(
