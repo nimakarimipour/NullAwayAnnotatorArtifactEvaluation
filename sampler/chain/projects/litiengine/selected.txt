@@ -1,0 +1,20 @@
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/CustomMapObjectLoader.java:56: error: [NullAway] (INDEX= 182) (Covered) returning @Nullable expression from method with @NonNull return type
+    return inv;
+    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/PropMapObjectLoader.java:113: error: [NullAway] (INDEX= 184) (Covered) returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/util/Imaging.java:606: error: [NullAway] (INDEX= 328) (Covered) returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:476: error: [NullAway] (INDEX= 4) dereferenced expression this.miscEntities.get(renderType) is @Nullable
+      this.miscEntities.get(renderType).clear();
+                                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/GroupLayer.java:26: error: [NullAway] (INDEX= 201) (Covered) @NonNull field layers not initialized
+  private List<ILayer> layers;
+                       ^
+	(see http://t.uber.com/nullaway )

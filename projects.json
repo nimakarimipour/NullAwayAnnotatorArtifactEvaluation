@@ -78,7 +78,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "EventBus",
