@@ -126,7 +126,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Zuul",
@@ -137,12 +137,12 @@
             "format": "",
             "annot": {
                 "init": "com.netflix.Initializer",
-                "nullable": "javax.annotation.Nullable",
+                "nullable": "org.checkerframework.checker.nullness.qual.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "LottieAndroid",
