@@ -1,0 +1,20 @@
+/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/ssl/SslHandshakeInfoHandler.java:124: error: [NullAway] (INDEX= 147) dereferenced expression cause.getMessage() is @Nullable
+                    } else if (cause instanceof SSLException && cause.getMessage().contains("handshake timed out")) {
+                                                                                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/PerServerConnectionPool.java:406: error: [NullAway] (INDEX= 182) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/origins/BasicNettyOrigin.java:169: error: [NullAway] (INDEX= 51) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+            final ExecutionContext<?> context = new ExecutionContext<>(zuulRequest, overriddenClientConfig, this.config, null);
+                                                                                                                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/filter/BaseZuulFilterRunner.java:247: error: [NullAway] (INDEX= 114) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;  //wait for the async filter to finish
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/stats/monitoring/MonitorRegistry.java:28: error: [NullAway] (INDEX= 36) (Covered) @NonNull field publisher not initialized
+    private Monitor publisher;
+                    ^
+	(see http://t.uber.com/nullaway )

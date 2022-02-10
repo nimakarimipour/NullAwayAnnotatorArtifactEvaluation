@@ -137,7 +137,7 @@
             "format": "",
             "annot": {
                 "init": "com.netflix.Initializer",
-                "nullable": "org.checkerframework.checker.nullness.qual.Nullable",
+                "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
             "branch": "gc_5",
