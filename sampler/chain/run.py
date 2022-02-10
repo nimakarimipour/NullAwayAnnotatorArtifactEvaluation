@@ -251,15 +251,15 @@ def run():
                 # reset
                 checkout_to_branch(COMMAND, project, "base")
 
-                # # running autofixer
-                # run_autofix(project)
-                # # push everythig to final branch
-                # checkout_to_branch(COMMAND, project, "final", saveState=True)
+                # running autofixer
+                run_autofix(project)
+                # push everythig to final branch
+                checkout_to_branch(COMMAND, project, "final", saveState=True)
 
-                # # get all fixes
-                # os.system(
-                #     "mv /tmp/NullAwayFix/injected.json ./projects/{}/injected.json"
-                #     .format(project['path']))
+                # get all fixes
+                os.system(
+                    "mv /tmp/NullAwayFix/injected.json ./projects/{}/injected.json"
+                    .format(project['path']))
                 convert_json_to_csv(project['path'])
                 all_fixes = read_lines('projects/{}/injected.csv'.format(
                     project['path']))
