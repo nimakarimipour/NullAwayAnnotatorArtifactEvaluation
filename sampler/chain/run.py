@@ -8,6 +8,8 @@ import re
 # Run with Python2
 PROJECT_DIR = "/home/nima/Developer/AutoFixer/Evaluation/Projects/{}" if platform.system(
 ) == "Linux" else "/Users/nima/Developer/NullAwayFixer/Projects/{}"
+AUTO_FIXER_PATH = "/home/nima/Developer/AutoFixer/Diagnoser" if platform.system(
+) == "Linux" else "/Users/nima/Developer/NullAwayFixer/Scripts/Diagnoser"
 FIX_PATH = "/tmp/NullAwayFix/fixes.csv"
 
 
@@ -52,11 +54,11 @@ def run_autofix(project):
     config['ANNOTATION']['INITIALIZE'] = project['annot']['init']
     config['ANNOTATION']['NULLABLE'] = project['annot']['nullable']
     with open(
-            '/Users/nima/Developer/NullAwayFixer/Scripts/Diagnoser/config.json',
+            '{}/config.json'.format(AUTO_FIXER_PATH),
             'w') as outfile:
         json.dump(config, outfile)
     os.system(
-        "cd /Users/nima/Developer/NullAwayFixer/Scripts/Diagnoser/ && python3 run.py loop"
+        "cd {} && python3 run.py loop".format(AUTO_FIXER_PATH)
     )
 
 
