@@ -1,0 +1,4 @@
+/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/metrics/WorkflowMonitor.java:52: error: [NullAway] (INDEX= 0) (Covered) initializer method does not guarantee @NonNull fields taskDefs (line 48), workflowDefs (line 49) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public WorkflowMonitor(MetadataDAO metadataDAO, QueueDAO queueDAO, ExecutionDAOFacade executionDAOFacade,
+           ^
+	(see http://t.uber.com/nullaway )

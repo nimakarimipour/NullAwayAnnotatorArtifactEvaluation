@@ -1,0 +1,20 @@
+/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java:743: error: [NullAway] (INDEX= 20) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/util/concurrent/WeakConcurrentMap.java:46: error: [NullAway] (INDEX= 114) (Covered) assigning @Nullable expression to @NonNull field
+            thread = null;
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/util/reflection/InstrumentationMemberAccessor.java:145: error: [NullAway] (INDEX= 127) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        assureArguments(constructor, null, null, arguments, constructor.getParameterTypes());
+                                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/BaseStubbing.java:59: error: [NullAway] (INDEX= 104) (Covered) passing @Nullable parameter '(Throwable) null' where @NonNull is required
+            return thenThrow((Throwable) null);
+                             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java:121: error: [NullAway] (INDEX= 49) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+	(see http://t.uber.com/nullaway )
