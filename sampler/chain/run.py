@@ -1,5 +1,4 @@
 from distutils.command.clean import clean
-from pickle import TRUE
 import random
 import json
 import os
@@ -11,6 +10,19 @@ PROJECT_DIR = "/home/nima/Developer/AutoFixer/Evaluation/Projects/{}" if platfor
 ) == "Linux" else "/Users/nima/Developer/NullAwayFixer/Projects/{}"
 FIX_PATH = "/tmp/NullAwayFix/fixes.csv"
 
+
+def checkout_to_branch(COMMAND, project, name, saveState=False):
+    os.system("rm {}/errors.txt".format(PROJECT_DIR.format(project['path'])))
+    if (saveState):
+        os.system(COMMAND.format("git push origin --delete {}".format(name)))
+        os.system(COMMAND.format("git branch -D {}".format(name)))
+        os.system(COMMAND.format("git checkout -b {}"))
+        os.system(COMMAND.format("git add ."))
+        os.system(COMMAND.format("git commit -m \"Final Result\""))
+        os.system(COMMAND.format("git push --set-upstream origin {}".format(name)))
+    else:
+        os.system(COMMAND.format("git reset --hard"))
+        os.system(COMMAND.format("git checkout {}".format(name)))
 
 def read_lines(path):
     f = open(path, 'r')
@@ -37,19 +49,21 @@ def run_autofix(project):
     config['BUILD_COMMAND'] = project['build']
     config['ANNOTATION']['INITIALIZE'] = project['annot']['init']
     config['ANNOTATION']['NULLABLE'] = project['annot']['nullable']
-    with open('/home/nima/Developer/AutoFixer/Diagnoser/config.json',
-              'w') as outfile:
+    with open(
+            '/Users/nima/Developer/NullAwayFixer/Scripts/Diagnoser/config.json',
+            'w') as outfile:
         json.dump(config, outfile)
     os.system(
-        "cd /home/nima/Developer/AutoFixer/Diagnoser/ && python3 run.py loop")
+        "cd /Users/nima/Developer/NullAwayFixer/Scripts/Diagnoser/ && python3 run.py loop"
+    )
 
 
 def copy_correct_nullaway_config(project):
     CONFIG = {
         "INHERITANCE_CHECK_DISABLED": False,
         "ANNOTATION": {
-            "NONNULL": "UNKNOWN",
-            "NULLABLE": "javax.annotation.Nullable"
+            "NONNULL": "UKNOWN",
+            "NULLABLE": "UKNOWN"
         },
         "MAKE_CALL_GRAPH": False,
         "METHOD_PARAM_TEST": {
@@ -59,7 +73,7 @@ def copy_correct_nullaway_config(project):
         "MAKE_METHOD_INHERITANCE_TREE": False,
         "LOG_ERROR": {
             "DEEP": False,
-            "ACTIVE": TRUE
+            "ACTIVE": True
         },
         "WORK_LIST": "*",
         "MAKE_FIELD_GRAPH": True,
@@ -71,8 +85,7 @@ def copy_correct_nullaway_config(project):
     }
     config = CONFIG.copy()
     config['ANNOTATION']['NULLABLE'] = project['annot']['nullable']
-    with open('/tmp/NullAwayFix/explorer.config',
-              'w') as outfile:
+    with open('/tmp/NullAwayFix/explorer.config', 'w') as outfile:
         json.dump(config, outfile)
 
 
@@ -92,19 +105,14 @@ def convert_json_to_csv(name):
             else:
                 disp += "null" + "$*$"
         lines.append(disp[:-3] + "\n")
-    #todo for mac
-    if ("$*$///home/nima/Developer/" in lines[0]):
-        lines = [
-            l.replace("$*$///home/nima/Developer/",
-                      "$*$file:///home/nima/Developer/", 1) for l in lines
-        ]
-    else:
-        lines = [
-            l.replace("$*$//home/nima/Developer/",
-                      "$*$file:///home/nima/Developer/", 1) for l in lines
-        ]
+    fixed = []
+    for l in lines:
+        index = [i.start() for i in re.finditer("\$\*\$", l)][4] + 3
+        l = l[:index] + 'file:' + l[index:]
+        fixed.append(l)
+
     f = open('./projects/{}/injected.csv'.format(name), "w")
-    f.writelines(lines)
+    f.writelines(fixed)
     f.close()
 
 
@@ -177,7 +185,7 @@ def select_sample_errors(COMMAND, project):
     errors_before, _ = get_error_fix(PROJECT_DIR.format(project['path']),
                                      COMMAND.format(project['build']))
 
-    os.system(COMMAND.format("git checkout final"))
+    checkout_to_branch(COMMAND, project, "final")
 
     errors_after, _ = get_error_fix(PROJECT_DIR.format(project['path']),
                                     COMMAND.format(project['build']))
@@ -232,6 +240,12 @@ def run():
                 COMMAND = "cd {} && {}".format(
                     PROJECT_DIR.format(project['path']), {})
 
+                if not os.path.exists("./projects/{}".format(project['path'])):
+                    os.makedirs("./projects/{}".format(project['path']))
+
+                # reset
+                checkout_to_branch(COMMAND, project, "base")
+
                 # get all fixes
                 run_autofix(project)
                 os.system(
@@ -240,10 +254,9 @@ def run():
                 convert_json_to_csv(project['path'])
                 all_fixes = read_lines('projects/{}/injected.csv'.format(
                     project['path']))
-                os.system(
-                    COMMAND.format(
-                        "git checkout -b final && git commit -m \"Final result\" && git push git push --set-upstream origin final"
-                    ))
+
+                # push everythig to final branch
+                checkout_to_branch(COMMAND, project, "final", saveState=True)
 
                 # remove new lines from fixes
                 all_fixes = [
@@ -251,33 +264,22 @@ def run():
                 ]
 
                 # reset
-                os.system(COMMAND.format("git reset --hard"))
-                os.system(COMMAND.format("git checkout base"))
+                checkout_to_branch(COMMAND, project, "base")
 
                 # copy the correct nullaway config
                 copy_correct_nullaway_config(project)
 
-                # select new errors
-
+                # select new sample errors
                 select_sample_errors(COMMAND, project)
 
-                # select sample errors with fixes
+                # read sample errors
                 selected = read_errors('projects/{}/selected.txt'.format(
                     project['path']))
 
                 for i, error in enumerate(selected):
                     # reset
-                    branch = "chain_{}".format(i)
-                    os.system(COMMAND.format("git reset --hard"))
-                    os.system(COMMAND.format("git checkout base"))
-                    os.system(
-                        COMMAND.format(
-                            "git push origin --delete {}".format(branch)))
-                    os.system(COMMAND.format(
-                        "git branch -D {}".format(branch)))
-                    os.system(
-                        COMMAND.format("git checkout -b {}".format(branch)))
-
+                    checkout_to_branch(COMMAND, project, "base")
+                
                     _, fixes = get_error_fix(
                         PROJECT_DIR.format(project['path']),
                         COMMAND.format(project['build']))
@@ -304,10 +306,7 @@ def run():
                         print("Going for another round...")
                         apply_fixes(to_apply)
 
-                    os.system(
-                        COMMAND.format(
-                            "git add . && git commit -m \"Chain Completed\" && git push --set-upstream origin {}"
-                            .format(branch)))
+                    checkout_to_branch(COMMAND, project, "chain_{}".format(i), saveState=True)
 
 
 run()
