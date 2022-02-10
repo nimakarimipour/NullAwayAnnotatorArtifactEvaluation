@@ -1,20 +1,20 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:201: error: [NullAway] (INDEX= 85) (Covered) returning @Nullable expression from method with @NonNull return type
+/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:683: error: [NullAway] (INDEX= 155) (Covered) assigning @Nullable expression to @NonNull field
+      stack = null;
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:453: error: [NullAway] (INDEX= 96) (Covered) returning @Nullable expression from method with @NonNull return type
         return null;
         ^
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:283: error: [NullAway] (INDEX= 141) (Covered) assigning @Nullable expression to @NonNull field
-        node.right = null;
-                   ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:692: error: [NullAway] (INDEX= 114) (Covered) passing @Nullable parameter 'value == null ? null : value.toString()' where @NonNull is required
+      out.value(value == null ? null : value.toString());
+                              ^
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java:67: error: [NullAway] (INDEX= 73) (Covered) returning @Nullable expression from method with @NonNull return type
-      return null;
-      ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:642: error: [NullAway] (INDEX= 153) (Covered) assigning @Nullable expression to @NonNull field
+      result.parent = null;
+                    ^
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:492: error: [NullAway] (INDEX= 101) (Covered) returning @Nullable expression from method with @NonNull return type
-      return "null".equals(nextString) ? null : new URL(nextString);
-      ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/Gson.java:842: error: [NullAway] (INDEX= 34) (Covered) returning @Nullable expression from method with @NonNull return type
-      return null;
-      ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java:215: error: [NullAway] (INDEX= 40) (Covered) returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
 	(see http://t.uber.com/nullaway )
