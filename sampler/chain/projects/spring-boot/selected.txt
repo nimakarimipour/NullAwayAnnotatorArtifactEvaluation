@@ -1,0 +1,20 @@
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/validation/ValidationBindHandler.java:61: error: [NullAway] (INDEX= 233) (Covered) initializer method does not guarantee @NonNull field exception (line 55) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public ValidationBindHandler(BindHandler parent, Validator... validators) {
+	       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/SpringConfigurationPropertySource.java:79: error: [NullAway] (INDEX= 197) (Covered) returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/ansi/AnsiColors.java:130: error: [NullAway] (INDEX= 645) (Covered) returning @Nullable expression from method with @NonNull return type
+		return closest;
+		^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/event/ApplicationEnvironmentPreparedEvent.java:49: error: [NullAway] (INDEX= 25) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+		this(null, application, args, environment);
+		     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/ansi/AnsiColors.java:130: error: [NullAway] (INDEX= 645) (Covered) returning @Nullable expression from method with @NonNull return type
+		return closest;
+		^
+	(see http://t.uber.com/nullaway )
