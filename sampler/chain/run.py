@@ -53,13 +53,9 @@ def run_autofix(project):
     config['BUILD_COMMAND'] = project['build']
     config['ANNOTATION']['INITIALIZE'] = project['annot']['init']
     config['ANNOTATION']['NULLABLE'] = project['annot']['nullable']
-    with open(
-            '{}/config.json'.format(AUTO_FIXER_PATH),
-            'w') as outfile:
+    with open('{}/config.json'.format(AUTO_FIXER_PATH), 'w') as outfile:
         json.dump(config, outfile)
-    os.system(
-        "cd {} && python3 run.py loop".format(AUTO_FIXER_PATH)
-    )
+    os.system("cd {} && python3 run.py loop".format(AUTO_FIXER_PATH))
 
 
 def copy_correct_nullaway_config(project):
@@ -112,7 +108,8 @@ def convert_json_to_csv(name):
     fixed = []
     for l in lines:
         index = [i.start() for i in re.finditer("\$\*\$", l)][4] + 3
-        l = l[:index] + 'file:' + l[index:]
+        to_add = 'file:' if l[index + 2] == "/" else "file:/"
+        l = l[:index] + to_add + l[index:]
         fixed.append(l)
 
     f = open('./projects/{}/injected.csv'.format(name), "w")
@@ -254,15 +251,15 @@ def run():
                 # reset
                 checkout_to_branch(COMMAND, project, "base")
 
-                # running autofixer
-                run_autofix(project)
-                # push everythig to final branch
-                checkout_to_branch(COMMAND, project, "final", saveState=True)
+                # # running autofixer
+                # run_autofix(project)
+                # # push everythig to final branch
+                # checkout_to_branch(COMMAND, project, "final", saveState=True)
 
-                # get all fixes
-                os.system(
-                    "mv /tmp/NullAwayFix/injected.json ./projects/{}/injected.json"
-                    .format(project['path']))
+                # # get all fixes
+                # os.system(
+                #     "mv /tmp/NullAwayFix/injected.json ./projects/{}/injected.json"
+                #     .format(project['path']))
                 convert_json_to_csv(project['path'])
                 all_fixes = read_lines('projects/{}/injected.csv'.format(
                     project['path']))
