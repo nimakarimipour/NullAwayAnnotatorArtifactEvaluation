@@ -30,7 +30,7 @@
             },
             "branch": "gc_5",
             "preprocess": false,
-            "active": false
+            "active": true
         },
         {
             "name": "Mockito",
@@ -46,7 +46,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Conductor",
@@ -62,7 +62,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "LitiEngine",
@@ -78,7 +78,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "EventBus",
@@ -94,7 +94,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Gson",
@@ -110,7 +110,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Jadx",
@@ -126,7 +126,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Zuul",
@@ -142,7 +142,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "LottieAndroid",
@@ -158,7 +158,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Retrofit",
@@ -174,7 +174,7 @@
             },
             "branch": "gc_5",
             "preprocess": false,
-            "active": false
+            "active": true
         },
         { 
             "name": "SpringBoot",
@@ -206,7 +206,7 @@
             },
             "branch": "gc_3",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Test",
