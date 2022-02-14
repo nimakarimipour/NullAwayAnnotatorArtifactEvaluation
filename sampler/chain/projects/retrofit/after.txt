@@ -1,0 +1,52 @@
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/OkHttpCall.java:143: error: [NullAway] (INDEX= 0) dereferenced expression call is @Nullable
+            call.cancel();
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/OkHttpCall.java:145: error: [NullAway] (INDEX= 1) dereferenced expression call is @Nullable
+        call.enqueue(new okhttp3.Callback() {
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:99: error: [NullAway] (INDEX= 2) (Covered) assigning @Nullable expression to @NonNull field
+        httpMethod = builder.httpMethod;
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:115: error: [NullAway] (INDEX= 3) dereferenced expression handlers is @Nullable
+        if (argumentCount != handlers.length) {
+                                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:662: error: [NullAway] (INDEX= 4) dereferenced expression parameterHandlers is @Nullable
+                    ParameterHandler<?> otherHandler = parameterHandlers[i];
+                                                                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:684: error: [NullAway] (INDEX= 5) dereferenced expression relativeUrlParamNames is @Nullable
+            if (!relativeUrlParamNames.contains(name)) {
+                                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:137: error: [NullAway] (INDEX= 6) dereferenced expression input is @Nullable
+        for (int i = 0, limit = input.length(); i < limit; i += Character.charCount(codePoint)) {
+                                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:189: error: [NullAway] (INDEX= 7) dereferenced expression urlBuilder is @Nullable
+            urlBuilder.addEncodedQueryParameter(name, value);
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:192: error: [NullAway] (INDEX= 8) dereferenced expression urlBuilder is @Nullable
+            urlBuilder.addQueryParameter(name, value);
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:200: error: [NullAway] (INDEX= 9) dereferenced expression formBuilder is @Nullable
+            formBuilder.addEncoded(name, value);
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:202: error: [NullAway] (INDEX= 10) dereferenced expression formBuilder is @Nullable
+            formBuilder.add(name, value);
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:209: error: [NullAway] (INDEX= 11) dereferenced expression multipartBuilder is @Nullable
+        multipartBuilder.addPart(headers, body);
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:215: error: [NullAway] (INDEX= 12) dereferenced expression multipartBuilder is @Nullable
+        multipartBuilder.addPart(part);
+                        ^
+	(see http://t.uber.com/nullaway )

@@ -1,20 +1,20 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:554: error: [NullAway] (INDEX= 88) (Covered) returning @Nullable expression from method with @NonNull return type
-            return null;
-            ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/ssl/SslHandshakeInfoHandler.java:124: error: [NullAway] (INDEX= 147) dereferenced expression cause.getMessage() is @Nullable
+                    } else if (cause instanceof SSLException && cause.getMessage().contains("handshake timed out")) {
+                                                                                  ^
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/passport/CurrentPassport.java:444: error: [NullAway] (INDEX= 203) (Covered) returning @Nullable expression from method with @NonNull return type
-        return passport;
+/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/ClientResponseWriter.java:87: error: [NullAway] (INDEX= 141) (Covered) initializer method does not guarantee @NonNull field zuulResponse (line 79) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public ClientResponseWriter(RequestCompleteHandler requestCompleteHandler, Registry registry) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:216: error: [NullAway] (INDEX= 73) (Covered) assigning @Nullable expression to @NonNull field
+            originResponseReceiver = null;
+                                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/stats/status/StatusCategoryUtils.java:47: error: [NullAway] (INDEX= 33) (Covered) returning @Nullable expression from method with @NonNull return type
+        return (StatusCategory) ctx.get(CommonContextKeys.ORIGIN_STATUS_CATEGORY);
         ^
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:440: error: [NullAway] (INDEX= 163) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-                    /* statusPageUrl= */ null,
-                                         ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/netty/common/accesslog/AccessLogChannelHandler.java:126: error: [NullAway] (INDEX= 0) (Covered) @NonNull field AccessLogChannelHandler$RequestState.request not initialized
-        HttpRequest request;
-                    ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/netty/common/accesslog/AccessLogChannelHandler.java:126: error: [NullAway] (INDEX= 0) (Covered) @NonNull field AccessLogChannelHandler$RequestState.request not initialized
-        HttpRequest request;
+/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/message/http/HttpRequestMessageImpl.java:92: error: [NullAway] (INDEX= 189) (Covered) assigning @Nullable expression to @NonNull field
+    private Cookies parsedCookies = null;
                     ^
 	(see http://t.uber.com/nullaway )

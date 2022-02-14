@@ -1,20 +1,20 @@
-/Users/nima/Developer/NullAwayFixer/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java:699: error: [NullAway] (INDEX= 52) (Covered) assigning @Nullable expression to @NonNull field
-                mIndicesToHighlight = null;
-                                    ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedZoomJob.java:117: error: [NullAway] (INDEX= 146) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        return new AnimatedZoomJob(null,null,null,null,0,0,0,0,0,0,0,0,0,0);
+                                                  ^
 	(see http://t.uber.com/nullaway )
-/Users/nima/Developer/NullAwayFixer/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java:114: error: [NullAway] (INDEX= 107) (Covered) returning @Nullable expression from method with @NonNull return type
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/ZoomJob.java:85: error: [NullAway] (INDEX= 133) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        return new ZoomJob(null, 0, 0, 0, 0, null, null, null);
+                                             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/HorizontalBarChart.java:284: error: [NullAway] (INDEX= 103) (Covered) returning @Nullable expression from method with @NonNull return type
             return null;
             ^
 	(see http://t.uber.com/nullaway )
-/Users/nima/Developer/NullAwayFixer/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedMoveViewJob.java:63: error: [NullAway] (INDEX= 152) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-        return new AnimatedMoveViewJob(null,0,0,null,null,0,0,0);
-                                                     ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java:143: error: [NullAway] (INDEX= 93) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
 	(see http://t.uber.com/nullaway )
-/Users/nima/Developer/NullAwayFixer/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/components/Legend.java:148: error: [NullAway] (INDEX= 32) (Covered) initializer method does not guarantee @NonNull field mExtraEntries (line 80) is initialized along all control-flow paths (remember to check for exceptions or early returns).
-    public Legend() {
-           ^
-	(see http://t.uber.com/nullaway )
-/Users/nima/Developer/NullAwayFixer/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java:595: error: [NullAway] (INDEX= 26) (Covered) returning @Nullable expression from method with @NonNull return type
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/CombinedData.java:223: error: [NullAway] (INDEX= 101) (Covered) returning @Nullable expression from method with @NonNull return type
             return null;
             ^
 	(see http://t.uber.com/nullaway )

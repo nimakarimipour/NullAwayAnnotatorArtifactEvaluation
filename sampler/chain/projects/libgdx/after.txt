@@ -1,0 +1,1992 @@
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/Input.java:715: error: [NullAway] (INDEX= 0) (Covered) @NonNull static field Input$Keys.keyNames not initialized
+        private static ObjectIntMap<String> keyNames;
+                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Array.java:821: error: [NullAway] (INDEX= 1) (Covered) initializer method does not guarantee @NonNull fields iterator1 (line 814), iterator2 (line 814) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public ArrayIterable(Array<T> array, boolean allowRemove) {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/files/FileHandle.java:66: error: [NullAway] (INDEX= 2) (Covered) initializer method does not guarantee @NonNull fields file (line 62), type (line 64) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    protected FileHandle() {
+              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/Pixmap.java:167: error: [NullAway] (INDEX= 3) dereferenced expression Gdx.net is @Nullable
+		Gdx.net.sendHttpRequest(request, new Net.HttpResponseListener() {
+		       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/Color.java:153: error: [NullAway] (INDEX= 4) dereferenced expression color is @Nullable
+        this.r = color.r;
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/Gdx.java:34: error: [NullAway] (INDEX= 5) (Covered) @NonNull static field app not initialized
+    public static Application app;
+                              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/Gdx.java:36: error: [NullAway] (INDEX= 6) (Covered) @NonNull static field graphics not initialized
+    public static Graphics graphics;
+                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/Gdx.java:38: error: [NullAway] (INDEX= 7) (Covered) @NonNull static field audio not initialized
+    public static Audio audio;
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/Gdx.java:40: error: [NullAway] (INDEX= 8) (Covered) @NonNull static field input not initialized
+    public static Input input;
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/Gdx.java:42: error: [NullAway] (INDEX= 9) (Covered) @NonNull static field files not initialized
+    public static Files files;
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/Gdx.java:47: error: [NullAway] (INDEX= 10) (Covered) @NonNull static field gl not initialized
+    public static GL20 gl;
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/Gdx.java:49: error: [NullAway] (INDEX= 11) (Covered) @NonNull static field gl20 not initialized
+    public static GL20 gl20;
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/Gdx.java:51: error: [NullAway] (INDEX= 12) (Covered) @NonNull static field gl30 not initialized
+    public static GL30 gl30;
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetLoadingTask.java:69: error: [NullAway] (INDEX= 13) (Covered) initializer method does not guarantee @NonNull fields loadFuture (line 62), asset (line 64) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public AssetLoadingTask(AssetManager manager, AssetDescriptor assetDesc, AssetLoader loader, AsyncExecutor threadPool) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetLoadingTask.java:173: error: [NullAway] (INDEX= 14) (Covered) returning @Nullable expression from method with @NonNull return type
+        return assetDesc.file;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:197: error: [NullAway] (INDEX= 15) dereferenced expression asset.value is @Nullable
+            for (ObjectMap.Entry<String, RefCountedContainer> asset : assetsByType.entries()) out.add(asset.value.getObject(type));
+                                                                                                                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:275: error: [NullAway] (INDEX= 16) dereferenced expression assets.get(type) is @Nullable
+        RefCountedContainer assetRef = assets.get(type).get(fileName);
+                                                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:277: error: [NullAway] (INDEX= 17) dereferenced expression assetRef is @Nullable
+        assetRef.decRefCount();
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:285: error: [NullAway] (INDEX= 18) dereferenced expression assets.get(type) is @Nullable
+            assets.get(type).remove(fileName);
+                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:308: error: [NullAway] (INDEX= 19) dereferenced expression assetsByType.get(fileName) is @Nullable
+            T otherAsset = (T) assetsByType.get(fileName).getObject(Object.class);
+                                                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:322: error: [NullAway] (INDEX= 20) dereferenced expression assetsByType is @Nullable
+            for (String fileName : assetsByType.keys()) {
+                                               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:323: error: [NullAway] (INDEX= 21) dereferenced expression assetsByType.get(fileName) is @Nullable
+                T otherAsset = (T) assetsByType.get(fileName).getObject(Object.class);
+                                                             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:328: error: [NullAway] (INDEX= 22) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:568: error: [NullAway] (INDEX= 23) dereferenced expression assets.get(type) is @Nullable
+            RefCountedContainer assetRef = assets.get(type).get(dependendAssetDesc.fileName);
+                                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:569: error: [NullAway] (INDEX= 24) dereferenced expression assetRef is @Nullable
+            assetRef.incRefCount();
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:588: error: [NullAway] (INDEX= 25) dereferenced expression assets.get(type) is @Nullable
+            RefCountedContainer assetRef = assets.get(type).get(assetDesc.fileName);
+                                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:589: error: [NullAway] (INDEX= 26) dereferenced expression assetRef is @Nullable
+            assetRef.incRefCount();
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:675: error: [NullAway] (INDEX= 27) dereferenced expression assets.get(type) is @Nullable
+            RefCountedContainer assetRef = assets.get(type).get(dependency);
+                                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:676: error: [NullAway] (INDEX= 28) dereferenced expression assetRef is @Nullable
+            assetRef.incRefCount();
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:833: error: [NullAway] (INDEX= 29) dereferenced expression assets.get(type).get(fileName) is @Nullable
+        return assets.get(type).get(fileName).getRefCount();
+                                             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:833: error: [NullAway] (INDEX= 30) dereferenced expression assets.get(type) is @Nullable
+        return assets.get(type).get(fileName).getRefCount();
+                               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:844: error: [NullAway] (INDEX= 31) dereferenced expression assets.get(type).get(fileName) is @Nullable
+        assets.get(type).get(fileName).setRefCount(refCount);
+                                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:844: error: [NullAway] (INDEX= 32) dereferenced expression assets.get(type) is @Nullable
+        assets.get(type).get(fileName).setRefCount(refCount);
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:858: error: [NullAway] (INDEX= 33) dereferenced expression assets.get(type) is @Nullable
+            RefCountedContainer assetRef = assets.get(type).get(fileName);
+                                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:862: error: [NullAway] (INDEX= 34) dereferenced expression assetRef is @Nullable
+            sb.append(assetRef.getRefCount());
+                              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetDescriptor.java:57: error: [NullAway] (INDEX= 35) (Covered) assigning @Nullable expression to @NonNull field
+        this.params = params;
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetDescriptor.java:68: error: [NullAway] (INDEX= 36) (Covered) assigning @Nullable expression to @NonNull field
+        this.params = params;
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/AssetLoader.java:54: error: [NullAway] (INDEX= 37) dereferenced expression resolver is @Nullable
+        return resolver.resolve(fileName);
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/ObjectSet.java:95: error: [NullAway] (INDEX= 38) (Covered) initializer method does not guarantee @NonNull fields iterator1 (line 73), iterator2 (line 73) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public ObjectSet(int initialCapacity, float loadFactor) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/ObjectMap.java:103: error: [NullAway] (INDEX= 39) (Covered) initializer method does not guarantee @NonNull fields entries1 (line 77), entries2 (line 77), values1 (line 79), values2 (line 79), keys1 (line 81), keys2 (line 81) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public ObjectMap(int initialCapacity, float loadFactor) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/ObjectMap.java:567: error: [NullAway] (INDEX= 40) (Covered) @NonNull field ObjectMap$Entry.key not initialized
+        public K key;
+                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/ModelLoader.java:55: error: [NullAway] (INDEX= 41) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        return loadModelData(fileHandle, null);
+                                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/ModelLoader.java:62: error: [NullAway] (INDEX= 42) (Covered) passing @Nullable parameter 'parameters' where @NonNull is required
+        final ModelData data = loadModelData(fileHandle, parameters);
+                                                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/ModelLoader.java:63: error: [NullAway] (INDEX= 43) (Covered) returning @Nullable expression from method with @NonNull return type
+        return data == null ? null : new Model(data, textureProvider);
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/ModelLoader.java:114: error: [NullAway] (INDEX= 44) (Covered) method returns @Nullable, but superclass method com.badlogic.gdx.assets.loaders.AsynchronousAssetLoader.loadSync(com.badlogic.gdx.assets.AssetManager,java.lang.String,com.badlogic.gdx.files.FileHandle,P) returns @NonNull
+    public Model loadSync(AssetManager manager, String fileName, FileHandle file, P parameters) {
+                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/Model.java:144: error: [NullAway] (INDEX= 45) (Covered) assigning @Nullable expression to @NonNull field
+            animation.id = anim.id;
+                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/Model.java:196: error: [NullAway] (INDEX= 46) dereferenced expression e.key.invBoneBindTransforms is @Nullable
+            e.key.invBoneBindTransforms.clear();
+                                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/Model.java:197: error: [NullAway] (INDEX= 47) dereferenced expression e.value is @Nullable
+            for (ObjectMap.Entry<String, Matrix4> b : e.value.entries()) e.key.invBoneBindTransforms.put(getNode(b.key), new Matrix4(b.value).inv());
+                                                             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/Model.java:203: error: [NullAway] (INDEX= 48) (Covered) assigning @Nullable expression to @NonNull field
+        node.id = modelNode.id;
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/Model.java:262: error: [NullAway] (INDEX= 49) dereferenced expression modelMesh.vertices is @Nullable
+        int numVertices = modelMesh.vertices.length / (attributes.vertexSize / 4);
+                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/Model.java:322: error: [NullAway] (INDEX= 50) dereferenced expression texture is @Nullable
+                descriptor.minFilter = texture.getMinFilter();
+                                              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/data/ModelData.java:48: error: [NullAway] (INDEX= 51) dereferenced expression other.id is @Nullable
+            if (other.id.equals(mesh.id)) {
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/data/ModelMesh.java:34: error: [NullAway] (INDEX= 52) (Covered) @NonNull field parts not initialized
+    public ModelMeshPart[] parts;
+                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/data/ModelMaterial.java:31: error: [NullAway] (INDEX= 53) (Covered) @NonNull field id not initialized
+    public String id;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/data/ModelMaterial.java:55: error: [NullAway] (INDEX= 54) (Covered) @NonNull field textures not initialized
+    public Array<ModelTexture> textures;
+                               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/data/ModelNodeAnimation.java:36: error: [NullAway] (INDEX= 55) (Covered) @NonNull field translation not initialized
+    public Array<ModelNodeKeyframe<Vector3>> translation;
+                                             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/data/ModelNodeAnimation.java:41: error: [NullAway] (INDEX= 56) (Covered) @NonNull field rotation not initialized
+    public Array<ModelNodeKeyframe<Quaternion>> rotation;
+                                                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/data/ModelNodeAnimation.java:46: error: [NullAway] (INDEX= 57) (Covered) @NonNull field scaling not initialized
+    public Array<ModelNodeKeyframe<Vector3>> scaling;
+                                             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/math/Vector3.java:118: error: [NullAway] (INDEX= 58) dereferenced expression vector is @Nullable
+        return this.set(vector.x, vector.y, vector.z);
+                              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/math/Matrix4.java:199: error: [NullAway] (INDEX= 59) dereferenced expression matrix is @Nullable
+        return set(matrix.val);
+                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/math/Matrix3.java:367: error: [NullAway] (INDEX= 60) dereferenced expression mat is @Nullable
+        val[M00] = mat.val[Matrix4.M00];
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/math/Vector2.java:98: error: [NullAway] (INDEX= 61) dereferenced expression v is @Nullable
+        x = v.x;
+             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/ArrayMap.java:71: error: [NullAway] (INDEX= 62) (Covered) initializer method does not guarantee @NonNull fields entries1 (line 46), entries2 (line 46), values1 (line 48), values2 (line 48), keys1 (line 50), keys2 (line 50) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public ArrayMap(boolean ordered, int capacity) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/ArrayMap.java:83: error: [NullAway] (INDEX= 63) (Covered) initializer method does not guarantee @NonNull fields entries1 (line 46), entries2 (line 46), values1 (line 48), values2 (line 48), keys1 (line 50), keys2 (line 50) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public ArrayMap(boolean ordered, int capacity, Class keyArrayType, Class valueArrayType) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/data/ModelTexture.java:50: error: [NullAway] (INDEX= 64) (Covered) @NonNull field fileName not initialized
+    public String fileName;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/VertexAttributes.java:83: error: [NullAway] (INDEX= 65) dereferenced expression attributes is @Nullable
+        if (attributes.length == 0)
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/VertexAttributes.java:118: error: [NullAway] (INDEX= 66) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/VertexAttributes.java:297: error: [NullAway] (INDEX= 67) (Covered) initializer method does not guarantee @NonNull fields iterator1 (line 295), iterator2 (line 295) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public ReadonlyIterable(T[] array) {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/data/ModelMeshPart.java:24: error: [NullAway] (INDEX= 68) (Covered) @NonNull field id not initialized
+    public String id;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/data/ModelMeshPart.java:26: error: [NullAway] (INDEX= 69) (Covered) @NonNull field indices not initialized
+    public short[] indices;
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/Attributes.java:58: error: [NullAway] (INDEX= 70) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/Attributes.java:150: error: [NullAway] (INDEX= 71) enhanced-for expression attributes is @Nullable
+        for (final Attribute attr : attributes) set(attr);
+                                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/Node.java:395: error: [NullAway] (INDEX= 72) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/Animation.java:36: error: [NullAway] (INDEX= 73) (Covered) @NonNull field id not initialized
+    public String id;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/Mesh.java:227: error: [NullAway] (INDEX= 74) (Covered) assigning @Nullable expression to @NonNull field
+            instances = null;
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/Mesh.java:573: error: [NullAway] (INDEX= 75) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        bind(shader, null);
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/Mesh.java:599: error: [NullAway] (INDEX= 76) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        unbind(shader, null);
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/Mesh.java:763: error: [NullAway] (INDEX= 77) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/Mesh.java:1113: error: [NullAway] (INDEX= 78) dereferenced expression meshes.get(app) is @Nullable
+            builder.append(meshes.get(app).size);
+                                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/MeshPart.java:152: error: [NullAway] (INDEX= 79) (Covered) assigning @Nullable expression to @NonNull field
+        this.mesh = mesh;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/TextureDescriptor.java:27: error: [NullAway] (INDEX= 80) (Covered) assigning @Nullable expression to @NonNull field
+    public T texture = null;
+             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/TextureDescriptor.java:55: error: [NullAway] (INDEX= 81) (Covered) assigning @Nullable expression to @NonNull field
+        this.texture = texture;
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/TextureLoader.java:46: error: [NullAway] (INDEX= 82) (Covered) @NonNull field TextureLoader$TextureLoaderInfo.data not initialized
+        TextureData data;
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/TextureLoader.java:81: error: [NullAway] (INDEX= 83) (Covered) method returns @Nullable, but superclass method com.badlogic.gdx.assets.loaders.AsynchronousAssetLoader.loadSync(com.badlogic.gdx.assets.AssetManager,java.lang.String,com.badlogic.gdx.files.FileHandle,P) returns @NonNull
+    public Texture loadSync(AssetManager manager, String fileName, FileHandle file, TextureParameter parameter) {
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/TextureLoader.java:119: error: [NullAway] (INDEX= 84) (Covered) assigning @Nullable expression to @NonNull field
+        public Texture texture = null;
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/Texture.java:350: error: [NullAway] (INDEX= 85) dereferenced expression managedTextures.get(app) is @Nullable
+            builder.append(managedTextures.get(app).size);
+                                                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/Texture.java:361: error: [NullAway] (INDEX= 86) dereferenced expression managedTextures.get(Gdx.app) is @Nullable
+        return managedTextures.get(Gdx.app).size;
+                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/TextureData.java:127: error: [NullAway] (INDEX= 87) (Covered) returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/ShaderProgram.java:821: error: [NullAway] (INDEX= 88) dereferenced expression shaders.get(Gdx.app) is @Nullable
+            shaders.get(Gdx.app).removeValue(this, true);
+                                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/ShaderProgram.java:904: error: [NullAway] (INDEX= 89) dereferenced expression shaders.get(app) is @Nullable
+            builder.append(shaders.get(app).size);
+                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/ShaderProgram.java:915: error: [NullAway] (INDEX= 90) dereferenced expression shaders.get(Gdx.app) is @Nullable
+        return shaders.get(Gdx.app).size;
+                                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/ObjectIntMap.java:101: error: [NullAway] (INDEX= 91) (Covered) initializer method does not guarantee @NonNull fields entries1 (line 75), entries2 (line 75), values1 (line 77), values2 (line 77), keys1 (line 79), keys2 (line 79) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public ObjectIntMap(int initialCapacity, float loadFactor) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/ObjectIntMap.java:540: error: [NullAway] (INDEX= 92) (Covered) @NonNull field ObjectIntMap$Entry.key not initialized
+        public K key;
+                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/NodeAnimation.java:36: error: [NullAway] (INDEX= 93) (Covered) @NonNull field node not initialized
+    public Node node;
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/NodeAnimation.java:41: error: [NullAway] (INDEX= 94) (Covered) assigning @Nullable expression to @NonNull field
+    public Array<NodeKeyframe<Vector3>> translation = null;
+                                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/NodeAnimation.java:46: error: [NullAway] (INDEX= 95) (Covered) assigning @Nullable expression to @NonNull field
+    public Array<NodeKeyframe<Quaternion>> rotation = null;
+                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/NodeAnimation.java:51: error: [NullAway] (INDEX= 96) (Covered) assigning @Nullable expression to @NonNull field
+    public Array<NodeKeyframe<Vector3>> scaling = null;
+                                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/MusicLoader.java:62: error: [NullAway] (INDEX= 97) (Covered) assigning @Nullable expression to @NonNull field
+        this.music = null;
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/TextureAtlas.java:99: error: [NullAway] (INDEX= 98) (Covered) @NonNull field TextureAtlas$TextureAtlasData$Region.page not initialized
+            public Page page;
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/TextureAtlas.java:103: error: [NullAway] (INDEX= 99) (Covered) @NonNull field TextureAtlas$TextureAtlasData$Region.name not initialized
+            public String name;
+                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/TextureAtlas.java:127: error: [NullAway] (INDEX= 100) (Covered) @NonNull field TextureAtlas$TextureAtlasData$Region.splits not initialized
+            public int[] splits;
+                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/TextureAtlas.java:129: error: [NullAway] (INDEX= 101) (Covered) @NonNull field TextureAtlas$TextureAtlasData$Region.pads not initialized
+            public int[] pads;
+                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/TextureAtlas.java:356: error: [NullAway] (INDEX= 102) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/TextureAtlas.java:619: error: [NullAway] (INDEX= 103) (Covered) initializer method does not guarantee @NonNull field name (line 562) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public AtlasRegion(@Nullable Texture texture, int x, int y, int width, int height) {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/TextureAtlas.java:644: error: [NullAway] (INDEX= 104) (Covered) initializer method does not guarantee @NonNull field name (line 562) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public AtlasRegion(TextureRegion region) {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/BitmapFont.java:623: error: [NullAway] (INDEX= 105) (Covered) initializer method does not guarantee @NonNull field fontFile (line 545) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public BitmapFontData() {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/TextureRegion.java:64: error: [NullAway] (INDEX= 106) (Covered) assigning @Nullable expression to @NonNull field
+        this.texture = texture;
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/TextureRegion.java:112: error: [NullAway] (INDEX= 107) read of @NonNull field texture before initialization
+        int texWidth = texture.getWidth(), texHeight = texture.getHeight();
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/TextureRegion.java:134: error: [NullAway] (INDEX= 108) dereferenced expression region is @Nullable
+        texture = region.texture;
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/BitmapFontCache.java:547: error: [NullAway] (INDEX= 109) (Covered) passing @Nullable parameter 'str' where @NonNull is required
+        layout.setText(font, str, start, end, color, targetWidth, halign, wrap, truncate);
+                             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/SpriteBatch.java:891: error: [NullAway] (INDEX= 110) dereferenced expression lastTexture is @Nullable
+        lastTexture.bind();
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/SpriteBatch.java:1008: error: [NullAway] (INDEX= 111) dereferenced expression texture is @Nullable
+        invTexWidth = 1.0f / texture.getWidth();
+                                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/I18NBundleLoader.java:80: error: [NullAway] (INDEX= 112) (Covered) method returns @Nullable, but superclass method com.badlogic.gdx.assets.loaders.AsynchronousAssetLoader.loadSync(com.badlogic.gdx.assets.AssetManager,java.lang.String,com.badlogic.gdx.files.FileHandle,P) returns @NonNull
+    public I18NBundle loadSync(AssetManager manager, String fileName, FileHandle file, I18NBundleParameter parameter) {
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/I18NBundleLoader.java:107: error: [NullAway] (INDEX= 113) (Covered) assigning @Nullable expression to @NonNull field
+            this.locale = locale;
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/I18NBundleLoader.java:108: error: [NullAway] (INDEX= 114) (Covered) assigning @Nullable expression to @NonNull field
+            this.encoding = encoding;
+                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/ParticleEffectLoader.java:78: error: [NullAway] (INDEX= 115) (Covered) @NonNull field ParticleEffectLoader$ParticleEffectParameter.atlasPrefix not initialized
+        public String atlasPrefix;
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/ParticleEffect.java:146: error: [NullAway] (INDEX= 116) dereferenced expression emitter.getName() is @Nullable
+            if (emitter.getName().equals(name))
+                                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/ParticleEmitter.java:499: error: [NullAway] (INDEX= 117) dereferenced expression sprite is @Nullable
+        float spriteWidth = sprite.getWidth();
+                                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/ParticleEmitter.java:751: error: [NullAway] (INDEX= 118) dereferenced expression sprite is @Nullable
+            particle.setOrigin(sprite.getOriginX(), sprite.getOriginY());
+                                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/ParticleEmitter.java:1326: error: [NullAway] (INDEX= 119) (Covered) initializer method does not guarantee @NonNull field tint (line 1322) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public Particle(@Nullable Sprite sprite) {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/SkinLoader.java:78: error: [NullAway] (INDEX= 120) (Covered) passing @Nullable parameter 'entry.value' where @NonNull is required
+                skin.add(entry.key, entry.value);
+                                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/SkinLoader.java:113: error: [NullAway] (INDEX= 121) (Covered) assigning @Nullable expression to @NonNull field
+            this.textureAtlasPath = textureAtlasPath;
+                                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/SkinLoader.java:114: error: [NullAway] (INDEX= 122) (Covered) assigning @Nullable expression to @NonNull field
+            this.resources = resources;
+                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/IntSet.java:95: error: [NullAway] (INDEX= 123) (Covered) initializer method does not guarantee @NonNull fields iterator1 (line 73), iterator2 (line 73) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public IntSet(int initialCapacity, float loadFactor) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:71: error: [NullAway] (INDEX= 124) (Covered) initializer method does not guarantee @NonNull fields stringValue (line 50), name (line 56) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public JsonValue(ValueType type) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:78: error: [NullAway] (INDEX= 125) (Covered) initializer method does not guarantee @NonNull fields stringValue (line 50), name (line 56) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public JsonValue(@Nullable String value) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:82: error: [NullAway] (INDEX= 126) (Covered) initializer method does not guarantee @NonNull fields stringValue (line 50), name (line 56) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public JsonValue(double value) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:86: error: [NullAway] (INDEX= 127) (Covered) initializer method does not guarantee @NonNull fields stringValue (line 50), name (line 56) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public JsonValue(long value) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:90: error: [NullAway] (INDEX= 128) (Covered) initializer method does not guarantee @NonNull fields stringValue (line 50), name (line 56) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public JsonValue(double value, String stringValue) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:94: error: [NullAway] (INDEX= 129) (Covered) initializer method does not guarantee @NonNull fields stringValue (line 50), name (line 56) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public JsonValue(long value, String stringValue) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:98: error: [NullAway] (INDEX= 130) (Covered) initializer method does not guarantee @NonNull fields stringValue (line 50), name (line 56) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public JsonValue(boolean value) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:124: error: [NullAway] (INDEX= 131) (Covered) returning @Nullable expression from method with @NonNull return type
+        return current;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:175: error: [NullAway] (INDEX= 132) (Covered) assigning @Nullable expression to @NonNull field
+                this.child.prev = null;
+                                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:197: error: [NullAway] (INDEX= 133) (Covered) assigning @Nullable expression to @NonNull field
+                this.child.prev = null;
+                                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:245: error: [NullAway] (INDEX= 134) (Covered) returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:1047: error: [NullAway] (INDEX= 135) (Covered) assigning @Nullable expression to @NonNull field
+        this.name = name;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:1137: error: [NullAway] (INDEX= 136) (Covered) assigning @Nullable expression to @NonNull field
+        stringValue = value;
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:1148: error: [NullAway] (INDEX= 137) (Covered) assigning @Nullable expression to @NonNull field
+        this.stringValue = stringValue;
+                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:1158: error: [NullAway] (INDEX= 138) (Covered) assigning @Nullable expression to @NonNull field
+        this.stringValue = stringValue;
+                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:1465: error: [NullAway] (INDEX= 139) dereferenced expression current is @Nullable
+            if (current.prev == null) {
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:1468: error: [NullAway] (INDEX= 140) (Covered) assigning @Nullable expression to @NonNull field
+                    child.prev = null;
+                               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonValue.java:1495: error: [NullAway] (INDEX= 141) (Covered) @NonNull field JsonValue$PrettyPrintSettings.outputType not initialized
+        public OutputType outputType;
+                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:156: error: [NullAway] (INDEX= 142) (Covered) passing @Nullable parameter 'type' where @NonNull is required
+        classToTag.put(type, tag);
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:342: error: [NullAway] (INDEX= 143) (Covered) passing @Nullable parameter 'knownType' where @NonNull is required
+            writeValue(object, knownType, elementType);
+                               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:345: error: [NullAway] (INDEX= 144) (Covered) assigning @Nullable expression to @NonNull field
+            this.writer = null;
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:376: error: [NullAway] (INDEX= 145) dereferenced expression metadata is @Nullable
+            if (ignoreDeprecated && metadata.deprecated)
+                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:378: error: [NullAway] (INDEX= 146) dereferenced expression metadata is @Nullable
+            Field field = metadata.field;
+                                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:433: error: [NullAway] (INDEX= 147) dereferenced expression metadata is @Nullable
+            if (ignoreDeprecated && metadata.deprecated)
+                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:435: error: [NullAway] (INDEX= 148) dereferenced expression metadata is @Nullable
+            Field field = metadata.field;
+                                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:515: error: [NullAway] (INDEX= 149) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+            writeValue(value, null, null);
+                              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:533: error: [NullAway] (INDEX= 150) (Covered) passing @Nullable parameter 'knownType' where @NonNull is required
+        writeValue(value, knownType, null);
+                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:558: error: [NullAway] (INDEX= 151) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+            writeValue(value, null, null);
+                              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:613: error: [NullAway] (INDEX= 152) (Covered) passing @Nullable parameter 'elementType' where @NonNull is required
+                for (int i = 0, n = array.size; i < n; i++) writeValue(array.get(i), elementType, null);
+                                                                                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:622: error: [NullAway] (INDEX= 153) (Covered) passing @Nullable parameter 'elementType' where @NonNull is required
+                for (int i = 0, n = queue.size; i < n; i++) writeValue(queue.get(i), elementType, null);
+                                                                                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:630: error: [NullAway] (INDEX= 154) (Covered) passing @Nullable parameter 'elementType' where @NonNull is required
+                    for (Object item : (Collection) value) writeValue(item, elementType, null);
+                                                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:635: error: [NullAway] (INDEX= 155) (Covered) passing @Nullable parameter 'elementType' where @NonNull is required
+                    for (Object item : (Collection) value) writeValue(item, elementType, null);
+                                                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:656: error: [NullAway] (INDEX= 156) (Covered) passing @Nullable parameter 'elementType' where @NonNull is required
+                    writeValue(entry.value, elementType, null);
+                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:689: error: [NullAway] (INDEX= 157) (Covered) passing @Nullable parameter 'elementType' where @NonNull is required
+                for (Object entry : (ObjectSet) value) writeValue(entry, elementType, null);
+                                                                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:700: error: [NullAway] (INDEX= 158) (Covered) passing @Nullable parameter 'elementType' where @NonNull is required
+                    writeValue(entry.value, elementType, null);
+                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:711: error: [NullAway] (INDEX= 159) (Covered) passing @Nullable parameter 'elementType' where @NonNull is required
+                    writeValue(entry.value, elementType, null);
+                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:734: error: [NullAway] (INDEX= 160) (Covered) passing @Nullable parameter 'elementType' where @NonNull is required
+                    writeValue(map.values[i], elementType, null);
+                                              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:745: error: [NullAway] (INDEX= 161) (Covered) passing @Nullable parameter 'elementType' where @NonNull is required
+                    writeValue(entry.getValue(), elementType, null);
+                                                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:1070: error: [NullAway] (INDEX= 162) (Covered) returning @Nullable expression from method with @NonNull return type
+            return defaultValue;
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:1119: error: [NullAway] (INDEX= 163) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:1312: error: [NullAway] (INDEX= 164) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:1324: error: [NullAway] (INDEX= 165) dereferenced expression entry.value is @Nullable
+            Field fromField = entry.value.field;
+                                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Json.java:1429: error: [NullAway] (INDEX= 166) (Covered) parameter type is @NonNull, but parameter in superclass method com.badlogic.gdx.utils.Json.Serializer.read(com.badlogic.gdx.utils.Json,com.badlogic.gdx.utils.JsonValue,java.lang.Class) is @Nullable
+        abstract public T read(Json json, JsonValue jsonData, Class type);
+                                                                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Skin.java:163: error: [NullAway] (INDEX= 167) dereferenced expression typeResources is @Nullable
+        typeResources.remove(name);
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Skin.java:559: error: [NullAway] (INDEX= 168) (Covered) parameter type is @NonNull, but parameter in superclass method com.badlogic.gdx.utils.Json.<T>readValue(java.lang.Class<T>,java.lang.Class,com.badlogic.gdx.utils.JsonValue) is @Nullable
+            public <T> T readValue(Class<T> type, Class elementType, JsonValue jsonData) {
+                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Skin.java:584: error: [NullAway] (INDEX= 169) dereferenced expression jsonMap.child is @Nullable
+                                se.addTrace(jsonMap.child.trace());
+                                                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/TextureRegionDrawable.java:67: error: [NullAway] (INDEX= 170) (Covered) initializer method does not guarantee @NonNull field region (line 37) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public void setRegion(@Nullable TextureRegion region) {
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/TextureRegionDrawable.java:68: error: [NullAway] (INDEX= 171) (Covered) assigning @Nullable expression to @NonNull field
+        this.region = region;
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Actor.java:130: error: [NullAway] (INDEX= 172) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+                        action.setActor(null);
+                                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Actor.java:318: error: [NullAway] (INDEX= 173) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+            action.setActor(null);
+                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Actor.java:336: error: [NullAway] (INDEX= 174) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        for (int i = actions.size - 1; i >= 0; i--) actions.get(i).setActor(null);
+                                                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Label.java:438: error: [NullAway] (INDEX= 175) (Covered) initializer method does not guarantee @NonNull field font (line 430) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public LabelStyle() {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Value.java:121: error: [NullAway] (INDEX= 176) dereferenced expression actor is @Nullable
+				return actor.getWidth() * percent;
+				            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Value.java:130: error: [NullAway] (INDEX= 177) dereferenced expression actor is @Nullable
+				return actor.getHeight() * percent;
+				            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Table.java:1425: error: [NullAway] (INDEX= 178) (Covered) @NonNull field Table$DebugRect.color not initialized
+        Color color;
+              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Stage.java:1000: error: [NullAway] (INDEX= 179) (Covered) @NonNull field Stage$TouchFocus.listener not initialized
+        EventListener listener;
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Stage.java:1002: error: [NullAway] (INDEX= 180) (Covered) @NonNull field Stage$TouchFocus.listenerActor not initialized
+        Actor listenerActor, target;
+              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Stage.java:1002: error: [NullAway] (INDEX= 181) (Covered) @NonNull field Stage$TouchFocus.target not initialized
+        Actor listenerActor, target;
+                             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Stage.java:1007: error: [NullAway] (INDEX= 182) (Covered) assigning @Nullable expression to @NonNull field
+            listenerActor = null;
+                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Stage.java:1008: error: [NullAway] (INDEX= 183) (Covered) assigning @Nullable expression to @NonNull field
+            listener = null;
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Stage.java:1009: error: [NullAway] (INDEX= 184) (Covered) assigning @Nullable expression to @NonNull field
+            target = null;
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Event.java:111: error: [NullAway] (INDEX= 185) (Covered) returning @Nullable expression from method with @NonNull return type
+        return targetActor;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Event.java:123: error: [NullAway] (INDEX= 186) (Covered) returning @Nullable expression from method with @NonNull return type
+        return listenerActor;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Event.java:185: error: [NullAway] (INDEX= 187) (Covered) returning @Nullable expression from method with @NonNull return type
+        return stage;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Action.java:120: error: [NullAway] (INDEX= 188) (Covered) assigning @Nullable expression to @NonNull field
+        target = null;
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/viewport/Viewport.java:93: error: [NullAway] (INDEX= 189) read of @NonNull field camera before initialization
+        camera.unproject(tmp, screenX, screenY, screenWidth, screenHeight);
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1098: error: [NullAway] (INDEX= 190) unboxing of a @Nullable value
+        return uniformX;
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1102: error: [NullAway] (INDEX= 191) unboxing of a @Nullable value
+        return uniformY;
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1152: error: [NullAway] (INDEX= 192) (Covered) assigning @Nullable expression to @NonNull field
+        minWidth = null;
+                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1153: error: [NullAway] (INDEX= 193) (Covered) assigning @Nullable expression to @NonNull field
+        minHeight = null;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1154: error: [NullAway] (INDEX= 194) (Covered) assigning @Nullable expression to @NonNull field
+        prefWidth = null;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1155: error: [NullAway] (INDEX= 195) (Covered) assigning @Nullable expression to @NonNull field
+        prefHeight = null;
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1156: error: [NullAway] (INDEX= 196) (Covered) assigning @Nullable expression to @NonNull field
+        maxWidth = null;
+                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1157: error: [NullAway] (INDEX= 197) (Covered) assigning @Nullable expression to @NonNull field
+        maxHeight = null;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1158: error: [NullAway] (INDEX= 198) (Covered) assigning @Nullable expression to @NonNull field
+        spaceTop = null;
+                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1159: error: [NullAway] (INDEX= 199) (Covered) assigning @Nullable expression to @NonNull field
+        spaceLeft = null;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1160: error: [NullAway] (INDEX= 200) (Covered) assigning @Nullable expression to @NonNull field
+        spaceBottom = null;
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1161: error: [NullAway] (INDEX= 201) (Covered) assigning @Nullable expression to @NonNull field
+        spaceRight = null;
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1162: error: [NullAway] (INDEX= 202) (Covered) assigning @Nullable expression to @NonNull field
+        padTop = null;
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1163: error: [NullAway] (INDEX= 203) (Covered) assigning @Nullable expression to @NonNull field
+        padLeft = null;
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1164: error: [NullAway] (INDEX= 204) (Covered) assigning @Nullable expression to @NonNull field
+        padBottom = null;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1165: error: [NullAway] (INDEX= 205) (Covered) assigning @Nullable expression to @NonNull field
+        padRight = null;
+                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1166: error: [NullAway] (INDEX= 206) (Covered) assigning @Nullable expression to @NonNull field
+        fillX = null;
+              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1167: error: [NullAway] (INDEX= 207) (Covered) assigning @Nullable expression to @NonNull field
+        fillY = null;
+              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1168: error: [NullAway] (INDEX= 208) (Covered) assigning @Nullable expression to @NonNull field
+        align = null;
+              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1169: error: [NullAway] (INDEX= 209) (Covered) assigning @Nullable expression to @NonNull field
+        expandX = null;
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1170: error: [NullAway] (INDEX= 210) (Covered) assigning @Nullable expression to @NonNull field
+        expandY = null;
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1171: error: [NullAway] (INDEX= 211) (Covered) assigning @Nullable expression to @NonNull field
+        colspan = null;
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1181: error: [NullAway] (INDEX= 212) (Covered) assigning @Nullable expression to @NonNull field
+        table = null;
+              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:1189: error: [NullAway] (INDEX= 213) dereferenced expression cell is @Nullable
+        minWidth = cell.minWidth;
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/CubemapLoader.java:49: error: [NullAway] (INDEX= 214) (Covered) @NonNull field CubemapLoader$CubemapLoaderInfo.data not initialized
+        CubemapData data;
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/CubemapLoader.java:85: error: [NullAway] (INDEX= 215) (Covered) method returns @Nullable, but superclass method com.badlogic.gdx.assets.loaders.AsynchronousAssetLoader.loadSync(com.badlogic.gdx.assets.AssetManager,java.lang.String,com.badlogic.gdx.files.FileHandle,P) returns @NonNull
+    public Cubemap loadSync(AssetManager manager, String fileName, FileHandle file, CubemapParameter parameter) {
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/CubemapLoader.java:118: error: [NullAway] (INDEX= 216) (Covered) assigning @Nullable expression to @NonNull field
+        public Cubemap cubemap = null;
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/Cubemap.java:340: error: [NullAway] (INDEX= 217) dereferenced expression managedCubemaps.get(app) is @Nullable
+            builder.append(managedCubemaps.get(app).size);
+                                                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/Cubemap.java:351: error: [NullAway] (INDEX= 218) dereferenced expression managedCubemaps.get(Gdx.app) is @Nullable
+        return managedCubemaps.get(Gdx.app).size;
+                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/PixmapLoader.java:51: error: [NullAway] (INDEX= 219) (Covered) method returns @Nullable, but superclass method com.badlogic.gdx.assets.loaders.AsynchronousAssetLoader.loadSync(com.badlogic.gdx.assets.AssetManager,java.lang.String,com.badlogic.gdx.files.FileHandle,P) returns @NonNull
+    public Pixmap loadSync(AssetManager manager, String fileName, FileHandle file, PixmapParameter parameter) {
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/SoundLoader.java:62: error: [NullAway] (INDEX= 220) (Covered) assigning @Nullable expression to @NonNull field
+        this.sound = null;
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/TextureAtlasLoader.java:50: error: [NullAway] (INDEX= 221) dereferenced expression data is @Nullable
+        for (Page page : data.getPages()) {
+                             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/PixmapIO.java:283: error: [NullAway] (INDEX= 222) read of @NonNull field curLineBytes before initialization
+                curLine = curLineBytes.ensureCapacity(lineLen);
+                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/PixmapIO.java:284: error: [NullAway] (INDEX= 223) read of @NonNull field prevLineBytes before initialization
+                prevLine = prevLineBytes.ensureCapacity(lineLen);
+                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/environment/DirectionalShadowLight.java:122: error: [NullAway] (INDEX= 224) (Covered) assigning @Nullable expression to @NonNull field
+        fbo = null;
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/GLFrameBuffer.java:169: error: [NullAway] (INDEX= 225) read of @NonNull field bufferBuilder before initialization
+        int width = bufferBuilder.width;
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/GLFrameBuffer.java:447: error: [NullAway] (INDEX= 226) dereferenced expression buffers.get(app) is @Nullable
+            builder.append(buffers.get(app).size);
+                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/attributes/TextureAttribute.java:165: error: [NullAway] (INDEX= 227) (Covered) assigning @Nullable expression to @NonNull field
+        textureDescription.texture = texture;
+                                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ResourceData.java:73: error: [NullAway] (INDEX= 228) (Covered) initializer method does not guarantee @NonNull field resources (line 71) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public SaveData() {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ResourceData.java:102: error: [NullAway] (INDEX= 229) (Covered) returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ResourceData.java:108: error: [NullAway] (INDEX= 230) (Covered) returning @Nullable expression from method with @NonNull return type
+            return (K) data.get(key);
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ResourceData.java:133: error: [NullAway] (INDEX= 231) (Covered) initializer method does not guarantee @NonNull fields filename (line 129), type (line 131) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public AssetData() {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ResourceData.java:263: error: [NullAway] (INDEX= 232) dereferenced expression entry.value is @Nullable
+            entry.value.resources = this;
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ParallelArray.java:306: error: [NullAway] (INDEX= 233) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/renderers/ParticleControllerRenderData.java:30: error: [NullAway] (INDEX= 234) (Covered) @NonNull field controller not initialized
+    public ParticleController controller;
+                              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/renderers/ParticleControllerRenderData.java:32: error: [NullAway] (INDEX= 235) (Covered) @NonNull field positionChannel not initialized
+    public FloatChannel positionChannel;
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ParticleController.java:96: error: [NullAway] (INDEX= 236) (Covered) initializer method does not guarantee @NonNull fields name (line 52), particleChannels (line 74) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public ParticleController() {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/influencers/ParticleControllerInfluencer.java:99: error: [NullAway] (INDEX= 237) dereferenced expression templates.random() is @Nullable
+                ParticleController controller = templates.random().copy();
+                                                                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/influencers/RegionInfluencer.java:103: error: [NullAway] (INDEX= 238) dereferenced expression region is @Nullable
+                regionChannel.data[i + ParticleChannels.UOffset] = region.u;
+                                                                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/influencers/DynamicsInfluencer.java:43: error: [NullAway] (INDEX= 239) (Covered) initializer method does not guarantee @NonNull fields positionChannel (line 39), previousPositionChannel (line 39), rotationChannel (line 39) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public DynamicsInfluencer() {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/influencers/DynamicsInfluencer.java:47: error: [NullAway] (INDEX= 240) (Covered) initializer method does not guarantee @NonNull fields positionChannel (line 39), previousPositionChannel (line 39), rotationChannel (line 39) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public DynamicsInfluencer(DynamicsModifier... velocities) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/ModelInstance.java:176: error: [NullAway] (INDEX= 241) dereferenced expression node.getParent() is @Nullable
+            this.transform.mul(node.getParent().globalTransform);
+                                               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/ModelInstance.java:186: error: [NullAway] (INDEX= 242) (Covered) passing @Nullable parameter 'model' where @NonNull is required
+        this(model, null, rootNodeIds);
+             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ParticleEffectLoader.java:126: error: [NullAway] (INDEX= 243) dereferenced expression effectData is @Nullable
+        effectData.resource.load(manager, effectData);
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ParticleSorter.java:43: error: [NullAway] (INDEX= 244) (Covered) @NonNull field ParticleSorter$None.indices not initialized
+        int[] indices;
+              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ParticleSorter.java:65: error: [NullAway] (INDEX= 245) (Covered) @NonNull field ParticleSorter$Distance.distances not initialized
+        private float[] distances;
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ParticleSorter.java:67: error: [NullAway] (INDEX= 246) (Covered) @NonNull field ParticleSorter$Distance.particleIndices not initialized
+        private int[] particleIndices, particleOffsets;
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ParticleSorter.java:67: error: [NullAway] (INDEX= 247) (Covered) @NonNull field ParticleSorter$Distance.particleOffsets not initialized
+        private int[] particleIndices, particleOffsets;
+                                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/renderers/ModelInstanceRenderer.java:64: error: [NullAway] (INDEX= 248) dereferenced expression renderData.scaleChannel is @Nullable
+			float scale = hasScale ? renderData.scaleChannel.data[i] : 1;
+			                                                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/renderers/ModelInstanceRenderer.java:67: error: [NullAway] (INDEX= 249) dereferenced expression renderData.rotationChannel is @Nullable
+				int rotationOffset = i * renderData.rotationChannel.strideSize;
+				                                                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/renderers/ModelInstanceRenderer.java:78: error: [NullAway] (INDEX= 250) dereferenced expression renderData.colorChannel is @Nullable
+				int colorOffset = i * renderData.colorChannel.strideSize;
+				                                             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/renderers/ModelInstanceControllerRenderData.java:31: error: [NullAway] (INDEX= 251) (Covered) @NonNull field modelInstanceChannel not initialized
+    public ObjectChannel<ModelInstance> modelInstanceChannel;
+                                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ParticleShader.java:288: error: [NullAway] (INDEX= 252) (Covered) assigning @Nullable expression to @NonNull field
+        this.program = null;
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/batches/PointSpriteParticleBatch.java:90: error: [NullAway] (INDEX= 253) read of @NonNull field renderable before initialization
+        renderable.shader = new ParticleShader(renderable, shaderConfig);
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/batches/PointSpriteParticleBatch.java:90: error: [NullAway] (INDEX= 254) read of @NonNull field renderable before initialization
+        renderable.shader = new ParticleShader(renderable, shaderConfig);
+                                               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/batches/PointSpriteParticleBatch.java:91: error: [NullAway] (INDEX= 255) dereferenced expression renderable.shader is @Nullable
+        renderable.shader.init();
+                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/batches/PointSpriteParticleBatch.java:91: error: [NullAway] (INDEX= 256) read of @NonNull field renderable before initialization
+        renderable.shader.init();
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/batches/PointSpriteParticleBatch.java:131: error: [NullAway] (INDEX= 257) dereferenced expression regionChannel is @Nullable
+                int regionOffset = p * regionChannel.strideSize;
+                                                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/batches/PointSpriteParticleBatch.java:133: error: [NullAway] (INDEX= 258) dereferenced expression colorChannel is @Nullable
+                int colorOffset = p * colorChannel.strideSize;
+                                                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/batches/PointSpriteParticleBatch.java:134: error: [NullAway] (INDEX= 259) dereferenced expression rotationChannel is @Nullable
+                int rotationOffset = p * rotationChannel.strideSize;
+                                                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/batches/PointSpriteParticleBatch.java:142: error: [NullAway] (INDEX= 260) dereferenced expression scaleChannel is @Nullable
+                vertices[offset + CPU_SIZE_AND_ROTATION_OFFSET] = scaleChannel.data[p * scaleChannel.strideSize];
+                                                                              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/shaders/BaseShader.java:250: error: [NullAway] (INDEX= 261) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+            setters.get(u).set(this, u, null, null);
+                                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/shaders/BaseShader.java:250: error: [NullAway] (INDEX= 262) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+            setters.get(u).set(this, u, null, null);
+                                              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/shaders/BaseShader.java:302: error: [NullAway] (INDEX= 263) (Covered) assigning @Nullable expression to @NonNull field
+        program = null;
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/shaders/BaseShader.java:308: error: [NullAway] (INDEX= 264) (Covered) assigning @Nullable expression to @NonNull field
+        locations = null;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/IntIntMap.java:104: error: [NullAway] (INDEX= 265) (Covered) initializer method does not guarantee @NonNull fields entries1 (line 78), entries2 (line 78), values1 (line 80), values2 (line 80), keys1 (line 82), keys2 (line 82) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public IntIntMap(int initialCapacity, float loadFactor) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/renderers/BillboardControllerRenderData.java:29: error: [NullAway] (INDEX= 266) (Covered) @NonNull field regionChannel not initialized
+    public FloatChannel regionChannel, colorChannel, scaleChannel, rotationChannel;
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/renderers/BillboardControllerRenderData.java:29: error: [NullAway] (INDEX= 267) (Covered) @NonNull field colorChannel not initialized
+    public FloatChannel regionChannel, colorChannel, scaleChannel, rotationChannel;
+                                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/renderers/BillboardControllerRenderData.java:29: error: [NullAway] (INDEX= 268) (Covered) @NonNull field scaleChannel not initialized
+    public FloatChannel regionChannel, colorChannel, scaleChannel, rotationChannel;
+                                                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/renderers/BillboardControllerRenderData.java:29: error: [NullAway] (INDEX= 269) (Covered) @NonNull field rotationChannel not initialized
+    public FloatChannel regionChannel, colorChannel, scaleChannel, rotationChannel;
+                                                                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/batches/BillboardParticleBatch.java:102: error: [NullAway] (INDEX= 270) (Covered) initializer method does not guarantee @NonNull field mode (line 113) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public Config() {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/values/MeshSpawnShapeValue.java:95: error: [NullAway] (INDEX= 271) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        this.setMesh(mesh, null);
+                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/emitters/RegularEmitter.java:133: error: [NullAway] (INDEX= 272) read of @NonNull field lifeChannel before initialization
+        for (int i = startIndex * lifeChannel.strideSize, c = i + count * lifeChannel.strideSize; i < c; i += lifeChannel.strideSize) {
+                                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/ModelBuilder.java:130: error: [NullAway] (INDEX= 273) dereferenced expression model is @Nullable
+        node.id = "node" + model.nodes.size;
+                                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/ModelBuilder.java:165: error: [NullAway] (INDEX= 274) dereferenced expression node is @Nullable
+        node.parts.add(new NodePart(meshpart, material));
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/MeshBuilder.java:352: error: [NullAway] (INDEX= 275) (Covered) assigning @Nullable expression to @NonNull field
+        attributes = null;
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/MeshBuilder.java:673: error: [NullAway] (INDEX= 276) dereferenced expression pos is @Nullable
+        vertex[posOffset] = pos.x;
+                               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/shaders/DefaultShader.java:735: error: [NullAway] (INDEX= 277) dereferenced expression renderable.environment is @Nullable
+        this.shadowMap = lighting && renderable.environment.shadowMap != null;
+                                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/shaders/DefaultShader.java:788: error: [NullAway] (INDEX= 278) (Covered) assigning @Nullable expression to @NonNull field
+        this.program = null;
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/shapebuilders/RenderableShapeBuilder.java:59: error: [NullAway] (INDEX= 279) (Covered) @NonNull static field indices not initialized
+    private static short[] indices;
+                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/shapebuilders/RenderableShapeBuilder.java:61: error: [NullAway] (INDEX= 280) (Covered) @NonNull static field vertices not initialized
+    private static float[] vertices;
+                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/shapebuilders/RenderableShapeBuilder.java:51: error: [NullAway] (INDEX= 281) (Covered) assigning @Nullable expression to @NonNull field
+            renderable.material = null;
+                                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/CameraInputController.java:180: error: [NullAway] (INDEX= 282) read of @NonNull field controller before initialization
+            return controller.pinchZoom(amount / ((w > h) ? h : w));
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Timer.java:105: error: [NullAway] (INDEX= 283) dereferenced expression thread is @Nullable
+                    if (thread.pauseTimeMillis > 0)
+                              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Timer.java:360: error: [NullAway] (INDEX= 284) (Covered) initializer method does not guarantee @NonNull field instance (line 317) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public void resume() {
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/DefaultTextureBinder.java:194: error: [NullAway] (INDEX= 285) dereferenced expression unitsLRU is @Nullable
+            final int idx = unitsLRU[i];
+                                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/DefaultTextureBinder.java:205: error: [NullAway] (INDEX= 286) dereferenced expression unitsLRU is @Nullable
+        final int idx = unitsLRU[i];
+                                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/BaseAnimationController.java:152: error: [NullAway] (INDEX= 287) dereferenced expression entry.value is @Nullable
+            entry.value.toMatrix4(entry.key.localTransform);
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/BaseAnimationController.java:307: error: [NullAway] (INDEX= 288) (Covered) passing @Nullable parameter 'pool' where @NonNull is required
+            for (final NodeAnimation nodeAnim : animation.nodeAnimations) applyNodeAnimationBlending(nodeAnim, out, pool, alpha, time);
+                                                                                                                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/BaseAnimationController.java:311: error: [NullAway] (INDEX= 289) dereferenced expression e.value is @Nullable
+                    e.value.lerp(e.key.translation, e.key.rotation, e.key.scale, alpha);
+                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/AnimationController.java:106: error: [NullAway] (INDEX= 290) (Covered) initializer method does not guarantee @NonNull fields listener (line 74), animation (line 79) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        protected AnimationDesc() {
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/AnimationController.java:212: error: [NullAway] (INDEX= 291) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/AnimationController.java:215: error: [NullAway] (INDEX= 292) (Covered) assigning @Nullable expression to @NonNull field
+        result.listener = listener;
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/AnimationController.java:226: error: [NullAway] (INDEX= 293) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/loader/ObjLoader.java:112: error: [NullAway] (INDEX= 294) (Covered) method returns @Nullable, but superclass method com.badlogic.gdx.assets.loaders.ModelLoader.loadModelData(com.badlogic.gdx.files.FileHandle,P) returns @NonNull
+    public ModelData loadModelData(FileHandle file, ObjLoaderParameters parameters) {
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/loader/G3dModelLoader.java:336: error: [NullAway] (INDEX= 295) dereferenced expression nodePart.bones is @Nullable
+                        nodePart.bones.put(nodeId, transform);
+                                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/loader/G3dModelLoader.java:339: error: [NullAway] (INDEX= 296) dereferenced expression jsonNode.parts is @Nullable
+                jsonNode.parts[i] = nodePart;
+                              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/loader/G3dModelLoader.java:347: error: [NullAway] (INDEX= 297) dereferenced expression jsonNode.children is @Nullable
+                jsonNode.children[i] = parseNodesRecursively(child);
+                                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/decals/DecalBatch.java:230: error: [NullAway] (INDEX= 298) (Covered) assigning @Nullable expression to @NonNull field
+        vertices = null;
+                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/SortedIntList.java:167: error: [NullAway] (INDEX= 299) read of @NonNull field position before initialization
+            previousPosition = position;
+                               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/SortedIntList.java:168: error: [NullAway] (INDEX= 300) read of @NonNull field position before initialization
+            position = position.n;
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/SortedIntList.java:202: error: [NullAway] (INDEX= 301) (Covered) @NonNull field SortedIntList$Node.p not initialized
+        protected Node<E> p;
+                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/SortedIntList.java:207: error: [NullAway] (INDEX= 302) (Covered) @NonNull field SortedIntList$Node.n not initialized
+        protected Node<E> n;
+                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/SortedIntList.java:212: error: [NullAway] (INDEX= 303) (Covered) @NonNull field SortedIntList$Node.value not initialized
+        public E value;
+                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/SortedIntList.java:229: error: [NullAway] (INDEX= 304) (Covered) assigning @Nullable expression to @NonNull field
+            newNode.p = p;
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/SortedIntList.java:230: error: [NullAway] (INDEX= 305) (Covered) assigning @Nullable expression to @NonNull field
+            newNode.n = n;
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/decals/DecalMaterial.java:42: error: [NullAway] (INDEX= 306) read of @NonNull field textureRegion before initialization
+        textureRegion.getTexture().bind(0);
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/IntMap.java:108: error: [NullAway] (INDEX= 307) (Covered) initializer method does not guarantee @NonNull fields entries1 (line 81), entries2 (line 81), values1 (line 83), values2 (line 83), keys1 (line 85), keys2 (line 85) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public IntMap(int initialCapacity, float loadFactor) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/IntMap.java:226: error: [NullAway] (INDEX= 308) (Covered) returning @Nullable expression from method with @NonNull return type
+            return hasZeroValue ? zeroValue : null;
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/IntMap.java:228: error: [NullAway] (INDEX= 309) (Covered) returning @Nullable expression from method with @NonNull return type
+        return i >= 0 ? valueTable[i] : null;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/decals/SimpleOrthoGroupStrategy.java:129: error: [NullAway] (INDEX= 310) (Covered) method returns @Nullable, but superclass method com.badlogic.gdx.graphics.g3d.decals.GroupStrategy.getGroupShader(int) returns @NonNull
+    public ShaderProgram getGroupShader(int group) {
+                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/ModelCache.java:270: error: [NullAway] (INDEX= 311) (Covered) assigning @Nullable expression to @NonNull field
+        result.meshPart.mesh = null;
+                             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/ModelCache.java:294: error: [NullAway] (INDEX= 312) (Covered) passing @Nullable parameter 'camera' where @NonNull is required
+        sorter.sort(camera, items);
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/ModelBatch.java:62: error: [NullAway] (INDEX= 313) (Covered) assigning @Nullable expression to @NonNull field
+            renderable.material = null;
+                                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/ModelBatch.java:268: error: [NullAway] (INDEX= 314) dereferenced expression currentShader is @Nullable
+                currentShader.begin(camera, context);
+                             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/ModelBatch.java:270: error: [NullAway] (INDEX= 315) dereferenced expression currentShader is @Nullable
+            currentShader.render(renderable);
+                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/ModelBatch.java:287: error: [NullAway] (INDEX= 316) (Covered) assigning @Nullable expression to @NonNull field
+        camera = null;
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/TextureArray.java:148: error: [NullAway] (INDEX= 317) dereferenced expression managedTextureArrays.get(app) is @Nullable
+			builder.append(managedTextureArrays.get(app).size);
+			                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/TextureArray.java:157: error: [NullAway] (INDEX= 318) dereferenced expression managedTextureArrays.get(Gdx.app) is @Nullable
+		return managedTextureArrays.get(Gdx.app).size;
+		                                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/FrameBufferCubemap.java:178: error: [NullAway] (INDEX= 319) dereferenced expression side is @Nullable
+        Gdx.gl20.glFramebufferTexture2D(GL20.GL_FRAMEBUFFER, GL20.GL_COLOR_ATTACHMENT0, side.glEnum, getColorBufferTexture().getTextureObjectHandle(), 0);
+                                                                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/FloatTextureData.java:54: error: [NullAway] (INDEX= 320) (Covered) initializer method does not guarantee @NonNull field buffer (line 52) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public FloatTextureData(int w, int h, int internalFormat, int format, int type, boolean isGpuOnly) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/FileTextureData.java:85: error: [NullAway] (INDEX= 321) (Covered) method returns @Nullable, but superclass method com.badlogic.gdx.graphics.TextureData.consumePixmap() returns @NonNull
+    public Pixmap consumePixmap() {
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/FileTextureData.java:111: error: [NullAway] (INDEX= 322) (Covered) method returns @Nullable, but superclass method com.badlogic.gdx.graphics.TextureData.getFormat() returns @NonNull
+    public Format getFormat() {
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/GLOnlyTextureData.java:78: error: [NullAway] (INDEX= 323) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+		Gdx.gl.glTexImage2D(target, mipLevel, internalFormat, width, height, 0, format, type, null);
+		                                                                                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/ETC1TextureData.java:79: error: [NullAway] (INDEX= 324) read of @NonNull field data before initialization
+        width = data.width;
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/ETC1TextureData.java:101: error: [NullAway] (INDEX= 325) (Covered) assigning @Nullable expression to @NonNull field
+        data = null;
+             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/KTXTextureData.java:355: error: [NullAway] (INDEX= 326) dereferenced expression compressedData is @Nullable
+            int faceLodSize = compressedData.getInt(pos);
+                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/math/FloatCounter.java:46: error: [NullAway] (INDEX= 327) (Covered) assigning @Nullable expression to @NonNull field
+		mean = (windowSize > 1) ? new WindowedMean(windowSize) : null;
+		     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/PolygonSpriteBatch.java:1108: error: [NullAway] (INDEX= 328) dereferenced expression lastTexture is @Nullable
+        lastTexture.bind();
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/PolygonSpriteBatch.java:1221: error: [NullAway] (INDEX= 329) dereferenced expression texture is @Nullable
+        invTexWidth = 1.0f / texture.getWidth();
+                                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/PolygonRegionLoader.java:77: error: [NullAway] (INDEX= 330) dereferenced expression manager.getDependencies(fileName) is @Nullable
+        Texture texture = manager.get(manager.getDependencies(fileName).first());
+                                                                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/PixmapPacker.java:204: error: [NullAway] (INDEX= 331) (Covered) assigning @Nullable expression to @NonNull field
+            rect.splits = getSplits(image);
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/PixmapPacker.java:205: error: [NullAway] (INDEX= 332) (Covered) assigning @Nullable expression to @NonNull field
+            rect.pads = getPads(image, rect.splits);
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/PixmapPacker.java:274: error: [NullAway] (INDEX= 333) (Covered) passing @Nullable parameter 'name' where @NonNull is required
+        Page page = packStrategy.pack(this, name, rect);
+                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/PixmapPacker.java:400: error: [NullAway] (INDEX= 334) dereferenced expression rect is @Nullable
+                    TextureAtlas.AtlasRegion region = new TextureAtlas.AtlasRegion(page.texture, (int) rect.x, (int) rect.y, (int) rect.width, (int) rect.height);
+                                                                                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/PixmapPacker.java:625: error: [NullAway] (INDEX= 335) dereferenced expression node is @Nullable
+            node.full = true;
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/PixmapPacker.java:626: error: [NullAway] (INDEX= 336) dereferenced expression node is @Nullable
+            rect.set(node.rect.x, node.rect.y, node.rect.width - padding, node.rect.height - padding);
+                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/PixmapPacker.java:673: error: [NullAway] (INDEX= 337) (Covered) @NonNull field PixmapPacker$GuillotineStrategy$Node.leftChild not initialized
+            public Node leftChild;
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/PixmapPacker.java:675: error: [NullAway] (INDEX= 338) (Covered) @NonNull field PixmapPacker$GuillotineStrategy$Node.rightChild not initialized
+            public Node rightChild;
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/PixmapPacker.java:925: error: [NullAway] (INDEX= 339) (Covered) initializer method does not guarantee @NonNull fields splits (line 917), pads (line 919) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        PixmapPackerRectangle(int x, int y, int width, int height) {
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/PixmapPacker.java:933: error: [NullAway] (INDEX= 340) (Covered) initializer method does not guarantee @NonNull fields splits (line 917), pads (line 919) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        PixmapPackerRectangle(int x, int y, int width, int height, int left, int top, int originalWidth, int originalHeight) {
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/PixmapPackerIO.java:98: error: [NullAway] (INDEX= 341) dereferenced expression rect is @Nullable
+					writer.write("  xy: " + (int) rect.x + "," + (int) rect.y + "\n");
+					                                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/Animation.java:237: error: [NullAway] (INDEX= 342) read of @NonNull field keyFrames before initialization
+        this.animationDuration = keyFrames.length * frameDuration;
+                                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/SpriteCache.java:963: error: [NullAway] (INDEX= 343) (Covered) initializer method does not guarantee @NonNull fields textures (line 959), counts (line 961) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public Cache(int id, int offset) {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/actions/AddListenerAction.java:63: error: [NullAway] (INDEX= 344) (Covered) assigning @Nullable expression to @NonNull field
+        listener = null;
+                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/actions/AddAction.java:54: error: [NullAway] (INDEX= 345) (Covered) assigning @Nullable expression to @NonNull field
+        action = null;
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/actions/ColorAction.java:41: error: [NullAway] (INDEX= 346) dereferenced expression color is @Nullable
+			color.set(startR, startG, startB, startA);
+			     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/actions/ColorAction.java:43: error: [NullAway] (INDEX= 347) dereferenced expression color is @Nullable
+			color.set(end);
+			     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/actions/ColorAction.java:49: error: [NullAway] (INDEX= 348) dereferenced expression color is @Nullable
+			color.set(r, g, b, a);
+			     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/actions/AlphaAction.java:37: error: [NullAway] (INDEX= 349) dereferenced expression color is @Nullable
+			color.a = start;
+			     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/actions/AlphaAction.java:39: error: [NullAway] (INDEX= 350) dereferenced expression color is @Nullable
+			color.a = end;
+			     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/actions/AlphaAction.java:41: error: [NullAway] (INDEX= 351) dereferenced expression color is @Nullable
+			color.a = start + (end - start) * percent;
+			     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/actions/DelegateAction.java:67: error: [NullAway] (INDEX= 352) (Covered) assigning @Nullable expression to @NonNull field
+        action = null;
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/actions/RunnableAction.java:54: error: [NullAway] (INDEX= 353) dereferenced expression runnable is @Nullable
+            runnable.run();
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/actions/RemoveListenerAction.java:63: error: [NullAway] (INDEX= 354) (Covered) assigning @Nullable expression to @NonNull field
+        listener = null;
+                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Tree.java:119: error: [NullAway] (INDEX= 355) dereferenced expression rangeStart is @Nullable
+                    float start = rangeStart.actor.getY(), end = node.actor.getY();
+                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Tree.java:152: error: [NullAway] (INDEX= 356) (Covered) parameter fromActor is @NonNull, but parameter in superclass method com.badlogic.gdx.scenes.scene2d.utils.ClickListener.enter(com.badlogic.gdx.scenes.scene2d.InputEvent,float,float,int,com.badlogic.gdx.scenes.scene2d.Actor) is @Nullable
+            public void enter(InputEvent event, float x, float y, int pointer, Actor fromActor) {
+                                                                                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Tree.java:694: error: [NullAway] (INDEX= 357) (Covered) initializer method does not guarantee @NonNull field value (line 691) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public Node(A actor) {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Tree.java:703: error: [NullAway] (INDEX= 358) (Covered) initializer method does not guarantee @NonNull fields value (line 691), actor (line 675) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public Node() {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Tree.java:914: error: [NullAway] (INDEX= 359) (Covered) assigning @Nullable expression to @NonNull field
+            this.value = value;
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Tree.java:1048: error: [NullAway] (INDEX= 360) (Covered) initializer method does not guarantee @NonNull fields plus (line 1040), minus (line 1040) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public TreeStyle() {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/OrderedSet.java:174: error: [NullAway] (INDEX= 361) dereferenced expression iterator2 is @Nullable
+            iterator2.valid = false;
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/OrderedSet.java:177: error: [NullAway] (INDEX= 362) dereferenced expression iterator2 is @Nullable
+        iterator2.reset();
+                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TextField.java:180: error: [NullAway] (INDEX= 363) (Covered) initializer method does not guarantee @NonNull field text (line 94) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public TextField(@Null String text, TextFieldStyle style) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TextField.java:201: error: [NullAway] (INDEX= 364) dereferenced expression style.background is @Nullable
+            x -= style.background.getLeftWidth();
+                                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TextField.java:436: error: [NullAway] (INDEX= 365) dereferenced expression messageText is @Nullable
+        font.draw(batch, messageText, x, y, 0, messageText.length(), maxWidth, textHAlign, false, "...");
+                                                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TextField.java:574: error: [NullAway] (INDEX= 366) dereferenced expression current.getParent() is @Nullable
+        Vector2 currentCoords = current.getParent().localToStageCoordinates(tmp2.set(current.getX(), current.getY()));
+                                                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TextField.java:612: error: [NullAway] (INDEX= 367) dereferenced expression actor.getParent() is @Nullable
+                Vector2 actorCoords = actor.getParent().localToStageCoordinates(tmp3.set(actor.getX(), actor.getY()));
+                                                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TextField.java:898: error: [NullAway] (INDEX= 368) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+            inputListener.keyDown(null, keycode);
+                                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TextField.java:1238: error: [NullAway] (INDEX= 369) (Covered) initializer method does not guarantee @NonNull fields font (line 1222), fontColor (line 1224) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public TextFieldStyle() {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TextField.java:1250: error: [NullAway] (INDEX= 370) (Covered) initializer method does not guarantee @NonNull field fontColor (line 1224) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public TextFieldStyle(TextFieldStyle style) {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/HorizontalGroup.java:59: error: [NullAway] (INDEX= 371) (Covered) initializer method does not guarantee @NonNull field rowSizes (line 51) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public HorizontalGroup() {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/ButtonGroup.java:124: error: [NullAway] (INDEX= 372) dereferenced expression lastChecked is @Nullable
+                    lastChecked.setChecked(false);
+                               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TextButton.java:124: error: [NullAway] (INDEX= 373) dereferenced expression getLabelCell() is @Nullable
+        getLabelCell().setActor(label);
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TextButton.java:170: error: [NullAway] (INDEX= 374) (Covered) initializer method does not guarantee @NonNull field font (line 162) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public TextButtonStyle() {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TextButton.java:173: error: [NullAway] (INDEX= 375) (Covered) initializer method does not guarantee @NonNull field font (line 162) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public TextButtonStyle(@Null Drawable up, @Null Drawable down, @Null Drawable checked, @Null BitmapFont font) {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TextButton.java:175: error: [NullAway] (INDEX= 376) (Covered) assigning @Nullable expression to @NonNull field
+            this.font = font;
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/ScrollPane.java:552: error: [NullAway] (INDEX= 377) dereferenced expression widget is @Nullable
+        widget.setPosition(x, y);
+              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/ActorGestureListener.java:57: error: [NullAway] (INDEX= 378) (Covered) initializer method does not guarantee @NonNull field event (line 42) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public ActorGestureListener(float halfTapSquareSize, float tapCountInterval, float longPressDuration, float maxFlingDelay) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/ActorGestureListener.java:65: error: [NullAway] (INDEX= 379) dereferenced expression actor is @Nullable
+                actor.stageToLocalCoordinates(tmpCoords.set(stageX, stageY));
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/ActorGestureListener.java:71: error: [NullAway] (INDEX= 380) dereferenced expression actor is @Nullable
+                actor.stageToLocalCoordinates(tmpCoords.set(stageX, stageY));
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/ActorGestureListener.java:85: error: [NullAway] (INDEX= 381) dereferenced expression actor is @Nullable
+                actor.stageToLocalCoordinates(tmpCoords.set(stageX, stageY));
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/ActorGestureListener.java:91: error: [NullAway] (INDEX= 382) dereferenced expression actor is @Nullable
+                actor.stageToLocalCoordinates(tmpCoords.set(stageX, stageY));
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/ActorGestureListener.java:102: error: [NullAway] (INDEX= 383) dereferenced expression actor is @Nullable
+                actor.stageToLocalCoordinates(initialPointer1.set(stageInitialPointer1));
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/ActorGestureListener.java:111: error: [NullAway] (INDEX= 384) dereferenced expression actor is @Nullable
+                actor.stageToLocalCoordinates(amount);
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/SplitPane.java:242: error: [NullAway] (INDEX= 385) read of @NonNull field style before initialization
+        Drawable handle = style.handle;
+                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/SplitPane.java:453: error: [NullAway] (INDEX= 386) (Covered) initializer method does not guarantee @NonNull field handle (line 451) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public SplitPaneStyle() {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TooltipManager.java:196: error: [NullAway] (INDEX= 387) (Covered) returning @Nullable expression from method with @NonNull return type
+        return instance;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Slider.java:194: error: [NullAway] (INDEX= 388) dereferenced expression bg is @Nullable
+            float height = getHeight() - bg.getTopHeight() - bg.getBottomHeight();
+                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Slider.java:201: error: [NullAway] (INDEX= 389) dereferenced expression bg is @Nullable
+            float width = getWidth() - bg.getLeftWidth() - bg.getRightWidth();
+                                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/List.java:92: error: [NullAway] (INDEX= 390) (Covered) @NonNull field List$1.prefix not initialized
+            String prefix;
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/List.java:183: error: [NullAway] (INDEX= 391) (Covered) parameter toActor is @NonNull, but parameter in superclass method com.badlogic.gdx.scenes.scene2d.InputListener.exit(com.badlogic.gdx.scenes.scene2d.InputEvent,float,float,int,com.badlogic.gdx.scenes.scene2d.Actor) is @Nullable
+            public void exit(InputEvent event, float x, float y, int pointer, Actor toActor) {
+                                                                                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/List.java:209: error: [NullAway] (INDEX= 392) read of @NonNull field style before initialization
+        BitmapFont font = style.font;
+                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/List.java:504: error: [NullAway] (INDEX= 393) (Covered) initializer method does not guarantee @NonNull fields font (line 493), selection (line 499) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public ListStyle() {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/VerticalGroup.java:59: error: [NullAway] (INDEX= 394) (Covered) initializer method does not guarantee @NonNull field columnSizes (line 51) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public VerticalGroup() {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/SelectBox.java:210: error: [NullAway] (INDEX= 395) read of @NonNull field style before initialization
+        Drawable bg = style.background;
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/SelectBox.java:297: error: [NullAway] (INDEX= 396) dereferenced expression fontColor is @Nullable
+            font.setColor(fontColor.r, fontColor.g, fontColor.b, fontColor.a * parentAlpha);
+                                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/SelectBox.java:658: error: [NullAway] (INDEX= 397) (Covered) initializer method does not guarantee @NonNull fields font (line 641), scrollStyle (line 651), listStyle (line 653) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public SelectBoxStyle() {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Dialog.java:102: error: [NullAway] (INDEX= 398) dereferenced expression actor is @Nullable
+                while (actor.getParent() != buttonTable) actor = actor.getParent();
+                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Window.java:189: error: [NullAway] (INDEX= 399) dereferenced expression stage is @Nullable
+                    if (clampPosition && windowX + width + amountX > stage.getWidth())
+                                                                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Window.java:197: error: [NullAway] (INDEX= 400) dereferenced expression stage is @Nullable
+                    if (clampPosition && windowY + height + amountY > stage.getHeight())
+                                                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Window.java:296: error: [NullAway] (INDEX= 401) dereferenced expression style.stageBackground is @Nullable
+        style.stageBackground.draw(batch, x, y, width, height);
+                             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Window.java:325: error: [NullAway] (INDEX= 402) dereferenced expression current is @Nullable
+            while (current.getParent() != this) current = current.getParent();
+                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Window.java:397: error: [NullAway] (INDEX= 403) (Covered) initializer method does not guarantee @NonNull field titleFont (line 389) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public WindowStyle() {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Window.java:403: error: [NullAway] (INDEX= 404) dereferenced expression this.titleFontColor is @Nullable
+            this.titleFontColor.set(titleFontColor);
+                               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TextTooltip.java:70: error: [NullAway] (INDEX= 405) dereferenced expression container.getActor() is @Nullable
+        container.getActor().setStyle(style.label);
+                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TextTooltip.java:91: error: [NullAway] (INDEX= 406) (Covered) initializer method does not guarantee @NonNull field label (line 81) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public TextTooltipStyle() {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Touchpad.java:173: error: [NullAway] (INDEX= 407) read of @NonNull field style before initialization
+        if (style.knob != null)
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/ImageTextButton.java:181: error: [NullAway] (INDEX= 408) dereferenced expression getLabelCell() is @Nullable
+        getLabelCell().setActor(label);
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/NinePatchDrawable.java:45: error: [NullAway] (INDEX= 409) (Covered) initializer method does not guarantee @NonNull field patch (line 40) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public NinePatchDrawable() {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/NinePatchDrawable.java:48: error: [NullAway] (INDEX= 410) (Covered) initializer method does not guarantee @NonNull field patch (line 40) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public NinePatchDrawable(@Nullable NinePatch patch) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/NinePatchDrawable.java:71: error: [NullAway] (INDEX= 411) (Covered) assigning @Nullable expression to @NonNull field
+        this.patch = patch;
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/DragAndDrop.java:154: error: [NullAway] (INDEX= 412) dereferenced expression actor is @Nullable
+                    removeDragActor = actor.getStage() == null;
+                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/DragAndDrop.java:188: error: [NullAway] (INDEX= 413) dereferenced expression target is @Nullable
+                    target.actor.stageToLocalCoordinates(tmpVector.set(stageX, stageY));
+                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/SpriteDrawable.java:51: error: [NullAway] (INDEX= 414) read of @NonNull field sprite before initialization
+        Color spriteColor = sprite.getColor();
+                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/Queue.java:566: error: [NullAway] (INDEX= 415) (Covered) initializer method does not guarantee @NonNull fields iterator1 (line 559), iterator2 (line 559) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public QueueIterable(Queue<T> queue, boolean allowRemove) {
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/GdxBuild.java:33: error: [NullAway] (INDEX= 416) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+		new NativeCodeGenerator().generate("src", "bin", JNI_DIR, new String[] {"**/*"}, null);
+		                                                                                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/PooledLinkedList.java:34: error: [NullAway] (INDEX= 417) (Covered) @NonNull field PooledLinkedList$Item.next not initialized
+        public Item<T> next;
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/PooledLinkedList.java:36: error: [NullAway] (INDEX= 418) (Covered) @NonNull field PooledLinkedList$Item.prev not initialized
+        public Item<T> prev;
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/PooledLinkedList.java:71: error: [NullAway] (INDEX= 419) (Covered) assigning @Nullable expression to @NonNull field
+        item.next = null;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/PooledLinkedList.java:72: error: [NullAway] (INDEX= 420) (Covered) assigning @Nullable expression to @NonNull field
+        item.prev = null;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/PooledLinkedList.java:91: error: [NullAway] (INDEX= 421) (Covered) assigning @Nullable expression to @NonNull field
+        item.next = head;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/PooledLinkedList.java:92: error: [NullAway] (INDEX= 422) (Covered) assigning @Nullable expression to @NonNull field
+        item.prev = null;
+                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/PooledLinkedList.java:168: error: [NullAway] (INDEX= 423) (Covered) assigning @Nullable expression to @NonNull field
+            tail = null;
+                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/PooledLinkedList.java:172: error: [NullAway] (INDEX= 424) (Covered) assigning @Nullable expression to @NonNull field
+            n.prev = null;
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/PooledLinkedList.java:177: error: [NullAway] (INDEX= 425) (Covered) assigning @Nullable expression to @NonNull field
+            p.next = null;
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/PooledLinkedList.java:199: error: [NullAway] (INDEX= 426) (Covered) assigning @Nullable expression to @NonNull field
+            tail = null;
+                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/PooledLinkedList.java:202: error: [NullAway] (INDEX= 427) (Covered) assigning @Nullable expression to @NonNull field
+            tail.next = null;
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/PropertiesUtils.java:264: error: [NullAway] (INDEX= 428) dereferenced expression string is @Nullable
+        int len = string.length();
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/compression/rangecoder/Decoder.java:46: error: [NullAway] (INDEX= 429) (Covered) assigning @Nullable expression to @NonNull field
+        Stream = null;
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/compression/rangecoder/Encoder.java:52: error: [NullAway] (INDEX= 430) (Covered) assigning @Nullable expression to @NonNull field
+        Stream = null;
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/compression/lz/OutWindow.java:51: error: [NullAway] (INDEX= 431) dereferenced expression _stream is @Nullable
+        _stream.write(_buffer, _streamPos, size);
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/compression/lzma/Encoder.java:312: error: [NullAway] (INDEX= 432) (Covered) assigning @Nullable expression to @NonNull field
+    com.badlogic.gdx.utils.compression.lz.BinTree _matchFinder = null;
+                                                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/compression/lzma/Encoder.java:1176: error: [NullAway] (INDEX= 433) (Covered) assigning @Nullable expression to @NonNull field
+            _matchFinder = null;
+                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/compression/lz/BinTree.java:60: error: [NullAway] (INDEX= 434) (Covered) initializer method does not guarantee @NonNull fields _son (line 15), _hash (line 17) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public void Init() throws IOException {
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/compression/lz/BinTree.java:62: error: [NullAway] (INDEX= 435) read of @NonNull field _hash before initialization
+        for (int i = 0; i < _hashSizeSum; i++) _hash[i] = kEmptyHashValue;
+                                               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/compression/lz/InWindow.java:59: error: [NullAway] (INDEX= 436) dereferenced expression _stream is @Nullable
+            int numReadBytes = _stream.read(_bufferBase, _bufferOffset + _streamPos, size);
+                                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/compression/lz/InWindow.java:75: error: [NullAway] (INDEX= 437) (Covered) assigning @Nullable expression to @NonNull field
+        _bufferBase = null;
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/ObjectLongMap.java:101: error: [NullAway] (INDEX= 438) (Covered) initializer method does not guarantee @NonNull fields entries1 (line 75), entries2 (line 75), values1 (line 77), values2 (line 77), keys1 (line 79), keys2 (line 79) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public ObjectLongMap(int initialCapacity, float loadFactor) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/TimSort.java:167: error: [NullAway] (INDEX= 439) (Covered) assigning @Nullable expression to @NonNull field
+        this.a = null;
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/TimSort.java:481: error: [NullAway] (INDEX= 440) read of @NonNull field a before initialization
+        int k = gallopRight(a[base2], a, base1, len1, 0, c);
+                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/TimSort.java:524: error: [NullAway] (INDEX= 441) dereferenced expression c is @Nullable
+        if (c.compare(key, a[base + hint]) > 0) {
+             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/TimSort.java:597: error: [NullAway] (INDEX= 442) dereferenced expression c is @Nullable
+        if (c.compare(key, a[base + hint]) < 0) {
+             ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/TimSort.java:706: error: [NullAway] (INDEX= 443) dereferenced expression c is @Nullable
+                if (c.compare(a[cursor2], tmp[cursor1]) < 0) {
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/TimSort.java:830: error: [NullAway] (INDEX= 444) dereferenced expression c is @Nullable
+                if (c.compare(tmp[cursor2], a[cursor1]) < 0) {
+                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/ComparableTimSort.java:143: error: [NullAway] (INDEX= 445) (Covered) assigning @Nullable expression to @NonNull field
+        this.a = null;
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/ComparableTimSort.java:447: error: [NullAway] (INDEX= 446) read of @NonNull field a before initialization
+        int k = gallopRight((Comparable<Object>) a[base2], a, base1, len1, 0);
+                                                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/reflect/ClassReflection.java:44: error: [NullAway] (INDEX= 447) dereferenced expression c is @Nullable
+        return c.getSimpleName();
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/IntFloatMap.java:106: error: [NullAway] (INDEX= 448) (Covered) initializer method does not guarantee @NonNull fields entries1 (line 79), entries2 (line 79), values1 (line 81), values2 (line 81), keys1 (line 83), keys2 (line 83) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public IntFloatMap(int initialCapacity, float loadFactor) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonReader.java:571: error: [NullAway] (INDEX= 449) (Covered) returning @Nullable expression from method with @NonNull return type
+        return root;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/JsonReader.java:704: error: [NullAway] (INDEX= 450) dereferenced expression current is @Nullable
+        if (current.size > 0)
+                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/LongMap.java:107: error: [NullAway] (INDEX= 451) (Covered) initializer method does not guarantee @NonNull fields entries1 (line 81), entries2 (line 81), values1 (line 83), values2 (line 83), keys1 (line 85), keys2 (line 85) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public LongMap(int initialCapacity, float loadFactor) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/XmlReader.java:337: error: [NullAway] (INDEX= 452) (Covered) returning @Nullable expression from method with @NonNull return type
+        return root;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/XmlReader.java:417: error: [NullAway] (INDEX= 453) dereferenced expression current is @Nullable
+        current.setAttribute(name, value);
+               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/XmlReader.java:438: error: [NullAway] (INDEX= 454) dereferenced expression current is @Nullable
+        String existing = current.getText();
+                                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/XmlReader.java:558: error: [NullAway] (INDEX= 455) (Covered) initializer method does not guarantee @NonNull field parent (line 458) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public String toString(String indent) {
+                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/XmlReader.java:462: error: [NullAway] (INDEX= 456) (Covered) assigning @Nullable expression to @NonNull field
+            this.parent = parent;
+                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/XmlReader.java:487: error: [NullAway] (INDEX= 457) (Covered) returning @Nullable expression from method with @NonNull return type
+                return defaultValue;
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/XmlReader.java:490: error: [NullAway] (INDEX= 458) (Covered) returning @Nullable expression from method with @NonNull return type
+                return defaultValue;
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/XmlReader.java:503: error: [NullAway] (INDEX= 459) (Covered) passing @Nullable parameter 'name' where @NonNull is required
+            attributes.put(name, value);
+                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/ObjectFloatMap.java:101: error: [NullAway] (INDEX= 460) (Covered) initializer method does not guarantee @NonNull fields entries1 (line 75), entries2 (line 75), values1 (line 77), values2 (line 77), keys1 (line 79), keys2 (line 79) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public ObjectFloatMap(int initialCapacity, float loadFactor) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/ObjectFloatMap.java:571: error: [NullAway] (INDEX= 461) (Covered) @NonNull field ObjectFloatMap$Entry.key not initialized
+        public K key;
+                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/ReflectionPool.java:39: error: [NullAway] (INDEX= 462) (Covered) assigning @Nullable expression to @NonNull field
+		constructor = findConstructor(type);
+		            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/net/HttpRequestBuilder.java:184: error: [NullAway] (INDEX= 463) (Covered) assigning @Nullable expression to @NonNull field
+        httpRequest = null;
+                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/net/NetJavaImpl.java:164: error: [NullAway] (INDEX= 464) dereferenced expression method is @Nullable
+            final boolean doInput = !method.equalsIgnoreCase(HttpMethods.HEAD);
+                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/net/NetJavaSocketImpl.java:119: error: [NullAway] (INDEX= 465) (Covered) assigning @Nullable expression to @NonNull field
+                socket = null;
+                       ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/net/NetJavaServerSocketImpl.java:87: error: [NullAway] (INDEX= 466) dereferenced expression server is @Nullable
+            return new NetJavaSocketImpl(server.accept(), hints);
+                                               ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/MapProperties.java:66: error: [NullAway] (INDEX= 467) (Covered) returning @Nullable expression from method with @NonNull return type
+        return (T) get(key);
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TiledMapTileSets.java:56: error: [NullAway] (INDEX= 468) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TiledMapTileLayer.java:91: error: [NullAway] (INDEX= 469) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TiledMapTileLayer.java:93: error: [NullAway] (INDEX= 470) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/BaseTmxMapLoader.java:128: error: [NullAway] (INDEX= 471) read of @NonNull field root before initialization
+        String mapOrientation = root.getAttribute("orientation", null);
+                                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/BaseTmxMapLoader.java:361: error: [NullAway] (INDEX= 472) (Covered) passing @Nullable parameter 'tile' where @NonNull is required
+                    TiledMapTileMapObject tiledMapTileMapObject = new TiledMapTileMapObject(tile, flipHorizontally, flipVertically);
+                                                                                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/BaseTmxMapLoader.java:366: error: [NullAway] (INDEX= 473) dereferenced expression textureRegion is @Nullable
+                    float objectWidth = element.getFloatAttribute("width", textureRegion.getRegionWidth());
+                                                                                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/BaseTmxMapLoader.java:465: error: [NullAway] (INDEX= 474) dereferenced expression data is @Nullable
+        String encoding = data.getAttribute("encoding", null);
+                              ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/BaseTmxMapLoader.java:590: error: [NullAway] (INDEX= 475) (Covered) passing @Nullable parameter 'name' where @NonNull is required
+            addStaticTiles(tmxFile, imageResolver, tileSet, element, tileElements, name, firstgid, tilewidth, tileheight, spacing, margin, source, offsetX, offsetY, imageSource, imageWidth, imageHeight, image);
+                                                                                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/BaseTmxMapLoader.java:590: error: [NullAway] (INDEX= 476) (Covered) passing @Nullable parameter 'image' where @NonNull is required
+            addStaticTiles(tmxFile, imageResolver, tileSet, element, tileElements, name, firstgid, tilewidth, tileheight, spacing, margin, source, offsetX, offsetY, imageSource, imageWidth, imageHeight, image);
+                                                                                                                                                                                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TideMapLoader.java:117: error: [NullAway] (INDEX= 477) dereferenced expression tilesheets is @Nullable
+        for (Element tilesheet : tilesheets.getChildrenByName("TileSheet")) {
+                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TideMapLoader.java:121: error: [NullAway] (INDEX= 478) dereferenced expression layers is @Nullable
+        for (Element layer : layers.getChildrenByName("Layer")) {
+                                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TideMapLoader.java:136: error: [NullAway] (INDEX= 479) dereferenced expression tilesheets is @Nullable
+        for (Element tileset : tilesheets.getChildrenByName("TileSheet")) {
+                                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TideMapLoader.java:138: error: [NullAway] (INDEX= 480) dereferenced expression imageSource is @Nullable
+            FileHandle image = getRelativeFileHandle(tideFile, imageSource.getText());
+                                                                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TideMapLoader.java:147: error: [NullAway] (INDEX= 481) dereferenced expression element.getChildByName("Description") is @Nullable
+            String description = element.getChildByName("Description").getText();
+                                                                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TideMapLoader.java:148: error: [NullAway] (INDEX= 482) dereferenced expression element.getChildByName("ImageSource") is @Nullable
+            String imageSource = element.getChildByName("ImageSource").getText();
+                                                                      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TideMapLoader.java:150: error: [NullAway] (INDEX= 483) dereferenced expression alignment is @Nullable
+            String sheetSize = alignment.getAttribute("SheetSize");
+                                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TideMapLoader.java:199: error: [NullAway] (INDEX= 484) dereferenced expression dimensions is @Nullable
+            String layerSize = dimensions.getAttribute("LayerSize");
+                                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TideMapLoader.java:211: error: [NullAway] (INDEX= 485) dereferenced expression tileArray is @Nullable
+            Array<Element> rows = tileArray.getChildrenByName("Row");
+                                           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TideMapLoader.java:230: error: [NullAway] (INDEX= 486) dereferenced expression currentTileSet is @Nullable
+                        cell.setTile(currentTileSet.getTile(firstgid + currentChild.getIntAttribute("Index")));
+                                                   ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TideMapLoader.java:237: error: [NullAway] (INDEX= 487) dereferenced expression frames is @Nullable
+                        for (int frameChild = 0, frameChildCount = frames.getChildCount(); frameChild < frameChildCount; frameChild++) {
+                                                                         ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TideMapLoader.java:244: error: [NullAway] (INDEX= 488) dereferenced expression currentTileSet is @Nullable
+                                frameTiles.add((StaticTiledMapTile) currentTileSet.getTile(firstgid + frame.getIntAttribute("Index")));
+                                                                                  ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TmxMapLoader.java:119: error: [NullAway] (INDEX= 489) dereferenced expression tileset.getChildByName("image") is @Nullable
+					String imageSource = tileset.getChildByName("image").getAttribute("source");
+					                                                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TmxMapLoader.java:124: error: [NullAway] (INDEX= 490) dereferenced expression tile.getChildByName("image") is @Nullable
+						String imageSource = tile.getChildByName("image").getAttribute("source");
+						                                                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TmxMapLoader.java:132: error: [NullAway] (INDEX= 491) dereferenced expression tileset.getChildByName("image") is @Nullable
+					String imageSource = tileset.getChildByName("image").getAttribute("source");
+					                                                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TmxMapLoader.java:137: error: [NullAway] (INDEX= 492) dereferenced expression tile.getChildByName("image") is @Nullable
+						String imageSource = tile.getChildByName("image").getAttribute("source");
+						                                                 ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TmxMapLoader.java:148: error: [NullAway] (INDEX= 493) dereferenced expression image is @Nullable
+			String source = image.getAttribute("source", null);
+			                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/math/Polygon.java:81: error: [NullAway] (INDEX= 494) (Covered) returning @Nullable expression from method with @NonNull return type
+            return worldVertices;
+            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/input/RemoteSender.java:59: error: [NullAway] (INDEX= 495) (Covered) initializer method does not guarantee @NonNull field out (line 35) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public RemoteSender(String ip, int port) {
+           ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/input/RemoteSender.java:95: error: [NullAway] (INDEX= 496) (Covered) assigning @Nullable expression to @NonNull field
+            out = null;
+                ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/math/Intersector.java:1215: error: [NullAway] (INDEX= 497) (Covered) passing @Nullable parameter 'mtv' where @NonNull is required
+        return overlapConvexPolygons(verts1, 0, verts1.length, verts2, 0, verts2.length, mtv);
+                                                                                         ^
+	(see http://t.uber.com/nullaway )

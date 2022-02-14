@@ -1,4 +1,20 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/metrics/WorkflowMonitor.java:52: error: [NullAway] (INDEX= 0) (Covered) initializer method does not guarantee @NonNull fields taskDefs (line 48), workflowDefs (line 49) are initialized along all control-flow paths (remember to check for exceptions or early returns).
-    public WorkflowMonitor(MetadataDAO metadataDAO, QueueDAO queueDAO, ExecutionDAOFacade executionDAOFacade,
-           ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/DeciderService.java:552: error: [NullAway] (INDEX= 55) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+            task.setExternalInputPayloadStoragePath(null);
+                                                    ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:537: error: [NullAway] (INDEX= 17) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        workflow.setExternalOutputPayloadStoragePath(null);
+                                                     ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/service/ExecutionService.java:88: error: [NullAway] (INDEX= 95) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        return poll(taskType, workerId, null);
+                                        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:852: error: [NullAway] (INDEX= 25) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+                            null,
+                            ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/core/orchestration/ExecutionDAOFacade.java:422: error: [NullAway] (INDEX= 45) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
 	(see http://t.uber.com/nullaway )

@@ -25,6 +25,7 @@ def checkout_to_branch(COMMAND, project, name, saveState=False):
             COMMAND.format("git push --set-upstream origin {}".format(name)))
     else:
         os.system(COMMAND.format("git reset --hard"))
+        os.system(COMMAND.format("git pull"))
         os.system(COMMAND.format("git checkout {}".format(name)))
 
 
@@ -38,6 +39,7 @@ def read_lines(path):
 def write_lines(path, lines):
     f = open(path, "w")
     f.writelines(lines)
+    f.flush()
     f.close()
 
 
@@ -155,13 +157,14 @@ def read_errors(path):
     errors = []
     while (index < len(lines)):
         error = ""
-        if ("error: [NullAway]" not in lines[index]):
-            break
+        while (index < len(lines) and "error: [NullAway]" not in lines[index]):
+            index += 1
         while (index < len(lines)
                and "(see http://t.uber.com/nullaway )" not in lines[index]):
             error += lines[index]
             index += 1
-        errors.append(error + "\t(see http://t.uber.com/nullaway )\n")
+        if (error != ""):
+            errors.append(error + "\t(see http://t.uber.com/nullaway )\n")
         index += 1
     return errors
 
@@ -188,14 +191,12 @@ def select_sample_errors(COMMAND, project):
     checkout_to_branch(COMMAND, project, "base")
     errors_before, _ = get_error_fix(PROJECT_DIR.format(project['path']),
                                      COMMAND.format(project['build']))
-    print("Number of errors at branch: {} is {}".format(
-        "base", len(errors_before)))
-
     checkout_to_branch(COMMAND, project, "final")
     errors_after, _ = get_error_fix(PROJECT_DIR.format(project['path']),
                                     COMMAND.format(project['build']))
-    print("Number of errors at branch: {} is {}".format(
-        "final", len(errors_after)))
+    print(
+        "Number of errors at branch: {} is {}, and at branch: {} is {}".format(
+            "base", len(errors_before), "final", len(errors_after)))
 
     # write before/after errors
     write_lines('projects/{}/before.txt'.format(project['path']),

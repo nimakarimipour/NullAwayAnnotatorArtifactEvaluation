@@ -1,20 +1,20 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/PolystarContent.java:82: error: [NullAway] (INDEX= 144) read of @NonNull field innerRadiusAnimation before initialization
-      innerRadiusAnimation.addUpdateListener(this);
-      ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java:69: error: [NullAway] (INDEX= 111) (Covered) assigning @Nullable expression to @NonNull field
+      startOpacity = null;
+                   ^
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/PolystarContent.java:63: error: [NullAway] (INDEX= 141) (Covered) assigning @Nullable expression to @NonNull field
-      innerRoundednessAnimation = null;
-                                ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LottieCompositionMoshiParser.java:195: error: [NullAway] (INDEX= 182) (Covered) passing @Nullable parameter 'relativeFolder' where @NonNull is required
+            new LottieImageAsset(width, height, id, imageFileName, relativeFolder);
+                                                                   ^
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:326: error: [NullAway] (INDEX= 14) (Covered) assigning @Nullable expression to @NonNull field
-    composition = null;
-                ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:220: error: [NullAway] (INDEX= 231) (Covered) returning @Nullable expression from method with @NonNull return type
+    return valuesEqual ? mine : null;
+    ^
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:137: error: [NullAway] (INDEX= 72) (Covered) initializer method does not guarantee @NonNull fields failureListener (line 98), animationName (line 103), compositionTask (line 123), composition (line 125) are initialized along all control-flow paths (remember to check for exceptions or early returns).
-  public LottieAnimationView(Context context, AttributeSet attrs, int defStyleAttr) {
-         ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/TextLayer.java:476: error: [NullAway] (INDEX= 118) (Covered) assigning @Nullable expression to @NonNull field
+        strokeColorCallbackAnimation = null;
+                                     ^
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/CompositionLayer.java:47: error: [NullAway] (INDEX= 67) (Covered) assigning @Nullable expression to @NonNull field
-      this.timeRemapping = null;
-                         ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:424: error: [NullAway] (INDEX= 78) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+          LottieCompositionFactory.fromAsset(getContext(), assetName) : LottieCompositionFactory.fromAsset(getContext(), assetName, null);
+                                                                                                                                    ^
 	(see http://t.uber.com/nullaway )

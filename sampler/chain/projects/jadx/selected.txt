@@ -1,20 +1,20 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:170: error: [NullAway] (INDEX= 477) (Covered) returning @Nullable expression from method with @NonNull return type
-			return null;
-			^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:839: error: [NullAway] (INDEX= 514) (Covered) returning @Nullable expression from method with @NonNull return type
-		return out;
-		^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/PrepareForCodeGen.java:258: error: [NullAway] (INDEX= 395) (Covered) returning @Nullable expression from method with @NonNull return type
+/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:275: error: [NullAway] (INDEX= 260) (Covered) returning @Nullable expression from method with @NonNull return type
 		return null;
 		^
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:351: error: [NullAway] (INDEX= 344) (Covered) returning @Nullable expression from method with @NonNull return type
-			return null;
-			^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeUpdate.java:381: error: [NullAway] (INDEX= 101) (Covered) returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/SSAVar.java:144: error: [NullAway] (INDEX= 168) (Covered) assigning @Nullable expression to @NonNull field
-		this.usedInPhi = null;
-		               ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/ArgType.java:612: error: [NullAway] (INDEX= 64) (Covered) returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/BinaryXMLParser.java:80: error: [NullAway] (INDEX= 198) (Covered) assigning @Nullable expression to @NonNull field
+		nsMap = null;
+		      ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ClassInfo.java:137: error: [NullAway] (INDEX= 118) (Covered) assigning @Nullable expression to @NonNull field
+			pkg = null;
+			    ^
 	(see http://t.uber.com/nullaway )
