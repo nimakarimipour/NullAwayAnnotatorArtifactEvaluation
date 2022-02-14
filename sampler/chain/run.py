@@ -35,6 +35,12 @@ def read_lines(path):
     return lines
 
 
+def write_lines(path, lines):
+    f = open(path, "w")
+    f.writelines(lines)
+    f.close()
+
+
 def run_autofix(project):
     os.system("rm /tmp/NullAwayFix/injected.json")
     CONFIG = {
@@ -112,9 +118,7 @@ def convert_json_to_csv(name):
         l = l[:index] + to_add + l[index:]
         fixed.append(l)
 
-    f = open('./projects/{}/injected.csv'.format(name), "w")
-    f.writelines(fixed)
-    f.close()
+    write_lines('./projects/{}/injected.csv'.format(name), fixed)
 
 
 def clean_fix(fix):
@@ -138,9 +142,7 @@ def remove_reason_field(path):
                     8] + "$*$" + vals[9] + "$*$" + vals[10] + "$*$" + vals[11]
         lines.append(str(disp))
 
-    f = open(path, "w")
-    f.writelines(lines)
-    f.close()
+    write_lines(path, lines)
 
 
 def read_errors(path):
@@ -195,6 +197,11 @@ def select_sample_errors(COMMAND, project):
     print("Number of errors at branch: {} is {}".format(
         "final", len(errors_after)))
 
+    # write before/after errors
+    write_lines('projects/{}/before.txt'.format(project['path']),
+                errors_before)
+    write_lines('projects/{}/after.txt'.format(project['path']), errors_after)
+
     errors_after = [remove_index_from_error(e) for e in errors_after]
 
     # remove repeated errors
@@ -208,9 +215,7 @@ def select_sample_errors(COMMAND, project):
     selected = random.choices(errors_before, k=min([5, len(errors_before)]))
 
     # Write selected errors
-    file1 = open('projects/{}/selected.txt'.format(project['path']), 'w')
-    file1.writelines(selected)
-    file1.close()
+    write_lines('projects/{}/selected.txt'.format(project['path']), selected)
 
 
 def error_index(error):
@@ -226,9 +231,7 @@ def fix_index(fix):
 
 
 def apply_fixes(fixes):
-    ff = open(FIX_PATH, 'w')
-    ff.writelines([str(f) for f in fixes])
-    ff.close()
+    write_lines(FIX_PATH, [str(f) for f in fixes])
     os.system("java -jar injector.jar {}".format(FIX_PATH))
 
 
