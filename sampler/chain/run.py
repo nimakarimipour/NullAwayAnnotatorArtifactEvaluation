@@ -133,6 +133,12 @@ def remove_index_from_error(error):
     return error[:begin - 1] + error[end + 1:]
 
 
+def remove_line_number_from_error(error):
+    begin = error.index(".java:") + len(".java")
+    end = error.index(": error: [NullAway]")
+    return int(error[begin + 1:end]), (error[:begin - 1] + error[end + 1:])
+
+
 def remove_reason_field(path):
     fixes = read_lines(path)
     lines = []
@@ -187,6 +193,15 @@ def exclude_fixes(target, toRemove):
     return target
 
 
+def collection_contains_error(target, errors):
+    number, target = remove_line_number_from_error(target)
+    for error in errors:
+        n, e = remove_line_number_from_error(error)
+        if (e == target and abs(number - n) < 10):
+            return True
+    return False
+
+
 def select_sample_errors(COMMAND, project):
     checkout_to_branch(COMMAND, project, "base")
     errors_before, _ = get_error_fix(PROJECT_DIR.format(project['path']),
@@ -208,7 +223,7 @@ def select_sample_errors(COMMAND, project):
     # remove repeated errors
     repeated = []
     for x in errors_before:
-        if remove_index_from_error(x) in errors_after:
+        if collection_contains_error(x, errors_after):
             repeated.append(x)
     for r in repeated:
         errors_before = [e for e in errors_before if e != r]
