@@ -1,11 +1,55 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:317: error: [NullAway] (INDEX= 0) dereferenced expression postingState.subscription is @Nullable        } else if (postingState.subscription.subscriberMethod.threadMode != ThreadMode.POSTING) {                                            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:461: error: [NullAway] (INDEX= 1) dereferenced expression mainThreadPoster is @Nullable                    mainThreadPoster.enqueue(subscription, event);                                    ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:529: error: [NullAway] (INDEX= 2) dereferenced expression subscription is @Nullable        if (subscription.active) {                        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:538: error: [NullAway] (INDEX= 3) (Covered) passing @Nullable parameter 'event' where @NonNull is required            handleSubscriberException(subscription, event, e.getCause());                                                    ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:238: error: [NullAway] (INDEX= 4) (Covered) assigning @Nullable expression to @NonNull field            clazz = null;                  ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:281: error: [NullAway] (INDEX= 5) (Covered) assigning @Nullable expression to @NonNull field                clazz = null;                      ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:288: error: [NullAway] (INDEX= 6) (Covered) assigning @Nullable expression to @NonNull field                    clazz = null;                          ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:180: error: [NullAway] (INDEX= 7) (Covered) @NonNull static field factory not initialized    public static ErrorDialogFragmentFactory<?> factory;                                                ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:61: error: [NullAway] (INDEX= 8) (Covered) initializer method does not guarantee @NonNull fields argumentsForErrorDialog (line 52), executionScope (line 58) are initialized along all control-flow paths (remember to check for exceptions or early returns).        public void onCreate(Bundle savedInstanceState) {                    ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:132: error: [NullAway] (INDEX= 9) (Covered) initializer method does not guarantee @NonNull fields argumentsForErrorDialog (line 124), executionScope (line 128) are initialized along all control-flow paths (remember to check for exceptions or early returns).        public void onResume() {                    ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:215: error: [NullAway] (INDEX= 10) (Covered) passing @Nullable parameter 'argumentsForErrorDialog' where @NonNull is required        attachTo(activity, executionScope, finishAfterDialog, argumentsForErrorDialog);                                                              ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:317: error: [NullAway] (INDEX= 0) dereferenced expression postingState.subscription is @Nullable
+        } else if (postingState.subscription.subscriberMethod.threadMode != ThreadMode.POSTING) {
+                                            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:461: error: [NullAway] (INDEX= 1) dereferenced expression mainThreadPoster is @Nullable
+                    mainThreadPoster.enqueue(subscription, event);
+                                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:529: error: [NullAway] (INDEX= 2) dereferenced expression subscription is @Nullable
+        if (subscription.active) {
+                        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:538: error: [NullAway] (INDEX= 3) (Covered) passing @Nullable parameter 'event' where @NonNull is required
+            handleSubscriberException(subscription, event, e.getCause());
+                                                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:238: error: [NullAway] (INDEX= 4) (Covered) assigning @Nullable expression to @NonNull field
+            clazz = null;
+                  ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:281: error: [NullAway] (INDEX= 5) (Covered) assigning @Nullable expression to @NonNull field
+                clazz = null;
+                      ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:288: error: [NullAway] (INDEX= 6) (Covered) assigning @Nullable expression to @NonNull field
+                    clazz = null;
+                          ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:180: error: [NullAway] (INDEX= 7) (Covered) @NonNull static field factory not initialized
+    public static ErrorDialogFragmentFactory<?> factory;
+                                                ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:61: error: [NullAway] (INDEX= 8) (Covered) initializer method does not guarantee @NonNull fields argumentsForErrorDialog (line 52), executionScope (line 58) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public void onCreate(Bundle savedInstanceState) {
+                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:132: error: [NullAway] (INDEX= 9) (Covered) initializer method does not guarantee @NonNull fields argumentsForErrorDialog (line 124), executionScope (line 128) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public void onResume() {
+                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:215: error: [NullAway] (INDEX= 10) (Covered) passing @Nullable parameter 'argumentsForErrorDialog' where @NonNull is required
+        attachTo(activity, executionScope, finishAfterDialog, argumentsForErrorDialog);
+                                                              ^
+
+	(see http://t.uber.com/nullaway )

@@ -1,25 +1,25 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/GuiComponent.java:35: error: [NullAway] (INDEX= 303) (Covered) @NonNull static field ICON_FONT not initialized
-  protected static final Font ICON_FONT;
-                              ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/URLAdapter.java:57: error: [NullAway] (INDEX= 349) (Covered) returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:169: error: [NullAway] (INDEX= 125) (Covered) returning @Nullable expression from method with @NonNull return type
-          return null;
-          ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapUtilities.java:290: error: [NullAway] (INDEX= 238) (Covered) returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObject.java:101: error: [NullAway] (INDEX= 79) (Covered) assigning @Nullable expression to @NonNull field
-    this.polygon = (original.getPolygon() != null && !original.getPolygon().getPoints().isEmpty()) ? new PolyShape(original.getPolygon()) : null;
-                 ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/GuiProperties.java:16: error: [NullAway] (INDEX= 471) (Covered) @NonNull static field defaultFont not initialized
+  private static Font defaultFont;
+                      ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomProperty.java:187: error: [NullAway] (INDEX= 224) (Covered) returning @Nullable expression from method with @NonNull return type
-    return null;
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/ILayerList.java:73: error: [NullAway] (INDEX= 71) (Covered) returning @Nullable expression from method with @NonNull return type
+    return layer.orElse(null);
     ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/GameWindow.java:60: error: [NullAway] (INDEX= 298) (Covered) initializer method does not guarantee @NonNull fields resolution (line 57), screenLocation (line 58) are initialized along all control-flow paths (remember to check for exceptions or early returns).
-  GameWindow() {
-  ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundEngine.java:113: error: [NullAway] (INDEX= 250) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+    return playMusic(track, null, false, true);
+                            ^
 
 	(see http://t.uber.com/nullaway )

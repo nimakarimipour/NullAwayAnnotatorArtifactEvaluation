@@ -1,5 +1,25 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TideMapLoader.java:133: error: [NullAway] (INDEX= 1431) dereferenced expression imageSource is @Nullable			FileHandle image = getRelativeFileHandle(tideFile, imageSource.getText());			                                                              ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/influencers/DynamicsInfluencer.java:36: error: [NullAway] (INDEX= 613) (Covered) initializer method does not guarantee @NonNull fields accellerationChannel (line 33), positionChannel (line 33), previousPositionChannel (line 33), rotationChannel (line 33), angularVelocityChannel (line 33) are initialized along all control-flow paths (remember to check for exceptions or early returns).	public DynamicsInfluencer () {	       ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Group.java:269: error: [NullAway] (INDEX= 465) (Covered) passing @Nullable parameter 'getStage()' where @NonNull is required		actor.setStage(getStage());		                       ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/CubemapLoader.java:92: error: [NullAway] (INDEX= 525) (Covered) returning @Nullable expression from method with @NonNull return type		return null;		^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/XmlReader.java:458: error: [NullAway] (INDEX= 1346) (Covered) initializer method does not guarantee @NonNull fields attributes (line 453), children (line 454), text (line 455) are initialized along all control-flow paths (remember to check for exceptions or early returns).		public Element (String name, Element parent) {		       ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Tree.java:451: error: [NullAway] (INDEX= 1116) (Covered) assigning @Nullable expression to @NonNull field
+		this.overNode = overNode;
+		              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/input/RemoteInput.java:324: error: [NullAway] (INDEX= 1459) (Covered) passing @Nullable parameter 'keyEvent' where @NonNull is required
+					Gdx.app.postRunnable(new EventTrigger(touchEvent, keyEvent));
+					                                                  ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/NodeAnimation.java:35: error: [NullAway] (INDEX= 219) (Covered) assigning @Nullable expression to @NonNull field
+	public Array<NodeKeyframe<Vector3>> scaling = null;
+	                                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Slider.java:144: error: [NullAway] (INDEX= 1180) (Covered) returning @Nullable expression from method with @NonNull return type
+		return style.knobAfter;
+		^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/BaseTmxMapLoader.java:419: error: [NullAway] (INDEX= 1413) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+				String type = property.getAttribute("type", null);
+				                                            ^
+
+	(see http://t.uber.com/nullaway )

@@ -1,138 +1,690 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/BootstrapRegistry.java:123: error: [NullAway] (INDEX= 0) (Covered) returning @Nullable expression from method with @NonNull return type            return (registry) -> (supplier != null) ? supplier.get() : null;                   ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/system/ApplicationHome.java:100: error: [NullAway] (INDEX= 1) (Covered) returning @Nullable expression from method with @NonNull return type        return null;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/DeferredLog.java:47: error: [NullAway] (INDEX= 2) (Covered) assigning @Nullable expression to @NonNull field        this.destinationSupplier = null;                                 ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplication.java:276: error: [NullAway] (INDEX= 3) (Covered) initializer method does not guarantee @NonNull field mainApplicationClass (line 205) is initialized along all control-flow paths (remember to check for exceptions or early returns).    public SpringApplication(@Nullable ResourceLoader resourceLoader, Class<?>... primarySources) {           ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplication.java:284: error: [NullAway] (INDEX= 4) (Covered) assigning @Nullable expression to @NonNull field        this.mainApplicationClass = deduceMainApplicationClass();                                  ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplication.java:333: error: [NullAway] (INDEX= 5) (Covered) passing @Nullable parameter 'context' where @NonNull is required            handleRunFailure(context, ex, listeners);                             ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/origin/Origin.java:71: error: [NullAway] (INDEX= 6) (Covered) returning @Nullable expression from method with @NonNull return type        return origin;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/origin/OriginTrackedValue.java:74: error: [NullAway] (INDEX= 7) (Covered) passing @Nullable parameter 'null' where @NonNull is required        return of(value, null);                         ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/origin/OriginTrackedValue.java:88: error: [NullAway] (INDEX= 8) (Covered) returning @Nullable expression from method with @NonNull return type            return null;            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/AbstractLoggingSystem.java:109: error: [NullAway] (INDEX= 9) (Covered) returning @Nullable expression from method with @NonNull return type        return null;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/AbstractLoggingSystem.java:197: error: [NullAway] (INDEX= 10) (Covered) returning @Nullable expression from method with @NonNull return type            return this.nativeToSystem.get(level);            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/LoggingSystem.java:162: error: [NullAway] (INDEX= 11) (Covered) returning @Nullable expression from method with @NonNull return type        return loggingSystem;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/logback/SpringProfileAction.java:105: error: [NullAway] (INDEX= 12) read of @NonNull field events before initialization        this.events.remove(0);            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/logback/LogbackLoggingSystem.java:150: error: [NullAway] (INDEX= 13) (Covered) passing @Nullable parameter 'logFile' where @NonNull is required        super.loadConfiguration(initializationContext, location, logFile);                                                                 ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/util/Instantiator.java:65: error: [NullAway] (INDEX= 14) (Covered) parameter instance is @NonNull, but parameter in superclass method org.springframework.boot.util.Instantiator.AvailableParameters.add(java.lang.Class<?>,java.lang.Object) is @Nullable            public void add(Class<?> type, Object instance) {                                                  ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/util/LambdaSafe.java:355: error: [NullAway] (INDEX= 15) (Covered) assigning @Nullable expression to @NonNull field            this.value = value;                       ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/liquibase/LiquibaseChangelogMissingFailureAnalyzer.java:47: error: [NullAway] (INDEX= 16) dereferenced expression cause.getMessage() is @Nullable        return cause.getMessage().substring("Error parsing ".length());                                 ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/AbstractFailureAnalyzer.java:69: error: [NullAway] (INDEX= 17) (Covered) returning @Nullable expression from method with @NonNull return type        return null;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/ResourceBanner.java:101: error: [NullAway] (INDEX= 18) (Covered) returning @Nullable expression from method with @NonNull return type        return (sourcePackage != null) ? sourcePackage.getImplementationVersion() : null;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/ResourceBanner.java:105: error: [NullAway] (INDEX= 19) (Covered) returning @Nullable expression from method with @NonNull return type        return SpringBootVersion.getVersion();        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java:79: error: [NullAway] (INDEX= 20) (Covered) assigning @Nullable expression to @NonNull field        this.interceptors = null;                          ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java:80: error: [NullAway] (INDEX= 21) (Covered) assigning @Nullable expression to @NonNull field        this.internalCustomizers = null;                                 ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java:83: error: [NullAway] (INDEX= 22) (Covered) assigning @Nullable expression to @NonNull field        this.marshaller = null;                        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java:84: error: [NullAway] (INDEX= 23) (Covered) assigning @Nullable expression to @NonNull field        this.unmarshaller = null;                          ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java:85: error: [NullAway] (INDEX= 24) (Covered) assigning @Nullable expression to @NonNull field        this.destinationProvider = null;                                 ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java:86: error: [NullAway] (INDEX= 25) (Covered) assigning @Nullable expression to @NonNull field        this.transformerFactoryClass = null;                                     ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java:87: error: [NullAway] (INDEX= 26) (Covered) assigning @Nullable expression to @NonNull field        this.messageFactory = null;                            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBean.java:220: error: [NullAway] (INDEX= 27) (Covered) returning @Nullable expression from method with @NonNull return type            return findFactoryMethodUsingReflection(beanFactory, beanDefinition);            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBean.java:222: error: [NullAway] (INDEX= 28) (Covered) returning @Nullable expression from method with @NonNull return type        return null;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBean.java:246: error: [NullAway] (INDEX= 29) (Covered) passing @Nullable parameter 'null' where @NonNull is required        ConfigurationPropertiesBean propertiesBean = create(beanName, null, beanClass, null);                                                                      ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBean.java:254: error: [NullAway] (INDEX= 30) (Covered) returning @Nullable expression from method with @NonNull return type            return null;            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBindingPostProcessor.java:67: error: [NullAway] (INDEX= 31) read of @NonNull field applicationContext before initialization        this.registry = (BeanDefinitionRegistry) this.applicationContext.getAutowireCapableBeanFactory();                                                     ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBinder.java:83: error: [NullAway] (INDEX= 32) (Covered) assigning @Nullable expression to @NonNull field        this.propertySources = new PropertySourcesDeducer(applicationContext).getPropertySources();                             ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/Binder.java:308: error: [NullAway] (INDEX= 33) (Covered) passing @Nullable parameter 'null' where @NonNull is required                return handleBindResult(name, target, handler, context, null, create);                                                                        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/Binder.java:312: error: [NullAway] (INDEX= 34) (Covered) passing @Nullable parameter 'bound' where @NonNull is required            return handleBindResult(name, target, handler, context, bound, create);                                                                    ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/Binder.java:398: error: [NullAway] (INDEX= 35) (Covered) passing @Nullable parameter 'source' where @NonNull is required            boolean allowRecursiveBinding = aggregateBinder.isAllowRecursiveBinding(source);                                                                                    ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/Binder.java:517: error: [NullAway] (INDEX= 36) (Covered) passing @Nullable parameter 'Binder.this.propertyEditorInitializer' where @NonNull is required            this.converter = BindConverter.get(Binder.this.conversionService, Binder.this.propertyEditorInitializer);                                                                                         ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/Binder.java:612: error: [NullAway] (INDEX= 37) (Covered) returning @Nullable expression from method with @NonNull return type            return this.configurationProperty;            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/BindResult.java:101: error: [NullAway] (INDEX= 38) (Covered) returning @Nullable expression from method with @NonNull return type        return (this.value != null) ? this.value : other;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/handler/IgnoreTopLevelConverterNotFoundBindHandler.java:52: error: [NullAway] (INDEX= 39) (Covered) method returns @Nullable, but superclass method org.springframework.boot.context.properties.bind.AbstractBindHandler.onFailure(org.springframework.boot.context.properties.source.ConfigurationPropertyName,org.springframework.boot.context.properties.bind.Bindable<?>,org.springframework.boot.context.properties.bind.BindContext,java.lang.Exception) returns @NonNull    public Object onFailure(ConfigurationPropertyName name, Bindable<?> target, BindContext context, Exception error) throws Exception {                  ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertySource.java:82: error: [NullAway] (INDEX= 40) (Covered) returning @Nullable expression from method with @NonNull return type        return null;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertySource.java:94: error: [NullAway] (INDEX= 41) (Covered) returning @Nullable expression from method with @NonNull return type            return null;            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:295: error: [NullAway] (INDEX= 42) dereferenced expression type2 is @Nullable        int result = Boolean.compare(type2.isIndexed(), type1.isIndexed());                                          ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:295: error: [NullAway] (INDEX= 43) dereferenced expression type1 is @Nullable        int result = Boolean.compare(type2.isIndexed(), type1.isIndexed());                                                             ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:535: error: [NullAway] (INDEX= 44) (Covered) returning @Nullable expression from method with @NonNull return type        return (elements != null) ? new ConfigurationPropertyName(elements) : null;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:706: error: [NullAway] (INDEX= 45) dereferenced expression additional is @Nullable            int size = this.size + additional.size;                                             ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:827: error: [NullAway] (INDEX= 46) (Covered) initializer method does not guarantee @NonNull field resolved (line 821) is initialized along all control-flow paths (remember to check for exceptions or early returns).        ElementsParser(CharSequence source, char separator, int capacity) {        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:905: error: [NullAway] (INDEX= 47) (Covered) assigning @Nullable expression to @NonNull field                this.resolved = expand(this.resolved);                              ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationProperty.java:106: error: [NullAway] (INDEX= 48) (Covered) returning @Nullable expression from method with @NonNull return type            return null;            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/BindConverter.java:92: error: [NullAway] (INDEX= 49) (Covered) returning @Nullable expression from method with @NonNull return type            return null;            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/PropertyMapper.java:151: error: [NullAway] (INDEX= 50) (Covered) initializer method does not guarantee @NonNull field result (line 149) is initialized along all control-flow paths (remember to check for exceptions or early returns).        CachingSupplier(Supplier<T> supplier) {        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/AliasedConfigurationPropertySource.java:47: error: [NullAway] (INDEX= 51) (Covered) passing @Nullable parameter 'aliasedName' where @NonNull is required            result = getSource().getConfigurationProperty(aliasedName);                                                          ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/SpringIterableConfigurationPropertySource.java:204: error: [NullAway] (INDEX= 52) (Covered) initializer method does not guarantee @NonNull field reverseMappings (line 194) is initialized along all control-flow paths (remember to check for exceptions or early returns).        Mappings(PropertyMapper[] mappers, boolean immutable, boolean trackDescendants) {        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/handler/IgnoreErrorsBindHandler.java:43: error: [NullAway] (INDEX= 53) (Covered) method returns @Nullable, but superclass method org.springframework.boot.context.properties.bind.AbstractBindHandler.onFailure(org.springframework.boot.context.properties.source.ConfigurationPropertyName,org.springframework.boot.context.properties.bind.Bindable<?>,org.springframework.boot.context.properties.bind.BindContext,java.lang.Exception) returns @NonNull    public Object onFailure(ConfigurationPropertyName name, Bindable<?> target, BindContext context, Exception error) throws Exception {                  ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/MapBinder.java:54: error: [NullAway] (INDEX= 54) (Covered) method returns @Nullable, but superclass method org.springframework.boot.context.properties.bind.AggregateBinder.bindAggregate(org.springframework.boot.context.properties.source.ConfigurationPropertyName,org.springframework.boot.context.properties.bind.Bindable<?>,org.springframework.boot.context.properties.bind.AggregateElementBinder) returns @NonNull    protected Object bindAggregate(ConfigurationPropertyName name, Bindable<?> target, AggregateElementBinder elementBinder) {                     ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/ArrayBinder.java:41: error: [NullAway] (INDEX= 55) (Covered) method returns @Nullable, but superclass method org.springframework.boot.context.properties.bind.AggregateBinder.bindAggregate(org.springframework.boot.context.properties.source.ConfigurationPropertyName,org.springframework.boot.context.properties.bind.Bindable<?>,org.springframework.boot.context.properties.bind.AggregateElementBinder) returns @NonNull    protected Object bindAggregate(ConfigurationPropertyName name, Bindable<?> target, AggregateElementBinder elementBinder) {                     ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/CollectionBinder.java:41: error: [NullAway] (INDEX= 56) (Covered) method returns @Nullable, but superclass method org.springframework.boot.context.properties.bind.AggregateBinder.bindAggregate(org.springframework.boot.context.properties.source.ConfigurationPropertyName,org.springframework.boot.context.properties.bind.Bindable<?>,org.springframework.boot.context.properties.bind.AggregateElementBinder) returns @NonNull    protected Object bindAggregate(ConfigurationPropertyName name, Bindable<?> target, AggregateElementBinder elementBinder) {                     ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/NotConstructorBoundInjectionFailureAnalyzer.java:46: error: [NullAway] (INDEX= 57) (Covered) method returns @Nullable, but superclass method org.springframework.boot.diagnostics.analyzer.AbstractInjectionFailureAnalyzer.analyze(java.lang.Throwable,T,java.lang.String) returns @NonNull    protected FailureAnalysis analyze(Throwable rootFailure, NoSuchBeanDefinitionException cause, String description) {                              ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/NotConstructorBoundInjectionFailureAnalyzer.java:69: error: [NullAway] (INDEX= 58) (Covered) returning @Nullable expression from method with @NonNull return type            return null;            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/AbstractInjectionFailureAnalyzer.java:40: error: [NullAway] (INDEX= 59) (Covered) passing @Nullable parameter 'getDescription(rootFailure)' where @NonNull is required        return analyze(rootFailure, cause, getDescription(rootFailure));                                                         ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBindConstructorProvider.java:75: error: [NullAway] (INDEX= 60) (Covered) returning @Nullable expression from method with @NonNull return type        return constructor;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataResourceNotFoundException.java:53: error: [NullAway] (INDEX= 61) (Covered) passing @Nullable parameter 'null' where @NonNull is required        this(resource, null, cause);                       ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataEnvironmentPostProcessor.java:154: error: [NullAway] (INDEX= 62) (Covered) passing @Nullable parameter 'resourceLoader' where @NonNull is required            super.addPropertySources(environment, resourceLoader);                                                  ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataEnvironmentContributor.java:115: error: [NullAway] (INDEX= 63) (Covered) returning @Nullable expression from method with @NonNull return type        return this.resource;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataEnvironmentContributor.java:123: error: [NullAway] (INDEX= 64) (Covered) returning @Nullable expression from method with @NonNull return type        return this.propertySource;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataEnvironment.java:230: error: [NullAway] (INDEX= 65) (Covered) passing @Nullable parameter 'null' where @NonNull is required		return contributors.withProcessedImports(importer, null);		                                                   ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigFileApplicationListener.java:201: error: [NullAway] (INDEX= 66) (Covered) passing @Nullable parameter 'application.getResourceLoader()' where @NonNull is required        addPropertySources(environment, application.getResourceLoader());                                                                     ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigFileApplicationListener.java:349: error: [NullAway] (INDEX= 67) (Covered) passing @Nullable parameter 'null' where @NonNull is required            this.profiles.add(null);                              ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigFileApplicationListener.java:423: error: [NullAway] (INDEX= 68) dereferenced expression ConfigDataLocation.of(location) is @Nullable                String nonOptionalLocation = ConfigDataLocation.of(location).getValue();                                                                            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigFileApplicationListener.java:426: error: [NullAway] (INDEX= 69) (Covered) passing @Nullable parameter 'profile' where @NonNull is required                names.forEach((name) -> load(nonOptionalLocation, name, profile, filterFactory, consumer));                                                                        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataLoaders.java:117: error: [NullAway] (INDEX= 70) (Covered) returning @Nullable expression from method with @NonNull return type        return result;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataActivationContext.java:44: error: [NullAway] (INDEX= 71) (Covered) assigning @Nullable expression to @NonNull field        this.cloudPlatform = deduceCloudPlatform(environment, binder);                           ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataActivationContext.java:91: error: [NullAway] (INDEX= 72) (Covered) returning @Nullable expression from method with @NonNull return type        return this.profiles;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataProperties.java:98: error: [NullAway] (INDEX= 73) dereferenced expression this.activate is @Nullable        return new ConfigDataProperties(this.imports, new Activate(this.activate.onCloudPlatform, legacyProfiles));                                                                                ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/StandardConfigDataLocationResolver.java:59: error: [NullAway] (INDEX= 74) (Covered) assigning @Nullable expression to @NonNull field    private static final String NO_PROFILE = null;                                ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/logging/LoggingApplicationListener.java:277: error: [NullAway] (INDEX= 75) (Covered) passing @Nullable parameter 'this.logFile' where @NonNull is required        initializeSystem(environment, this.loggingSystem, this.logFile);                                                              ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/logging/LoggingApplicationListener.java:384: error: [NullAway] (INDEX= 76) (Covered) passing @Nullable parameter 'name' where @NonNull is required                system.setLogLevel(name, level);                                   ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/DurationToStringConverter.java:64: error: [NullAway] (INDEX= 77) (Covered) passing @Nullable parameter 'unit' where @NonNull is required        return style.print(source, unit);                                   ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/DurationStyle.java:99: error: [NullAway] (INDEX= 78) (Covered) passing @Nullable parameter 'null' where @NonNull is required        return parse(value, null);                            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/DurationStyle.java:117: error: [NullAway] (INDEX= 79) (Covered) passing @Nullable parameter 'null' where @NonNull is required        return print(value, null);                            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/DurationStyle.java:149: error: [NullAway] (INDEX= 80) (Covered) passing @Nullable parameter 'unit' where @NonNull is required        return detect(value).parse(value, unit);                                          ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/StringToPeriodConverter.java:67: error: [NullAway] (INDEX= 81) (Covered) passing @Nullable parameter 'unit' where @NonNull is required        return style.parse(source, unit);                                   ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodStyle.java:141: error: [NullAway] (INDEX= 82) (Covered) passing @Nullable parameter 'null' where @NonNull is required        return parse(value, null);                            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodStyle.java:159: error: [NullAway] (INDEX= 83) (Covered) passing @Nullable parameter 'null' where @NonNull is required        return print(value, null);                            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodStyle.java:191: error: [NullAway] (INDEX= 84) (Covered) passing @Nullable parameter 'unit' where @NonNull is required        return detect(value).parse(value, unit);                                          ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodStyle.java:259: error: [NullAway] (INDEX= 85) dereferenced expression this.intValue is @Nullable            return this.intValue.apply(value);                                ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/StringToDurationConverter.java:66: error: [NullAway] (INDEX= 86) (Covered) passing @Nullable parameter 'unit' where @NonNull is required        return style.parse(source, unit);                                   ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodToStringConverter.java:60: error: [NullAway] (INDEX= 87) (Covered) passing @Nullable parameter 'unit' where @NonNull is required        return style.print(source, unit);                                   ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/info/InfoProperties.java:71: error: [NullAway] (INDEX= 88) (Covered) returning @Nullable expression from method with @NonNull return type        return null;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/WebFilterHandler.java:57: error: [NullAway] (INDEX= 89) dereferenced expression dispatcherTypes is @Nullable        if (dispatcherTypes.length == 0) {                           ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/ServletComponentHandler.java:54: error: [NullAway] (INDEX= 90) dereferenced expression urlPatterns is @Nullable        if (urlPatterns.length > 0) {                       ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/ServletComponentHandler.java:55: error: [NullAway] (INDEX= 91) dereferenced expression value is @Nullable            Assert.state(value.length == 0, "The urlPatterns and value attributes are mutually exclusive.");                              ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/ServletComponentHandler.java:63: error: [NullAway] (INDEX= 92) enhanced-for expression (AnnotationAttributes[]) attributes.get("initParams") is @Nullable        for (AnnotationAttributes initParam : (AnnotationAttributes[]) attributes.get("initParams")) {                                              ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/ServletRegistrationBean.java:158: error: [NullAway] (INDEX= 93) (Covered) initializer method does not guarantee @NonNull field servlet (line 54) is initialized along all control-flow paths (remember to check for exceptions or early returns).    public void setMultipartConfig(@Nullable MultipartConfigElement multipartConfig) {                ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/ServletComponentRegisteringPostProcessor.java:89: error: [NullAway] (INDEX= 94) read of @NonNull field applicationContext before initialization        componentProvider.setEnvironment(this.applicationContext.getEnvironment());                                             ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/server/Ssl.java:147: error: [NullAway] (INDEX= 95) (Covered) returning @Nullable expression from method with @NonNull return type        return this.keyStore;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/server/Ssl.java:198: error: [NullAway] (INDEX= 96) (Covered) returning @Nullable expression from method with @NonNull return type        return this.trustStore;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/server/AbstractConfigurableWebServerFactory.java:126: error: [NullAway] (INDEX= 97) (Covered) returning @Nullable expression from method with @NonNull return type        return this.ssl;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/support/ErrorPageFilter.java:88: error: [NullAway] (INDEX= 98) (Covered) @NonNull field global not initialized    private String global;                   ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/FilterRegistrationBean.java:69: error: [NullAway] (INDEX= 99) (Covered) returning @Nullable expression from method with @NonNull return type        return this.filter;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/server/PortInUseException.java:84: error: [NullAway] (INDEX= 100) dereferenced expression bindException.getMessage() is @Nullable            if (bindException.getMessage().toLowerCase().contains("in use")) {                                          ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/netty/GracefulShutdown.java:78: error: [NullAway] (INDEX= 101) dereferenced expression this.shutdownThread is @Nullable            this.shutdownThread.interrupt();                               ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/undertow/UndertowWebServer.java:182: error: [NullAway] (INDEX= 102) (Covered) passing @Nullable parameter 'handler' where @NonNull is required            handler = factory.getHandler(handler);                                         ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/undertow/UndertowWebServer.java:398: error: [NullAway] (INDEX= 103) dereferenced expression CloseableHttpHandlerFactory.this.closeable is @Nullable                    CloseableHttpHandlerFactory.this.closeable.close();                                                              ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:107: error: [NullAway] (INDEX= 104) (Covered) assigning @Nullable expression to @NonNull field        this.rootUri = null;                     ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:108: error: [NullAway] (INDEX= 105) (Covered) assigning @Nullable expression to @NonNull field        this.messageConverters = null;                               ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:110: error: [NullAway] (INDEX= 106) (Covered) assigning @Nullable expression to @NonNull field        this.requestFactory = null;                            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:111: error: [NullAway] (INDEX= 107) (Covered) assigning @Nullable expression to @NonNull field        this.uriTemplateHandler = null;                                ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:112: error: [NullAway] (INDEX= 108) (Covered) assigning @Nullable expression to @NonNull field        this.errorHandler = null;                          ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:113: error: [NullAway] (INDEX= 109) (Covered) assigning @Nullable expression to @NonNull field        this.basicAuthentication = null;                                 ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:698: error: [NullAway] (INDEX= 110) dereferenced expression this.connectTimeout is @Nullable            int timeout = Math.toIntExact(this.connectTimeout.toMillis());                                                             ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:704: error: [NullAway] (INDEX= 111) dereferenced expression this.readTimeout is @Nullable            int timeout = Math.toIntExact(this.readTimeout.toMillis());                                                          ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/jdbc/DataSourceBuilder.java:176: error: [NullAway] (INDEX= 112) (Covered) method returns @Nullable, but superclass method org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings.getType() returns @NonNull        public Class<? extends DataSource> getType() {                                           ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/jdbc/DataSourceBuilder.java:225: error: [NullAway] (INDEX= 113) (Covered) returning @Nullable expression from method with @NonNull return type            return null;            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/rsocket/netty/NettyRSocketServer.java:60: error: [NullAway] (INDEX= 114) (Covered) returning @Nullable expression from method with @NonNull return type        return null;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/rsocket/context/RSocketServerBootstrap.java:53: error: [NullAway] (INDEX= 115) read of @NonNull field eventPublisher before initialization        this.eventPublisher.publishEvent(new RSocketServerInitializedEvent(this.server));            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:68: error: [NullAway] (INDEX= 116) (Covered) assigning @Nullable expression to @NonNull field        this.queueCapacity = null;                           ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:69: error: [NullAway] (INDEX= 117) (Covered) assigning @Nullable expression to @NonNull field        this.corePoolSize = null;                          ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:70: error: [NullAway] (INDEX= 118) (Covered) assigning @Nullable expression to @NonNull field        this.maxPoolSize = null;                         ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:71: error: [NullAway] (INDEX= 119) (Covered) assigning @Nullable expression to @NonNull field        this.allowCoreThreadTimeOut = null;                                    ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:72: error: [NullAway] (INDEX= 120) (Covered) assigning @Nullable expression to @NonNull field        this.keepAlive = null;                       ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:73: error: [NullAway] (INDEX= 121) (Covered) assigning @Nullable expression to @NonNull field        this.awaitTermination = null;                              ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:74: error: [NullAway] (INDEX= 122) (Covered) assigning @Nullable expression to @NonNull field        this.awaitTerminationPeriod = null;                                    ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:75: error: [NullAway] (INDEX= 123) (Covered) assigning @Nullable expression to @NonNull field        this.threadNamePrefix = null;                              ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:76: error: [NullAway] (INDEX= 124) (Covered) assigning @Nullable expression to @NonNull field        this.taskDecorator = null;                           ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:77: error: [NullAway] (INDEX= 125) (Covered) assigning @Nullable expression to @NonNull field        this.customizers = null;                         ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskSchedulerBuilder.java:54: error: [NullAway] (INDEX= 126) (Covered) assigning @Nullable expression to @NonNull field        this.poolSize = null;                      ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskSchedulerBuilder.java:55: error: [NullAway] (INDEX= 127) (Covered) assigning @Nullable expression to @NonNull field        this.awaitTermination = null;                              ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskSchedulerBuilder.java:56: error: [NullAway] (INDEX= 128) (Covered) assigning @Nullable expression to @NonNull field        this.awaitTerminationPeriod = null;                                    ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskSchedulerBuilder.java:57: error: [NullAway] (INDEX= 129) (Covered) assigning @Nullable expression to @NonNull field        this.threadNamePrefix = null;                              ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskSchedulerBuilder.java:58: error: [NullAway] (INDEX= 130) (Covered) assigning @Nullable expression to @NonNull field        this.customizers = null;                         ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/ansi/AnsiColors.java:127: error: [NullAway] (INDEX= 131) dereferenced expression color is @Nullable            float[] lab = fromXyz(color.getColorComponents(XYZ_COLOR_SPACE, null));                                       ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/NoSuchMethodFailureAnalyzer.java:72: error: [NullAway] (INDEX= 132) dereferenced expression message is @Nullable        int loadedFromIndex = message.indexOf(" (loaded from");                                     ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/NoUniqueBeanDefinitionFailureAnalyzer.java:50: error: [NullAway] (INDEX= 133) (Covered) method returns @Nullable, but superclass method org.springframework.boot.diagnostics.analyzer.AbstractInjectionFailureAnalyzer.analyze(java.lang.Throwable,T,java.lang.String) returns @NonNull    protected FailureAnalysis analyze(Throwable rootFailure, NoUniqueBeanDefinitionException cause, String description) {                              ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/NoUniqueBeanDefinitionFailureAnalyzer.java:84: error: [NullAway] (INDEX= 134) dereferenced expression cause.getMessage() is @Nullable        if (cause.getMessage().contains("but found")) {                              ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/ValidationExceptionFailureAnalyzer.java:39: error: [NullAway] (INDEX= 135) dereferenced expression cause.getMessage() is @Nullable        if (cause.getMessage().startsWith(JAVAX_MISSING_IMPLEMENTATION_MESSAGE) || cause.getMessage().startsWith(JAKARTA_MISSING_IMPLEMENTATION_MESSAGE)) {                              ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/FailureAnalyzers.java:66: error: [NullAway] (INDEX= 136) (Covered) returning @Nullable expression from method with @NonNull return type        return (context != null) ? context.getClassLoader() : null;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/orm/jpa/hibernate/SpringPhysicalNamingStrategy.java:61: error: [NullAway] (INDEX= 137) (Covered) returning @Nullable expression from method with @NonNull return type            return null;            ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/BootstrapRegistry.java:123: error: [NullAway] (INDEX= 0) (Covered) returning @Nullable expression from method with @NonNull return type
+            return (registry) -> (supplier != null) ? supplier.get() : null;
+                   ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/system/ApplicationHome.java:100: error: [NullAway] (INDEX= 1) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/DeferredLog.java:47: error: [NullAway] (INDEX= 2) (Covered) assigning @Nullable expression to @NonNull field
+        this.destinationSupplier = null;
+                                 ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplication.java:276: error: [NullAway] (INDEX= 3) (Covered) initializer method does not guarantee @NonNull field mainApplicationClass (line 205) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public SpringApplication(@Nullable ResourceLoader resourceLoader, Class<?>... primarySources) {
+           ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplication.java:284: error: [NullAway] (INDEX= 4) (Covered) assigning @Nullable expression to @NonNull field
+        this.mainApplicationClass = deduceMainApplicationClass();
+                                  ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplication.java:333: error: [NullAway] (INDEX= 5) (Covered) passing @Nullable parameter 'context' where @NonNull is required
+            handleRunFailure(context, ex, listeners);
+                             ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/origin/Origin.java:71: error: [NullAway] (INDEX= 6) (Covered) returning @Nullable expression from method with @NonNull return type
+        return origin;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/origin/OriginTrackedValue.java:74: error: [NullAway] (INDEX= 7) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        return of(value, null);
+                         ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/origin/OriginTrackedValue.java:88: error: [NullAway] (INDEX= 8) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/AbstractLoggingSystem.java:109: error: [NullAway] (INDEX= 9) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/AbstractLoggingSystem.java:197: error: [NullAway] (INDEX= 10) (Covered) returning @Nullable expression from method with @NonNull return type
+            return this.nativeToSystem.get(level);
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/LoggingSystem.java:162: error: [NullAway] (INDEX= 11) (Covered) returning @Nullable expression from method with @NonNull return type
+        return loggingSystem;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/logback/SpringProfileAction.java:105: error: [NullAway] (INDEX= 12) read of @NonNull field events before initialization
+        this.events.remove(0);
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/logback/LogbackLoggingSystem.java:150: error: [NullAway] (INDEX= 13) (Covered) passing @Nullable parameter 'logFile' where @NonNull is required
+        super.loadConfiguration(initializationContext, location, logFile);
+                                                                 ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/util/Instantiator.java:65: error: [NullAway] (INDEX= 14) (Covered) parameter instance is @NonNull, but parameter in superclass method org.springframework.boot.util.Instantiator.AvailableParameters.add(java.lang.Class<?>,java.lang.Object) is @Nullable
+            public void add(Class<?> type, Object instance) {
+                                                  ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/util/LambdaSafe.java:355: error: [NullAway] (INDEX= 15) (Covered) assigning @Nullable expression to @NonNull field
+            this.value = value;
+                       ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/liquibase/LiquibaseChangelogMissingFailureAnalyzer.java:47: error: [NullAway] (INDEX= 16) dereferenced expression cause.getMessage() is @Nullable
+        return cause.getMessage().substring("Error parsing ".length());
+                                 ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/AbstractFailureAnalyzer.java:69: error: [NullAway] (INDEX= 17) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/ResourceBanner.java:101: error: [NullAway] (INDEX= 18) (Covered) returning @Nullable expression from method with @NonNull return type
+        return (sourcePackage != null) ? sourcePackage.getImplementationVersion() : null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/ResourceBanner.java:105: error: [NullAway] (INDEX= 19) (Covered) returning @Nullable expression from method with @NonNull return type
+        return SpringBootVersion.getVersion();
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java:79: error: [NullAway] (INDEX= 20) (Covered) assigning @Nullable expression to @NonNull field
+        this.interceptors = null;
+                          ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java:80: error: [NullAway] (INDEX= 21) (Covered) assigning @Nullable expression to @NonNull field
+        this.internalCustomizers = null;
+                                 ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java:83: error: [NullAway] (INDEX= 22) (Covered) assigning @Nullable expression to @NonNull field
+        this.marshaller = null;
+                        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java:84: error: [NullAway] (INDEX= 23) (Covered) assigning @Nullable expression to @NonNull field
+        this.unmarshaller = null;
+                          ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java:85: error: [NullAway] (INDEX= 24) (Covered) assigning @Nullable expression to @NonNull field
+        this.destinationProvider = null;
+                                 ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java:86: error: [NullAway] (INDEX= 25) (Covered) assigning @Nullable expression to @NonNull field
+        this.transformerFactoryClass = null;
+                                     ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/WebServiceTemplateBuilder.java:87: error: [NullAway] (INDEX= 26) (Covered) assigning @Nullable expression to @NonNull field
+        this.messageFactory = null;
+                            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBean.java:220: error: [NullAway] (INDEX= 27) (Covered) returning @Nullable expression from method with @NonNull return type
+            return findFactoryMethodUsingReflection(beanFactory, beanDefinition);
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBean.java:222: error: [NullAway] (INDEX= 28) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBean.java:246: error: [NullAway] (INDEX= 29) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        ConfigurationPropertiesBean propertiesBean = create(beanName, null, beanClass, null);
+                                                                      ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBean.java:254: error: [NullAway] (INDEX= 30) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBindingPostProcessor.java:67: error: [NullAway] (INDEX= 31) read of @NonNull field applicationContext before initialization
+        this.registry = (BeanDefinitionRegistry) this.applicationContext.getAutowireCapableBeanFactory();
+                                                     ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBinder.java:83: error: [NullAway] (INDEX= 32) (Covered) assigning @Nullable expression to @NonNull field
+        this.propertySources = new PropertySourcesDeducer(applicationContext).getPropertySources();
+                             ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/Binder.java:308: error: [NullAway] (INDEX= 33) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+                return handleBindResult(name, target, handler, context, null, create);
+                                                                        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/Binder.java:312: error: [NullAway] (INDEX= 34) (Covered) passing @Nullable parameter 'bound' where @NonNull is required
+            return handleBindResult(name, target, handler, context, bound, create);
+                                                                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/Binder.java:398: error: [NullAway] (INDEX= 35) (Covered) passing @Nullable parameter 'source' where @NonNull is required
+            boolean allowRecursiveBinding = aggregateBinder.isAllowRecursiveBinding(source);
+                                                                                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/Binder.java:517: error: [NullAway] (INDEX= 36) (Covered) passing @Nullable parameter 'Binder.this.propertyEditorInitializer' where @NonNull is required
+            this.converter = BindConverter.get(Binder.this.conversionService, Binder.this.propertyEditorInitializer);
+                                                                                         ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/Binder.java:612: error: [NullAway] (INDEX= 37) (Covered) returning @Nullable expression from method with @NonNull return type
+            return this.configurationProperty;
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/BindResult.java:101: error: [NullAway] (INDEX= 38) (Covered) returning @Nullable expression from method with @NonNull return type
+        return (this.value != null) ? this.value : other;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/handler/IgnoreTopLevelConverterNotFoundBindHandler.java:52: error: [NullAway] (INDEX= 39) (Covered) method returns @Nullable, but superclass method org.springframework.boot.context.properties.bind.AbstractBindHandler.onFailure(org.springframework.boot.context.properties.source.ConfigurationPropertyName,org.springframework.boot.context.properties.bind.Bindable<?>,org.springframework.boot.context.properties.bind.BindContext,java.lang.Exception) returns @NonNull
+    public Object onFailure(ConfigurationPropertyName name, Bindable<?> target, BindContext context, Exception error) throws Exception {
+                  ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertySource.java:82: error: [NullAway] (INDEX= 40) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertySource.java:94: error: [NullAway] (INDEX= 41) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:295: error: [NullAway] (INDEX= 42) dereferenced expression type2 is @Nullable
+        int result = Boolean.compare(type2.isIndexed(), type1.isIndexed());
+                                          ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:295: error: [NullAway] (INDEX= 43) dereferenced expression type1 is @Nullable
+        int result = Boolean.compare(type2.isIndexed(), type1.isIndexed());
+                                                             ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:535: error: [NullAway] (INDEX= 44) (Covered) returning @Nullable expression from method with @NonNull return type
+        return (elements != null) ? new ConfigurationPropertyName(elements) : null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:706: error: [NullAway] (INDEX= 45) dereferenced expression additional is @Nullable
+            int size = this.size + additional.size;
+                                             ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:827: error: [NullAway] (INDEX= 46) (Covered) initializer method does not guarantee @NonNull field resolved (line 821) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        ElementsParser(CharSequence source, char separator, int capacity) {
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:905: error: [NullAway] (INDEX= 47) (Covered) assigning @Nullable expression to @NonNull field
+                this.resolved = expand(this.resolved);
+                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationProperty.java:106: error: [NullAway] (INDEX= 48) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/BindConverter.java:92: error: [NullAway] (INDEX= 49) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/PropertyMapper.java:151: error: [NullAway] (INDEX= 50) (Covered) initializer method does not guarantee @NonNull field result (line 149) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        CachingSupplier(Supplier<T> supplier) {
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/AliasedConfigurationPropertySource.java:47: error: [NullAway] (INDEX= 51) (Covered) passing @Nullable parameter 'aliasedName' where @NonNull is required
+            result = getSource().getConfigurationProperty(aliasedName);
+                                                          ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/SpringIterableConfigurationPropertySource.java:204: error: [NullAway] (INDEX= 52) (Covered) initializer method does not guarantee @NonNull field reverseMappings (line 194) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        Mappings(PropertyMapper[] mappers, boolean immutable, boolean trackDescendants) {
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/handler/IgnoreErrorsBindHandler.java:43: error: [NullAway] (INDEX= 53) (Covered) method returns @Nullable, but superclass method org.springframework.boot.context.properties.bind.AbstractBindHandler.onFailure(org.springframework.boot.context.properties.source.ConfigurationPropertyName,org.springframework.boot.context.properties.bind.Bindable<?>,org.springframework.boot.context.properties.bind.BindContext,java.lang.Exception) returns @NonNull
+    public Object onFailure(ConfigurationPropertyName name, Bindable<?> target, BindContext context, Exception error) throws Exception {
+                  ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/MapBinder.java:54: error: [NullAway] (INDEX= 54) (Covered) method returns @Nullable, but superclass method org.springframework.boot.context.properties.bind.AggregateBinder.bindAggregate(org.springframework.boot.context.properties.source.ConfigurationPropertyName,org.springframework.boot.context.properties.bind.Bindable<?>,org.springframework.boot.context.properties.bind.AggregateElementBinder) returns @NonNull
+    protected Object bindAggregate(ConfigurationPropertyName name, Bindable<?> target, AggregateElementBinder elementBinder) {
+                     ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/ArrayBinder.java:41: error: [NullAway] (INDEX= 55) (Covered) method returns @Nullable, but superclass method org.springframework.boot.context.properties.bind.AggregateBinder.bindAggregate(org.springframework.boot.context.properties.source.ConfigurationPropertyName,org.springframework.boot.context.properties.bind.Bindable<?>,org.springframework.boot.context.properties.bind.AggregateElementBinder) returns @NonNull
+    protected Object bindAggregate(ConfigurationPropertyName name, Bindable<?> target, AggregateElementBinder elementBinder) {
+                     ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/CollectionBinder.java:41: error: [NullAway] (INDEX= 56) (Covered) method returns @Nullable, but superclass method org.springframework.boot.context.properties.bind.AggregateBinder.bindAggregate(org.springframework.boot.context.properties.source.ConfigurationPropertyName,org.springframework.boot.context.properties.bind.Bindable<?>,org.springframework.boot.context.properties.bind.AggregateElementBinder) returns @NonNull
+    protected Object bindAggregate(ConfigurationPropertyName name, Bindable<?> target, AggregateElementBinder elementBinder) {
+                     ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/NotConstructorBoundInjectionFailureAnalyzer.java:46: error: [NullAway] (INDEX= 57) (Covered) method returns @Nullable, but superclass method org.springframework.boot.diagnostics.analyzer.AbstractInjectionFailureAnalyzer.analyze(java.lang.Throwable,T,java.lang.String) returns @NonNull
+    protected FailureAnalysis analyze(Throwable rootFailure, NoSuchBeanDefinitionException cause, String description) {
+                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/NotConstructorBoundInjectionFailureAnalyzer.java:69: error: [NullAway] (INDEX= 58) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/AbstractInjectionFailureAnalyzer.java:40: error: [NullAway] (INDEX= 59) (Covered) passing @Nullable parameter 'getDescription(rootFailure)' where @NonNull is required
+        return analyze(rootFailure, cause, getDescription(rootFailure));
+                                                         ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBindConstructorProvider.java:75: error: [NullAway] (INDEX= 60) (Covered) returning @Nullable expression from method with @NonNull return type
+        return constructor;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataResourceNotFoundException.java:53: error: [NullAway] (INDEX= 61) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        this(resource, null, cause);
+                       ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataEnvironmentPostProcessor.java:154: error: [NullAway] (INDEX= 62) (Covered) passing @Nullable parameter 'resourceLoader' where @NonNull is required
+            super.addPropertySources(environment, resourceLoader);
+                                                  ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataEnvironmentContributor.java:115: error: [NullAway] (INDEX= 63) (Covered) returning @Nullable expression from method with @NonNull return type
+        return this.resource;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataEnvironmentContributor.java:123: error: [NullAway] (INDEX= 64) (Covered) returning @Nullable expression from method with @NonNull return type
+        return this.propertySource;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataEnvironment.java:230: error: [NullAway] (INDEX= 65) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+		return contributors.withProcessedImports(importer, null);
+		                                                   ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigFileApplicationListener.java:201: error: [NullAway] (INDEX= 66) (Covered) passing @Nullable parameter 'application.getResourceLoader()' where @NonNull is required
+        addPropertySources(environment, application.getResourceLoader());
+                                                                     ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigFileApplicationListener.java:349: error: [NullAway] (INDEX= 67) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+            this.profiles.add(null);
+                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigFileApplicationListener.java:423: error: [NullAway] (INDEX= 68) dereferenced expression ConfigDataLocation.of(location) is @Nullable
+                String nonOptionalLocation = ConfigDataLocation.of(location).getValue();
+                                                                            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigFileApplicationListener.java:426: error: [NullAway] (INDEX= 69) (Covered) passing @Nullable parameter 'profile' where @NonNull is required
+                names.forEach((name) -> load(nonOptionalLocation, name, profile, filterFactory, consumer));
+                                                                        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataLoaders.java:117: error: [NullAway] (INDEX= 70) (Covered) returning @Nullable expression from method with @NonNull return type
+        return result;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataActivationContext.java:44: error: [NullAway] (INDEX= 71) (Covered) assigning @Nullable expression to @NonNull field
+        this.cloudPlatform = deduceCloudPlatform(environment, binder);
+                           ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataActivationContext.java:91: error: [NullAway] (INDEX= 72) (Covered) returning @Nullable expression from method with @NonNull return type
+        return this.profiles;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataProperties.java:98: error: [NullAway] (INDEX= 73) dereferenced expression this.activate is @Nullable
+        return new ConfigDataProperties(this.imports, new Activate(this.activate.onCloudPlatform, legacyProfiles));
+                                                                                ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/StandardConfigDataLocationResolver.java:59: error: [NullAway] (INDEX= 74) (Covered) assigning @Nullable expression to @NonNull field
+    private static final String NO_PROFILE = null;
+                                ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/logging/LoggingApplicationListener.java:277: error: [NullAway] (INDEX= 75) (Covered) passing @Nullable parameter 'this.logFile' where @NonNull is required
+        initializeSystem(environment, this.loggingSystem, this.logFile);
+                                                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/logging/LoggingApplicationListener.java:384: error: [NullAway] (INDEX= 76) (Covered) passing @Nullable parameter 'name' where @NonNull is required
+                system.setLogLevel(name, level);
+                                   ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/DurationToStringConverter.java:64: error: [NullAway] (INDEX= 77) (Covered) passing @Nullable parameter 'unit' where @NonNull is required
+        return style.print(source, unit);
+                                   ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/DurationStyle.java:99: error: [NullAway] (INDEX= 78) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        return parse(value, null);
+                            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/DurationStyle.java:117: error: [NullAway] (INDEX= 79) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        return print(value, null);
+                            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/DurationStyle.java:149: error: [NullAway] (INDEX= 80) (Covered) passing @Nullable parameter 'unit' where @NonNull is required
+        return detect(value).parse(value, unit);
+                                          ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/StringToPeriodConverter.java:67: error: [NullAway] (INDEX= 81) (Covered) passing @Nullable parameter 'unit' where @NonNull is required
+        return style.parse(source, unit);
+                                   ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodStyle.java:141: error: [NullAway] (INDEX= 82) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        return parse(value, null);
+                            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodStyle.java:159: error: [NullAway] (INDEX= 83) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        return print(value, null);
+                            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodStyle.java:191: error: [NullAway] (INDEX= 84) (Covered) passing @Nullable parameter 'unit' where @NonNull is required
+        return detect(value).parse(value, unit);
+                                          ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodStyle.java:259: error: [NullAway] (INDEX= 85) dereferenced expression this.intValue is @Nullable
+            return this.intValue.apply(value);
+                                ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/StringToDurationConverter.java:66: error: [NullAway] (INDEX= 86) (Covered) passing @Nullable parameter 'unit' where @NonNull is required
+        return style.parse(source, unit);
+                                   ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodToStringConverter.java:60: error: [NullAway] (INDEX= 87) (Covered) passing @Nullable parameter 'unit' where @NonNull is required
+        return style.print(source, unit);
+                                   ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/info/InfoProperties.java:71: error: [NullAway] (INDEX= 88) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/WebFilterHandler.java:57: error: [NullAway] (INDEX= 89) dereferenced expression dispatcherTypes is @Nullable
+        if (dispatcherTypes.length == 0) {
+                           ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/ServletComponentHandler.java:54: error: [NullAway] (INDEX= 90) dereferenced expression urlPatterns is @Nullable
+        if (urlPatterns.length > 0) {
+                       ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/ServletComponentHandler.java:55: error: [NullAway] (INDEX= 91) dereferenced expression value is @Nullable
+            Assert.state(value.length == 0, "The urlPatterns and value attributes are mutually exclusive.");
+                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/ServletComponentHandler.java:63: error: [NullAway] (INDEX= 92) enhanced-for expression (AnnotationAttributes[]) attributes.get("initParams") is @Nullable
+        for (AnnotationAttributes initParam : (AnnotationAttributes[]) attributes.get("initParams")) {
+                                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/ServletRegistrationBean.java:158: error: [NullAway] (INDEX= 93) (Covered) initializer method does not guarantee @NonNull field servlet (line 54) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public void setMultipartConfig(@Nullable MultipartConfigElement multipartConfig) {
+                ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/ServletComponentRegisteringPostProcessor.java:89: error: [NullAway] (INDEX= 94) read of @NonNull field applicationContext before initialization
+        componentProvider.setEnvironment(this.applicationContext.getEnvironment());
+                                             ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/server/Ssl.java:147: error: [NullAway] (INDEX= 95) (Covered) returning @Nullable expression from method with @NonNull return type
+        return this.keyStore;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/server/Ssl.java:198: error: [NullAway] (INDEX= 96) (Covered) returning @Nullable expression from method with @NonNull return type
+        return this.trustStore;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/server/AbstractConfigurableWebServerFactory.java:126: error: [NullAway] (INDEX= 97) (Covered) returning @Nullable expression from method with @NonNull return type
+        return this.ssl;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/support/ErrorPageFilter.java:88: error: [NullAway] (INDEX= 98) (Covered) @NonNull field global not initialized
+    private String global;
+                   ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/FilterRegistrationBean.java:69: error: [NullAway] (INDEX= 99) (Covered) returning @Nullable expression from method with @NonNull return type
+        return this.filter;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/server/PortInUseException.java:84: error: [NullAway] (INDEX= 100) dereferenced expression bindException.getMessage() is @Nullable
+            if (bindException.getMessage().toLowerCase().contains("in use")) {
+                                          ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/netty/GracefulShutdown.java:78: error: [NullAway] (INDEX= 101) dereferenced expression this.shutdownThread is @Nullable
+            this.shutdownThread.interrupt();
+                               ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/undertow/UndertowWebServer.java:182: error: [NullAway] (INDEX= 102) (Covered) passing @Nullable parameter 'handler' where @NonNull is required
+            handler = factory.getHandler(handler);
+                                         ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/undertow/UndertowWebServer.java:398: error: [NullAway] (INDEX= 103) dereferenced expression CloseableHttpHandlerFactory.this.closeable is @Nullable
+                    CloseableHttpHandlerFactory.this.closeable.close();
+                                                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:107: error: [NullAway] (INDEX= 104) (Covered) assigning @Nullable expression to @NonNull field
+        this.rootUri = null;
+                     ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:108: error: [NullAway] (INDEX= 105) (Covered) assigning @Nullable expression to @NonNull field
+        this.messageConverters = null;
+                               ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:110: error: [NullAway] (INDEX= 106) (Covered) assigning @Nullable expression to @NonNull field
+        this.requestFactory = null;
+                            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:111: error: [NullAway] (INDEX= 107) (Covered) assigning @Nullable expression to @NonNull field
+        this.uriTemplateHandler = null;
+                                ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:112: error: [NullAway] (INDEX= 108) (Covered) assigning @Nullable expression to @NonNull field
+        this.errorHandler = null;
+                          ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:113: error: [NullAway] (INDEX= 109) (Covered) assigning @Nullable expression to @NonNull field
+        this.basicAuthentication = null;
+                                 ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:698: error: [NullAway] (INDEX= 110) dereferenced expression this.connectTimeout is @Nullable
+            int timeout = Math.toIntExact(this.connectTimeout.toMillis());
+                                                             ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:704: error: [NullAway] (INDEX= 111) dereferenced expression this.readTimeout is @Nullable
+            int timeout = Math.toIntExact(this.readTimeout.toMillis());
+                                                          ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/jdbc/DataSourceBuilder.java:176: error: [NullAway] (INDEX= 112) (Covered) method returns @Nullable, but superclass method org.springframework.boot.jdbc.DataSourceBuilder.DataSourceSettings.getType() returns @NonNull
+        public Class<? extends DataSource> getType() {
+                                           ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/jdbc/DataSourceBuilder.java:225: error: [NullAway] (INDEX= 113) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/rsocket/netty/NettyRSocketServer.java:60: error: [NullAway] (INDEX= 114) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/rsocket/context/RSocketServerBootstrap.java:53: error: [NullAway] (INDEX= 115) read of @NonNull field eventPublisher before initialization
+        this.eventPublisher.publishEvent(new RSocketServerInitializedEvent(this.server));
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:68: error: [NullAway] (INDEX= 116) (Covered) assigning @Nullable expression to @NonNull field
+        this.queueCapacity = null;
+                           ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:69: error: [NullAway] (INDEX= 117) (Covered) assigning @Nullable expression to @NonNull field
+        this.corePoolSize = null;
+                          ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:70: error: [NullAway] (INDEX= 118) (Covered) assigning @Nullable expression to @NonNull field
+        this.maxPoolSize = null;
+                         ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:71: error: [NullAway] (INDEX= 119) (Covered) assigning @Nullable expression to @NonNull field
+        this.allowCoreThreadTimeOut = null;
+                                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:72: error: [NullAway] (INDEX= 120) (Covered) assigning @Nullable expression to @NonNull field
+        this.keepAlive = null;
+                       ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:73: error: [NullAway] (INDEX= 121) (Covered) assigning @Nullable expression to @NonNull field
+        this.awaitTermination = null;
+                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:74: error: [NullAway] (INDEX= 122) (Covered) assigning @Nullable expression to @NonNull field
+        this.awaitTerminationPeriod = null;
+                                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:75: error: [NullAway] (INDEX= 123) (Covered) assigning @Nullable expression to @NonNull field
+        this.threadNamePrefix = null;
+                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:76: error: [NullAway] (INDEX= 124) (Covered) assigning @Nullable expression to @NonNull field
+        this.taskDecorator = null;
+                           ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskExecutorBuilder.java:77: error: [NullAway] (INDEX= 125) (Covered) assigning @Nullable expression to @NonNull field
+        this.customizers = null;
+                         ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskSchedulerBuilder.java:54: error: [NullAway] (INDEX= 126) (Covered) assigning @Nullable expression to @NonNull field
+        this.poolSize = null;
+                      ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskSchedulerBuilder.java:55: error: [NullAway] (INDEX= 127) (Covered) assigning @Nullable expression to @NonNull field
+        this.awaitTermination = null;
+                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskSchedulerBuilder.java:56: error: [NullAway] (INDEX= 128) (Covered) assigning @Nullable expression to @NonNull field
+        this.awaitTerminationPeriod = null;
+                                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskSchedulerBuilder.java:57: error: [NullAway] (INDEX= 129) (Covered) assigning @Nullable expression to @NonNull field
+        this.threadNamePrefix = null;
+                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/task/TaskSchedulerBuilder.java:58: error: [NullAway] (INDEX= 130) (Covered) assigning @Nullable expression to @NonNull field
+        this.customizers = null;
+                         ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/ansi/AnsiColors.java:127: error: [NullAway] (INDEX= 131) dereferenced expression color is @Nullable
+            float[] lab = fromXyz(color.getColorComponents(XYZ_COLOR_SPACE, null));
+                                       ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/NoSuchMethodFailureAnalyzer.java:72: error: [NullAway] (INDEX= 132) dereferenced expression message is @Nullable
+        int loadedFromIndex = message.indexOf(" (loaded from");
+                                     ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/NoUniqueBeanDefinitionFailureAnalyzer.java:50: error: [NullAway] (INDEX= 133) (Covered) method returns @Nullable, but superclass method org.springframework.boot.diagnostics.analyzer.AbstractInjectionFailureAnalyzer.analyze(java.lang.Throwable,T,java.lang.String) returns @NonNull
+    protected FailureAnalysis analyze(Throwable rootFailure, NoUniqueBeanDefinitionException cause, String description) {
+                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/NoUniqueBeanDefinitionFailureAnalyzer.java:84: error: [NullAway] (INDEX= 134) dereferenced expression cause.getMessage() is @Nullable
+        if (cause.getMessage().contains("but found")) {
+                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/ValidationExceptionFailureAnalyzer.java:39: error: [NullAway] (INDEX= 135) dereferenced expression cause.getMessage() is @Nullable
+        if (cause.getMessage().startsWith(JAVAX_MISSING_IMPLEMENTATION_MESSAGE) || cause.getMessage().startsWith(JAKARTA_MISSING_IMPLEMENTATION_MESSAGE)) {
+                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/FailureAnalyzers.java:66: error: [NullAway] (INDEX= 136) (Covered) returning @Nullable expression from method with @NonNull return type
+        return (context != null) ? context.getClassLoader() : null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/orm/jpa/hibernate/SpringPhysicalNamingStrategy.java:61: error: [NullAway] (INDEX= 137) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+
+	(see http://t.uber.com/nullaway )

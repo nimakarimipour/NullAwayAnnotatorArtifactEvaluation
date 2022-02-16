@@ -1,25 +1,25 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:232: error: [NullAway] (INDEX= 9) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-                null,
-                ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/service/ExecutionService.java:109: error: [NullAway] (INDEX= 98) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        String queueName = QueueUtils.getQueueName(taskType, domain, null, null);
+                                                                     ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:850: error: [NullAway] (INDEX= 24) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-                            null,
-                            ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/DeciderService.java:531: error: [NullAway] (INDEX= 53) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+            workflowInstance.setExternalInputPayloadStoragePath(null);
+                                                                ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/DeciderService.java:734: error: [NullAway] (INDEX= 57) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-                workflow, null, null);
-                          ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/service/WorkflowBulkServiceImpl.java:53: error: [NullAway] (INDEX= 132) (Covered) passing @Nullable parameter 'e.getMessage()' where @NonNull is required
+                bulkResponse.appendFailedResponse(workflowId, e.getMessage());
+                                                                          ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/core/utils/ParametersUtils.java:160: error: [NullAway] (INDEX= 62) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-        return replaceVariables(paramString, documentContext, null);
-                                                              ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/SubWorkflow.java:104: error: [NullAway] (INDEX= 112) (Covered) passing @Nullable parameter 'e.getMessage()' where @NonNull is required
+            task.setReasonForIncompletion(e.getMessage());
+                                                      ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/core/events/queue/Message.java:24: error: [NullAway] (INDEX= 46) (Covered) initializer method does not guarantee @NonNull fields payload (line 19), id (line 20), receipt (line 21) are initialized along all control-flow paths (remember to check for exceptions or early returns).
-    public Message() {
-           ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/core/utils/ExternalPayloadStorageUtils.java:162: error: [NullAway] (INDEX= 67) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+                        ((Workflow) entity).setOutput(null);
+                                                      ^
 
 	(see http://t.uber.com/nullaway )

@@ -1,5 +1,25 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:281: error: [NullAway] (INDEX= 77) (Covered) passing @Nullable parameter 'null' where @NonNull is required            originalReadTimeout = requestConfig.getProperty(ReadTimeout, null);                                                                         ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/util/HttpUtils.java:69: error: [NullAway] (INDEX= 60) (Covered) returning @Nullable expression from method with @NonNull return type            return null;            ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/passport/CurrentPassport.java:348: error: [NullAway] (INDEX= 202) (Covered) returning @Nullable expression from method with @NonNull return type        return null;        ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/insights/PassportLoggingHandler.java:90: error: [NullAway] (INDEX= 105) (Covered) passing @Nullable parameter 'ctx' where @NonNull is required        String topLevelRequestId = getRequestId(channel, ctx);                                                         ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/insights/PassportLoggingHandler.java:98: error: [NullAway] (INDEX= 107) (Covered) passing @Nullable parameter 'ctx' where @NonNull is required                    + ", nfstatus = " + String.valueOf(StatusCategoryUtils.getStatusCategory(ctx))                                                                                             ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:442: error: [NullAway] (INDEX= 165) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+                    /* secureHealthCheckUrl= */ null,
+                                                ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:448: error: [NullAway] (INDEX= 170) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+                    null,
+                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/PerServerConnectionPool.java:302: error: [NullAway] (INDEX= 181) (Covered) passing @Nullable parameter 'cf.cause().getMessage()' where @NonNull is required
+            callerPromise.setFailure(new OriginConnectException(cf.cause().getMessage(), OutboundErrorType.CONNECT_ERROR));
+                                                                                     ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:444: error: [NullAway] (INDEX= 167) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+                    /* secureVipAddress= */ null,
+                                            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/insights/PassportLoggingHandler.java:98: error: [NullAway] (INDEX= 107) (Covered) passing @Nullable parameter 'ctx' where @NonNull is required
+                    + ", nfstatus = " + String.valueOf(StatusCategoryUtils.getStatusCategory(ctx))
+                                                                                             ^
+
+	(see http://t.uber.com/nullaway )

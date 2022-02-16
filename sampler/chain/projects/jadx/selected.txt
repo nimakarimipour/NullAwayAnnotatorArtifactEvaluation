@@ -1,5 +1,25 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/RegionUtils.java:87: error: [NullAway] (INDEX= 287) (Covered) returning @Nullable expression from method with @NonNull return type			return null;			^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ConstructorVisitor.java:129: error: [NullAway] (INDEX= 322) (Covered) returning @Nullable expression from method with @NonNull return type			return null;			^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/exceptions/CodegenException.java:19: error: [NullAway] (INDEX= 232) (Covered) passing @Nullable parameter 'null' where @NonNull is required		super(mth, msg, null);		                ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/InsnNode.java:408: error: [NullAway] (INDEX= 152) (Covered) passing @Nullable parameter 'null' where @NonNull is required		RegisterArg resDupArg = result.duplicate(regNum, null);		                                                 ^	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/utils/MethodUtils.java:67: error: [NullAway] (INDEX= 104) (Covered) returning @Nullable expression from method with @NonNull return type		return null;		^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/clsp/ClspGraph.java:135: error: [NullAway] (INDEX= 126) (Covered) returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonCodeLine.java:6: error: [NullAway] (INDEX= 547) (Covered) @NonNull field code not initialized
+	private String code;
+	               ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/AttachMethodDetails.java:26: error: [NullAway] (INDEX= 392) (Covered) @NonNull field methodUtils not initialized
+	private MethodUtils methodUtils;
+	                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:295: error: [NullAway] (INDEX= 336) (Covered) returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/exceptions/CodegenException.java:19: error: [NullAway] (INDEX= 232) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+		super(mth, msg, null);
+		                ^
+
+	(see http://t.uber.com/nullaway )

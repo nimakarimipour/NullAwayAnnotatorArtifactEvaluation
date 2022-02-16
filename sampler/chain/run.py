@@ -244,7 +244,7 @@ def fix_index(fix):
 
 
 def apply_fixes(fixes):
-    write_lines(FIX_PATH, [str(f) for f in fixes])
+    write_lines(FIX_PATH, [str(f) + '\n' for f in fixes])
     os.system("java -jar injector.jar {}".format(FIX_PATH))
 
 
@@ -268,16 +268,16 @@ def run():
                 # reset
                 checkout_to_branch(command, project, "base")
 
-                # # running autofixer
-                # run_autofix(project)
-                # # push everything to final branch
-                # checkout_to_branch(command, project, "final", save_state=True)
+                # running autofixer
+                run_autofix(project)
+                # push everything to final branch
+                checkout_to_branch(command, project, "final", save_state=True)
 
-                # # get all fixes
-                # os.system(
-                #     "mv /tmp/NullAwayFix/injected.json ./projects/{}/injected.json"
-                #     .format(project['path']))
-                # convert_json_to_csv(project['path'])
+                # get all fixes
+                os.system(
+                    "mv /tmp/NullAwayFix/injected.json ./projects/{}/injected.json"
+                    .format(project['path']))
+                convert_json_to_csv(project['path'])
                 all_fixes = read_lines('projects/{}/injected.csv'.format(
                     project['path']))
                 # remove new lines from fixes
