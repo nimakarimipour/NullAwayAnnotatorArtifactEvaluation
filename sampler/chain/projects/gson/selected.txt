@@ -1,25 +1,25 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/DefaultDateTypeAdapter.java:126: error: [NullAway] (INDEX= 24) (Covered) returning @Nullable expression from method with @NonNull return type
-      return null;
-      ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java:107: error: [NullAway] (INDEX= 75) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+    return new SingleTypeFactory(typeAdapter, exactType, matchRawType, null);
+                                                                       ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:666: error: [NullAway] (INDEX= 113) (Covered) returning @Nullable expression from method with @NonNull return type
-        return null;
-        ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java:98: error: [NullAway] (INDEX= 68) (Covered) returning @Nullable expression from method with @NonNull return type
-      return null; // it's a primitive!
-      ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:687: error: [NullAway] (INDEX= 158) (Covered) assigning @Nullable expression to @NonNull field
-      node.left = node.parent = node.right = null;
-                                           ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:220: error: [NullAway] (INDEX= 137) (Covered) returning @Nullable expression from method with @NonNull return type
+/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java:204: error: [NullAway] (INDEX= 12) (Covered) returning @Nullable expression from method with @NonNull return type
     return valuesEqual ? mine : null;
     ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/Excluder.java:124: error: [NullAway] (INDEX= 46) (Covered) @NonNull field Excluder$1.delegate not initialized
+      private TypeAdapter<T> delegate;
+                             ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:122: error: [NullAway] (INDEX= 133) (Covered) returning @Nullable expression from method with @NonNull return type
+    return node != null ? node.value : null;
+    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java:286: error: [NullAway] (INDEX= 18) (Covered) assigning @Nullable expression to @NonNull field
+    node.parent = null;
+                ^
 
 	(see http://t.uber.com/nullaway )

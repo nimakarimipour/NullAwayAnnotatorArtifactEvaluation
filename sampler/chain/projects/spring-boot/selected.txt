@@ -1,25 +1,25 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/StringToDurationConverter.java:54: error: [NullAway] (INDEX= 380) (Covered) returning @Nullable expression from method with @NonNull return type
-		return (annotation != null) ? annotation.value() : null;
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/builder/SpringApplicationBuilder.java:96: error: [NullAway] (INDEX= 474) (Covered) initializer method does not guarantee @NonNull fields context (line 78), parent (line 80), environment (line 88) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public SpringApplicationBuilder(Class<?>... sources) {
+	       ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/LoggingSystemProperties.java:149: error: [NullAway] (INDEX= 65) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+		apply(null);
+		      ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/NumberToDataSizeConverter.java:44: error: [NullAway] (INDEX= 388) (Covered) passing @Nullable parameter '(source != null) ? source.toString() : null' where @NonNull is required
+		return this.delegate.convert((source != null) ? source.toString() : null, TypeDescriptor.valueOf(String.class),
+		                                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/DefaultBindConstructorProvider.java:58: error: [NullAway] (INDEX= 239) (Covered) returning @Nullable expression from method with @NonNull return type
+		return null;
 		^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:711: error: [NullAway] (INDEX= 572) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-			this(null, null, null);
-			     ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/tomcat/TomcatWebServer.java:103: error: [NullAway] (INDEX= 520) (Covered) assigning @Nullable expression to @NonNull field
-		this.gracefulShutdown = (shutdown == Shutdown.GRACEFUL) ? new GracefulShutdown(tomcat) : null;
-		                      ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/BindConverter.java:236: error: [NullAway] (INDEX= 191) (Covered) returning @Nullable expression from method with @NonNull return type
-				return null;
-				^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/ansi/AnsiOutput.java:38: error: [NullAway] (INDEX= 343) (Covered) @NonNull static field ansiCapable not initialized
-	private static Boolean ansiCapable;
-	                       ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/ValidationExceptionFailureAnalyzer.java:47: error: [NullAway] (INDEX= 681) (Covered) returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
 
 	(see http://t.uber.com/nullaway )

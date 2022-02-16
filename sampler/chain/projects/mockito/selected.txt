@@ -1,25 +1,25 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/BaseStubbing.java:59: error: [NullAway] (INDEX= 104) (Covered) passing @Nullable parameter '(Throwable) null' where @NonNull is required
-            return thenThrow((Throwable) null);
-                             ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java:80: error: [NullAway] (INDEX= 182) (Covered) initializer method does not guarantee @NonNull field lastException (line 78) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public InlineBytecodeGenerator(
+           ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/progress/MockingProgressImpl.java:86: error: [NullAway] (INDEX= 59) (Covered) assigning @Nullable expression to @NonNull field
-        ongoingStubbing = null;
+/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsMocks.java:33: error: [NullAway] (INDEX= 97) (Covered) returning @Nullable expression from method with @NonNull return type
+                            return null;
+                            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/MockitoCore.java:173: error: [NullAway] (INDEX= 34) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+                VerificationDataImpl data = new VerificationDataImpl(invocations, null);
+                                                                                  ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/util/reflection/InstrumentationMemberAccessor.java:83: error: [NullAway] (INDEX= 124) (Covered) assigning @Nullable expression to @NonNull field
+        INSTRUMENTATION = instrumentation;
                         ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/answers/DoesNothing.java:29: error: [NullAway] (INDEX= 108) (Covered) returning @Nullable expression from method with @NonNull return type
-        return null;
-        ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/verification/SingleRegisteredInvocation.java:22: error: [NullAway] (INDEX= 164) (Covered) assigning @Nullable expression to @NonNull field
-        invocation = null;
-                   ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/MockSettingsImpl.java:45: error: [NullAway] (INDEX= 170) (Covered) @NonNull field constructorArgs not initialized
-    private Object[] constructorArgs;
-                     ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/session/DefaultMockitoSessionBuilder.java:24: error: [NullAway] (INDEX= 167) (Covered) @NonNull field strictness not initialized
+    private Strictness strictness;
+                       ^
 
 	(see http://t.uber.com/nullaway )

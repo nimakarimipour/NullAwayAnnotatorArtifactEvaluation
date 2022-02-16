@@ -1,25 +1,25 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Tree.java:451: error: [NullAway] (INDEX= 1116) (Covered) assigning @Nullable expression to @NonNull field
-		this.overNode = overNode;
-		              ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Button.java:70: error: [NullAway] (INDEX= 1146) (Covered) initializer method does not guarantee @NonNull fields style (line 45), buttonGroup (line 47) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public Button (Actor child, ButtonStyle style) {
+	       ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/input/RemoteInput.java:324: error: [NullAway] (INDEX= 1459) (Covered) passing @Nullable parameter 'keyEvent' where @NonNull is required
-					Gdx.app.postRunnable(new EventTrigger(touchEvent, keyEvent));
-					                                                  ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/DragAndDrop.java:65: error: [NullAway] (INDEX= 1236) (Covered) assigning @Nullable expression to @NonNull field
+				payload = source.dragStart(event, getTouchDownX(), getTouchDownY(), pointer);
+				        ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/NodeAnimation.java:35: error: [NullAway] (INDEX= 219) (Covered) assigning @Nullable expression to @NonNull field
-	public Array<NodeKeyframe<Vector3>> scaling = null;
-	                                    ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/shapebuilders/PatchShapeBuilder.java:57: error: [NullAway] (INDEX= 882) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+		build(builder, vertTmp1.set(null).setPos(x00, y00, z00).setNor(normalX, normalY, normalZ).setUV(0f, 1f),
+		                            ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Slider.java:144: error: [NullAway] (INDEX= 1180) (Covered) returning @Nullable expression from method with @NonNull return type
-		return style.knobAfter;
-		^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:272: error: [NullAway] (INDEX= 54) dereferenced expression assetsByType.get(fileName) is @Nullable
+			T otherAsset = (T)assetsByType.get(fileName).getObject(Object.class);
+			                                            ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/BaseTmxMapLoader.java:419: error: [NullAway] (INDEX= 1413) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-				String type = property.getAttribute("type", null);
-				                                            ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/FacedCubemapData.java:68: error: [NullAway] (INDEX= 1022) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+			height, format), null, false, true), new PixmapTextureData(new Pixmap(width, depth, format), null, false, true),
+			                 ^
 
 	(see http://t.uber.com/nullaway )

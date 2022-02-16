@@ -1,25 +1,25 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/URLAdapter.java:57: error: [NullAway] (INDEX= 349) (Covered) returning @Nullable expression from method with @NonNull return type
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/GroupLayer.java:26: error: [NullAway] (INDEX= 201) (Covered) @NonNull field layers not initialized
+  private List<ILayer> layers;
+                       ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TilesetEntry.java:61: error: [NullAway] (INDEX= 138) (Covered) initializer method does not guarantee @NonNull fields terrains (line 27), terrain (line 32), animation (line 35), image (line 38), type (line 41), collisionData (line 44) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public TilesetEntry(Tileset tileset, int id) {
+         ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/SoundSource.java:54: error: [NullAway] (INDEX= 64) (Covered) initializer method does not guarantee @NonNull fields sound (line 27), playback (line 28) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public SoundSource(String name) {
+         ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ArrayUtilities.java:557: error: [NullAway] (INDEX= 317) (Covered) returning @Nullable expression from method with @NonNull return type
       return null;
       ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapUtilities.java:290: error: [NullAway] (INDEX= 238) (Covered) returning @Nullable expression from method with @NonNull return type
-      return null;
-      ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/GuiProperties.java:16: error: [NullAway] (INDEX= 471) (Covered) @NonNull static field defaultFont not initialized
-  private static Font defaultFont;
-                      ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/ILayerList.java:73: error: [NullAway] (INDEX= 71) (Covered) returning @Nullable expression from method with @NonNull return type
-    return layer.orElse(null);
-    ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundEngine.java:113: error: [NullAway] (INDEX= 250) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-    return playMusic(track, null, false, true);
-                            ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/HorizontalSlider.java:31: error: [NullAway] (INDEX= 462) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+    this.setButton2(new ImageComponent(this.getX() + this.getWidth() - this.getHeight(), this.getY(), this.getHeight(), this.getHeight(), this.getButtonSpritesheet(), ARROW_RIGHT.getText(), null));
+                                                                                                                                                                                              ^
 
 	(see http://t.uber.com/nullaway )

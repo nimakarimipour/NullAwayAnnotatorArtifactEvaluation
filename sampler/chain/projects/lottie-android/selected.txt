@@ -1,25 +1,25 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:404: error: [NullAway] (INDEX= 76) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-          LottieCompositionFactory.fromRawRes(getContext(), rawRes) : LottieCompositionFactory.fromRawRes(getContext(), rawRes, null);
-                                                                                                                                ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/MutablePair.java:16: error: [NullAway] (INDEX= 3) (Covered) @NonNull field second not initialized
+   T second;
+     ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LayerParser.java:277: error: [NullAway] (INDEX= 273) (Covered) passing @Nullable parameter 'refId' where @NonNull is required
-    return new Layer(shapes, composition, layerName, layerId, layerType, parentId, refId,
-                                                                                   ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieResult.java:19: error: [NullAway] (INDEX= 0) (Covered) assigning @Nullable expression to @NonNull field
+    exception = null;
+              ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:136: error: [NullAway] (INDEX= 198) (Covered) passing @Nullable parameter 'skewAngle' where @NonNull is required
-    if (isSkewAngleIdentity(skewAngle)) {
-                            ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/CircleShapeParser.java:57: error: [NullAway] (INDEX= 280) (Covered) passing @Nullable parameter 'size' where @NonNull is required
+    return new CircleShape(name, position, size, reversed, hidden);
+                                           ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:53: error: [NullAway] (INDEX= 37) (Covered) @NonNull field bounds not initialized
-  private Rect bounds;
-               ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:419: error: [NullAway] (INDEX= 77) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+              LottieCompositionFactory.fromAssetSync(getContext(), assetName) : LottieCompositionFactory.fromAssetSync(getContext(), assetName, null);
+                                                                                                                                                ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapePathParser.java:49: error: [NullAway] (INDEX= 220) (Covered) passing @Nullable parameter 'name' where @NonNull is required
-    return new ShapePath(name, ind, shape, hidden);
-                         ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:1123: error: [NullAway] (INDEX= 23) (Covered) returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
 
 	(see http://t.uber.com/nullaway )

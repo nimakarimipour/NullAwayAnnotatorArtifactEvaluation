@@ -37,6 +37,7 @@ def read_lines(path):
 
 def write_lines(path, lines):
     f = open(path, "w")
+    lines = [str(l) + '\n' for l in lines]
     f.writelines(lines)
     f.flush()
     f.close()
@@ -111,7 +112,7 @@ def convert_json_to_csv(name):
                 display += (val if val is not None else "null") + "$*$"
             else:
                 display += "null" + "$*$"
-        lines.append(display[:-3] + "\n")
+        lines.append(display[:-3])
     fixed = []
     for l in lines:
         index = [i.start() for i in re.finditer("\$\*\$", l)][4] + 3
@@ -147,7 +148,7 @@ def remove_reason_field(path):
             3] + "$*$" + vals[4] + "$*$" + vals[
                 5] + "$*$" + "null" + "$*$" + vals[7] + "$*$" + vals[
                     8] + "$*$" + vals[9] + "$*$" + vals[10] + "$*$" + vals[11]
-        lines.append(str(disp) + "\n")
+        lines.append(str(disp))
 
     write_lines(path, lines)
 
@@ -169,7 +170,7 @@ def read_errors(path):
             error += lines[index] + "\n"
             index += 1
         if error != "":
-            errors.append(error + "\n\t(see http://t.uber.com/nullaway )\n")
+            errors.append(error + "\n\t(see http://t.uber.com/nullaway )")
         index += 1
     return errors
 
@@ -244,7 +245,7 @@ def fix_index(fix):
 
 
 def apply_fixes(fixes):
-    write_lines(FIX_PATH, [str(f) + '\n' for f in fixes])
+    write_lines(FIX_PATH, [str(f) for f in fixes])
     os.system("java -jar injector.jar {}".format(FIX_PATH))
 
 
@@ -268,16 +269,16 @@ def run():
                 # reset
                 checkout_to_branch(command, project, "base")
 
-                # running autofixer
-                run_autofix(project)
-                # push everything to final branch
-                checkout_to_branch(command, project, "final", save_state=True)
+                # # running autofixer
+                # run_autofix(project)
+                # # push everything to final branch
+                # checkout_to_branch(command, project, "final", save_state=True)
 
-                # get all fixes
-                os.system(
-                    "mv /tmp/NullAwayFix/injected.json ./projects/{}/injected.json"
-                    .format(project['path']))
-                convert_json_to_csv(project['path'])
+                # # get all fixes
+                # os.system(
+                #     "mv /tmp/NullAwayFix/injected.json ./projects/{}/injected.json"
+                #     .format(project['path']))
+                # convert_json_to_csv(project['path'])
                 all_fixes = read_lines('projects/{}/injected.csv'.format(
                     project['path']))
                 # remove new lines from fixes
