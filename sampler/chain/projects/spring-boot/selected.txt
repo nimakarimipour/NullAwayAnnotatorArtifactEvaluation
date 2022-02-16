@@ -1,20 +1,5 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/builder/ParentContextCloserApplicationListener.java:45: error: [NullAway] (INDEX= 623) (Covered) @NonNull field context not initialized
-	private ApplicationContext context;
-	                           ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/webservices/client/HttpWebServiceMessageSenderBuilder.java:39: error: [NullAway] (INDEX= 111) (Covered) @NonNull field connectTimeout not initialized
-	private Duration connectTimeout;
-	                 ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBean.java:259: error: [NullAway] (INDEX= 121) (Covered) returning @Nullable expression from method with @NonNull return type
-			return null;
-			^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/BindFailureAnalyzer.java:80: error: [NullAway] (INDEX= 652) (Covered) returning @Nullable expression from method with @NonNull return type
-		return (StringUtils.hasText(failure.getMessage()) ? failure.getMessage() : cause.getMessage());
-		^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/DelegatingLoggingSystemFactory.java:50: error: [NullAway] (INDEX= 67) (Covered) returning @Nullable expression from method with @NonNull return type
-		return null;
-		^
-	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/netty/NettyWebServer.java:186: error: [NullAway] (INDEX= 535) (Covered) assigning @Nullable expression to @NonNull field			this.disposableServer = null;			                      ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/server/AbstractConfigurableWebServerFactory.java:64: error: [NullAway] (INDEX= 457) (Covered) initializer method does not guarantee @NonNull fields address (line 45), ssl (line 49), sslStoreProvider (line 51), http2 (line 53), compression (line 55), serverHeader (line 57) are initialized along all control-flow paths (remember to check for exceptions or early returns).	public AbstractConfigurableWebServerFactory() {	       ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/LoggingSystemProperties.java:192: error: [NullAway] (INDEX= 66) (Covered) passing @Nullable parameter 'null' where @NonNull is required		setSystemProperty(resolver, systemPropertyName, propertyName, null);		                                                              ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/netty/GracefulShutdown.java:44: error: [NullAway] (INDEX= 531) (Covered) initializer method does not guarantee @NonNull field shutdownThread (line 40) is initialized along all control-flow paths (remember to check for exceptions or early returns).	GracefulShutdown(Supplier<DisposableServer> disposableServer) {	^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/undertow/UndertowServletWebServer.java:77: error: [NullAway] (INDEX= 537) (Covered) passing @Nullable parameter 'null' where @NonNull is required		this(builder, manager, contextPath, useForwardHeaders, autoStart, compression, null);		                                                                               ^	(see http://t.uber.com/nullaway )

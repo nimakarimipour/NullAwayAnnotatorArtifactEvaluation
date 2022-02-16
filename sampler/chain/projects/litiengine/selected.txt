@@ -1,20 +1,25 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Text.java:38: error: [NullAway] (INDEX= 97) (Covered) @NonNull field underline not initialized
-  private Integer underline;
-                  ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/GuiComponent.java:35: error: [NullAway] (INDEX= 303) (Covered) @NonNull static field ICON_FONT not initialized
+  protected static final Font ICON_FONT;
+                              ^
+
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/AnimationController.java:294: error: [NullAway] (INDEX= 377) (Covered) assigning @Nullable expression to @NonNull field
-      this.currentAnimation = null;
-                            ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:169: error: [NullAway] (INDEX= 125) (Covered) returning @Nullable expression from method with @NonNull return type
+          return null;
+          ^
+
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Layer.java:57: error: [NullAway] (INDEX= 109) (Covered) initializer method does not guarantee @NonNull fields name (line 21), width (line 24), height (line 27), opacity (line 30), visible (line 33), parentMap (line 43), renderType (line 44) are initialized along all control-flow paths (remember to check for exceptions or early returns).
-  public Layer(Layer layerToBeCopied) {
-         ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObject.java:101: error: [NullAway] (INDEX= 79) (Covered) assigning @Nullable expression to @NonNull field
+    this.polygon = (original.getPolygon() != null && !original.getPolygon().getPoints().isEmpty()) ? new PolyShape(original.getPolygon()) : null;
+                 ^
+
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomProperty.java:115: error: [NullAway] (INDEX= 222) (Covered) assigning @Nullable expression to @NonNull field
-    this.location = null;
-                  ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Spritesheets.java:70: error: [NullAway] (INDEX= 429) (Covered) returning @Nullable expression from method with @NonNull return type
-    return this.loadedSpritesheets.get(name); // this already returns null if absent
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomProperty.java:187: error: [NullAway] (INDEX= 224) (Covered) returning @Nullable expression from method with @NonNull return type
+    return null;
     ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/GameWindow.java:60: error: [NullAway] (INDEX= 298) (Covered) initializer method does not guarantee @NonNull fields resolution (line 57), screenLocation (line 58) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  GameWindow() {
+  ^
+
 	(see http://t.uber.com/nullaway )

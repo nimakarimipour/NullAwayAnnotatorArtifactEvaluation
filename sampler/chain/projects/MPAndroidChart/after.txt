@@ -1,0 +1,260 @@
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java:177: error: [NullAway] (INDEX= 0) (Covered) initializer method does not guarantee @NonNull field mRenderer (line 155) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public Chart(Context context) {
+           ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java:185: error: [NullAway] (INDEX= 1) (Covered) initializer method does not guarantee @NonNull field mRenderer (line 155) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public Chart(Context context, AttributeSet attrs) {
+           ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java:193: error: [NullAway] (INDEX= 2) (Covered) initializer method does not guarantee @NonNull field mRenderer (line 155) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public Chart(Context context, AttributeSet attrs, int defStyle) {
+           ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java:76: error: [NullAway] (INDEX= 3) (Covered) assigning @Nullable expression to @NonNull field
+    protected T mData = null;
+                ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java:293: error: [NullAway] (INDEX= 4) (Covered) assigning @Nullable expression to @NonNull field
+        mData = null;
+              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java:295: error: [NullAway] (INDEX= 5) (Covered) assigning @Nullable expression to @NonNull field
+        mIndicesToHighlight = null;
+                            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java:643: error: [NullAway] (INDEX= 6) (Covered) assigning @Nullable expression to @NonNull field
+            mIndicesToHighlight = null;
+                                ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java:649: error: [NullAway] (INDEX= 7) (Covered) assigning @Nullable expression to @NonNull field
+                mIndicesToHighlight = null;
+                                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java:681: error: [NullAway] (INDEX= 8) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java:308: error: [NullAway] (INDEX= 9) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java:334: error: [NullAway] (INDEX= 10) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java:730: error: [NullAway] (INDEX= 11) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseEntry.java:95: error: [NullAway] (INDEX= 12) (Covered) returning @Nullable expression from method with @NonNull return type
+        return mData;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/DataSet.java:280: error: [NullAway] (INDEX= 13) (Covered) method returns @Nullable, but superclass method com.github.mikephil.charting.interfaces.datasets.IDataSet.getEntryForXValue(float,float) returns @NonNull
+    public T getEntryForXValue(float xValue, float closestToY) {
+             ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java:29: error: [NullAway] (INDEX= 14) (Covered) assigning @Nullable expression to @NonNull field
+    protected List<Integer> mColors = null;
+                            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java:34: error: [NullAway] (INDEX= 15) (Covered) assigning @Nullable expression to @NonNull field
+    protected List<Integer> mValueColors = null;
+                            ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/Highlight.java:189: error: [NullAway] (INDEX= 16) (Covered) returning @Nullable expression from method with @NonNull return type
+        return axis;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/YAxisRenderer.java:192: error: [NullAway] (INDEX= 17) read of @NonNull field mZeroLinePaint before initialization
+        mZeroLinePaint.setColor(mYAxis.getZeroLineColor());
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java:51: error: [NullAway] (INDEX= 18) (Covered) initializer method does not guarantee @NonNull fields mTrans (line 29), mGridPaint (line 34), mAxisLabelPaint (line 39), mAxisLinePaint (line 44), mLimitLinePaint (line 49) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public AxisRenderer(ViewPortHandler viewPortHandler, @Nullable Transformer trans, AxisBase axis) {
+           ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java:53: error: [NullAway] (INDEX= 19) (Covered) assigning @Nullable expression to @NonNull field
+        this.mTrans = trans;
+                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/LineDataSet.java:26: error: [NullAway] (INDEX= 20) (Covered) assigning @Nullable expression to @NonNull field
+    private List<Integer> mCircleColors = null;
+                          ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/ChartTouchListener.java:103: error: [NullAway] (INDEX= 21) (Covered) initializer method does not guarantee @NonNull field mLastHighlighted (line 58) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public void setLastHighlighted(@Nullable Highlight high) {
+                ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/ChartTouchListener.java:104: error: [NullAway] (INDEX= 22) (Covered) assigning @Nullable expression to @NonNull field
+        mLastHighlighted = high;
+                         ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/ChartTouchListener.java:133: error: [NullAway] (INDEX= 23) (Covered) assigning @Nullable expression to @NonNull field
+            mLastHighlighted = null;
+                             ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/ChartHighlighter.java:35: error: [NullAway] (INDEX= 24) (Covered) method returns @Nullable, but superclass method com.github.mikephil.charting.highlight.IHighlighter.getHighlight(float,float) returns @NonNull
+    public Highlight getHighlight(float x, float y) {
+                     ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/BarChart.java:85: error: [NullAway] (INDEX= 25) (Covered) method returns @Nullable, but superclass method com.github.mikephil.charting.charts.Chart.getHighlightByTouchPoint(float,float) returns @NonNull
+    public Highlight getHighlightByTouchPoint(float x, float y) {
+                     ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BarEntry.java:185: error: [NullAway] (INDEX= 26) (Covered) returning @Nullable expression from method with @NonNull return type
+        return mRanges;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/utils/Fill.java:104: error: [NullAway] (INDEX= 27) (Covered) returning @Nullable expression from method with @NonNull return type
+        return mGradientColors;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java:106: error: [NullAway] (INDEX= 28) (Covered) method returns @Nullable, but superclass method com.github.mikephil.charting.charts.Chart.getHighlightByTouchPoint(float,float) returns @NonNull
+    public Highlight getHighlightByTouchPoint(float x, float y) {
+                     ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java:121: error: [NullAway] (INDEX= 29) (Covered) method returns @Nullable, but superclass method com.github.mikephil.charting.interfaces.dataprovider.LineDataProvider.getLineData() returns @NonNull
+    public LineData getLineData() {
+                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java:129: error: [NullAway] (INDEX= 30) (Covered) method returns @Nullable, but superclass method com.github.mikephil.charting.interfaces.dataprovider.BarDataProvider.getBarData() returns @NonNull
+    public BarData getBarData() {
+                   ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java:137: error: [NullAway] (INDEX= 31) (Covered) method returns @Nullable, but superclass method com.github.mikephil.charting.interfaces.dataprovider.ScatterDataProvider.getScatterData() returns @NonNull
+    public ScatterData getScatterData() {
+                       ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java:145: error: [NullAway] (INDEX= 32) (Covered) method returns @Nullable, but superclass method com.github.mikephil.charting.interfaces.dataprovider.CandleDataProvider.getCandleData() returns @NonNull
+    public CandleData getCandleData() {
+                      ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java:153: error: [NullAway] (INDEX= 33) (Covered) method returns @Nullable, but superclass method com.github.mikephil.charting.interfaces.dataprovider.BubbleDataProvider.getBubbleData() returns @NonNull
+    public BubbleData getBubbleData() {
+                      ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java:243: error: [NullAway] (INDEX= 34) dereferenced expression set is @Nullable
+            int entryIndex = set.getEntryIndex(e);
+                                ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/CombinedData.java:175: error: [NullAway] (INDEX= 35) (Covered) method returns @Nullable, but superclass method com.github.mikephil.charting.data.ChartData.getEntryForHighlight(com.github.mikephil.charting.highlight.Highlight) returns @NonNull
+    public Entry getEntryForHighlight(Highlight highlight) {
+                 ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/PieChart.java:120: error: [NullAway] (INDEX= 36) (Covered) assigning @Nullable expression to @NonNull field
+        mXAxis = null;
+               ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/PieData.java:66: error: [NullAway] (INDEX= 37) (Covered) method returns @Nullable, but superclass method com.github.mikephil.charting.data.ChartData.getDataSetByIndex(int) returns @NonNull
+    public IPieDataSet getDataSetByIndex(int index) {
+                       ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/utils/Utils.java:419: error: [NullAway] (INDEX= 38) dereferenced expression tracker is @Nullable
+        tracker.computeCurrentVelocity(1000, mMaximumFlingVelocity);
+               ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/ViewPortJob.java:32: error: [NullAway] (INDEX= 39) (Covered) initializer method does not guarantee @NonNull fields mViewPortHandler (line 22), mTrans (line 28), view (line 30) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public ViewPortJob(@Nullable ViewPortHandler viewPortHandler, float xValue, float yValue, @Nullable Transformer trans, @Nullable View v) {
+           ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/ViewPortJob.java:33: error: [NullAway] (INDEX= 40) (Covered) assigning @Nullable expression to @NonNull field
+        this.mViewPortHandler = viewPortHandler;
+                              ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/ViewPortJob.java:36: error: [NullAway] (INDEX= 41) (Covered) assigning @Nullable expression to @NonNull field
+        this.mTrans = trans;
+                    ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/ViewPortJob.java:37: error: [NullAway] (INDEX= 42) (Covered) assigning @Nullable expression to @NonNull field
+        this.view = v;
+                  ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedZoomJob.java:77: error: [NullAway] (INDEX= 43) dereferenced expression yAxis is @Nullable
+        float valsInView = yAxis.mAxisRange / mViewPortHandler.getScaleY();
+                                ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BarDataSet.java:42: error: [NullAway] (INDEX= 44) (Covered) assigning @Nullable expression to @NonNull field
+    protected List<Fill> mFills = null;
+                         ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java:124: error: [NullAway] (INDEX= 45) (Covered) initializer method does not guarantee @NonNull fields mCenterTextLayout (line 60), mBitmapCanvas (line 75) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public void drawData(Canvas c) {
+                ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java:469: error: [NullAway] (INDEX= 46) dereferenced expression mDrawBitmap is @Nullable
+        c.drawBitmap(mDrawBitmap.get(), 0, 0, null);
+                                ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java:714: error: [NullAway] (INDEX= 47) (Covered) assigning @Nullable expression to @NonNull field
+            mBitmapCanvas = null;
+                          ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/LineChartRenderer.java:548: error: [NullAway] (INDEX= 48) (Covered) assigning @Nullable expression to @NonNull field
+            mBitmapCanvas = null;
+                          ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/BarChartRenderer.java:107: error: [NullAway] (INDEX= 49) read of @NonNull field mBarBuffers before initialization
+        BarBuffer buffer = mBarBuffers[index];
+                           ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/highlight/PieRadarHighlighter.java:27: error: [NullAway] (INDEX= 50) (Covered) method returns @Nullable, but superclass method com.github.mikephil.charting.highlight.IHighlighter.getHighlight(float,float) returns @NonNull
+    public Highlight getHighlight(float x, float y) {
+                     ^
+
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/listener/BarLineChartTouchListener.java:182: error: [NullAway] (INDEX= 51) dereferenced expression velocityTracker is @Nullable
+                velocityTracker.computeCurrentVelocity(1000, Utils.getMaximumFlingVelocity());
+                               ^
+
+	(see http://t.uber.com/nullaway )

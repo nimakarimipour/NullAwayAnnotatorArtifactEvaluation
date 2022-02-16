@@ -166,10 +166,10 @@ def read_errors(path):
             index += 1
         while (index < len(lines)
                and "(see http://t.uber.com/nullaway )" not in lines[index]):
-            error += lines[index]
+            error += lines[index] + "\n"
             index += 1
         if error != "":
-            errors.append(error + "\t(see http://t.uber.com/nullaway )\n")
+            errors.append(error + "\n\t(see http://t.uber.com/nullaway )\n")
         index += 1
     return errors
 
@@ -268,16 +268,16 @@ def run():
                 # reset
                 checkout_to_branch(command, project, "base")
 
-                # running autofixer
-                run_autofix(project)
-                # push everything to final branch
-                checkout_to_branch(command, project, "final", save_state=True)
+                # # running autofixer
+                # run_autofix(project)
+                # # push everything to final branch
+                # checkout_to_branch(command, project, "final", save_state=True)
 
-                # get all fixes
-                os.system(
-                    "mv /tmp/NullAwayFix/injected.json ./projects/{}/injected.json"
-                    .format(project['path']))
-                convert_json_to_csv(project['path'])
+                # # get all fixes
+                # os.system(
+                #     "mv /tmp/NullAwayFix/injected.json ./projects/{}/injected.json"
+                #     .format(project['path']))
+                # convert_json_to_csv(project['path'])
                 all_fixes = read_lines('projects/{}/injected.csv'.format(
                     project['path']))
                 # remove new lines from fixes

@@ -1,21 +1,5 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/VertexAttributes.java:89: error: [NullAway] (INDEX= 141) (Covered) returning @Nullable expression from method with @NonNull return type
-		return null;
-		^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/Cubemap.java:125: error: [NullAway] (INDEX= 535) (Covered) passing @Nullable parameter 'negativeZ == null ? null
-			positiveZ == null ? null : new PixmapTextureData(positiveZ, null, useMipMaps, false), negativeZ == null ? null
-			                                                                                                        ^
-  				: new PixmapTextureData(negativeZ, null, useMipMaps, false)' where @NonNull is required
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Cell.java:21: error: [NullAway] (INDEX= 479) (Covered) @NonNull static field defaults not initialized
-	static private Cell defaults;
-	                    ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/Gdx.java:33: error: [NullAway] (INDEX= 43) (Covered) @NonNull static field files not initialized
-	public static Files files;
-	                    ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/IntIntMap.java:85: error: [NullAway] (INDEX= 705) (Covered) initializer method does not guarantee @NonNull fields entries1 (line 67), entries2 (line 67), values1 (line 68), values2 (line 68), keys1 (line 69), keys2 (line 69) are initialized along all control-flow paths (remember to check for exceptions or early returns).
-	public IntIntMap (int initialCapacity, float loadFactor) {
-	       ^
-	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TideMapLoader.java:133: error: [NullAway] (INDEX= 1431) dereferenced expression imageSource is @Nullable			FileHandle image = getRelativeFileHandle(tideFile, imageSource.getText());			                                                              ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/influencers/DynamicsInfluencer.java:36: error: [NullAway] (INDEX= 613) (Covered) initializer method does not guarantee @NonNull fields accellerationChannel (line 33), positionChannel (line 33), previousPositionChannel (line 33), rotationChannel (line 33), angularVelocityChannel (line 33) are initialized along all control-flow paths (remember to check for exceptions or early returns).	public DynamicsInfluencer () {	       ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/Group.java:269: error: [NullAway] (INDEX= 465) (Covered) passing @Nullable parameter 'getStage()' where @NonNull is required		actor.setStage(getStage());		                       ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/loaders/CubemapLoader.java:92: error: [NullAway] (INDEX= 525) (Covered) returning @Nullable expression from method with @NonNull return type		return null;		^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/utils/XmlReader.java:458: error: [NullAway] (INDEX= 1346) (Covered) initializer method does not guarantee @NonNull fields attributes (line 453), children (line 454), text (line 455) are initialized along all control-flow paths (remember to check for exceptions or early returns).		public Element (String name, Element parent) {		       ^	(see http://t.uber.com/nullaway )

@@ -1,20 +1,5 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/ParameterHandler.java:234: error: [NullAway] (INDEX= 12) (Covered) passing @Nullable parameter 'valueConverter.convert(headerValue)' where @NonNull is required
-        builder.addHeader(headerName, valueConverter.convert(headerValue));
-                                                            ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:791: error: [NullAway] (INDEX= 7) dereferenced expression parameterHandlers is @Nullable
-          ParameterHandler<?> otherHandler = parameterHandlers[i];
-                                                              ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/HttpServiceMethod.java:193: error: [NullAway] (INDEX= 23) (Covered) returning @Nullable expression from method with @NonNull return type
-        return KotlinExtensions.suspendAndThrow(e, continuation);
-        ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:197: error: [NullAway] (INDEX= 16) dereferenced expression urlBuilder is @Nullable
-      urlBuilder.addEncodedQueryParameter(name, value);
-                ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/ParameterHandler.java:351: error: [NullAway] (INDEX= 13) (Covered) passing @Nullable parameter 'body' where @NonNull is required
-      builder.addPart(headers, body);
-                               ^
-	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/OkHttpCall.java:147: error: [NullAway] (INDEX= 1) dereferenced expression call is @Nullable    call.enqueue(        ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:791: error: [NullAway] (INDEX= 7) dereferenced expression parameterHandlers is @Nullable          ParameterHandler<?> otherHandler = parameterHandlers[i];                                                              ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/ParameterHandler.java:116: error: [NullAway] (INDEX= 10) (Covered) passing @Nullable parameter 'valueConverter.convert(value)' where @NonNull is required      builder.addPathParam(name, valueConverter.convert(value), encoded);                                                       ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:200: error: [NullAway] (INDEX= 17) dereferenced expression urlBuilder is @Nullable      urlBuilder.addQueryParameter(name, value);                ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:791: error: [NullAway] (INDEX= 7) dereferenced expression parameterHandlers is @Nullable          ParameterHandler<?> otherHandler = parameterHandlers[i];                                                              ^	(see http://t.uber.com/nullaway )

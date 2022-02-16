@@ -1,20 +1,5 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:210: error: [NullAway] (INDEX= 18) (Covered) @NonNull field SubscriberMethodFinder$FindState.subscriberInfo not initialized
-        SubscriberInfo subscriberInfo;
-                       ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:207: error: [NullAway] (INDEX= 16) (Covered) @NonNull field SubscriberMethodFinder$FindState.subscriberClass not initialized
-        Class<?> subscriberClass;
-                 ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/Logger.java:78: error: [NullAway] (INDEX= 0) (Covered) returning @Nullable expression from method with @NonNull return type
-                return null;
-                ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/PendingPost.java:50: error: [NullAway] (INDEX= 29) (Covered) assigning @Nullable expression to @NonNull field
-        pendingPost.next = null;
-                         ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBusBuilder.java:182: error: [NullAway] (INDEX= 14) (Covered) returning @Nullable expression from method with @NonNull return type
-            return null;
-            ^
-	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/PendingPostQueue.java:43: error: [NullAway] (INDEX= 32) (Covered) assigning @Nullable expression to @NonNull field                tail = null;                     ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:215: error: [NullAway] (INDEX= 19) (Covered) assigning @Nullable expression to @NonNull field            subscriberInfo = null;                           ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/PendingPost.java:49: error: [NullAway] (INDEX= 28) (Covered) assigning @Nullable expression to @NonNull field        pendingPost.subscription = null;                                 ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:178: error: [NullAway] (INDEX= 40) (Covered) @NonNull static field factory not initialized    public static ErrorDialogFragmentFactory<?> factory;                                                ^	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/Logger.java:78: error: [NullAway] (INDEX= 0) (Covered) returning @Nullable expression from method with @NonNull return type                return null;                ^	(see http://t.uber.com/nullaway )
