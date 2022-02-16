@@ -13,7 +13,7 @@ def make_csv():
             if(project['active'] == False):
                 continue
             with open("../chain/projects/{}/selected.txt".format(project['path'])) as f:
-                errors = [l for i, l in enumerate(f.readlines()) if i % 4 == 0]
+                errors = [l for i, l in enumerate(f.readlines()) if i % 5 == 0]
                 for i, error in enumerate(errors):
                     start = len(MAC) if error.startswith(MAC) else len(LINUX)
                     error_link = error[start:error.find(": error: [NullAway]")].replace(":", "#L")
