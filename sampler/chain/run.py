@@ -1,4 +1,3 @@
-from distutils.command.clean import clean
 import random
 import json
 import os
@@ -13,27 +12,27 @@ AUTO_FIXER_PATH = "/home/nima/Developer/AutoFixer/Diagnoser" if platform.system(
 FIX_PATH = "/tmp/NullAwayFix/fixes.csv"
 
 
-def checkout_to_branch(COMMAND, project, name, saveState=False):
+def checkout_to_branch(command, project, name, save_state=False):
     os.system("rm {}/errors.txt".format(PROJECT_DIR.format(project['path'])))
-    if (saveState):
-        os.system(COMMAND.format("git push origin --delete {}".format(name)))
-        os.system(COMMAND.format("git branch -D {}".format(name)))
-        os.system(COMMAND.format("git checkout -b {}".format(name)))
-        os.system(COMMAND.format("git add ."))
-        os.system(COMMAND.format("git commit -m \"Final Result\""))
+    if save_state:
+        os.system(command.format("git push origin --delete {}".format(name)))
+        os.system(command.format("git branch -D {}".format(name)))
+        os.system(command.format("git checkout -b {}".format(name)))
+        os.system(command.format("git add ."))
+        os.system(command.format("git commit -m \"Final Result\""))
         os.system(
-            COMMAND.format("git push --set-upstream origin {}".format(name)))
+            command.format("git push --set-upstream origin {}".format(name)))
     else:
-        os.system(COMMAND.format("git reset --hard"))
-        os.system(COMMAND.format("git pull"))
-        os.system(COMMAND.format("git checkout {}".format(name)))
+        os.system(command.format("git reset --hard"))
+        os.system(command.format("git pull"))
+        os.system(command.format("git checkout {}".format(name)))
 
 
 def read_lines(path):
     f = open(path, 'r')
     lines = f.readlines()
     f.close()
-    return lines
+    return [l[:-1] if l[len(l) - 1] == '\n' else l for l in lines]
 
 
 def write_lines(path, lines):
@@ -70,8 +69,8 @@ def copy_correct_nullaway_config(project):
     CONFIG = {
         "INHERITANCE_CHECK_DISABLED": False,
         "ANNOTATION": {
-            "NONNULL": "UKNOWN",
-            "NULLABLE": "UKNOWN"
+            "NONNULL": "UNKNOWN",
+            "NULLABLE": "UNKNOWN"
         },
         "MAKE_CALL_GRAPH": False,
         "METHOD_PARAM_TEST": {
@@ -105,14 +104,14 @@ def convert_json_to_csv(name):
         "$*$")
     lines = []
     for fix in fixes:
-        disp = ""
+        display = ""
         for key in keys:
-            if (key in fix.keys()):
+            if key in fix.keys():
                 val = fix[key]
-                disp += (val if val != None else "null") + "$*$"
+                display += (val if val is not None else "null") + "$*$"
             else:
-                disp += "null" + "$*$"
-        lines.append(disp[:-3] + "\n")
+                display += "null" + "$*$"
+        lines.append(display[:-3] + "\n")
     fixed = []
     for l in lines:
         index = [i.start() for i in re.finditer("\$\*\$", l)][4] + 3
@@ -148,7 +147,7 @@ def remove_reason_field(path):
             3] + "$*$" + vals[4] + "$*$" + vals[
                 5] + "$*$" + "null" + "$*$" + vals[7] + "$*$" + vals[
                     8] + "$*$" + vals[9] + "$*$" + vals[10] + "$*$" + vals[11]
-        lines.append(str(disp))
+        lines.append(str(disp) + "\n")
 
     write_lines(path, lines)
 
@@ -156,20 +155,20 @@ def remove_reason_field(path):
 def read_errors(path):
     lines = read_lines(path)
     index = 0
-    if (lines[len(lines) - 1] == '\n'):
+    if lines[len(lines) - 1] == '\n':
         lines = lines[:-1]
-    while (index < len(lines) and "error: [NullAway]" not in lines[index]):
+    while index < len(lines) and "error: [NullAway]" not in lines[index]:
         index += 1
     errors = []
-    while (index < len(lines)):
+    while index < len(lines):
         error = ""
-        while (index < len(lines) and "error: [NullAway]" not in lines[index]):
+        while index < len(lines) and "error: [NullAway]" not in lines[index]:
             index += 1
         while (index < len(lines)
                and "(see http://t.uber.com/nullaway )" not in lines[index]):
             error += lines[index]
             index += 1
-        if (error != ""):
+        if error != "":
             errors.append(error + "\t(see http://t.uber.com/nullaway )\n")
         index += 1
     return errors
@@ -182,33 +181,31 @@ def get_error_fix(path, command):
     return read_errors(path + "/errors.txt"), fixes[1:]
 
 
-def exclude_fixes(target, toRemove):
-    cleaned_target = [clean_fix(f) for f in toRemove]
-    repeated = []
-    for x in target:
-        if clean_fix(x) in cleaned_target:
-            repeated.append(x)
-    for fix in repeated:
-        target = [t for t in target if t != fix]
-    return target
+def exclude_fixes(target, to_remove):
+    cleaned_to_remove = [clean_fix(f) for f in to_remove]
+    cleaned_target = [clean_fix(f) for f in target]
+    for f in cleaned_to_remove:
+        if f in cleaned_target:
+            cleaned_target.remove(f)
+    return cleaned_target
 
 
 def collection_contains_error(target, errors):
     number, target = remove_line_number_from_error(target)
     for error in errors:
         n, e = remove_line_number_from_error(error)
-        if (e == target and abs(number - n) < 10):
+        if e == target and abs(number - n) < 10:
             return True
     return False
 
 
-def select_sample_errors(COMMAND, project):
-    checkout_to_branch(COMMAND, project, "base")
+def select_sample_errors(command, project):
+    checkout_to_branch(command, project, "base")
     errors_before, _ = get_error_fix(PROJECT_DIR.format(project['path']),
-                                     COMMAND.format(project['build']))
-    checkout_to_branch(COMMAND, project, "final")
+                                     command.format(project['build']))
+    checkout_to_branch(command, project, "final")
     errors_after, _ = get_error_fix(PROJECT_DIR.format(project['path']),
-                                    COMMAND.format(project['build']))
+                                    command.format(project['build']))
     print(
         "Number of errors at branch: {} is {}, and at branch: {} is {}".format(
             "base", len(errors_before), "final", len(errors_after)))
@@ -242,8 +239,8 @@ def error_index(error):
 
 
 def fix_index(fix):
-    vals = fix.split("$*$")
-    return int(vals[len(vals) - 1])
+    values = fix.split("$*$")
+    return int(values[len(values) - 1])
 
 
 def apply_fixes(fixes):
@@ -251,29 +248,30 @@ def apply_fixes(fixes):
     os.system("java -jar injector.jar {}".format(FIX_PATH))
 
 
-def get_corresponding_fixes(errors, fixes):
-    indecies = [error_index(e) for e in errors]
-    return [f for f in fixes if fix_index(f) in indecies]
+def get_corresponding_fixes(error, fixes):
+    return [f for f in fixes if fix_index(f) == error_index(error)]
 
 
 def run():
+    if not os.path.exists("/tmp/NullAwayFix/"):
+        os.makedirs("/tmp/NullAwayFix/")
     with open('../../projects.json') as f:
         projects = json.load(f)
         for project in projects['projects']:
             if project['active']:
-                COMMAND = "cd {} && {}".format(
+                command = "cd {} && {}".format(
                     PROJECT_DIR.format(project['path']), {})
 
                 if not os.path.exists("./projects/{}".format(project['path'])):
                     os.makedirs("./projects/{}".format(project['path']))
 
                 # reset
-                checkout_to_branch(COMMAND, project, "base")
+                checkout_to_branch(command, project, "base")
 
                 # running autofixer
                 run_autofix(project)
-                # push everythig to final branch
-                checkout_to_branch(COMMAND, project, "final", saveState=True)
+                # push everything to final branch
+                checkout_to_branch(command, project, "final", save_state=True)
 
                 # get all fixes
                 os.system(
@@ -288,13 +286,13 @@ def run():
                 ]
 
                 # reset
-                checkout_to_branch(COMMAND, project, "base")
+                checkout_to_branch(command, project, "base")
 
                 # copy the correct nullaway config
                 copy_correct_nullaway_config(project)
 
                 # select new sample errors
-                select_sample_errors(COMMAND, project)
+                select_sample_errors(command, project)
 
                 # read sample errors
                 selected = read_errors('projects/{}/selected.txt'.format(
@@ -302,38 +300,35 @@ def run():
 
                 for i, error in enumerate(selected):
                     # reset
-                    checkout_to_branch(COMMAND, project, "base")
+                    checkout_to_branch(command, project, "base")
 
                     _, fixes = get_error_fix(
                         PROJECT_DIR.format(project['path']),
-                        COMMAND.format(project['build']))
+                        command.format(project['build']))
 
-                    # inject the intial fix
-                    init_fix = get_corresponding_fixes([error], fixes)
+                    # inject the initial fix
+                    init_fix = get_corresponding_fixes(error, fixes)
                     apply_fixes(init_fix)
 
                     while True:
                         error, new_fix_base = get_error_fix(
                             PROJECT_DIR.format(project['path']),
-                            COMMAND.format(project['build']))
+                            command.format(project['build']))
 
                         new_fix_base = exclude_fixes(new_fix_base, fixes)
 
-                        to_apply = [
-                            f for f in new_fix_base
-                            if clean_fix(f) in all_fixes
-                        ]
+                        to_apply = [f for f in new_fix_base if f in all_fixes]
 
-                        if (len(to_apply) == 0):
+                        if len(to_apply) == 0:
                             print("Finished.")
                             break
                         print("Going for another round...")
                         apply_fixes(to_apply)
 
-                    checkout_to_branch(COMMAND,
+                    checkout_to_branch(command,
                                        project,
                                        "chain_{}".format(i),
-                                       saveState=True)
+                                       save_state=True)
 
 
 run()

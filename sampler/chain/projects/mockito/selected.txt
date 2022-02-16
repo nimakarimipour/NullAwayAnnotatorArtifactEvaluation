@@ -1,20 +1,20 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java:54: error: [NullAway] (INDEX= 5) (Covered) returning @Nullable expression from method with @NonNull return type
+/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java:102: error: [NullAway] (INDEX= 46) (Covered) returning @Nullable expression from method with @NonNull return type
+        return firstSimilar;
+        ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/util/JavaEightUtil.java:24: error: [NullAway] (INDEX= 138) (Covered) @NonNull static field emptyPeriod not initialized
+    private static Object emptyPeriod;
+                          ^
+	(see http://t.uber.com/nullaway )
+/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/AdditionalMatchers.java:582: error: [NullAway] (INDEX= 18) (Covered) returning @Nullable expression from method with @NonNull return type
         return null;
         ^
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java:56: error: [NullAway] (INDEX= 88) (Covered) returning @Nullable expression from method with @NonNull return type
-                            return null;
-                            ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/matchers/apachecommons/EqualsBuilder.java:163: error: [NullAway] (INDEX= 146) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        return reflectionEquals(lhs, rhs, testTransients, null, null);
+                                                          ^
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java:424: error: [NullAway] (INDEX= 196) (Covered) returning @Nullable expression from method with @NonNull return type
-            return null;
-            ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/DoAnswerStyleStubbing.java:33: error: [NullAway] (INDEX= 44) (Covered) assigning @Nullable expression to @NonNull field
-        stubbingStrictness = null;
-                           ^
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/invocation/InterceptedInvocation.java:201: error: [NullAway] (INDEX= 157) (Covered) returning @Nullable expression from method with @NonNull return type
-                    return null;
-                    ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/MockedStaticImpl.java:129: error: [NullAway] (INDEX= 149) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        VerificationDataImpl data = new VerificationDataImpl(invocations, null);
+                                                                          ^
 	(see http://t.uber.com/nullaway )
