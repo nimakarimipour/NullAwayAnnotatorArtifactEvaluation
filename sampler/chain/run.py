@@ -13,6 +13,8 @@ FIX_PATH = "/tmp/NullAwayFix/fixes.csv"
 
 
 def checkout_to_branch(command, project, name, save_state=False):
+    print("REMOVING.")
+    print("rm {}/errors.txt".format(PROJECT_DIR.format(project['path'])))
     os.system("rm {}/errors.txt".format(PROJECT_DIR.format(project['path'])))
     if save_state:
         os.system(command.format("git push origin --delete {}".format(name)))
@@ -240,7 +242,7 @@ def select_sample_errors(command, project):
     selected = random.choices(errors_before, k=min([5, len(errors_before)]))
 
     # Write selected errors
-    write_lines('projects/{}/selected.txt'.format(project['path']), selected)
+    write_lines('projects/{}/selected_new.txt'.format(project['path']), selected)
 
 
 def error_index(error):
@@ -270,7 +272,7 @@ def run():
     with open('../../projects.json') as f:
         projects = json.load(f)
         for project in projects['projects']:
-            if project['active']:
+            if project['name'] == "Conductor":
                 command = "cd {} && {}".format(
                     PROJECT_DIR.format(project['path']), {})
 
@@ -305,12 +307,15 @@ def run():
 
                 # select new sample errors
                 select_sample_errors(command, project)
+                exit()
 
                 # read sample errors
                 selected = read_errors('projects/{}/selected.txt'.format(
                     project['path']))
 
                 for i, error in enumerate(selected):
+                    if(i != 1):
+                        continue
                     # reset
                     checkout_to_branch(command, project, "base")
 

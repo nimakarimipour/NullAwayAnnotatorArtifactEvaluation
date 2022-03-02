@@ -3,9 +3,9 @@
            ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsMocks.java:33: error: [NullAway] (INDEX= 97) (Covered) returning @Nullable expression from method with @NonNull return type
-                            return null;
-                            ^
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/matchers/apachecommons/EqualsBuilder.java:163: error: [NullAway] (INDEX= 180) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        return reflectionEquals(lhs, rhs, testTransients, null, null);
+                                                                ^
 
 	(see http://t.uber.com/nullaway )
 /home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/MockitoCore.java:173: error: [NullAway] (INDEX= 34) (Covered) passing @Nullable parameter 'null' where @NonNull is required

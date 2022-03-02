@@ -1,0 +1,25 @@
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/DeciderService.java:785: error: [NullAway] (INDEX= 60) (Covered) passing @Nullable parameter 'e.getMessage()' where @NonNull is required
+            throw new TerminateWorkflowException(e.getMessage());
+                                                             ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/DeciderService.java:727: error: [NullAway] (INDEX= 56) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        return getTasksToBeScheduled(workflow, taskToSchedule, retryCount, null);
+                                                                           ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/Event.java:130: error: [NullAway] (INDEX= 96) (Covered) passing @Nullable parameter 'queueName' where @NonNull is required
+            return eventQueues.getQueue(queueName);
+                                        ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/Event.java:96: error: [NullAway] (INDEX= 91) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        Message message = new Message(task.getTaskId(), null, task.getTaskId());
+                                                        ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/storage/DummyPayloadStorage.java:27: error: [NullAway] (INDEX= 72) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+
+	(see http://t.uber.com/nullaway )
