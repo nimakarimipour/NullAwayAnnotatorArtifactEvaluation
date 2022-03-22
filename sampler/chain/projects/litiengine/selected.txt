@@ -1,16 +1,16 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/GroupLayer.java:26: error: [NullAway] (INDEX= 201) (Covered) @NonNull field layers not initialized
-  private List<ILayer> layers;
-                       ^
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileLayer.java:45: error: [NullAway] (INDEX= 424) (Covered) returning @Nullable expression from method with @NonNull return type
+    return tile.isPresent() ? tile.get() : null;
+    ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TilesetEntry.java:61: error: [NullAway] (INDEX= 138) (Covered) initializer method does not guarantee @NonNull fields terrains (line 27), terrain (line 32), animation (line 35), image (line 38), type (line 41), collisionData (line 44) are initialized along all control-flow paths (remember to check for exceptions or early returns).
-  public TilesetEntry(Tileset tileset, int id) {
-         ^
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/DropdownListField.java:102: error: [NullAway] (INDEX= 377) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+    this.chosenElementComponent = new ImageComponent(this.getX(), this.getY(), this.getWidth(), this.getHeight() / this.getNumberOfShownElements(), this.getEntrySprite(), "", null);
+                                                                                                                                                                               ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/SoundSource.java:54: error: [NullAway] (INDEX= 64) (Covered) initializer method does not guarantee @NonNull fields sound (line 27), playback (line 28) are initialized along all control-flow paths (remember to check for exceptions or early returns).
-  public SoundSource(String name) {
-         ^
+Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundEngine.java:719: error: [NullAway] (INDEX= 297) (Covered) assigning @Nullable expression to @NonNull field
+        music = null;
+              ^
 
 	(see http://t.uber.com/nullaway )
 /home/nima/Developer/AutoFixer/Evaluation/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ArrayUtilities.java:557: error: [NullAway] (INDEX= 317) (Covered) returning @Nullable expression from method with @NonNull return type

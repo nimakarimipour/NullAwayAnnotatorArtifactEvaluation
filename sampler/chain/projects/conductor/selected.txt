@@ -13,13 +13,13 @@
                                         ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/ExclusiveJoin.java:50: error: [NullAway] (INDEX= 82) dereferenced expression joinOn is @Nullable
-            joinOn = joinOn.stream().map(name -> TaskUtils.appendIteration(name, task.getIteration())).collect(
-                           ^
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/service/AdminServiceImpl.java:45: error: [NullAway] (INDEX= 136) (Covered) assigning @Nullable expression to @NonNull field
+        this.workflowRepairService = workflowRepairService.orElse(null);
+                                   ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/core/utils/ExternalPayloadStorageUtils.java:192: error: [NullAway] (INDEX= 69) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-            task.setOutputData(null);
-                               ^
+/home/nima/Developer/AutoFixer/Evaluation/Projects/conductor/core/src/main/java/com/netflix/conductor/core/events/queue/DefaultEventQueueProcessor.java:183: error: [NullAway] (INDEX= 116) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        Message msg = new Message(UUID.randomUUID().toString(), objectMapper.writeValueAsString(outputMap), null);
+                                                                                                            ^
 
 	(see http://t.uber.com/nullaway )

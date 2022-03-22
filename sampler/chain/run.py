@@ -272,7 +272,7 @@ def run():
     with open('../../projects.json') as f:
         projects = json.load(f)
         for project in projects['projects']:
-            if project['name'] == "Conductor":
+            if project['name'] == "LitiEngine":
                 command = "cd {} && {}".format(
                     PROJECT_DIR.format(project['path']), {})
 
@@ -306,15 +306,15 @@ def run():
                 copy_correct_nullaway_config(project)
 
                 # select new sample errors
-                select_sample_errors(command, project)
-                exit()
+                # select_sample_errors(command, project)
+                # exit()
 
                 # read sample errors
                 selected = read_errors('projects/{}/selected.txt'.format(
                     project['path']))
 
                 for i, error in enumerate(selected):
-                    if(i != 1):
+                    if(i != 2):
                         continue
                     # reset
                     checkout_to_branch(command, project, "base")
