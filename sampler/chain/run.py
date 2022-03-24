@@ -272,7 +272,7 @@ def run():
     with open('../../projects.json') as f:
         projects = json.load(f)
         for project in projects['projects']:
-            if project['name'] == "LitiEngine":
+            if project['name'] == "Retrofit":
                 command = "cd {} && {}".format(
                     PROJECT_DIR.format(project['path']), {})
 

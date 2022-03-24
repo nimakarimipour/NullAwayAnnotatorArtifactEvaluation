@@ -3,14 +3,14 @@
                                                                                  ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:209: error: [NullAway] (INDEX= 19) dereferenced expression formBuilder is @Nullable
-      formBuilder.add(name, value);
-                 ^
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:410: error: [NullAway] (INDEX= 13) (Covered) passing @Nullable parameter 'httpMethod' where @NonNull is required
+              method, p, "@Path can only be used with relative url on @%s", httpMethod);
+                                                                            ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:197: error: [NullAway] (INDEX= 16) dereferenced expression urlBuilder is @Nullable
-      urlBuilder.addEncodedQueryParameter(name, value);
-                ^
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:92: error: [NullAway] (INDEX= 11) (Covered) assigning @Nullable expression to @NonNull field
+    parameterHandlers = builder.parameterHandlers;
+                      ^
 
 	(see http://t.uber.com/nullaway )
 /home/nima/Developer/AutoFixer/Evaluation/Projects/retrofit/retrofit/src/main/java/retrofit2/OkHttpCall.java:287: error: [NullAway] (INDEX= 2) (Covered) returning @Nullable expression from method with @NonNull return type

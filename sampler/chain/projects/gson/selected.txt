@@ -8,9 +8,9 @@
     ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/Excluder.java:124: error: [NullAway] (INDEX= 46) (Covered) @NonNull field Excluder$1.delegate not initialized
-      private TypeAdapter<T> delegate;
-                             ^
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeWriter.java:57: error: [NullAway] (INDEX= 156) (Covered) initializer method does not guarantee @NonNull field pendingName (line 52) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public JsonTreeWriter() {
+         ^
 
 	(see http://t.uber.com/nullaway )
 /home/nima/Developer/AutoFixer/Evaluation/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:122: error: [NullAway] (INDEX= 133) (Covered) returning @Nullable expression from method with @NonNull return type
