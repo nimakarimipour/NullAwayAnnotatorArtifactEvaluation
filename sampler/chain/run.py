@@ -272,7 +272,7 @@ def run():
     with open('../../projects.json') as f:
         projects = json.load(f)
         for project in projects['projects']:
-            if project['name'] == "Retrofit":
+            if project['name'] == "LibGdx":
                 command = "cd {} && {}".format(
                     PROJECT_DIR.format(project['path']), {})
 
@@ -314,7 +314,7 @@ def run():
                     project['path']))
 
                 for i, error in enumerate(selected):
-                    if(i != 2):
+                    if(i != 3):
                         continue
                     # reset
                     checkout_to_branch(command, project, "base")
