@@ -1,22 +1,6 @@
 {
     "projects": [
         {
-            "name": "PhotoView",
-            "path": "PhotoView",
-            "root": "PhotoView",
-            "git": "https://{}:{}@github.com/nimakarimipour/PhotoView.git",
-            "build": "./gradlew build -x test",
-            "format": "",
-            "annot": {
-                "init": "com.github.chrisbanes.photoview.Initializer",
-                "nullable": "javax.annotation.Nullable",
-                "nonnull": "javax.annotation.Nonnull"
-            },
-            "branch": "gc_5",
-            "preprocess": true,
-            "active": false
-        },
-        {
             "name": "MPAndroid",
             "path": "MPAndroidChart",
             "root": "MPAndroidChart",
@@ -53,7 +37,7 @@
             "path": "conductor",
             "root": "conductor",
             "git": "https://{}:{}@github.com/nimakarimipour/conductor.git",
-            "build": "./gradlew build -x test",
+            "build": "./gradlew :conductor-core:compileJava",
             "format": "",
             "annot": {
                 "init": "com.netflix.conductor.Initializer",
@@ -209,20 +193,52 @@
             "active": true
         },
         {
-            "name": "Test",
-            "path": "Test",
-            "root": "Test",
-            "git": "https://{}:{}@github.com/nimakarimipour/libgdx.git",
+            "name": "Glide",
+            "path": "glide",
+            "root": "glide",
+            "git": "https://{}:{}@github.com/nimakarimipour/uCrop.git",
+            "build": "./gradlew library:build",
+            "format": "",
+            "annot": {
+                "init": "com.bumptech.glide.Initializer",
+                "nullable": "androidx.annotation.Nullable",
+                "nonnull": "javax.annotation.Nonnull"
+            },
+            "branch": "gc_3",
+            "preprocess": true,
+            "active": true
+        },
+        {
+            "name": "UCrop",
+            "path": "uCrop",
+            "root": "uCrop",
+            "git": "https://{}:{}@github.com/nimakarimipour/uCrop.git",
+            "build": "./gradlew library:build",
+            "format": "",
+            "annot": {
+                "init": "com.yalantis.ucrop.Initializer",
+                "nullable": "androidx.annotation.Nullable",
+                "nonnull": "javax.annotation.Nonnull"
+            },
+            "branch": "gc_3",
+            "preprocess": true,
+            "active": true
+        },
+        {
+            "name": "Eureka",
+            "path": "eureka",
+            "root": "eureka",
+            "git": "https://{}:{}@github.com/nimakarimipour/eureka.git",
             "build": "./gradlew build",
             "format": "",
             "annot": {
-                "init": "com.badlogic.gdx.Initializer",
+                "init": "com.netflix.eureka.Initializer",
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
             "branch": "gc_3",
             "preprocess": true,
-            "active": false
+            "active": true
         }
     ]
 }
