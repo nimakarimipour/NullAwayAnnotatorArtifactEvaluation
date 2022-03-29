@@ -1,11 +1,11 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:442: error: [NullAway] (INDEX= 165) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-                    /* secureHealthCheckUrl= */ null,
-                                                ^
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/netty/common/channel/config/ChannelConfigKey.java:38: error: [NullAway] (INDEX= 9) (Covered) assigning @Nullable expression to @NonNull field
+        this.defaultValue = null;
+                          ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:439: error: [NullAway] (INDEX= 162) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-                    /* homePageUrl= */ null,
-                                       ^
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:1049: error: [NullAway] (INDEX= 66) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
 
 	(see http://t.uber.com/nullaway )
 /home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/filter/BaseZuulFilterRunner.java:255: error: [NullAway] (INDEX= 115) (Covered) passing @Nullable parameter 'snapshot' where @NonNull is required
@@ -18,8 +18,8 @@
             ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:485: error: [NullAway] (INDEX= 84) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-                            requestConfig.setProperty(ReadTimeout, null);
-                                                                   ^
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/message/http/HttpRequestMessageImpl.java:95: error: [NullAway] (INDEX= 112) (Covered) assigning @Nullable expression to @NonNull field
+    private String reconstructedUri = null;
+                   ^
 
 	(see http://t.uber.com/nullaway )

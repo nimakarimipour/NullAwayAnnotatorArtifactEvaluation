@@ -1,275 +1,275 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/util/Primitives.java:33: error: [NullAway] (INDEX= 0) (Covered) returning @Nullable expression from method with @NonNull return type
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/util/Primitives.java:33: error: [NullAway] (INDEX= 0) (Covered) returning @Nullable expression from method with @NonNull return type
         return (Class<T>) PRIMITIVE_TYPES.get(clazz);
         ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/util/Primitives.java:61: error: [NullAway] (INDEX= 1) (Covered) returning @Nullable expression from method with @NonNull return type
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/util/Primitives.java:61: error: [NullAway] (INDEX= 1) (Covered) returning @Nullable expression from method with @NonNull return type
         return (T) PRIMITIVE_OR_WRAPPER_DEFAULT_VALUES.get(primitiveOrWrapperType);
         ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/runners/VerboseMockitoJUnitRunner.java:48: error: [NullAway] (INDEX= 2) (Covered) @NonNull field VerboseMockitoJUnitRunner$1.warningsCollector not initialized
-                    WarningsCollector warningsCollector;
-                                      ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/runners/ConsoleSpammingMockitoJUnitRunner.java:48: error: [NullAway] (INDEX= 3) (Covered) @NonNull field ConsoleSpammingMockitoJUnitRunner$1.warningsCollector not initialized
-                    WarningsCollector warningsCollector;
-                                      ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/BDDMockito.java:154: error: [NullAway] (INDEX= 4) (Covered) assigning @Nullable expression to @NonNull field
-            this.mockitoOngoingStubbing = ongoingStubbing;
-                                        ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java:978: error: [NullAway] (INDEX= 5) (Covered) returning @Nullable expression from method with @NonNull return type
-        return null;
-        ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java:1020: error: [NullAway] (INDEX= 6) (Covered) returning @Nullable expression from method with @NonNull return type
-        return null;
-        ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/exceptions/Reporter.java:234: error: [NullAway] (INDEX= 7) dereferenced expression undesired is @Nullable
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/exceptions/Reporter.java:234: error: [NullAway] (INDEX= 2) dereferenced expression undesired is @Nullable
         return new NoInteractionsWanted(join("No interactions wanted here:", new LocationImpl(), "But found this interaction on mock '" + MockUtil.getMockName(undesired.getMock()) + "':", undesired.getLocation(), scenario));
                                                                                                                                                                         ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java:105: error: [NullAway] (INDEX= 8) (Covered) returning @Nullable expression from method with @NonNull return type
-        return null;
-        ^
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/invocation/InterceptedInvocation.java:198: error: [NullAway] (INDEX= 3) (Covered) returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java:64: error: [NullAway] (INDEX= 9) (Covered) initializer method does not guarantee @NonNull fields typeToMock (line 28), name (line 32), spiedInstance (line 34), defaultAnswer (line 36), mockName (line 38), outerClassInstance (line 58), constructorArgs (line 60) are initialized along all control-flow paths (remember to check for exceptions or early returns).
-    public CreationSettings() {
-           ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/progress/MockingProgressImpl.java:66: error: [NullAway] (INDEX= 10) (Covered) method returns @Nullable, but superclass method org.mockito.internal.progress.MockingProgress.pullOngoingStubbing() returns @NonNull
-    public OngoingStubbing<?> pullOngoingStubbing() {
-                              ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/framework/DefaultMockitoSession.java:76: error: [NullAway] (INDEX= 11) (Covered) returning @Nullable expression from method with @NonNull return type
-                    return failure;
-                    ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/configuration/IndependentAnnotationEngine.java:56: error: [NullAway] (INDEX= 12) (Covered) returning @Nullable expression from method with @NonNull return type
-                return null;
-                ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/configuration/injection/filter/OngoingInjector.java:29: error: [NullAway] (INDEX= 13) (Covered) returning @Nullable expression from method with @NonNull return type
-                    return null;
-                    ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/util/reflection/FieldInitializationReport.java:59: error: [NullAway] (INDEX= 14) (Covered) returning @Nullable expression from method with @NonNull return type
-        return fieldInstance != null ? fieldInstance.getClass() : null;
-        ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java:52: error: [NullAway] (INDEX= 15) (Covered) returning @Nullable expression from method with @NonNull return type
-                    return null;
-                    ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java:136: error: [NullAway] (INDEX= 16) (Covered) returning @Nullable expression from method with @NonNull return type
-        return null;
-        ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ForwardsInvocations.java:28: error: [NullAway] (INDEX= 17) (Covered) assigning @Nullable expression to @NonNull field
-    private Object delegatedObject = null;
-                   ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java:49: error: [NullAway] (INDEX= 18) (Covered) method returns @Nullable, but superclass method org.mockito.stubbing.Answer.answer(org.mockito.invocation.InvocationOnMock) returns @NonNull
-    public Object answer(InvocationOnMock invocation) throws Throwable {
-                  ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsMocks.java:31: error: [NullAway] (INDEX= 19) (Covered) returning @Nullable expression from method with @NonNull return type
-                    return null;
-                    ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValues.java:72: error: [NullAway] (INDEX= 20) (Covered) returning @Nullable expression from method with @NonNull return type
-        return null;
-        ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/RetrieveGenericsForDefaultAnswers.java:36: error: [NullAway] (INDEX= 21) (Covered) returning @Nullable expression from method with @NonNull return type
-                return null;
-                ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/RetrieveGenericsForDefaultAnswers.java:40: error: [NullAway] (INDEX= 22) (Covered) passing @Nullable parameter 'null' where @NonNull is required
-        return answerCallback.apply(null);
-                                    ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/answers/DoesNothing.java:29: error: [NullAway] (INDEX= 23) (Covered) method returns @Nullable, but superclass method org.mockito.stubbing.Answer.answer(org.mockito.invocation.InvocationOnMock) returns @NonNull
-    public Object answer(InvocationOnMock invocation) {
-                  ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/stubbing/answers/Returns.java:22: error: [NullAway] (INDEX= 24) (Covered) assigning @Nullable expression to @NonNull field
-        this.value = value;
-                   ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/util/concurrent/DetachedThreadLocal.java:110: error: [NullAway] (INDEX= 25) (Covered) returning @Nullable expression from method with @NonNull return type
-        return null;
-        ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/util/concurrent/WeakConcurrentMap.java:70: error: [NullAway] (INDEX= 26) (Covered) returning @Nullable expression from method with @NonNull return type
-        return value;
-        ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/util/concurrent/WeakConcurrentMap.java:358: error: [NullAway] (INDEX= 27) (Covered) assigning @Nullable expression to @NonNull field
-            this.entry = entry;
-                       ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/util/reflection/InstrumentationMemberAccessor.java:30: error: [NullAway] (INDEX= 28) (Covered) @NonNull static field DISPATCHER not initialized
-    private static final Dispatcher DISPATCHER;
-                                    ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/util/reflection/InstrumentationMemberAccessor.java:62: error: [NullAway] (INDEX= 29) (Covered) assigning @Nullable expression to @NonNull field
-        DISPATCHER = dispatcher;
-                   ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/util/reflection/InstrumentationMemberAccessor.java:197: error: [NullAway] (INDEX= 30) dereferenced expression type is @Nullable
-            if (!type.isAssignableFrom(owner.getClass())) {
-                     ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/runners/DefaultInternalRunner.java:33: error: [NullAway] (INDEX= 31) (Covered) @NonNull field DefaultInternalRunner$1.target not initialized
-                    public Object target;
-                                  ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/runners/DefaultInternalRunner.java:34: error: [NullAway] (INDEX= 32) (Covered) @NonNull field DefaultInternalRunner$1.mockitoTestListener not initialized
-                    private MockitoTestListener mockitoTestListener;
-                                                ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/runners/DefaultInternalRunner.java:67: error: [NullAway] (INDEX= 33) (Covered) @NonNull field DefaultInternalRunner$1$2.failure not initialized
-                                    Throwable failure;
-                                              ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/runners/DefaultInternalRunner.java:86: error: [NullAway] (INDEX= 34) (Covered) assigning @Nullable expression to @NonNull field
-                                                mockitoTestListener = null;
-                                                                    ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/handler/MockHandlerImpl.java:47: error: [NullAway] (INDEX= 35) (Covered) method returns @Nullable, but superclass method org.mockito.invocation.MockHandler.handle(org.mockito.invocation.Invocation) returns @NonNull
-    public Object handle(Invocation invocation) throws Throwable {
-                  ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/handler/NotifiedMethodInvocationReport.java:33: error: [NullAway] (INDEX= 36) (Covered) assigning @Nullable expression to @NonNull field
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/handler/NotifiedMethodInvocationReport.java:33: error: [NullAway] (INDEX= 4) (Covered) assigning @Nullable expression to @NonNull field
         this.throwable = null;
                        ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/handler/NotifiedMethodInvocationReport.java:44: error: [NullAway] (INDEX= 37) (Covered) assigning @Nullable expression to @NonNull field
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/handler/NotifiedMethodInvocationReport.java:44: error: [NullAway] (INDEX= 5) (Covered) assigning @Nullable expression to @NonNull field
         this.returnedValue = null;
                            ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/invocation/InterceptedInvocation.java:198: error: [NullAway] (INDEX= 38) (Covered) returning @Nullable expression from method with @NonNull return type
-            return null;
-            ^
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/handler/MockHandlerImpl.java:47: error: [NullAway] (INDEX= 6) (Covered) method returns @Nullable, but superclass method org.mockito.invocation.MockHandler.handle(org.mockito.invocation.Invocation) returns @NonNull
+    public Object handle(Invocation invocation) throws Throwable {
+                  ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/junit/JUnitSessionStore.java:53: error: [NullAway] (INDEX= 39) (Covered) returning @Nullable expression from method with @NonNull return type
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java:105: error: [NullAway] (INDEX= 7) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java:64: error: [NullAway] (INDEX= 8) (Covered) initializer method does not guarantee @NonNull fields typeToMock (line 28), name (line 32), spiedInstance (line 34), defaultAnswer (line 36), mockName (line 38), outerClassInstance (line 58), constructorArgs (line 60) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public CreationSettings() {
+           ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java:978: error: [NullAway] (INDEX= 9) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/ArgumentMatchers.java:1020: error: [NullAway] (INDEX= 10) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/util/reflection/FieldInitializationReport.java:59: error: [NullAway] (INDEX= 11) (Covered) returning @Nullable expression from method with @NonNull return type
+        return fieldInstance != null ? fieldInstance.getClass() : null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/configuration/injection/filter/OngoingInjector.java:29: error: [NullAway] (INDEX= 12) (Covered) returning @Nullable expression from method with @NonNull return type
                     return null;
                     ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/junit/VerificationCollectorImpl.java:76: error: [NullAway] (INDEX= 40) dereferenced expression message is @Nullable
-        this.builder.append('\n').append(this.numberOfFailures).append(". ").append(message.trim()).append('\n');
-                                                                                           ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/verification/VerificationDataImpl.java:25: error: [NullAway] (INDEX= 41) (Covered) assigning @Nullable expression to @NonNull field
-        this.wanted = wanted;
-                    ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/verification/api/VerificationDataInOrderImpl.java:36: error: [NullAway] (INDEX= 42) (Covered) method returns @Nullable, but superclass method org.mockito.internal.verification.api.VerificationDataInOrder.getWanted() returns @NonNull
-    public MatchableInvocation getWanted() {
-                               ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.java:43: error: [NullAway] (INDEX= 43) dereferenced expression DISPATCHERS.get(identifier) is @Nullable
-        return DISPATCHERS.get(identifier).isConstructorMock(type);
-                                          ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.java:48: error: [NullAway] (INDEX= 44) dereferenced expression DISPATCHERS.get(identifier) is @Nullable
-        return DISPATCHERS.get(identifier).handleConstruction(type, object, arguments, parameterTypeNames);
-                                          ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java:194: error: [NullAway] (INDEX= 45) dereferenced expression getModule is @Nullable
-            Object target = getModule.invoke(Class.forName("org.mockito.internal.creation.bytebuddy.inject.MockMethodDispatcher", false, null));
-                                     ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java:197: error: [NullAway] (INDEX= 46) dereferenced expression canRead is @Nullable
-                if (!modules.contains(module) && !(Boolean) canRead.invoke(module, target)) {
-                                                                   ^
-
-	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java:210: error: [NullAway] (INDEX= 47) (Covered) returning @Nullable expression from method with @NonNull return type
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/configuration/IndependentAnnotationEngine.java:56: error: [NullAway] (INDEX= 13) (Covered) returning @Nullable expression from method with @NonNull return type
                 return null;
                 ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java:225: error: [NullAway] (INDEX= 48) (Covered) returning @Nullable expression from method with @NonNull return type
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/progress/MockingProgressImpl.java:66: error: [NullAway] (INDEX= 14) (Covered) method returns @Nullable, but superclass method org.mockito.internal.progress.MockingProgress.pullOngoingStubbing() returns @NonNull
+    public OngoingStubbing<?> pullOngoingStubbing() {
+                              ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/util/concurrent/WeakConcurrentMap.java:70: error: [NullAway] (INDEX= 15) (Covered) returning @Nullable expression from method with @NonNull return type
+        return value;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/util/concurrent/WeakConcurrentMap.java:358: error: [NullAway] (INDEX= 16) (Covered) assigning @Nullable expression to @NonNull field
+            this.entry = entry;
+                       ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/util/concurrent/DetachedThreadLocal.java:110: error: [NullAway] (INDEX= 17) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/util/reflection/InstrumentationMemberAccessor.java:30: error: [NullAway] (INDEX= 18) (Covered) @NonNull static field DISPATCHER not initialized
+    private static final Dispatcher DISPATCHER;
+                                    ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/util/reflection/InstrumentationMemberAccessor.java:62: error: [NullAway] (INDEX= 19) (Covered) assigning @Nullable expression to @NonNull field
+        DISPATCHER = dispatcher;
+                   ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/util/reflection/InstrumentationMemberAccessor.java:197: error: [NullAway] (INDEX= 20) dereferenced expression type is @Nullable
+            if (!type.isAssignableFrom(owner.getClass())) {
+                     ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/framework/DefaultMockitoSession.java:76: error: [NullAway] (INDEX= 21) (Covered) returning @Nullable expression from method with @NonNull return type
+                    return failure;
+                    ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/junit/JUnitSessionStore.java:53: error: [NullAway] (INDEX= 22) (Covered) returning @Nullable expression from method with @NonNull return type
+                    return null;
+                    ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/junit/VerificationCollectorImpl.java:76: error: [NullAway] (INDEX= 23) dereferenced expression message is @Nullable
+        this.builder.append('\n').append(this.numberOfFailures).append(". ").append(message.trim()).append('\n');
+                                                                                           ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/verification/VerificationDataImpl.java:25: error: [NullAway] (INDEX= 24) (Covered) assigning @Nullable expression to @NonNull field
+        this.wanted = wanted;
+                    ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/verification/api/VerificationDataInOrderImpl.java:36: error: [NullAway] (INDEX= 25) (Covered) method returns @Nullable, but superclass method org.mockito.internal.verification.api.VerificationDataInOrder.getWanted() returns @NonNull
+    public MatchableInvocation getWanted() {
+                               ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java:194: error: [NullAway] (INDEX= 26) dereferenced expression getModule is @Nullable
+            Object target = getModule.invoke(Class.forName("org.mockito.internal.creation.bytebuddy.inject.MockMethodDispatcher", false, null));
+                                     ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java:197: error: [NullAway] (INDEX= 27) dereferenced expression canRead is @Nullable
+                if (!modules.contains(module) && !(Boolean) canRead.invoke(module, target)) {
+                                                                   ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.java:43: error: [NullAway] (INDEX= 28) dereferenced expression DISPATCHERS.get(identifier) is @Nullable
+        return DISPATCHERS.get(identifier).isConstructorMock(type);
+                                          ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.java:48: error: [NullAway] (INDEX= 29) dereferenced expression DISPATCHERS.get(identifier) is @Nullable
+        return DISPATCHERS.get(identifier).handleConstruction(type, object, arguments, parameterTypeNames);
+                                          ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java:210: error: [NullAway] (INDEX= 30) (Covered) returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java:225: error: [NullAway] (INDEX= 31) (Covered) returning @Nullable expression from method with @NonNull return type
             return null;
             ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java:227: error: [NullAway] (INDEX= 49) (Covered) passing @Nullable parameter 'INSTRUMENTATION' where @NonNull is required
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java:227: error: [NullAway] (INDEX= 32) (Covered) passing @Nullable parameter 'INSTRUMENTATION' where @NonNull is required
         bytecodeGenerator = new TypeCachingBytecodeGenerator(new InlineBytecodeGenerator(INSTRUMENTATION, mocks, mockedStatics, isMockConstruction, onConstruction), true);
                                                                                          ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java:232: error: [NullAway] (INDEX= 50) (Covered) method returns @Nullable, but superclass method org.mockito.plugins.MockMaker.<T>createMock(org.mockito.mock.MockCreationSettings<T>,org.mockito.invocation.MockHandler) returns @NonNull
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java:232: error: [NullAway] (INDEX= 33) (Covered) method returns @Nullable, but superclass method org.mockito.plugins.MockMaker.<T>createMock(org.mockito.mock.MockCreationSettings<T>,org.mockito.invocation.MockHandler) returns @NonNull
     public <T> T createMock(MockCreationSettings<T> settings, MockHandler handler) {
                  ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java:299: error: [NullAway] (INDEX= 51) (Covered) method returns @Nullable, but superclass method org.mockito.plugins.MockMaker.getHandler(java.lang.Object) returns @NonNull
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java:299: error: [NullAway] (INDEX= 34) (Covered) method returns @Nullable, but superclass method org.mockito.plugins.MockMaker.getHandler(java.lang.Object) returns @NonNull
     public MockHandler getHandler(Object mock) {
                        ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java:357: error: [NullAway] (INDEX= 52) dereferenced expression INSTRUMENTATION is @Nullable
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java:357: error: [NullAway] (INDEX= 35) dereferenced expression INSTRUMENTATION is @Nullable
                 return INSTRUMENTATION.isModifiableClass(type) && !EXCLUDES.contains(type);
                                       ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java:290: error: [NullAway] (INDEX= 53) (Covered) passing @Nullable parameter 'instance' where @NonNull is required
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java:290: error: [NullAway] (INDEX= 36) (Covered) passing @Nullable parameter 'instance' where @NonNull is required
             return accessor.invoke(origin, instance, arguments);
                                            ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java:93: error: [NullAway] (INDEX= 54) (Covered) method returns @Nullable, but superclass method org.mockito.plugins.MockMaker.getHandler(java.lang.Object) returns @NonNull
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java:93: error: [NullAway] (INDEX= 37) (Covered) method returns @Nullable, but superclass method org.mockito.plugins.MockMaker.getHandler(java.lang.Object) returns @NonNull
     public MockHandler getHandler(Object mock) {
                        ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/runners/DefaultInternalRunner.java:33: error: [NullAway] (INDEX= 38) (Covered) @NonNull field DefaultInternalRunner$1.target not initialized
+                    public Object target;
+                                  ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/runners/DefaultInternalRunner.java:34: error: [NullAway] (INDEX= 39) (Covered) @NonNull field DefaultInternalRunner$1.mockitoTestListener not initialized
+                    private MockitoTestListener mockitoTestListener;
+                                                ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/runners/DefaultInternalRunner.java:67: error: [NullAway] (INDEX= 40) (Covered) @NonNull field DefaultInternalRunner$1$2.failure not initialized
+                                    Throwable failure;
+                                              ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/runners/DefaultInternalRunner.java:86: error: [NullAway] (INDEX= 41) (Covered) assigning @Nullable expression to @NonNull field
+                                                mockitoTestListener = null;
+                                                                    ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/stubbing/answers/DoesNothing.java:29: error: [NullAway] (INDEX= 42) (Covered) method returns @Nullable, but superclass method org.mockito.stubbing.Answer.answer(org.mockito.invocation.InvocationOnMock) returns @NonNull
+    public Object answer(InvocationOnMock invocation) {
+                  ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/stubbing/answers/Returns.java:22: error: [NullAway] (INDEX= 43) (Covered) assigning @Nullable expression to @NonNull field
+        this.value = value;
+                   ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ForwardsInvocations.java:28: error: [NullAway] (INDEX= 44) (Covered) assigning @Nullable expression to @NonNull field
+    private Object delegatedObject = null;
+                   ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java:52: error: [NullAway] (INDEX= 45) (Covered) returning @Nullable expression from method with @NonNull return type
+                    return null;
+                    ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java:49: error: [NullAway] (INDEX= 46) (Covered) method returns @Nullable, but superclass method org.mockito.stubbing.Answer.answer(org.mockito.invocation.InvocationOnMock) returns @NonNull
+    public Object answer(InvocationOnMock invocation) throws Throwable {
+                  ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java:136: error: [NullAway] (INDEX= 47) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/RetrieveGenericsForDefaultAnswers.java:36: error: [NullAway] (INDEX= 48) (Covered) returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/RetrieveGenericsForDefaultAnswers.java:40: error: [NullAway] (INDEX= 49) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+        return answerCallback.apply(null);
+                                    ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValues.java:72: error: [NullAway] (INDEX= 50) (Covered) returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsMocks.java:31: error: [NullAway] (INDEX= 51) (Covered) returning @Nullable expression from method with @NonNull return type
+                    return null;
+                    ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/BDDMockito.java:154: error: [NullAway] (INDEX= 52) (Covered) assigning @Nullable expression to @NonNull field
+            this.mockitoOngoingStubbing = ongoingStubbing;
+                                        ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/runners/ConsoleSpammingMockitoJUnitRunner.java:48: error: [NullAway] (INDEX= 53) (Covered) @NonNull field ConsoleSpammingMockitoJUnitRunner$1.warningsCollector not initialized
+                    WarningsCollector warningsCollector;
+                                      ^
+
+	(see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/runners/VerboseMockitoJUnitRunner.java:48: error: [NullAway] (INDEX= 54) (Covered) @NonNull field VerboseMockitoJUnitRunner$1.warningsCollector not initialized
+                    WarningsCollector warningsCollector;
+                                      ^
 
 	(see http://t.uber.com/nullaway )

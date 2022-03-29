@@ -13,6 +13,8 @@ FIX_PATH = "/tmp/NullAwayFix/fixes.csv"
 
 
 def checkout_to_branch(command, project, name, save_state=False):
+    print("REMOVING.")
+    print("rm {}/errors.txt".format(PROJECT_DIR.format(project['path'])))
     os.system("rm {}/errors.txt".format(PROJECT_DIR.format(project['path'])))
     if save_state:
         os.system(command.format("git push origin --delete {}".format(name)))
@@ -32,12 +34,12 @@ def read_lines(path):
     f = open(path, 'r')
     lines = f.readlines()
     f.close()
-    return [l[:-1] if l[len(l) - 1] == '\n' else l for l in lines]
+    return [line[:-1] if line[len(line) - 1] == '\n' else line for line in lines]
 
 
 def write_lines(path, lines):
     f = open(path, "w")
-    lines = [str(l) + '\n' for l in lines]
+    lines = [str(line) + '\n' for line in lines]
     f.writelines(lines)
     f.flush()
     f.close()
@@ -114,11 +116,11 @@ def convert_json_to_csv(name):
                 display += "null" + "$*$"
         lines.append(display[:-3])
     fixed = []
-    for l in lines:
-        index = [i.start() for i in re.finditer("\$\*\$", l)][4] + 3
-        to_add = 'file:' if l[index + 2] == "/" else "file:/"
-        l = l[:index] + to_add + l[index:]
-        fixed.append(l)
+    for line in lines:
+        index = [i.start() for i in re.finditer("\$\*\$", line)][4] + 3
+        to_add = 'file:' if line[index + 2] == "/" else "file:/"
+        line = line[:index] + to_add + line[index:]
+        fixed.append(line)
 
     write_lines('./projects/{}/injected.csv'.format(name), fixed)
 
@@ -146,8 +148,8 @@ def remove_reason_field(path):
         vals = fix.split("$*$")
         disp = vals[0] + "$*$" + vals[1] + "$*$" + vals[2] + "$*$" + vals[
             3] + "$*$" + vals[4] + "$*$" + vals[
-                5] + "$*$" + "null" + "$*$" + vals[7] + "$*$" + vals[
-                    8] + "$*$" + vals[9] + "$*$" + vals[10] + "$*$" + vals[11]
+                   5] + "$*$" + "null" + "$*$" + vals[7] + "$*$" + vals[
+                   8] + "$*$" + vals[9] + "$*$" + vals[10] + "$*$" + vals[11]
         lines.append(str(disp))
 
     write_lines(path, lines)
@@ -191,11 +193,22 @@ def exclude_fixes(target, to_remove):
     return cleaned_target
 
 
+def two_error_has_same_line_contents(e, other):
+    e_lines = e.split("\n")
+    e_lines = [e.strip() for e in e_lines]
+    other_lines = other.split("\n")
+    other_lines = [e.strip() for e in other_lines]
+    for line in e_lines:
+        if line not in other_lines:
+            return False
+    return True
+
+
 def collection_contains_error(target, errors):
     number, target = remove_line_number_from_error(target)
     for error in errors:
         n, e = remove_line_number_from_error(error)
-        if e == target and abs(number - n) < 10:
+        if two_error_has_same_line_contents(e, remove_index_from_error(target)) and abs(number - n) < 10:
             return True
     return False
 
@@ -229,7 +242,7 @@ def select_sample_errors(command, project):
     selected = random.choices(errors_before, k=min([5, len(errors_before)]))
 
     # Write selected errors
-    write_lines('projects/{}/selected.txt'.format(project['path']), selected)
+    write_lines('projects/{}/selected_new.txt'.format(project['path']), selected)
 
 
 def error_index(error):
@@ -259,7 +272,7 @@ def run():
     with open('../../projects.json') as f:
         projects = json.load(f)
         for project in projects['projects']:
-            if project['active']:
+            if project['name'] == "LibGdx":
                 command = "cd {} && {}".format(
                     PROJECT_DIR.format(project['path']), {})
 
@@ -293,13 +306,16 @@ def run():
                 copy_correct_nullaway_config(project)
 
                 # select new sample errors
-                select_sample_errors(command, project)
+                # select_sample_errors(command, project)
+                # exit()
 
                 # read sample errors
                 selected = read_errors('projects/{}/selected.txt'.format(
                     project['path']))
 
                 for i, error in enumerate(selected):
+                    if(i != 3):
+                        continue
                     # reset
                     checkout_to_branch(command, project, "base")
 

@@ -1,6 +1,6 @@
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Button.java:70: error: [NullAway] (INDEX= 1146) (Covered) initializer method does not guarantee @NonNull fields style (line 45), buttonGroup (line 47) are initialized along all control-flow paths (remember to check for exceptions or early returns).
-	public Button (Actor child, ButtonStyle style) {
-	       ^
+/Users/nima/Developer/NullAwayFixer/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ParticleShader.java:244: error: [NullAway] (INDEX= 1287) (Covered) assigning @Nullable expression to @NonNull field
+		renderable = null;
+		           ^
 
 	(see http://t.uber.com/nullaway )
 /home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/DragAndDrop.java:65: error: [NullAway] (INDEX= 1236) (Covered) assigning @Nullable expression to @NonNull field
@@ -13,9 +13,9 @@
 		                            ^
 
 	(see http://t.uber.com/nullaway )
-/home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/assets/AssetManager.java:272: error: [NullAway] (INDEX= 54) dereferenced expression assetsByType.get(fileName) is @Nullable
-			T otherAsset = (T)assetsByType.get(fileName).getObject(Object.class);
-			                                            ^
+/Users/nima/Developer/NullAwayFixer/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Skin.java:498: error: [NullAway] (INDEX= 451) (Covered) passing @Nullable parameter 'null' where @NonNull is required
+		json.setTypeName(null);
+		                 ^
 
 	(see http://t.uber.com/nullaway )
 /home/nima/Developer/AutoFixer/Evaluation/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/FacedCubemapData.java:68: error: [NullAway] (INDEX= 1022) (Covered) passing @Nullable parameter 'null' where @NonNull is required
