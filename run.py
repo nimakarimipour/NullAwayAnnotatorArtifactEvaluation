@@ -39,7 +39,7 @@ with open('projects.json') as f:
         if project['path'] != 'litiengine':
             continue
         if project['active']:
-            execute("cd /tmp/projects && git clone {}".format(GIT.format(project['path'])))
+            execute("cd /tmp/projects && git --single-branch --branch nullaway clone {}".format(GIT.format(project['path'])))
             project_dir = PROJECT_DIR.format(project['path'])
             COMMAND = "cd {} && {}".format(project_dir, {})
             for configuration in CONFIGURATIONS:
