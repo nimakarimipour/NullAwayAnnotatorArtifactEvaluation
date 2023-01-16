@@ -68,7 +68,7 @@
         {
             "name": "UCrop",
             "path": "uCrop",
-            "active": true
+            "active": false
         },
         {
             "name": "Eureka",
