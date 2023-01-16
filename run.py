@@ -9,7 +9,7 @@ BRANCH = 'nimak/pc'
 CONFIG = json.load(open("annotator-config.json", 'r'))
 PARALLEL_PROCESSING = True
 CACHE = True
-GIT_KEY = sys.argv[1]
+GIT_KEY = "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"
 GIT = "https://nimakarimipour:{}@github.com/nimakarimipour/{}.git".format(GIT_KEY, {})
 
 CONFIGURATIONS = [
@@ -36,6 +36,8 @@ with open('projects.json') as f:
     execute("cd /tmp/ && mkdir projects")
     projects = json.load(f)
     for project in projects['projects']:
+        if project['path'] != 'litiengine':
+            continue
         if project['active']:
             execute("cd /tmp/projects && git clone {}".format(GIT.format(project['path'])))
             project_dir = PROJECT_DIR.format(project['path'])
