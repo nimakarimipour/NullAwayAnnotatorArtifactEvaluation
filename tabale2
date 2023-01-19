@@ -1,0 +1,38 @@
+\subsection{Quality of tool output}\label{sec:quality-of-inferred-annotations}
+
+\begin{table}
+    \footnotesize
+    \centering
+    \caption{Number of annotations injected by \toolname.}\label{tbl:annot}
+    {\renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{|c|l|c|c|c|}
+    \hline
+    \multicolumn{2}{|c|}{\multirow{2}{*}{Benchmark Name}} & \multicolumn{1}{c|}{Depth 0}  & \multicolumn{2}{c|}{Depth 5} \\\cline{3-5}
+    \multicolumn{2}{|c|}{} & \nullable & \nullable & \initannot \\\hline\hline
+    \multirow{15}{*}{\rotatebox[origin=c]{90}{Open Source Projects}}
+        & \texttt{Conductor}& 157 & 114 & 0 \\\cline{2-5}
+        & \texttt{Mockito}& 409 & 262 & 0 \\\cline{2-5}
+        & \texttt{SpringBoot}& 1472 & 1171 & 2 \\\cline{2-5}
+        & \texttt{LitiEngine}& 1143  & 743 & 1 \\\cline{2-5}
+        & \texttt{LibGdx}& 2071 & 1035 & 7 \\\cline{2-5}
+        & \texttt{MPAndroid}& 328 & 181 & 0 \\\cline{2-5}
+        & \texttt{Glide}& 385 & 245 & 2 \\\cline{2-5}
+        & \texttt{EventBus}& 66 & 62 & 1 \\\cline{2-5}
+        & \texttt{LottieAndroid}& 601 & 516 & 3 \\\cline{2-5}
+        & \texttt{UCrop}& 74 & 51 & 1 \\\cline{2-5}
+        & \texttt{Gson}& 146 & 126 & 0 \\\cline{2-5}
+        & \texttt{Eureka}& 207 & 113 & 0 \\\cline{2-5}
+        & \texttt{Retrofit}& 16 & 16 & 0 \\\cline{2-5}
+        & \texttt{Jadx}& 1028 & 683 & 1 \\\cline{2-5}
+        & \texttt{Zuul}& 364 & 245 & 0 \\\cline{1-5}
+    \multirow{6}{*}{\rotatebox[origin=c]{90}{\uber}}
+        & \texttt{TA}& 1492 & 1290 & 0 \\\cline{2-5}
+        & \texttt{T1}& 160 & 122 & 0 \\\cline{2-5}
+        & \texttt{T2}& 402 & 280 & 0 \\\cline{2-5}
+        & \texttt{T3}& 423 & 383 & 0 \\\cline{2-5}
+        & \texttt{T4}& 604 & 359 & 2 \\\cline{2-5}
+        & \texttt{T5}& 679 & 557 & 2 \\\cline{2-5}
+\hline
+\end{tabular}}
+% \end{adjustbox}
+\end{table}

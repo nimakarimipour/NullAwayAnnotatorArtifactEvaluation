@@ -5,11 +5,10 @@ import sys
 # Run with Python2
 PROJECT_DIR = "/tmp/projects/{}"
 DISP = "{} & {} & {} & {}\n"
-BRANCH = 'nimak/pc'
 CONFIG = json.load(open("annotator-config.json", 'r'))
 PARALLEL_PROCESSING = True
 CACHE = True
-GIT_KEY = sys.argv[1]
+GIT_KEY = ""
 GIT = "https://nimakarimipour:{}@github.com/nimakarimipour/{}.git".format(GIT_KEY, {})
 
 CONFIGURATIONS = [
@@ -22,6 +21,11 @@ CONFIGURATIONS = [
         "PARALLEL_PROCESSING": True,
         "CACHE": False,
         "BRANCH": "nimak/p"
+    },
+    {
+        "PARALLEL_PROCESSING": False,
+        "CACHE": False,
+        "BRANCH": "nimak/no-opt"
     },
 ]
 

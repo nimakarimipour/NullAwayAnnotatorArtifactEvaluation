@@ -1,0 +1,29 @@
+{
+  "Mockito": {
+    "nullable": 521
+  },
+  "Conductor": {
+    "nullable": 536
+  },
+  "LitiEngine": {
+    "nullable": 0
+  },
+  "EventBus": {
+    "nullable": 84
+  },
+  "Jadx": {
+    "nullable": 1662
+  },
+  "Retrofit": {
+    "nullable": 27
+  },
+  "LibGdx": {
+    "nullable": 0
+  },
+  "Glide": {
+    "nullable": 565
+  },
+  "Eureka": {
+    "nullable": 264
+  }
+}

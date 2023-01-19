@@ -3,37 +3,37 @@
         {
             "name": "MPAndroid",
             "path": "MPAndroidChart",
-            "active": false
+            "active": true
         },
         {
             "name": "Mockito",
             "path": "mockito",
-            "active": true
+            "active": false
         },
         {
             "name": "Conductor",
             "path": "conductor",
-            "active": true
+            "active": false
         },
         {
             "name": "LitiEngine",
             "path": "litiengine",
-            "active": true
+            "active": false
         },
         {
             "name": "EventBus",
             "path": "EventBus",
-            "active": true
+            "active": false
         },
         {
             "name": "Gson",
             "path": "gson",
-            "active": true
+            "active": false
         },
         {
             "name": "Jadx",
             "path": "jadx",
-            "active": true
+            "active": false
         },
         {
             "name": "Zuul",
@@ -41,14 +41,9 @@
             "active": true
         },
         {
-            "name": "LottieAndroid",
-            "path": "lottie-android",
-            "active": false
-        },
-        {
             "name": "Retrofit",
             "path": "retrofit",
-            "active": true
+            "active": false
         },
         {
             "name": "SpringBoot",
@@ -58,12 +53,12 @@
         {
             "name": "LibGdx",
             "path": "libgdx",
-            "active": true
+            "active": false
         },
         {
             "name": "Glide",
             "path": "glide",
-            "active": true
+            "active": false
         },
         {
             "name": "UCrop",
@@ -73,8 +68,7 @@
         {
             "name": "Eureka",
             "path": "eureka",
-            "git": "https://{}:{}@github.com/nimakarimipour/eureka.git",
-            "active": true
+            "active": false
         }
     ]
 }
