@@ -64,6 +64,6 @@
             "name": "Retrofit",
             "path": "retrofit",
             "active": true
-        },
+        }
     ]
 }
