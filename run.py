@@ -6,9 +6,7 @@ import sys
 PROJECT_DIR = "/tmp/projects/{}"
 DISP = "{} & {} & {} & {}\n"
 CONFIG = json.load(open("annotator-config.json", 'r'))
-PARALLEL_PROCESSING = True
-CACHE = True
-GIT_KEY = ""
+GIT_KEY = ''
 GIT = "https://nimakarimipour:{}@github.com/nimakarimipour/{}.git".format(GIT_KEY, {})
 
 CONFIGURATIONS = [
@@ -40,7 +38,7 @@ with open('projects.json') as f:
     execute("cd /tmp/ && mkdir projects")
     projects = json.load(f)
     for project in projects['projects']:
-        if project['active']:
+        if project['name'] in ['MPAndroid']:
             execute("cd /tmp/projects && git clone -b nullaway {}".format(GIT.format(project['path'])))
             project_dir = PROJECT_DIR.format(project['path'])
             COMMAND = "cd {} && {}".format(project_dir, {})

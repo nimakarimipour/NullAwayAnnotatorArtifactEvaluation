@@ -1,4 +1,11 @@
 {
+  "MPAndroid": {
+    "nimak/nullunmarked": {
+      "errors": 1
+    },
+    "unchecked": 712,
+    "total": 16100
+  },
   "Mockito": {
     "nimak/nullunmarked": {
       "errors": 3
@@ -61,5 +68,12 @@
     },
     "unchecked": 364,
     "total": 8000
+  },
+  "Zuul": {
+    "nimak/nullunmarked": {
+      "errors": 7
+    },
+    "unchecked": 842,
+    "total": 15200
   }
 }

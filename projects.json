@@ -3,37 +3,37 @@
         {
             "name": "MPAndroid",
             "path": "MPAndroidChart",
-            "active": true
+            "active": false,
         },
         {
             "name": "Mockito",
             "path": "mockito",
-            "active": false
+            "active": true
         },
         {
             "name": "Conductor",
             "path": "conductor",
-            "active": false
+            "active": true
         },
         {
             "name": "LitiEngine",
             "path": "litiengine",
-            "active": false
+            "active": true
         },
         {
             "name": "EventBus",
             "path": "EventBus",
-            "active": false
+            "active": true
         },
         {
             "name": "Gson",
             "path": "gson",
-            "active": false
+            "active": true
         },
         {
             "name": "Jadx",
             "path": "jadx",
-            "active": false
+            "active": true
         },
         {
             "name": "Zuul",
@@ -43,7 +43,7 @@
         {
             "name": "Retrofit",
             "path": "retrofit",
-            "active": false
+            "active": true
         },
         {
             "name": "SpringBoot",
@@ -53,22 +53,22 @@
         {
             "name": "LibGdx",
             "path": "libgdx",
-            "active": false
+            "active": true
         },
         {
             "name": "Glide",
             "path": "glide",
-            "active": false
+            "active": true
         },
         {
             "name": "UCrop",
             "path": "uCrop",
-            "active": false
+            "active": true
         },
         {
             "name": "Eureka",
             "path": "eureka",
-            "active": false
+            "active": true
         }
     ]
 }

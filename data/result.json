@@ -1,4 +1,21 @@
 {
+  "MPAndroid": {
+    "nimak/no-opt": {
+      "errors": 53,
+      "build": "402",
+      "time": "1520664"
+    },
+    "nimak/p": {
+      "errors": 53,
+      "build": 71,
+      "time": "438825"
+    },
+    "nimak/pc": {
+      "errors": 53,
+      "build": 51,
+      "time": "186442"
+    }
+  },
   "Mockito": {
     "nimak/no-opt": {
       "errors": 22,
@@ -69,17 +86,17 @@
   },
   "Gson": {
     "nimak/no-opt": {
-      "errors": 10,
+      "errors": 64,
       "build": 248,
       "time": "334571"
     },
     "nimak/p": {
-      "errors": 10,
+      "errors": 64,
       "build": 87,
       "time": "116953"
     },
     "nimak/pc": {
-      "errors": 10,
+      "errors": 73,
       "build": 46,
       "time": "76386"
     }
@@ -184,6 +201,23 @@
       "errors": 25,
       "build": 44,
       "time": "93060"
+    }
+  },
+  "Zuul": {
+    "nimak/no-opt": {
+      "errors": 23,
+      "build": "184",
+      "time": "892827"
+    },
+    "nimak/p": {
+      "errors": 23,
+      "build": 45,
+      "time": "215880"
+    },
+    "nimak/pc": {
+      "errors": 23,
+      "build": 38,
+      "time": "186442"
     }
   }
 }

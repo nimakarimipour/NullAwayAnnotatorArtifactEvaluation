@@ -52,7 +52,7 @@ def table3():
     # depth0 @Nullable @Suppress @Remaining @Percentage
     # & \texttt{Conductor}& 157 & 114 & 0 & 0 & 0 \\\cline{2-8}
     template = "& \\texttt{{{}}} & {} & {} & {} & {} & \%{} \\\\\\cline{{2-7}}"
-    with open('../data/annotation.json') as f:
+    with open('../data/mp_zuul.json') as f:
         projects = json.load(f)
         null_unmarked_data = json.load(open('../data/nullunmarked.json', 'r'))
         for project in projects:
@@ -67,4 +67,24 @@ def table3():
             print(line)
 
 
-table1()
+def table1fromUber():
+    # \hspace{1em} \texttt{Zuul} & 15.2K & 204 & 174 (-14.7\%) & 82 (-59.8\%) & 71 (-65.2\%)\\\cline{1-7}
+    template = "& \\hspace{{1em}} \\texttt{{{}}} & {} & {} & {} & {} & {} \\\\\\cline{{2-7}}"
+    data = ['T1', '35.7K', '537', '457', '203', '190', 'T2', '81.7K', '1072', '991', '322', '311', 'T3', '12.9K', '229', '134', '45', '31', 'T4', '20.1K', '111', '70', '70', '70', 'T5', '13.8K', '222', '195', '129', '129', 'T6', '3.4K', '47', '61', '10', '9', 'T7', '5.9K', '35', '28', '21', '19', 'T8', '14.8K', '301', '167', '92', '76']
+    #        0       1       2     3      4      5
+    for i in range(0, 8):
+        current = 6 * i
+        initial = int(data[current + 2])
+        depth0 = int(data[current + 3])
+        depth1 = int(data[current + 4])
+        depth5 = int(data[current + 5])
+        line = template.format("T{}".format(i),
+                               data[current + 1],
+                               initial,
+                               "{} ({}\\%)".format(depth0, round((1 - depth0 / initial) * 100, 1)),
+                               "{} ({}\\%)".format(depth1, round((1 - depth1 / initial) * 100, 1)),
+                               "{} ({}\\%)".format(depth5, round((1 - depth5 / initial) * 100, 1))
+                               )
+        print(line)
+
+table1fromUber()
