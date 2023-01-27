@@ -41,11 +41,6 @@
             "active": true
         },
         {
-            "name": "Retrofit",
-            "path": "retrofit",
-            "active": true
-        },
-        {
             "name": "SpringBoot",
             "path": "spring-boot",
             "active": false
@@ -61,14 +56,14 @@
             "active": true
         },
         {
-            "name": "UCrop",
-            "path": "uCrop",
-            "active": true
-        },
-        {
             "name": "Eureka",
             "path": "eureka",
             "active": true
-        }
+        },
+        {
+            "name": "Retrofit",
+            "path": "retrofit",
+            "active": true
+        },
     ]
 }
