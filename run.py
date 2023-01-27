@@ -6,7 +6,7 @@ import sys
 PROJECT_DIR = "/tmp/projects/{}"
 DISP = "{} & {} & {} & {}\n"
 CONFIG = json.load(open("annotator-config.json", 'r'))
-GIT_KEY = ''
+GIT_KEY = sys.argv[1]
 GIT = "https://nimakarimipour:{}@github.com/nimakarimipour/{}.git".format(GIT_KEY, {})
 
 CONFIGURATIONS = [
