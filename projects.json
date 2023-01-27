@@ -3,7 +3,7 @@
         {
             "name": "MPAndroid",
             "path": "MPAndroidChart",
-            "active": false,
+            "active": false
         },
         {
             "name": "Mockito",
