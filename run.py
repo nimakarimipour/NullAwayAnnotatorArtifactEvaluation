@@ -38,7 +38,7 @@ with open('projects.json') as f:
     execute("cd /tmp/ && mkdir projects")
     projects = json.load(f)
     for project in projects['projects']:
-        if project['name'] in ['MPAndroid']:
+        if project['active']:
             execute("cd /tmp/projects && git clone -b nullaway {}".format(GIT.format(project['path'])))
             project_dir = PROJECT_DIR.format(project['path'])
             COMMAND = "cd {} && {}".format(project_dir, {})
