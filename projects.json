@@ -43,7 +43,7 @@
         {
             "name": "SpringBoot",
             "path": "spring-boot",
-            "active": false
+            "active": true
         },
         {
             "name": "LibGdx",
@@ -63,6 +63,11 @@
         {
             "name": "Retrofit",
             "path": "retrofit",
+            "active": true
+        },
+        {
+            "name": "WALA:UTIL",
+            "path": "WALA",
             "active": true
         }
     ]

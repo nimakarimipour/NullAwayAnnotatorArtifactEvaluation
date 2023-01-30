@@ -38,7 +38,7 @@ with open('projects.json') as f:
     execute("cd /tmp/ && mkdir projects")
     projects = json.load(f)
     for project in projects['projects']:
-        if project['active']:
+        if project['name'] == 'MPAndroid':
             execute("cd /tmp/projects && git clone -b nullaway {}".format(GIT.format(project['path'])))
             project_dir = PROJECT_DIR.format(project['path'])
             COMMAND = "cd {} && {}".format(project_dir, {})
@@ -65,7 +65,7 @@ with open('projects.json') as f:
                     json.dump(config, outfile)
                 execute(
                     "cd /tmp/NullAwayAnnotator/runner && ./start.sh --path /tmp/NullAwayAnnotator/runner/config.json")
-                execute("mv /tmp/NullAwayFix {}/AnnotatorOut".format(project_dir))
+                execute("cp -r /tmp/NullAwayFix {}/AnnotatorOut".format(project_dir))
                 execute(COMMAND.format("git add ."))
                 execute(COMMAND.format(
                     'git commit -m "Annotator result Parallel:{} Cache:{}"'.format(parallel_processing, cache)))

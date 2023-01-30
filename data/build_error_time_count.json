@@ -1,0 +1,206 @@
+{
+    "Mockito": {
+        "nimak/p": {
+            "error": 30,
+            "time": 180169,
+            "build": 71
+        },
+        "nimak/no-opt": {
+            "error": 30,
+            "time": 974610,
+            "build": 383
+        },
+        "nimak/pc": {
+            "error": 30,
+            "time": 147751,
+            "build": 58
+        }
+    },
+    "Conductor": {
+        "nimak/p": {
+            "error": 30,
+            "time": 376851,
+            "build": 115
+        },
+        "nimak/no-opt": {
+            "error": 30,
+            "time": 1145176,
+            "build": 351
+        },
+        "nimak/pc": {
+            "error": 33,
+            "time": 301934,
+            "build": 88
+        }
+    },
+    "LitiEngine": {
+        "nimak/p": {
+            "error": 184,
+            "time": 308436,
+            "build": 98
+        },
+        "nimak/no-opt": {
+            "error": 184,
+            "time": 3538463,
+            "build": 1122
+        },
+        "nimak/pc": {
+            "error": 190,
+            "time": 218461,
+            "build": 68
+        }
+    },
+    "EventBus": {
+        "nimak/p": {
+            "error": 10,
+            "time": 30402,
+            "build": 26
+        },
+        "nimak/no-opt": {
+            "error": 10,
+            "time": 89163,
+            "build": 77
+        },
+        "nimak/pc": {
+            "error": 10,
+            "time": 27778,
+            "build": 23
+        }
+    },
+    "Gson": {
+        "nimak/p": {
+            "error": 28,
+            "time": 109020,
+            "build": 66
+        },
+        "nimak/no-opt": {
+            "error": 28,
+            "time": 292764,
+            "build": 181
+        },
+        "nimak/pc": {
+            "error": 28,
+            "time": 102666,
+            "build": 62
+        }
+    },
+    "Jadx": {
+        "nimak/p": {
+            "error": 124,
+            "time": 632661,
+            "build": 126
+        },
+        "nimak/no-opt": {
+            "error": 124,
+            "time": 4121739,
+            "build": 868
+        },
+        "nimak/pc": {
+            "error": 126,
+            "time": 370052,
+            "build": 82
+        }
+    },
+    "Zuul": {
+        "nimak/p": {
+            "error": 23,
+            "time": 136215,
+            "build": 58
+        },
+        "nimak/no-opt": {
+            "error": 23,
+            "time": 473493,
+            "build": 206
+        },
+        "nimak/pc": {
+            "error": 23,
+            "time": 121472,
+            "build": 52
+        }
+    },
+    "LibGdx": {
+        "nimak/p": {
+            "error": 442,
+            "time": 1661670,
+            "build": 195
+        },
+        "nimak/no-opt": {
+            "error": 442,
+            "time": 20350127,
+            "build": 2320
+        },
+        "nimak/pc": {
+            "error": 443,
+            "time": 772870,
+            "build": 88
+        }
+    },
+    "Glide": {
+        "nimak/p": {
+            "error": 105,
+            "time": 305078,
+            "build": 104
+        },
+        "nimak/no-opt": {
+            "error": 105,
+            "time": 1434245,
+            "build": 455
+        },
+        "nimak/pc": {
+            "error": 105,
+            "time": 154445,
+            "build": 49
+        }
+    },
+    "Eureka": {
+        "nimak/p": {
+            "error": 25,
+            "time": 145607,
+            "build": 72
+        },
+        "nimak/no-opt": {
+            "error": 25,
+            "time": 389456,
+            "build": 198
+        },
+        "nimak/pc": {
+            "error": 25,
+            "time": 96495,
+            "build": 44
+        }
+    },
+    "Retrofit": {
+        "nimak/p": {
+            "error": 13,
+            "time": 19251,
+            "build": 12
+        },
+        "nimak/no-opt": {
+            "error": 13,
+            "time": 35281,
+            "build": 22
+        },
+        "nimak/pc": {
+            "error": 13,
+            "time": 20986,
+            "build": 12
+        }
+    },
+    "SpringBoot": {
+        "nimak/p": {
+            "error": 66,
+            "time": 1562320,
+            "build": 113
+        },
+        "nimak/no-opt": {
+            "error": 66,
+            "time": 18942822,
+            "build": 1427
+        },
+        "nimak/pc": {
+            "error": 77,
+            "time": 1272523,
+            "build": 92
+        }
+    }
+}
