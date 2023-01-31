@@ -3,71 +3,79 @@
         {
             "name": "MPAndroid",
             "path": "MPAndroidChart",
+            "java": 8,
             "active": false
         },
         {
             "name": "Mockito",
             "path": "mockito",
+            "java": 11,
             "active": true
         },
         {
             "name": "Conductor",
             "path": "conductor",
+            "java": 11,
             "active": true
         },
         {
             "name": "LitiEngine",
             "path": "litiengine",
+            "java": 11,
             "active": true
         },
         {
             "name": "EventBus",
             "path": "EventBus",
+            "java": 11,
             "active": true
         },
         {
             "name": "Gson",
             "path": "gson",
+            "java": 11,
             "active": true
         },
         {
             "name": "Jadx",
             "path": "jadx",
+            "java": 11,
             "active": true
         },
         {
             "name": "Zuul",
             "path": "zuul",
+            "java": 11,
             "active": true
         },
         {
             "name": "SpringBoot",
             "path": "spring-boot",
-            "active": true
+            "java": 17,
+            "active": false
         },
         {
             "name": "LibGdx",
             "path": "libgdx",
+            "java": 11,
             "active": true
         },
         {
             "name": "Glide",
             "path": "glide",
+            "java": 11,
             "active": true
         },
         {
             "name": "Eureka",
             "path": "eureka",
+            "java": 11,
             "active": true
         },
         {
             "name": "Retrofit",
             "path": "retrofit",
-            "active": true
-        },
-        {
-            "name": "WALA:UTIL",
-            "path": "WALA",
+            "java": 11,
             "active": true
         }
     ]

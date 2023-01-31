@@ -1,0 +1,262 @@
+{
+    "MPAndroid": {
+        "nimak/p": {
+            "nullable": 253,
+            "suppress": 5,
+            "suppress_init": 33,
+            "nullunmarked": 28
+        },
+        "nullaway": {
+            "nullable": 0,
+            "suppress": 18,
+            "suppress_init": 67,
+            "nullunmarked": 73
+        },
+        "nimak/exs": {
+            "nullable": 797,
+            "suppress": 0,
+            "suppress_init": 0,
+            "nullunmarked": 250
+        }
+    },
+    "Mockito": {
+        "nimak/p": {
+            "nullable": 322,
+            "suppress": 1,
+            "suppress_init": 5,
+            "nullunmarked": 25
+        },
+        "nullaway": {
+            "nullable": 0,
+            "suppress": 2,
+            "suppress_init": 46,
+            "nullunmarked": 145
+        },
+        "nimak/exs": {
+            "nullable": 521,
+            "suppress": 0,
+            "suppress_init": 0,
+            "nullunmarked": 88
+        }
+    },
+    "Conductor": {
+        "nimak/p": {
+            "nullable": 319,
+            "suppress": 0,
+            "suppress_init": 9,
+            "nullunmarked": 22
+        },
+        "nullaway": {
+            "nullable": 0,
+            "suppress": 0,
+            "suppress_init": 64,
+            "nullunmarked": 75
+        },
+        "nimak/exs": {
+            "nullable": 536,
+            "suppress": 2,
+            "suppress_init": 0,
+            "nullunmarked": 95
+        }
+    },
+    "LitiEngine": {
+        "nimak/p": {
+            "nullable": 993,
+            "suppress": 0,
+            "suppress_init": 20,
+            "nullunmarked": 138
+        },
+        "nullaway": {
+            "nullable": 0,
+            "suppress": 4,
+            "suppress_init": 218,
+            "nullunmarked": 275
+        },
+        "nimak/exs": {
+            "nullable": 1535,
+            "suppress": 1,
+            "suppress_init": 0,
+            "nullunmarked": 324
+        }
+    },
+    "EventBus": {
+        "nimak/p": {
+            "nullable": 71,
+            "suppress": 0,
+            "suppress_init": 2,
+            "nullunmarked": 7
+        },
+        "nullaway": {
+            "nullable": 0,
+            "suppress": 0,
+            "suppress_init": 26,
+            "nullunmarked": 23
+        },
+        "nimak/exs": {
+            "nullable": 84,
+            "suppress": 0,
+            "suppress_init": 0,
+            "nullunmarked": 16
+        }
+    },
+    "Gson": {
+        "nimak/p": {
+            "nullable": 202,
+            "suppress": 0,
+            "suppress_init": 1,
+            "nullunmarked": 20
+        },
+        "nullaway": {
+            "nullable": 0,
+            "suppress": 2,
+            "suppress_init": 26,
+            "nullunmarked": 121
+        },
+        "nimak/exs": {
+            "nullable": 226,
+            "suppress": 0,
+            "suppress_init": 0,
+            "nullunmarked": 29
+        }
+    },
+    "Jadx": {
+        "nimak/p": {
+            "nullable": 509,
+            "suppress": 0,
+            "suppress_init": 46,
+            "nullunmarked": 93
+        },
+        "nullaway": {
+            "nullable": 0,
+            "suppress": 2,
+            "suppress_init": 142,
+            "nullunmarked": 217
+        },
+        "nimak/exs": {
+            "nullable": 1662,
+            "suppress": 0,
+            "suppress_init": 0,
+            "nullunmarked": 604
+        }
+    },
+    "Zuul": {
+        "nimak/p": {
+            "nullable": 164,
+            "suppress": 0,
+            "suppress_init": 6,
+            "nullunmarked": 21
+        },
+        "nullaway": {
+            "nullable": 0,
+            "suppress": 6,
+            "suppress_init": 36,
+            "nullunmarked": 70
+        },
+        "nimak/exs": {
+            "nullable": 226,
+            "suppress": 0,
+            "suppress_init": 0,
+            "nullunmarked": 32
+        }
+    },
+    "SpringBoot": {
+        "nimak/p": {
+            "nullable": 1331,
+            "suppress": 0,
+            "suppress_init": 13,
+            "nullunmarked": 68
+        },
+        "nullaway": {
+            "nullable": 0,
+            "suppress": 3,
+            "suppress_init": 187,
+            "nullunmarked": 491
+        },
+        "nimak/exs": {
+            "nullable": 1673,
+            "suppress": 0,
+            "suppress_init": 0,
+            "nullunmarked": 141
+        }
+    },
+    "LibGdx": {
+        "nimak/p": {
+            "nullable": 1426,
+            "suppress": 2,
+            "suppress_init": 229,
+            "nullunmarked": 228
+        },
+        "nullaway": {
+            "nullable": 0,
+            "suppress": 33,
+            "suppress_init": 581,
+            "nullunmarked": 661
+        },
+        "nimak/exs": {
+            "nullable": 4389,
+            "suppress": 2,
+            "suppress_init": 0,
+            "nullunmarked": 1268
+        }
+    },
+    "Glide": {
+        "nimak/p": {
+            "nullable": 370,
+            "suppress": 0,
+            "suppress_init": 25,
+            "nullunmarked": 74
+        },
+        "nullaway": {
+            "nullable": 0,
+            "suppress": 1,
+            "suppress_init": 97,
+            "nullunmarked": 146
+        },
+        "nimak/exs": {
+            "nullable": 565,
+            "suppress": 0,
+            "suppress_init": 0,
+            "nullunmarked": 142
+        }
+    },
+    "Eureka": {
+        "nimak/p": {
+            "nullable": 138,
+            "suppress": 0,
+            "suppress_init": 8,
+            "nullunmarked": 22
+        },
+        "nullaway": {
+            "nullable": 0,
+            "suppress": 0,
+            "suppress_init": 27,
+            "nullunmarked": 53
+        },
+        "nimak/exs": {
+            "nullable": 264,
+            "suppress": 0,
+            "suppress_init": 0,
+            "nullunmarked": 57
+        }
+    },
+    "Retrofit": {
+        "nimak/p": {
+            "nullable": 27,
+            "suppress": 0,
+            "suppress_init": 0,
+            "nullunmarked": 10
+        },
+        "nullaway": {
+            "nullable": 0,
+            "suppress": 0,
+            "suppress_init": 0,
+            "nullunmarked": 17
+        },
+        "nimak/exs": {
+            "nullable": 27,
+            "suppress": 0,
+            "suppress_init": 0,
+            "nullunmarked": 10
+        }
+    }
+}

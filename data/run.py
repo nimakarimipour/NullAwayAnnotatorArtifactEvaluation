@@ -3,12 +3,22 @@ import json
 import sys
 
 PROJECT_DIR = "/Users/nima/Developer/NullAwayFixer/Projects/{}"
+CONFIG = json.load(open("annotator-config.json", 'r'))
 
 
 def execute(command):
     print("Executing: " + command, flush=True)
     sys.stdout.flush()
     os.system(command)
+
+
+def run_annotator(config, project_dir):
+    execute("rm -rvf /tmp/NullAwayFix")
+    outfile = open('/tmp/NullAwayAnnotator/runner/config.json', 'w')
+    json.dump(config, outfile)
+    outfile.close()
+    execute("cd /tmp/NullAwayAnnotator/runner && ./start.sh --path /tmp/NullAwayAnnotator/runner/config.json")
+    execute("cp -r /tmp/NullAwayFix {}/AnnotatorOut".format(project_dir))
 
 
 def prepare(project, fresh=True):
@@ -27,7 +37,7 @@ def delete_and_clone(project):
 
 def get_active_projects():
     projects = json.load(open('projects.json', 'r'))
-    return [project for project in projects['projects'] if project['active']]
+    return [project for project in projects['projects'] if project['name']=='SpringBoot']
 
 
 def get_command_and_dir_for_project(project):
@@ -36,23 +46,68 @@ def get_command_and_dir_for_project(project):
     return project_dir, command
 
 
-def get_config(project_dir):
+def get_project_config(project_dir):
     return json.load(open("{}/annotator-config.json".format(project_dir)))
 
 
 def read_from_log(project_dir, number):
-    lines = open("{}/AnnotatorOut/log.txt".format(project_dir), "r").readlines()
+    address = "{}/AnnotatorOut/log.txt".format(project_dir)
+    if not os.path.exists(address):
+        address = "{}/AnnotatorOut/NullAwayFix/log.txt".format(project_dir)
+    lines = open(address, "r").readlines()
     return int(lines[number].split("=")[1])
 
 
-def checkout(command, branch):
+def checkout(command, branch, fresh=False):
+    if fresh:
+        execute(command.format("git push origin --delete {}".format(branch)))
     execute(command.format("git reset --hard"))
-    execute(command.format("git checkout nullaway"))
     execute(command.format("git branch -D {}".format(branch)))
     execute(command.format("git reset --hard"))
     execute(command.format("git fetch"))
     execute(command.format("git pull"))
-    execute(command.format("git checkout {}".format(branch)))
+    execute(command.format("git checkout {}{}".format("-b " if fresh else "", branch)))
+
+
+def make_new_config_for_project(project_dir):
+    project_config = get_project_config(project_dir)
+    config = CONFIG.copy()
+    config['BUILD_COMMAND'] = project_config['BUILD_COMMAND']
+    config['ANNOTATION']['INITIALIZER'] = project_config['ANNOTATION']['INITIALIZER']
+    config['ANNOTATION']['NULLABLE'] = project_config['ANNOTATION']['NULLABLE']
+    config['ANNOTATION']['NULL_UNMARKED'] = project_config['ANNOTATION']['NULL_UNMARKED']
+    return config
+
+
+def exhaustive_search():
+    for project in get_active_projects():
+        prepare(project)
+        project_dir, command = get_command_and_dir_for_project(project)
+        checkout(command, "nullaway")
+        config = make_new_config_for_project(project_dir)
+        config['DEPTH'] = 0
+        checkout(command, "nimak/exs", fresh=True)
+        run_annotator(config, project_dir)
+        execute(command.format("git add ."))
+        execute(command.format("git commit -m \"exhaustive_search\""))
+        execute(command.format("git push --set-upstream origin {}".format("nimak/exs")))
+
+
+def force_resolve():
+    branches = ['nimak/exs', 'nullaway', 'nimak/p']
+    for project in get_active_projects():
+        prepare(project)
+        project_dir, command = get_command_and_dir_for_project(project)
+        for branch in branches:
+            checkout(command, branch)
+            config = make_new_config_for_project(project_dir)
+            config['DEPTH'] = 0
+            config['DISABLE_INFERENCE'] = 0
+            checkout(command, branch + "-nullunmarked", fresh=True)
+            run_annotator(config, project_dir)
+            execute(command.format("git add ."))
+            execute(command.format("git commit -m \"force resolve\""))
+            execute(command.format("git push --set-upstream origin {}".format(branch + "-nullunmarked")))
 
 
 def build(command, config):
@@ -61,48 +116,52 @@ def build(command, config):
 
 def annotation_count():
     data = {}
+    branches = ['nimak/p', 'nullaway', 'nimak/exs']
     for project in get_active_projects():
         prepare(project)
         project_dir, command = get_command_and_dir_for_project(project)
-        numbers = {}
-        # @Nullable
-        checkout(command, "nimak/p")
-        execute(command.format("git grep \"@Nullable\" > nullable_annot.txt"))
-        after = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
-        execute(command.format("rm nullable_annot.txt"))
-        checkout(command, "nullaway")
-        execute(command.format("git grep \"@Nullable\" > nullable_annot.txt"))
-        before = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
-        numbers['nullable'] = after - before
-        # @SuppressWarnings
-        checkout(command, "nimak/nullunmarked")
-        execute(command.format("git grep \"@SuppressWarnings(\\\"NullAway\\\")\" > nullable_annot.txt"))
-        after = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
-        execute(command.format("rm nullable_annot.txt"))
-        checkout(command, "nullaway")
-        execute(command.format("git grep \"@SuppressWarnings(\\\"NullAway\\\")\" > nullable_annot.txt"))
-        before = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
-        numbers['suppress'] = after - before
-        # @SuppressWarnings Init
-        checkout(command, "nimak/nullunmarked")
-        execute(command.format("git grep \"@SuppressWarnings(\\\"NullAway.Init\\\")\" > nullable_annot.txt"))
-        after = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
-        execute(command.format("rm nullable_annot.txt"))
-        checkout(command, "nullaway")
-        execute(command.format("git grep \"@SuppressWarnings(\\\"NullAway.Init\\\")\" > nullable_annot.txt"))
-        before = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
-        numbers['suppress_init'] = after - before
-        # @NullUnmarked
-        checkout(command, "nimak/nullunmarked")
-        execute(command.format("git grep \"@NullUnmarked\" > nullable_annot.txt"))
-        after = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
-        execute(command.format("rm nullable_annot.txt"))
-        checkout(command, "nullaway")
-        execute(command.format("git grep \"@NullUnmarked\" > nullable_annot.txt"))
-        before = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
-        numbers['nullunmarked'] = after - before
-        data[project['name']] = numbers
-    json.dump(data, open('annotation_count.json', 'w'))
+        data[project['name']] = {}
+        for branch in branches:
+            numbers = {}
+            # @Nullable
+            checkout(command, branch)
+            execute(command.format("git grep \"@Nullable\" > nullable_annot.txt"))
+            after = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
+            execute(command.format("rm nullable_annot.txt"))
+            checkout(command, "nullaway")
+            execute(command.format("git grep \"@Nullable\" > nullable_annot.txt"))
+            before = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
+            numbers['nullable'] = after - before
+            # @SuppressWarnings
+            checkout(command, "{}-nullunmarked".format(branch))
+            execute(command.format("git grep \"@SuppressWarnings(\\\"NullAway\\\")\" > nullable_annot.txt"))
+            after = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
+            execute(command.format("rm nullable_annot.txt"))
+            checkout(command, "nullaway")
+            execute(command.format("git grep \"@SuppressWarnings(\\\"NullAway\\\")\" > nullable_annot.txt"))
+            before = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
+            numbers['suppress'] = after - before
+            # @SuppressWarnings Init
+            checkout(command, "{}-nullunmarked".format(branch))
+            execute(command.format("git grep \"@SuppressWarnings(\\\"NullAway.Init\\\")\" > nullable_annot.txt"))
+            after = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
+            execute(command.format("rm nullable_annot.txt"))
+            checkout(command, "nullaway")
+            execute(command.format("git grep \"@SuppressWarnings(\\\"NullAway.Init\\\")\" > nullable_annot.txt"))
+            before = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
+            numbers['suppress_init'] = after - before
+            # @NullUnmarked
+            checkout(command, "{}-nullunmarked".format(branch))
+            execute(command.format("git grep \"@NullUnmarked\" > nullable_annot.txt"))
+            after = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
+            execute(command.format("rm nullable_annot.txt"))
+            checkout(command, "nullaway")
+            execute(command.format("git grep \"@NullUnmarked\" > nullable_annot.txt"))
+            before = len(open(project_dir + "/nullable_annot.txt", "r").readlines())
+            numbers['nullunmarked'] = after - before
+            print(numbers)
+            data[project['name']][branch] = numbers
+    json.dump(data, open('data/annotation_count.json', 'w'))
 
 
 def error_build_time_count():
@@ -111,11 +170,12 @@ def error_build_time_count():
         prepare(project)
         project_dir, command = get_command_and_dir_for_project(project)
         checkout(command, "nullaway")
-        config = get_config(project_dir)
+        config = get_project_config(project_dir)
         branches = {
-            "nimak/pc",
             "nimak/p",
-            "nimak/no-opt"
+            "nimak/no-opt",
+            "nimak/p-1",
+            "nimak/exs"
         }
         branches_data = {}
         for branch in branches:
@@ -127,4 +187,7 @@ def error_build_time_count():
             branch_data['build'] = read_from_log(project_dir, 1)
             branches_data[branch] = branch_data
         data[project['name']] = branches_data
-    json.dump(data, open('data/build_error_time_count.json', 'w'))
+    json.dump(data, open('data/sp-build_error_time_count.json', 'w'))
+
+
+error_build_time_count()
