@@ -1,0 +1,72 @@
+{
+    "MPAndroid": {
+        "initial": 16150,
+        "nimak/p-nullunmarked": 402,
+        "nullaway-nullunmarked": 1012
+    },
+    "Mockito": {
+        "initial": 17650,
+        "nimak/p-nullunmarked": 636,
+        "nullaway-nullunmarked": 2616
+    },
+    "Conductor": {
+        "initial": 9250,
+        "nimak/p-nullunmarked": 550,
+        "nullaway-nullunmarked": 2059
+    },
+    "LitiEngine": {
+        "initial": 30150,
+        "nimak/p-nullunmarked": 1764,
+        "nullaway-nullunmarked": 3641
+    },
+    "EventBus": {
+        "initial": 1950,
+        "nimak/p-nullunmarked": 106,
+        "nullaway-nullunmarked": 292
+    },
+    "Gson": {
+        "initial": 8050,
+        "nimak/p-nullunmarked": 419,
+        "nullaway-nullunmarked": 1483
+    },
+    "Jadx": {
+        "initial": 39850,
+        "nimak/p-nullunmarked": 1983,
+        "nullaway-nullunmarked": 4855
+    },
+    "Zuul": {
+        "initial": 16150,
+        "nimak/p-nullunmarked": 829,
+        "nullaway-nullunmarked": 1477
+    },
+    "SpringBoot": {
+        "initial": 35150,
+        "nimak/p-nullunmarked": 700,
+        "nullaway-nullunmarked": 4230
+    },
+    "LibGdx": {
+        "initial": 92150,
+        "nimak/p-nullunmarked": 4400,
+        "nullaway-nullunmarked": 9253
+    },
+    "Glide": {
+        "initial": 24650,
+        "nimak/p-nullunmarked": 1399,
+        "nullaway-nullunmarked": 2359
+    },
+    "Eureka": {
+        "initial": 8050,
+        "nimak/p-nullunmarked": 486,
+        "nullaway-nullunmarked": 943
+    },
+    "Retrofit": {
+        "initial": 3650,
+        "nimak/p-nullunmarked": 613,
+        "nullaway-nullunmarked": 624
+    },
+    "WALA:UTIL":{
+        "initial": 19550,
+        "nimak/p-nullunmarked": 836,
+        "nullaway-nullunmarked": 1497
+    }
+}

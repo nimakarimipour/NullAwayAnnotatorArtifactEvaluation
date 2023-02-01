@@ -258,5 +258,25 @@
             "suppress_init": 0,
             "nullunmarked": 10
         }
+    },
+    "WALA:UTIL": {
+        "nimak/p": {
+            "nullable": 165,
+            "suppress": 1,
+            "suppress_init": 8,
+            "nullunmarked": 58
+        },
+        "nullaway": {
+            "nullable": 0,
+            "suppress": 15,
+            "suppress_init": 31,
+            "nullunmarked": 106
+        },
+        "nimak/exs": {
+            "nullable": 467,
+            "suppress": 0,
+            "suppress_init": 0,
+            "nullunmarked": 198
+        }
     }
 }

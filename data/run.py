@@ -1,6 +1,8 @@
 import os
 import json
 import sys
+import subprocess
+import re
 
 PROJECT_DIR = "/Users/nima/Developer/NullAwayFixer/Projects/{}"
 CONFIG = json.load(open("annotator-config.json", 'r'))
@@ -37,7 +39,7 @@ def delete_and_clone(project):
 
 def get_active_projects():
     projects = json.load(open('projects.json', 'r'))
-    return [project for project in projects['projects'] if project['name']=='SpringBoot']
+    return [project for project in projects['projects'] if project['name']=='WALA:UTIL']
 
 
 def get_command_and_dir_for_project(project):
@@ -114,9 +116,29 @@ def build(command, config):
     execute(command.format(config['BUILD_COMMAND'].split(" && ")[1]))
 
 
+def unchecked():
+    jar_path = '/Users/nima/.m2/repository/edu/ucr/cs/riple/clocunchecked/ClocUnchecked/0.0.1-SNAPSHOT/ClocUnchecked-0.0.1-SNAPSHOT.jar'
+    data = {}
+    branches = ['nimak/p-nullunmarked', 'nullaway-nullunmarked']
+    for project in get_active_projects():
+        project_data = {}
+        prepare(project)
+        project_dir, command = get_command_and_dir_for_project(project)
+        for branch in branches:
+            checkout(command, branch)
+            result = subprocess.run(["java", "-jar", jar_path, "--path", project_dir],
+                                    stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+            line = [l for l in result.stdout.splitlines() if l.startswith("Java")][0]
+            numbers = re.findall(r'\d+', line)
+            project_data[branch] = int(numbers[3]) - 2
+        data[project['name']] = project_data
+    json.dump(data, open('data/unchecked.json', 'w'))
+
+
+
 def annotation_count():
     data = {}
-    branches = ['nimak/p', 'nullaway', 'nimak/exs']
+    branches = ['nimak/p-new', 'nullaway', 'nimak/exs']
     for project in get_active_projects():
         prepare(project)
         project_dir, command = get_command_and_dir_for_project(project)
@@ -161,7 +183,7 @@ def annotation_count():
             numbers['nullunmarked'] = after - before
             print(numbers)
             data[project['name']][branch] = numbers
-    json.dump(data, open('data/annotation_count.json', 'w'))
+    json.dump(data, open('data/wala-annotation_count.json', 'w'))
 
 
 def error_build_time_count():
@@ -190,4 +212,4 @@ def error_build_time_count():
     json.dump(data, open('data/sp-build_error_time_count.json', 'w'))
 
 
-error_build_time_count()
+annotation_count()

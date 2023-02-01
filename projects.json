@@ -77,6 +77,12 @@
             "path": "retrofit",
             "java": 11,
             "active": true
+        },
+        {
+            "name": "WALA:UTIL",
+            "path": "WALA",
+            "java": 11,
+            "active": true
         }
     ]
 }
