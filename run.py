@@ -7,7 +7,12 @@ PROJECT_DIR = "/tmp/projects/{}"
 DISP = "{} & {} & {} & {}\n"
 CONFIG = json.load(open("annotator-config.json", 'r'))
 project_name = sys.argv[1]
-optimized = False if (len(sys.argv) == 3 and sys.argv[2] == '--disable-optimization') else True:
+optimized = False if (len(sys.argv) == 3 and sys.argv[2] == '--disable-optimization') else True
+java = {
+    8: "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/ && update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java && update-alternatives --set javac /usr/lib/jvm/java-8-openjdk-amd64/bin/javac",
+    11: "export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/ && update-alternatives --set java /usr/lib/jvm/java-11-openjdk-amd64/bin/java && update-alternatives --set javac /usr/lib/jvm/java-11-openjdk-amd64/bin/javac",
+    17: "export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64/ && update-alternatives --set java /usr/lib/jvm/java-17-openjdk-amd64/bin/java && update-alternatives --set javac /usr/lib/jvm/java-17-openjdk-amd64/bin/javac"
+}
 
 
 def execute(command):
@@ -17,7 +22,7 @@ def execute(command):
 
 
 def pepare_java(project):
-    execute("java_{}".format(project['java']))
+    execute(java[project['java']])
 
 
 with open('projects.json') as f:
