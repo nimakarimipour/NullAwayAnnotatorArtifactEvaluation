@@ -44,4 +44,4 @@ with open('projects.json') as f:
             with open('/tmp/NullAwayAnnotator/runner/config.json', 'w') as outfile:
                 json.dump(config, outfile)
             execute(
-                "cd /tmp/NullAwayAnnotator/runner && ./start.sh --path /tmp/NullAwayAnnotator/runner/config.json")
+                "export JAVA_HOME=/usr/lib/jvm/java-{}-openjdk-amd64/ && cd /tmp/NullAwayAnnotator/runner && ./start.sh --path /tmp/NullAwayAnnotator/runner/config.json".format(project['java']))
