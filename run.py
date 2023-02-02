@@ -40,6 +40,7 @@ with open('projects.json') as f:
             config['ANNOTATION']['INITIALIZER'] = local_config['ANNOTATION']['INITIALIZER']
             config['ANNOTATION']['NULLABLE'] = local_config['ANNOTATION']['NULLABLE']
             config['ANNOTATION']['NULL_UNMARKED'] = local_config['ANNOTATION']['NULL_UNMARKED']
+            config['FORCE_RESOLVE'] = True
             config['PARALLEL_PROCESSING'] = optimized
             with open('/tmp/NullAwayAnnotator/runner/config.json', 'w') as outfile:
                 json.dump(config, outfile)
