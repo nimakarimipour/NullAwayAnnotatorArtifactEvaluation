@@ -1,3 +1,0 @@
-total=23, requested=4, time=26513, deep=2
-total=6, requested=2, time=15727, deep=3
-total=4, requested=1, time=10747, deep=3
